@@ -22,9 +22,7 @@ Exempel: Schmidt, Cornelia, 1967-
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
 * Katalogisatörens arbetsnoteringar 
-  Interna anmärkningar, det vill säga information som bara är tänkt för kollegor, registreras för sig så att informationen kan
-  hållas dold för allmän publik. Ange datum, sigel, enhet och signatur. Det kan till exempel vara uppgifter som rör ändring av den
-  auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur
+  Interna anmärkningar. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna          ändringen och komplettera alltid med datum/sigel/signatur
   ```Exempel: Författaren vill inte ha sitt födelseår iauktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
   
 
