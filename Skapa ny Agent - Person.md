@@ -36,7 +36,6 @@ Exempel: Nicander, Anders, 1707-1781
   <br/>```Exempel: Nicander, A., #d 1707-1781```
   <br/>```Exempel: Nicander, Andr., #d 1707-1781```
   <br/>```Exempel: A. N., #d 1707-1781```
-
   
 * Fullständig namnform
   <br/>Lägg till en fullständig namnform om det behövs för att skilja sökingångar åt, t.ex. när födelsetid eller dödstid inte är      tillgängligt.
@@ -60,3 +59,7 @@ Exempel: Nicander, Anders, 1707-1781
 * Identifikator (i adminmetadata?)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/> ```Exempel: 0000000121339888 ```
+  
+* Källa
+  <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. När en ny auktoritetspost skapas utifrån en bibliografisk post automatgenereras denna källreferens (?). Hur ange källor?
+
