@@ -1,7 +1,7 @@
 TESTSIDA 
 
 ## Skapa ny Agent - Person
-Exempel: Schmidt, Cornelia, 1967- 
+Exempel: Nicander, Anders, 1707-1781
 
 ### Adminmetadata
 * Skapad av/Organisation/Namn
@@ -47,15 +47,15 @@ Exempel: Schmidt, Cornelia, 1967-
   
 * Födelse- och/eller dödstid
   <br/>Årtal används i första hand som särskiljande tillägg för personer. 
-  <br/>```Exempel: '1824-1905' eller '1977-'```
+  <br/>```Exempel: '1707-1781' eller '1968-'```
 
 * Födelsedatum
   <br/>Fullständigt födelsedatum
-  <br/> ```Exempel: 18240516```
+  <br/> ```Exempel: 17070829```
   
 * Dödsdatum
   <br/>Fullständigt dödsdatum
-  <br/> ```Exempel: 19051022```
+  <br/> ```Exempel: 17810308```
   
 * Identifikator (i adminmetadata?)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
