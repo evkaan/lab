@@ -37,37 +37,35 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>```Exempel: Lagerlöf, Selma Ottiliana Lovisa```
   <br/>```Exempel: Lagerlœf, Selma```
   
-* Identifikator (i adminmetadata?)
+* Identifikator
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/> ```Exempel: 0000000121339888 ```
 
 * Nationalitet/verksamhetsland
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. Lägg till ytterligare kod genom att klicka på ```+Nationalitet ```
   <br/>Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
-
   
-* Källa
-  <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. När en ny auktoritetspost skapas utifrån en bibliografisk post automatgenereras denna källreferens (?). Hur ange källor?
   
 ### Adminmetadata
-* Skapad av/Organisation/Namn
+* Skapad av
   <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: S```
   
-* Katalogiserande instans
+* Katalogiseringsregler 
+  <br/>För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
+  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```  
 
 * Katalogiseringsspråk 
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
-* Katalogiseringsregler 
-  <br/>För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
-  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
-
-* Identifikator
+* Identifikator/
   <br/>Libris-ID automatgenereras då posten skapas och kan inte ändras.
   
-* Katalogisatörens arbetsnoteringar 
-  Interna anmärkningar. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna             ändringen och komplettera alltid med datum/sigel/signatur.
+* Katalogisatörens anmärkning
+  Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
+
+* Källa
+  <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. När en ny auktoritetspost skapas utifrån en bibliografisk post automatgenereras denna källreferens (?). Hur ange källor?
 
