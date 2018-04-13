@@ -37,7 +37,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>```Exempel: Lagerlöf, Selma Ottiliana Lovisa```
   <br/>```Exempel: Lagerlœf, Selma```
   
-* Identifikator
+* Identifikator (identifiedBy = 024 #a?)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/> ```Exempel: 0000000121339888 ```
 
@@ -67,7 +67,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 
 * Beskrivningsnivå (encodingLevel = 000/Leader/?)
 
-* Identifikator/
+* Identifikator?
   <br/>Libris-ID automatgenereras då posten skapas och kan inte ändras.
   
 * Katalogisatörens anmärkning (cataloguersNote (?) = 667 #a)
@@ -79,3 +79,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   ```Exempel: NE 2018-04-12```
   
 * Poststatus (recordStatus = = 000/Leader/?)
+
+### Valbara fält som inte ingår i mallen
+Då behov finns att lägga till fält som inte ingår i mallen
+
