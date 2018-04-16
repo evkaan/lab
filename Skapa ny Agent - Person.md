@@ -5,7 +5,7 @@ Exemplet nedan baseras på Lagerlöf, Selma, 1858-1940 (i de fall det är möjli
 
 
 ### Skapa ny Agent - Person
-Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom att klicka på papperskorgsikonen till höger om fältet. Ett urval av fält som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
+Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom att klicka på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
 
 * Familjenamn (FamilyName)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriseade namnformen.
@@ -81,5 +81,5 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 * Poststatus (recordStatus = = 000/Leader/?)
 
 ### Valbara fält som inte ingår i mallen
-Då behov finns att lägga till fält som inte ingår i mallen
+Det är möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av +-ikonen.
 
