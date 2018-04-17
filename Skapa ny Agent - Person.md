@@ -83,3 +83,9 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 ### Valbara fält som inte ingår i mallen
 Det är möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av +-ikonen.
 
+* Namn
+<br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
+
+* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 #c)
+  <br/>Används som särskiljande tillägg till den auktoriserade namnformen.
+  <br/>```Exempel: påve```
