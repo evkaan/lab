@@ -1,7 +1,7 @@
 TESTSIDA
 
 ## Redigera befintlig Agent - Person
-Exemplet nedan baseras på Jansson, Erik, f. 1848
+Exemplet nedan baseras på Jansson, Erik, f. 1848. Fiktiva tillägg, enbart för att exemplifiera.
 
 
 ### Redigera befintlig Agent - Person
@@ -19,33 +19,32 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>```Exempel: Väckelsepredikant i Österbotten```
   
 * Födelse- och/eller dödstid (lifeSpan = 100 #d)
-  <br/>Årtal används i första hand som särskiljande tillägg för personer. 
-  <br/>```Exempel: 1858-1940```
-  <br/>```Exempel: 1968-```
+  <br/>Årtal används i första hand som särskiljande tillägg för personer. Redigera om det behövs.
+  <br/>```Exempel: 1848-1920```
 
 * Nationalitet/verksamhetsland
   <br/>Vid behov kan denna ändras eller raderas. Lägg till ytterligare kod genom att klicka på ```+Nationalitet ```
   <br/>Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
+  <br/>```Exempel: ?```
 
 * Samma sak som
   <br/>Gammalt Libris-ID. Ändra ej, radera ej.
+   <br/>```Exempel: resource/auth/247521```
   
 ## Fält att lägga till
 
 * Födelsedatum (birthDate = 046 #f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/> ```Exempel: 18581120```
-  <br/> ```Exempel: 1902```
+  <br/> ```Exempel: 18480219```
   
 * Dödsdatum (deathDate = 046 #g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/> ```Exempel: 19400316```
-    <br/> ```Exempel: 1977```
+  <br/> ```Exempel: 19201209```
 
 * Exakt match/har variant
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
-  <br/>```Exempel: Lagerlöf, Selma Ottiliana Lovisa```
-  <br/>```Exempel: Lagerlœf, Selma```
+  <br/>```Exempel: Efternamn: Jansson ; Förnamn: Eric```
+  <br/>```Exempel: Namn: Lagerlœf ; Förnamn: Selma```
   
 * Identifikator (identifiedBy = 024 #a)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
