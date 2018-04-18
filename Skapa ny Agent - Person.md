@@ -18,22 +18,25 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   
 * Födelse- och/eller dödstid (lifeSpan = 100 #d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. 
-  <br/>```Exempel: '1858-1940' eller '1968-'```
+  <br/>```Exempel: 1858-1940```
+  <br/>```Exempel: 1968-```
 
 * Födelsedatum (birthDate = 046 #f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/> ```Exempel: '18581120' eller '1902'```
+  <br/> ```Exempel: 18581120```
+  <br/> ```Exempel: 1902```
   
 * Dödsdatum (deathDate = 046 #g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/> ```Exempel: '19400316' eller '1977'```
+  <br/> ```Exempel: 19400316```
+    <br/> ```Exempel: 1977```
 
 * Exakt match/har variant
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel: Lagerlöf, Selma Ottiliana Lovisa```
   <br/>```Exempel: Lagerlœf, Selma```
   
-* Identifikator (identifiedBy = 024 #a?)
+* Identifikator (identifiedBy = 024 #a)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/> ```Exempel: 0000000121339888 ```
 
@@ -49,35 +52,56 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
    <br/>```Exempel: Översättare```
   
 ### Adminmetadata
-* Skapad av (descriptionCreator = 040 #a)
-  <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: S```
-  
 * Katalogiseringsregler (descriptionConventions = 040 #e)
   <br/>För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```  
+
+* Skapad av (descriptionCreator = 040 #a)
+  <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
+  ```Exempel: S```
+
+* Beskrivningsnivå (encodingLevel = 000/Leader/?)
+  Ändras ej?
+
+* Translitterering
+  Ändras ej?
+  
+* Typ av auktoritetspost  
+  Ändras ej?
+
+* Marc:headingMain
+  Ändras ej?
+
+* Poststatus (recordStatus = = 000/Leader/?)
+  Ändras ej?
+
+* Uppdatering av posten
+  Ändras ej?
+
+* Differentiering av posten
+  Ändras ej?
+
+* Auktoritetskontrollnivå
+  Ändras ej?
 
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
-* Beskrivningsnivå (encodingLevel = 000/Leader/?)
-
 * Identifikator?
   <br/>Libris-ID automatgenereras då posten skapas och kan inte ändras.
   
-* Katalogisatörens anmärkning (cataloguersNote (?) = 667 #a)
+* Katalogisatörens anmärkning (cataloguersNote = 667 #a)
   Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
 
 * Källa (sourceConsulted)
   <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. Hur ska vi ange resurs som källa?
-  ```Exempel: NE 2018-04-12```
-  
-* Poststatus (recordStatus = = 000/Leader/?)
+  <br/>```Exempel: NE 2018-04-12```
+
 
 ### Valbara fält som inte ingår i mallen
-Det är möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av +-ikonen.
+Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av +-ikonen.
 
 * Namn
   <br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
