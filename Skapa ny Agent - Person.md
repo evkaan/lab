@@ -95,9 +95,10 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
 
-* Källa (sourceConsulted)
+* Källa (sourceConsulted = 670)
   <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. Hur ska vi ange resurs som källa?
   <br/>```Exempel: NE 2018-04-12```
+  <br/>```Exempel: Selma Lagerlöf```
 
 
 ### Valbara fält som inte ingår i mallen
