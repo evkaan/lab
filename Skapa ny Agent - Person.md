@@ -53,8 +53,8 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   
 ### Adminmetadata
 * Katalogiseringsregler (descriptionConventions = 040 #e)
-  <br/>För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
-  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```  
+  <br/>Kod: rda förvalt i mallen. Ändra vid behov. 
+  ```Exempel: Kod: rda``` Något mer här?
 
 * Skapad av (descriptionCreator = 040 #a)
   <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
