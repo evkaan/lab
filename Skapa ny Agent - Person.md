@@ -7,7 +7,7 @@ Exemplet nedan baseras på Lagerlöf, Selma, 1858-1940 (i de fall det är möjli
 ### Skapa ny Agent - Person
 Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom att klicka på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
 
-* Familjenamn (FamilyName)
+* Efternamn (FamilyName)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriseade namnformen.
   <br/>```Exempel: Lagerlöf```
 
@@ -15,10 +15,6 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   Förnamn som tillsammans med efternamn utgör den auktoriseade namnformen. 
   <br/>```Exempel: Selma```
   <br/>Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra separerade med mellanslag.
-
-* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 #c)
-  <br/>Används som särskiljande tillägg till den auktoriserade namnformen.
-  <br/>```Exempel: påve```
   
 * Födelse- och/eller dödstid (lifeSpan = 100 #d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. 
@@ -84,7 +80,13 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 Det är möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av +-ikonen.
 
 * Namn
-<br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
+  <br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
+
+* Fullständigare namnform (fullerFormOfName = 100 #q och 378)
+  <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen
+  <br/>```Exempel: Efternamn: Smith ```
+  <br/>```Exempel: Förnamn: A. D. ```
+  <br/>```Exempel: Fullständigare namnform: Adam David```
 
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 #c)
   <br/>Används som särskiljande tillägg till den auktoriserade namnformen.
