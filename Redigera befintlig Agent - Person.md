@@ -1,25 +1,36 @@
-
+TESTSIDA
 
 ## Redigera befintlig Agent - Person
 Exemplet nedan baseras på Jansson, Erik, f. 1848
 
 
 ### Redigera befintlig Agent - Person
-Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom att klicka på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
+Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns i den befintliga auktoritetsposten och vilka fält som bör läggas till. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
+
+## Befintliga fält
 
 * Efternamn (FamilyName)
-  <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriseade namnformen.
-  <br/>```Exempel: Lagerlöf```
+  <br/>```Exempel: Jansson```
 
 * Förnamn (GivenName)
-  Förnamn som tillsammans med efternamn utgör den auktoriseade namnformen. 
-  <br/>```Exempel: Selma```
-  <br/>Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra separerade med mellanslag.
+  <br/>```Exempel: Erik```
+
+* Biografiska uppgifter
+  <br/>```Exempel: Väckelsepredikant i Österbotten```
   
 * Födelse- och/eller dödstid (lifeSpan = 100 #d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. 
   <br/>```Exempel: 1858-1940```
   <br/>```Exempel: 1968-```
+
+* Nationalitet/verksamhetsland
+  <br/>Vid behov kan denna ändras eller raderas. Lägg till ytterligare kod genom att klicka på ```+Nationalitet ```
+  <br/>Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
+
+* Samma sak som
+  <br/>Gammalt Libris-ID. Ändra ej, radera ej.
+  
+## Fält att lägga till
 
 * Födelsedatum (birthDate = 046 #f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
