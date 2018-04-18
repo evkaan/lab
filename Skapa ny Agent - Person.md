@@ -29,7 +29,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 * Dödsdatum (deathDate = 046 #g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/> ```Exempel: 19400316```
-    <br/> ```Exempel: 1977```
+  <br/> ```Exempel: 1977```
 
 * Exakt match/har variant
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
@@ -115,3 +115,8 @@ Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya f
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 #c)
   <br/>Används som särskiljande tillägg till den auktoriserade namnformen.
   <br/>```Exempel: påve```
+  
+ ### Fält som inte går att lägga till i första release
+ 
+ * Klassifikation (065 ; 083)
+ * Biografiska uppgifter/Biografisk information (678)
