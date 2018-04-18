@@ -106,8 +106,10 @@ Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya f
 
 * Namn
   <br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
-  <br/>```Exempel: Efternamn: Alving ; Förnamn: Barbro ;  Födelse- och/eller dödstid: 1909-1987```
-  <br/>```Exempel: Namn: Bang ;  Födelse- och/eller dödstid: 1909-1987```
+  <br/>```Exempel: Efternamn: Alving```
+  <br/>```Exempel: Förnamn: Barbro```
+  
+  <br/>```Exempel: Namn: Bang```
 
 * Fullständigare namnform (fullerFormOfName = 100 #q och 378)
   <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen
