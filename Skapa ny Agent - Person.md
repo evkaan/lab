@@ -98,7 +98,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 * Källa (sourceConsulted = 670)
   <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. Hur ska vi ange resurs som källa?
   <br/>```Exempel: NE 2018-04-12```
-  <br/>```Exempel: Selma Lagerlöf```
+  <br/>```Exempel: Lagerlöf, Selma. Jerusalem, 1901-1902```
 
 
 ### Valbara fält som inte ingår i mallen
@@ -106,6 +106,8 @@ Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya f
 
 * Namn
   <br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
+  <br/>```Exempel: Efternamn: Alving ; Förnamn: Barbro ;  Födelse- och/eller dödstid: 1909-1987```
+  <br/>```Exempel: Namn: Bang ;  Födelse- och/eller dödstid: 1909-1987```
 
 * Fullständigare namnform (fullerFormOfName = 100 #q och 378)
   <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen
