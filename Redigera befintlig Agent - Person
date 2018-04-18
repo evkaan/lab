@@ -1,1 +1,19 @@
+TESTSIDA
 
+## Redigera befintlig Agent - Person
+Exemplet nedan baseras på Jansson, Erik, f. 1848
+
+
+### Redigera befintlig Agent - Person
+Beskrivning av agenten som ska auktoriseras. Lathunden visar de fält som finns i den befintliga auktoritetsposten samt beskrivning av de fält som bör läggas till. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
+
+## Befintliga fält 
+* Efternamn (FamilyName)
+  <br/>```Exempel: Jansson```
+
+* Förnamn (GivenName)
+  <br/>```Exempel: Erik```
+ 
+* Biografiska uppgifter 
+  
+* Födelse- och/eller dödstid (lifeSpan = 100 #d)
