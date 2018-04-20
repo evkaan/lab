@@ -15,21 +15,24 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 * Förnamn (GivenName)
   <br/>```Exempel: Erik```
 
-* Biografiska uppgifter
+* Biografiska uppgifter (hasBiographicalInformation = 678)
   <br/>```Exempel: Väckelsepredikant i Österbotten```
   
 * Födelse- och/eller dödstid (lifeSpan = 100 #d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. Redigera om det behövs.
   <br/>```Exempel: 1848-1920```
 
-* Nationalitet/verksamhetsland
+* Nationalitet/verksamhetsland (Nationality = 043 #a)
   <br/>Vid behov kan denna ändras eller raderas. Lägg till ytterligare kod genom att klicka på ```+Nationalitet ```
   <br/>Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
   <br/>```Exempel: ?```
 
-* Samma sak som
+* Kontrollnummer ?
   <br/>Gammalt Libris-ID. Ändra ej, radera ej.
-   <br/>```Exempel: resource/auth/247521```
+
+* Samma sak som (SameAs)
+  <br/>Hur ska detta beskrivas?
+  <br/>```Exempel: resource/auth/247521```
   
 ## Fält att lägga till
 
