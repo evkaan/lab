@@ -33,10 +33,15 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 
 * Variant
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
-  <br/>```Exempel: Efternamn: Lagerlöf ; Förnamn: Selma Ottiliana Lovisa```
-  <br/>```Exempel: Efternamn: Lagerlœf ; Förnamn: Selma```
+  <br/>```Exempel: 
+  <br/>Efternamn: Lagerlöf 
+  <Förnamn: Selma Ottiliana Lovisa```
   
-* Identifikator (identifiedBy = 024 #a)
+  <br/>```Exempel: 
+  <br/>Efternamn: Lagerlœf
+  <br/>Förnamn: Selma```
+  
+* Identifikator (identifiedBy = 024 #a #2)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/> ```Exempel: 0000000121339888 ```
 
