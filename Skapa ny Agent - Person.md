@@ -1,4 +1,4 @@
-TESTSIDA 
+UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 
 ## Skapa ny Agent - Person
 Exemplet nedan baseras på Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant)
@@ -31,7 +31,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/> ```Exempel: 19400316```
   <br/> ```Exempel: 1977```
 
-* Exakt match/har variant
+* Variant
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel: Efternamn: Lagerlöf ; Förnamn: Selma Ottiliana Lovisa```
   <br/>```Exempel: Efternamn: Lagerlœf ; Förnamn: Selma```
@@ -52,6 +52,8 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
    <br/>```Exempel: Översättare```
   
 ### Adminmetadata
+Information av administrativ karaktär som är väsentlig för auktoritetsposten i sig och inte är direkt förknippad med den auktoriserade namnformen.
+
 * Katalogiseringsregler (descriptionConventions = 040 #e)
   <br/>Kod: rda förvalt i mallen. Ändra vid behov. 
   ```Exempel: Kod: rda``` Något mer här?
