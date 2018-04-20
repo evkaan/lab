@@ -7,7 +7,7 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Fiktiva tillägg, enbart för
 ### Redigera befintlig Agent - Person
 Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns i den befintliga auktoritetsposten och vilka fält som bör läggas till. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
 
-## Befintliga fält
+## Befintliga fält i beskrivningen
 
 * Efternamn (FamilyName)
   <br/>```Exempel: Jansson```
@@ -34,7 +34,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>Hur ska detta beskrivas?
   <br/>```Exempel: resource/auth/247521```
   
-## Fält att lägga till
+## Fält att lägga till i beskrivningen
 
 * Födelsedatum (birthDate = 046 #f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
@@ -63,3 +63,52 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>Sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. 
    <br/>```Exempel: Romanförfattare ```
    <br/>```Exempel: Översättare```
+
+### Befintliga fält i Adminmetadata
+Information av administrativ karaktär som är väsentlig för auktoritetsposten i sig och inte är direkt förknippad med den auktoriserade namnformen.
+
+* Kontrollnummer
+  <br/>Gammalt Libris-ID. Ska inte ändras eller radersa.  
+
+* Katalogiseringsregler (descriptionConventions = 040 #e)
+  <br/>Radera och lägg till rda vid behov. 
+  ```Exempel: marc/CatalogingRulesType-c``` 
+
+* Skapad av (descriptionCreator = 040 #a)
+  <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
+  ```Exempel: S```
+
+* Beskrivningsnivå (encodingLevel = 000/Leader/?)
+  Ändras ej?
+
+* Translitterering
+  Ändras ej?
+  
+* Typ av auktoritetspost  
+  Ändras ej?
+
+
+
+* Poststatus (recordStatus = = 000/Leader/?)
+  Ändras ej?
+
+* Uppdatering av posten
+  Ändras ej?
+
+* Differentiering av posten
+  Ändras ej?
+
+* Auktoritetskontrollnivå
+  Ändras ej?
+
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)
+  Länka till entitet.  
+  ```Exempel: svenska (swe)```
+
+* Identifikator?
+  <br/>Libris-ID automatgenereras då posten skapas och kan inte ändras.
+
+* Konsulterad källa (sourceConsulted = 670)
+  <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. Hur ska vi ange resurs som källa?
+  <br/>```Exempel: NE 2018-04-12```
+  <br/>```Exempel: Källor i tåredalen, 1999```
