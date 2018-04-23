@@ -5,7 +5,7 @@ Exemplet nedan baseras på Lagerlöf, Selma, 1858-1940 (i de fall det är möjli
 
 
 ### Skapa ny Agent - Person
-Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom att klicka på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
+Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
 
 * Efternamn (FamilyName = 100 #a)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
@@ -32,23 +32,27 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/> ```Exempel: 1977```
 
 * Variant (hasVariant = 400 #a #d)
-  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
+  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa```
-  
   <br/>```Exempel: Efternamn: Lagerlœf Förnamn: Selma```
+  <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Variant, välj Person under Skapa lokal entitet. Klicka på +-ikonen till höger om det nytillagda Person-fältet, sök efter och lägg till fält (Efternamn, Förnamn och Födelse- och/eller dödstid ELLER Namn och Födelse- och/eller dödstid) för att ange information.
+
+* Se även (seeAlso = 500 #a #d)
+  <br/>I detta fält anges se även-hänvisning till en annan auktoritetspost, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet.
+  <br/>```Exempel: Efternamn: Smith Förnamn: Rosamond Födelse- och/eller dödstid: 1938-``` som se-hänvisning från auktoritetsposten för Oates, Joyce Carol, 1938-
+    <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Variant, välj Person som typ och sök i rutan till vänster. Välj auktoriserad entitet (Person) att länka till och och klicka på Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka mot.)
   
 * Identifikator (identifiedBy = 024 #a #2)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/> ```Exempel: 0000000121339888 ```
 
 * Nationalitet/verksamhetsland (nationality = 043 #a)
-  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. Lägg till ytterligare kod genom att klicka på ```+Nationalitet ```
-  <br/>Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
+  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
+  <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns entitet att länka mot.)
 
 * Har yrke eller sysselsättning (hasOccupation = 374)
    <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. 
-   <br/>Lägg till ytterligare yrke eller sysselsättning genom att klicka på ```+Koncept ```
-  <br/>Sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. 
+   <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns entitet att länka mot.)
    <br/>```Exempel: Romanförfattare ```
    <br/>```Exempel: Översättare```
   
