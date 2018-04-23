@@ -12,7 +12,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>```Exempel: Lagerlöf```
 
 * Förnamn (GivenName = 100 #a)
-  Förnamn som tillsammans med efternamn utgör den auktoriseade namnformen. 
+  <br/>Förnamn som tillsammans med efternamn utgör den auktoriseade namnformen. 
   <br/>```Exempel: Selma```
   <br/>Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
   
@@ -41,6 +41,17 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>I detta fält anges se även-hänvisning till en annan auktoritetspost, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet.
   <br/>```Exempel: Efternamn: Smith Förnamn: Rosamond Födelse- och/eller dödstid: 1938-``` som se-hänvisning från auktoritetsposten för Oates, Joyce Carol, 1938-
     <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Variant, välj Person som typ och sök i rutan till vänster. Välj auktoriserad entitet (Person) att länka till och och klicka på Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka mot.)
+
+* Verksamhetsområde (fieldOfActivity = 372)
+  <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+  <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns entitet att länka mot.)
+   <br/>```Exempel: Fågelskådning```
+
+* Har yrke eller sysselsättning (hasOccupation = 374)
+   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+   <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns entitet att länka mot.)
+   <br/>```Exempel: Romanförfattare ```
+   <br/>```Exempel: Översättare```
   
 * Identifikator (identifiedBy = 024 #a #2)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
@@ -50,11 +61,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
   <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns entitet att länka mot.)
 
-* Har yrke eller sysselsättning (hasOccupation = 374)
-   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. 
-   <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns entitet att länka mot.)
-   <br/>```Exempel: Romanförfattare ```
-   <br/>```Exempel: Översättare```
+
   
 ### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoritetsposten i sig och inte är direkt förknippad med den auktoriserade namnformen.
