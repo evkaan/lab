@@ -106,10 +106,6 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
-* Identifikator?
-  <br/>Libris-ID automatgenereras då posten skapas och kan inte ändras.
-  
-
 * Källa (sourceConsulted = 670)
   <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. Hur ska vi ange resurs som källa?
   <br/>```Exempel: NE 2018-04-12```
