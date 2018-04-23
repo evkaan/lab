@@ -7,14 +7,14 @@ Exemplet nedan baseras på Lagerlöf, Selma, 1858-1940 (i de fall det är möjli
 ### Skapa ny Agent - Person
 Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom att klicka på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
 
-* Efternamn (FamilyName)
+* Efternamn (FamilyName = 100 #a)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
   <br/>```Exempel: Lagerlöf```
 
-* Förnamn (GivenName)
+* Förnamn (GivenName = 100 #a)
   Förnamn som tillsammans med efternamn utgör den auktoriseade namnformen. 
   <br/>```Exempel: Selma```
-  <br/>Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra separerade med mellanslag.
+  <br/>Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
   
 * Födelse- och/eller dödstid (lifeSpan = 100 #d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. 
@@ -31,21 +31,17 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/> ```Exempel: 19400316```
   <br/> ```Exempel: 1977```
 
-* Variant
+* Variant (hasVariant = 400 #a #d)
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
-  <br/>```Exempel: 
-  <br/>Efternamn: Lagerlöf 
-  <Förnamn: Selma Ottiliana Lovisa```
+  <br/>```Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa```
   
-  <br/>```Exempel: 
-  <br/>Efternamn: Lagerlœf
-  <br/>Förnamn: Selma```
+  <br/>```Exempel: Efternamn: Lagerlœf Förnamn: Selma```
   
 * Identifikator (identifiedBy = 024 #a #2)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/> ```Exempel: 0000000121339888 ```
 
-* Nationalitet/verksamhetsland
+* Nationalitet/verksamhetsland (nationality = 043 #a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. Lägg till ytterligare kod genom att klicka på ```+Nationalitet ```
   <br/>Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
 
