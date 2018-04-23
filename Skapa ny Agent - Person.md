@@ -68,26 +68,30 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
 
 * Katalogiseringsregler (descriptionConventions = 040 #e)
   <br/>Kod: rda förvalt i mallen. Ändra vid behov. 
-  ```Exempel: Kod: rda``` Något mer här?
+  <br/>```Exempel: Kod: rda```
 
 * Skapad av (descriptionCreator = 040 #a)
-  <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: S```
+  <br/>Förval: inloggad sigel. Ändras ej.  
+  <br/>```Exempel: S```
 
 * Beskrivningsnivå (encodingLevel = 000/Leader/?)
-  Ändras ej?
+  <br/>Ändras ej?
 
-* Translitterering
-  Ändras ej?
+* Translitterering (marc:romanization = 008/07)
+  <br/>Ändras ej?
   
-* Typ av auktoritetspost  
-  Ändras ej?
+* Typ av auktoritetspost (marc:kindOfRecord = 008/09)
+  <br/>Ändras ej?
 
-* Marc:headingMain
-  Ändras ej?
+* Marc:headingMain (008/14)
+  <br/>Ändras ej?
+
+* Katalogisatörens anmärkning (cataloguersNote = 667 #a)
+  Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
+  <br/>```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
 
 * Poststatus (recordStatus = = 000/Leader/?)
-  Ändras ej?
+  <br/>Ändras ej?
 
 * Uppdatering av posten
   Ändras ej?
@@ -105,9 +109,6 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
 * Identifikator?
   <br/>Libris-ID automatgenereras då posten skapas och kan inte ändras.
   
-* Katalogisatörens anmärkning (cataloguersNote = 667 #a)
-  Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
 
 * Källa (sourceConsulted = 670)
   <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. Hur ska vi ange resurs som källa?
