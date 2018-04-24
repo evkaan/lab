@@ -37,6 +37,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>```Exempel: Efternamn: Lagerlœf Förnamn: Selma```
   <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Variant, välj Person under Skapa lokal entitet. Klicka på +-ikonen till höger om det nytillagda Person-fältet, sök efter och lägg till fält (Efternamn, Förnamn och Födelse- och/eller dödstid ELLER Namn och Födelse- och/eller dödstid) för att ange information.
 
+
 * Se även (seeAlso = 500 #a #d)
   <br/>I detta fält anges se även-hänvisning till en annan auktoritetspost, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet.
   <br/>```Exempel: Efternamn: Smith Förnamn: Rosamond Födelse- och/eller dödstid: 1938-``` som se-hänvisning från auktoritetsposten för Oates, Joyce Carol, 1938-
