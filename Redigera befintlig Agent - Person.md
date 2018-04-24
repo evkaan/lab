@@ -28,7 +28,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>```Exempel: ?```
 
 * Kontrollnummer ?
-  <br/>Gammalt Libris-ID. Ändra ej, radera ej.
+  <br/>Libris-ID. Ändras ej, raderas ej.
 
 * Samma sak som (SameAs)
   <br/>Hur ska detta beskrivas?
