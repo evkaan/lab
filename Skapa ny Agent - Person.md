@@ -40,16 +40,16 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 * Se även (seeAlso = 500 #a #d)
   <br/>I detta fält anges se även-hänvisning till en annan auktoritetspost, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet.
   <br/>```Exempel: Efternamn: Smith Förnamn: Rosamond Födelse- och/eller dödstid: 1938-``` som se-hänvisning från auktoritetsposten för Oates, Joyce Carol, 1938-
-    <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Variant, välj Person som typ och sök i rutan till vänster. Välj auktoriserad entitet (Person) att länka till och och klicka på Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka mot.)
+    <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Variant, välj Person som typ och sök i rutan till vänster. Välj auktoriserad entitet (Person) att länka till och och klicka på Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 * Verksamhetsområde (fieldOfActivity = 372)
   <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
-  <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns entitet att länka mot.)
+  <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
    <br/>```Exempel: Fågelskådning```
 
 * Har yrke eller sysselsättning (hasOccupation = 374)
    <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
-   <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns entitet att länka mot.)
+   <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
    <br/>```Exempel: Romanförfattare ```
    <br/>```Exempel: Översättare```
   
@@ -59,7 +59,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 
 * Nationalitet/verksamhetsland (nationality = 043 #a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
-  <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns entitet att länka mot.)
+  <br/>För att lägga till fält: Klicka på +-ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 
   
@@ -67,7 +67,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 Information av administrativ karaktär som är väsentlig för auktoritetsposten i sig och inte är direkt förknippad med den auktoriserade namnformen.
 
 * Katalogiseringsregler (descriptionConventions = 040 #e)
-  <br/>Kod: rda förvalt i mallen. Ändra vid behov. 
+  <br/>Förval: rda. Ändra vid behov. 
   <br/>```Exempel: Kod: rda```
 
 * Skapad av (descriptionCreator = 040 #a)
@@ -87,29 +87,30 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>Ändras ej?
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
-  Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
 
-* Poststatus (recordStatus = = 000/Leader/?)
-  <br/>Ändras ej?
-
-* Uppdatering av posten
-  Ändras ej?
-
-* Differentiering av posten
-  Ändras ej?
-
-* Auktoritetskontrollnivå
-  Ändras ej?
-
-* Katalogiseringsspråk (descriptionLanguage = 040 #b)
-  Länka till entitet.  
-  ```Exempel: svenska (swe)```
-
-* Källa (sourceConsulted = 670)
+* Konsulterad källa (sourceConsulted = 670)
   <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. Hur ska vi ange resurs som källa?
   <br/>```Exempel: NE 2018-04-12```
   <br/>```Exempel: Lagerlöf, Selma. Jerusalem, 1901-1902```
+  <br/>Lägg till ytterligare källa genom att klicka på +-ikonen under Konsulterad källa, välj typ och ange uppgifterna.
+  
+* Poststatus (recordStatus = = 000/Leader/?)
+  <br/>Ändras ej?
+
+* Uppdatering av posten (marc:recordUpdate = 008/31)
+  <br/>Ändras ej?
+
+* Differentiering av posten (marc:personalName = 008/32)
+  <br/>Ändras ej?
+
+* Auktoritetskontrollnivå (marc:level = 008/33)
+  <br/>Ändras ej?
+
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)
+  <br/>Förval: language/swe. Ändras ej.
+
 
 
 ### Valbara fält som inte ingår i mallen
@@ -126,10 +127,10 @@ Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya f
   <br/>```Exempel: Fullständigare namnform: Adam David```
 
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 #c)
-  <br/>Används som särskiljande tillägg till den auktoriserade namnformen.
+  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen.
   <br/>```Exempel: påve```
   
- ### Fält som inte går att lägga till i första release
+ ### Fält som inte går att lägga till i första release (ta bort detta?)
  
  * Klassifikation (065 ; 083)
  * Biografiska uppgifter/Biografisk information (678)
