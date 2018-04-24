@@ -130,4 +130,7 @@ Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya f
   <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen.
   <br/>```Exempel: påve```
   
+* Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368)
+  <br/>Används vid 
+  
 
