@@ -12,7 +12,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>```Exempel: Lagerlöf```
 
 * Förnamn (GivenName = 100 #a)
-  <br/>Förnamn som tillsammans med efternamn utgör den auktoriseade namnformen. 
+  <br/>Förnamn som tillsammans med efternamn utgör den auktoriserade namnformen. 
   <br/>```Exempel: Selma```
   <br/>Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
   
