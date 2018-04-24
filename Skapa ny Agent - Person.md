@@ -90,12 +90,13 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
 
 * Konsulterad källa (sourceConsulted = 670)
-  <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. Hur ska vi ange resurs som källa?
+  <br/>Välj typ av källa. Ange källa och vid behov vilken uppgift som hämtats från källan. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. 
+  <br/>```Exempel: Jerusalem / Selma Lagerlöf, 1901```
   <br/>```Exempel: NE 2018-04-12```
-  <br/>```Exempel: Lagerlöf, Selma. Jerusalem, 1901-1902```
+  <br/>```Exempel: Wikipedia (svenska) 2018-04-12```
   <br/>Lägg till ytterligare källa genom att klicka på +-ikonen under Konsulterad källa, välj typ och ange uppgifterna.
   
-* Poststatus (recordStatus = = 000/Leader/?)
+* Poststatus (recordStatus = 000/Leader/?)
   <br/>Ändras ej
 
 * Uppdatering av posten (marc:recordUpdate = 008/31)
