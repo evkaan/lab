@@ -57,10 +57,14 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/> ```Exempel: 0000000121339888 ```
 
-* Nationalitet/verksamhetsland (nationality = 043 ‡a)
+* Nationalitet/verksamhetsland (nationality = 043)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
   <br/>[Länk till Att länka entitet.]
-  
+
+* Biografiska uppgifter (hasBiographicalInformation = 678)
+  <br/>Används för att ange biografisk information är information om personens liv eller historia.
+  <br/>```Exempel: Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
+  <br/>Lägg till fält genom att klicka på +-ikonen, klicka på +-ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
   
 ### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoritetsposten i sig och inte är direkt förknippad med den auktoriserade namnformen.
