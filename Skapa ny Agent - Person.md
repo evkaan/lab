@@ -130,7 +130,4 @@ Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya f
   <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen.
   <br/>```Exempel: påve```
   
- ### Fält som inte går att lägga till i första release (ta bort detta?)
- 
- * Klassifikation (065 ; 083)
- * Biografiska uppgifter/Biografisk information (678)
+
