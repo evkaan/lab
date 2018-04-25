@@ -6,7 +6,7 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant)
 
 
-### Mall för beskrivning av den auktoriserade namnformen
+### Mall för beskrivning av agent
 Beskrivning av agenten som ska auktoriseras. 
 
 * Efternamn (FamilyName = 100 i1=1 ‡a)
@@ -75,7 +75,8 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>Förval: rda. Ändra vid behov. 
   <br/>```Exempel: Kod: rda```
 
-* Skapad av (descriptionCreator = 040 ‡a)<br/>Förval: inloggad sigel. Ändras ej.  
+* Skapad av (descriptionCreator = 040 ‡a)
+  <br/>Förval: Inloggad sigel. Ändras ej.  
   <br/>```Exempel: S```
 
 * Beskrivningsnivå (encodingLevel = 000/Leader/?)
@@ -118,7 +119,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
 
 
 ### Valbara fält som inte ingår i mallen
-Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av +-ikonen.
+Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av den runda +ikonen i verktygsmenyn.
 
 * Namn (name = 100 i1=0)
   <br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
