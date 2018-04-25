@@ -7,7 +7,7 @@ Exemplet nedan baseras på Lagerlöf, Selma, 1858-1940 (i de fall det är möjli
 ### Skapa ny Agent - Person
 Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
 
-* Efternamn (FamilyName = 100 ‡a)
+* Efternamn (FamilyName = 100 i1=1 ‡a)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
   <br/>```Exempel: Lagerlöf```
 
@@ -120,7 +120,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
 ### Valbara fält som inte ingår i mallen
 Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av +-ikonen.
 
-* Namn
+* Namn (name = 100 i1=0)
   <br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
   <br/>```Exempel: Namn: Bang``` Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
 
@@ -130,7 +130,7 @@ Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya f
   <br/>```Exempel: Förnamn: A. D. ```
   <br/>```Exempel: Fullständigare namnform: Adam David```
 
-* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c)
+* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c ‡d)
   <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen.
   <br/>```Exempel: Påve```
   
