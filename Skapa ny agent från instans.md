@@ -6,6 +6,16 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 
 Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant)
 
+För att skapa en ny agent (personnamn som länkbar entitet) utifrån en instans
+
+
+
+
+
+
+
+
+-------------------------------------------------------------
 
 ### Mall för beskrivning av Agent - Person
 Beskrivning av agenten som ska auktoriseras. 
