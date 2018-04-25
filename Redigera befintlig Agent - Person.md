@@ -23,12 +23,9 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>```Exempel: 1848-1920```
 
 * Nationalitet/verksamhetsland (Nationality = 043 ‡a)
-  <br/>Vid behov kan denna ändras eller raderas. Lägg till ytterligare kod genom att klicka på ```+Nationalitet ```
-  <br/>Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
-  <br/>```Exempel: ?```
-
-* Kontrollnummer
-  <br/>Libris-ID. Ändras ej, raderas ej.
+  <br/>Vid behov kan denna ändras eller raderas.
+  <br/>```Exempel: swe```
+  <br/>För att lägga till fält: Klicka på +-ikonen under Nationalitet/verksamhetsland. Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
 
 * Samma sak som (SameAs)
   <br/>```Exempel: resource/auth/247521```
@@ -37,75 +34,87 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 
 * Födelsedatum (birthDate = 046 ‡f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/> ```Exempel: 18480219```
+  <br/>```Exempel: 18480219```
   
 * Dödsdatum (deathDate = 046 ‡g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/> ```Exempel: 19201209```
+  <br/>```Exempel: 19201209```
 
 * Variant (hasVariant = 400 ‡a ‡d)
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel: Efternamn: Jansson ; Förnamn: Eric```
-  <br/>```Exempel: Namn: Lagerlœf ; Förnamn: Selma```
+  <br/>```Exempel: Namn: Janzon ; Förnamn: Erik Gustaf```
+  <br/>För att lägga till fält: Klicka på +-ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +-ikonen inom det tillagda Person-fältet, sök efter och lägg till fältet Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
   
 * Identifikator (identifiedBy = 024 ‡a)
-  <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
-  <br/> ```Exempel: 0000000121339888 ```
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig. 
+  <br/>```Exempel: 0000000121339888 ```
+  <br/>För att lägga till fält: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
 
 * Nationalitet/verksamhetsland (nationality = 043)
-  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. Lägg till ytterligare kod genom att klicka på ```+Nationalitet ```
-  <br/>Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
+  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
+  <br/>[Länk till Att länka entitet]
 
 * Har yrke eller sysselsättning (hasOccupation = 374)
-   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. 
-   <br/>Lägg till ytterligare yrke eller sysselsättning genom att klicka på ```+Koncept ```
-  <br/>Sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. 
+   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
    <br/>```Exempel: Romanförfattare ```
    <br/>```Exempel: Översättare```
+   <br/>[Länk till Att länka entitet]
 
-### Befintliga fält i Adminmetadata
+## Befintliga fält i Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoritetsposten i sig och inte är direkt förknippad med den auktoriserade namnformen.
 
-* Kontrollnummer
-  <br/>Gammalt Libris-ID. Ska inte ändras eller radersa.  
+* Kontrollnummer (controlNumber)
+  <br/>Libris-ID. Ändras ej, raderas ej.
 
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
   <br/>Radera och lägg till rda vid behov. 
-  ```Exempel: marc/CatalogingRulesType-c``` 
+  <br/>```Exempel: marc/CatalogingRulesType-c``` 
 
 * Skapad av (descriptionCreator = 040 ‡a)
-  <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: S```
-
-* Beskrivningsnivå (encodingLevel = 000/Leader/?)
-  Ändras ej?
-
-* Translitterering
-  Ändras ej?
-  
-* Typ av auktoritetspost  
-  Ändras ej?
-
-* Poststatus (recordStatus = = 000/Leader/?)
-  Ändras ej?
-
-* Uppdatering av posten
-  Ändras ej?
-
-* Differentiering av posten
-  Ändras ej?
-
-* Auktoritetskontrollnivå
-  Ändras ej?
+  <br/>Förval: Sigel som skapat posten. Ändras ej.  
+  <br/>```Exempel: S```
 
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
   Länka till entitet.  
-  ```Exempel: svenska (swe)```
+  <br/>```Exempel: svenska (swe)```
 
-* Identifikator?
-  <br/>Libris-ID automatgenereras då posten skapas och kan inte ändras.
+* Senast ändrad av (descriptionLastModifier)  
+  <br/>Förval: Inloggad sigel. Ändras ej.  
+  
+* Beskrivningsnivå (encodingLevel = 000/Leader/?)
+  <br/>Ändras ej?
 
+* Katalogiserande instans (marc:catalogingSource)
+  <br/>Ändras ej?
+
+* Marc:headingMain (marc:headingMain)
+  <br/>Ändras ej?
+  
+* Typ av auktoritetspost (marc:kindOfRecord)
+  <br/>Ändras ej?
+
+* Auktoritetskontrollnivå (marc:level = 008/33)
+  <br/>Ändras ej?
+  
+* Differentiering av posten (marc:personalName = 008/32)
+  <br/>Ändras ej?
+
+* Uppdatering av posten (marc:recordUpdate = 008/31)
+  <br/>Ändras ej?
+
+* Poststatus (recordStatus = = 000/Leader/?)
+  <br/>Ändras ej?
+
+* Samma sak som 
+  <br/>Ändras ej
+  <br/>```Exempel: auth/247521 ```
+  
 * Konsulterad källa (sourceConsulted = 670)
-  <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. Hur ska vi ange resurs som källa?
+  <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. 
   <br/>```Exempel: NE 2018-04-12```
   <br/>```Exempel: Källor i tåredalen, 1999```
+  
+## Fält att lägga till i adminmetadata
+
+* Katalogisatörens anmärkning (cataloguersNote = 667)
