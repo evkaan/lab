@@ -10,7 +10,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 ### Mall för beskrivning av Agent - Person
 Beskrivning av agenten som ska auktoriseras. 
 
-* Efternamn (FamilyName = 100 i1=1 ‡a)
+* Efternamn (FamilyName = 100 1/- ‡a)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
   <br/>```Exempel: Lagerlöf```
 
@@ -122,7 +122,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
 ### Valbara fält som inte ingår i mallen
 Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av den runda +ikonen i verktygsmenyn.
 
-* Namn (name = 100 i1=0)
+* Namn (name = 100 0/- ‡a)
   <br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
   <br/>```Exempel: Namn: Bang``` Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
 
