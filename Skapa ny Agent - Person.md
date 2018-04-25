@@ -35,7 +35,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i den bibliografiska informationen. Fältet upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa```
   <br/>```Exempel: Efternamn: Lagerlœf Förnamn: Selma```
-  <br/>För att lägga till ytterligare fält: Klicka på +-ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +-ikonen inom det tillagda Person-fältet, sök efter och lägg till Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
+  <br/>För att lägga till ytterligare fält: Klicka på +ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +ikonen inom det tillagda Person-fältet, sök efter och lägg till Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
 
 * Se även (seeAlso = 500 ‡a ‡d)
   <br/>I detta fält länkas/anges se även-hänvisning till en annan auktoriserad namnform, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet.
@@ -64,7 +64,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 * Biografiska uppgifter (hasBiographicalInformation = 678)
   <br/>Används för att ange biografisk information är information om personens liv eller historia.
   <br/>```Exempel: Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
-  <br/>Lägg till fält genom att klicka på +-ikonen, klicka på +-ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
+  <br/>Lägg till fält genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
   
 ### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoritetsposten i sig och inte är direkt förknippad med den auktoriserade namnformen.
@@ -116,7 +116,6 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>Förval: language/swe. Ändras ej.
 
 
-
 ### Valbara fält som inte ingår i mallen
 Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av +-ikonen.
 
@@ -125,7 +124,7 @@ Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya f
   <br/>```Exempel: Namn: Bang``` Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
 
 * Fullständigare namnform (fullerFormOfName = 100 ‡q och 378)
-  <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen
+  <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
   <br/>```Exempel: Efternamn: Smith ```
   <br/>```Exempel: Förnamn: A. D. ```
   <br/>```Exempel: Fullständigare namnform: Adam David```
