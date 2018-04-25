@@ -9,51 +9,50 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 
 ## Befintliga fält i beskrivningen
 
-* Efternamn (FamilyName)
+* Efternamn (FamilyName = 100 i1=1 ‡a)
   <br/>```Exempel: Jansson```
 
-* Förnamn (GivenName)
+* Förnamn (GivenName = = 100 ‡a)
   <br/>```Exempel: Erik```
 
 * Biografiska uppgifter (hasBiographicalInformation = 678)
   <br/>```Exempel: Väckelsepredikant i Österbotten```
   
-* Födelse- och/eller dödstid (lifeSpan = 100 #d)
+* Födelse- och/eller dödstid (lifeSpan = 100 ‡d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. Redigera om det behövs.
   <br/>```Exempel: 1848-1920```
 
-* Nationalitet/verksamhetsland (Nationality = 043 #a)
+* Nationalitet/verksamhetsland (Nationality = 043 ‡a)
   <br/>Vid behov kan denna ändras eller raderas. Lägg till ytterligare kod genom att klicka på ```+Nationalitet ```
   <br/>Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
   <br/>```Exempel: ?```
 
-* Kontrollnummer ?
+* Kontrollnummer
   <br/>Libris-ID. Ändras ej, raderas ej.
 
 * Samma sak som (SameAs)
-  <br/>Hur ska detta beskrivas?
   <br/>```Exempel: resource/auth/247521```
   
 ## Fält att lägga till i beskrivningen
 
-* Födelsedatum (birthDate = 046 #f)
+* Födelsedatum (birthDate = 046 ‡f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/> ```Exempel: 18480219```
   
-* Dödsdatum (deathDate = 046 #g)
+* Dödsdatum (deathDate = 046 ‡g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/> ```Exempel: 19201209```
 
-* Variant (hasVariant = 400
+* Variant (hasVariant = 400 ‡a ‡d)
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel: Efternamn: Jansson ; Förnamn: Eric```
   <br/>```Exempel: Namn: Lagerlœf ; Förnamn: Selma```
   
-* Identifikator (identifiedBy = 024 #a)
+* Identifikator (identifiedBy = 024 ‡a)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/> ```Exempel: 0000000121339888 ```
 
-* Nationalitet/verksamhetsland
+* Nationalitet/verksamhetsland (nationality = 043)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. Lägg till ytterligare kod genom att klicka på ```+Nationalitet ```
   <br/>Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
 
@@ -70,11 +69,11 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
 * Kontrollnummer
   <br/>Gammalt Libris-ID. Ska inte ändras eller radersa.  
 
-* Katalogiseringsregler (descriptionConventions = 040 #e)
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)
   <br/>Radera och lägg till rda vid behov. 
   ```Exempel: marc/CatalogingRulesType-c``` 
 
-* Skapad av (descriptionCreator = 040 #a)
+* Skapad av (descriptionCreator = 040 ‡a)
   <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: S```
 
@@ -86,8 +85,6 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   
 * Typ av auktoritetspost  
   Ändras ej?
-
-
 
 * Poststatus (recordStatus = = 000/Leader/?)
   Ändras ej?
@@ -101,7 +98,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
 * Auktoritetskontrollnivå
   Ändras ej?
 
-* Katalogiseringsspråk (descriptionLanguage = 040 #b)
+* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
