@@ -76,7 +76,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>```Exempel: Kod: rda```
 
 * Skapad av (descriptionCreator = 040 ‡a)
-  <br/>Förval: inloggad sigel. Ändras ej.  
+ <br/>Förval: inloggad sigel. Ändras ej.  
   <br/>```Exempel: S```
 
 * Beskrivningsnivå (encodingLevel = 000/Leader/?)
