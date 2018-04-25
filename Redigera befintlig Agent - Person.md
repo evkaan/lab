@@ -1,7 +1,7 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 
 ## Redigera befintlig Agent - Person
-Exemplet nedan baseras på Jansson, Erik, f. 1848. Fiktiva tillägg, enbart för att exemplifiera.
+Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart för att exemplifiera.
 
 
 ### Redigera befintlig Agent - Person
@@ -44,7 +44,7 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/> ```Exempel: 19201209```
 
-* Exakt match/har variant
+* Variant (hasVariant = 400
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel: Efternamn: Jansson ; Förnamn: Eric```
   <br/>```Exempel: Namn: Lagerlœf ; Förnamn: Selma```
