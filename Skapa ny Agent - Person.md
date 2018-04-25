@@ -1,10 +1,10 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 
-## Skapa ny Agent - Person
+## Skapa ny Agent: Person
 Exemplet nedan baseras på Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant)
 
 
-### Skapa ny Agent - Person
+### Beskrivningsmall
 Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
 
 * Efternamn (FamilyName = 100 i1=1 ‡a)
@@ -78,7 +78,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>```Exempel: S```
 
 * Beskrivningsnivå (encodingLevel = 000/Leader/?)
-  <br/>Ändras ej?
+  <br/>Val i meny?/Ändras ej?
 
 * Translitterering (marc:romanization = 008/07)
   <br/>Ändras ej?
@@ -101,7 +101,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>Lägg till ytterligare källa genom att klicka på +-ikonen under Konsulterad källa, välj typ och ange uppgifterna.
   
 * Poststatus (recordStatus = 000/Leader/?)
-  <br/>Ändras ej
+  <br/>Val i meny?/Ändras ej
 
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej
