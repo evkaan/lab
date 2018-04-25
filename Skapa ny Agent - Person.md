@@ -1,12 +1,13 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 
-## Skapa ny Agent: Person
+## Skapa ny: Agent - Person
 Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
+
 
 Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant)
 
 
-### Mall för beskrivning av agent
+### Mall för beskrivning av Agent - Person
 Beskrivning av agenten som ska auktoriseras. 
 
 * Efternamn (FamilyName = 100 i1=1 ‡a)
