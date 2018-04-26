@@ -1,5 +1,7 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns.
+
 ## Redigera befintlig Agent - Person
 Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart för att exemplifiera.
 
