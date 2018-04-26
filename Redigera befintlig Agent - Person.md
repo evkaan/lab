@@ -24,9 +24,8 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Exempel: 1848-1920```
 
 * Nationalitet/verksamhetsland (Nationality = 043 ‡a)
-  <br/>Vid behov kan denna ändras eller raderas.
-  <br/>```Exempel: swe```
-  <br/>För att lägga till fält: Klicka på +-ikonen under Nationalitet/verksamhetsland. Sök i rutan till vänster, välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger.
+  <br/>Nationalitet/verksamhetsland förknippat med personen. Vid behov kan denna ändras eller raderas.
+  <br/>[Länk till Att länka entitet]
 
 * Samma sak som (SameAs)
   <br/>```Exempel: resource/auth/247521```
@@ -51,10 +50,6 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/>```Exempel: 0000000121339888 ```
   <br/>För att lägga till fält: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
-
-* Nationalitet/verksamhetsland (nationality = 043)
-  <br/>Nationalitet/verksamhetsland förknippat med personen. 
-  <br/>[Länk till Att länka entitet]
 
 * Har yrke eller sysselsättning (hasOccupation = 374)
    <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
