@@ -64,57 +64,56 @@ Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som fi
 ## Befintliga fält i Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoritetsposten i sig och inte är direkt förknippad med den auktoriserade namnformen.
 
-* Kontrollnummer (controlNumber)
-  <br/>Libris-ID. Ändras ej, raderas ej.
+* Kontrollnummer (controlNumber = 001)
+  <br/>LibrisID. Ändras ej.
 
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
-  <br/>Radera och lägg till rda vid behov. 
-  <br/>```Exempel: marc/CatalogingRulesType-c``` 
+  <br/>Förval: rda. Ändra vid behov. 
+  <br/>```Kod: rda``` 
 
 * Skapad av (descriptionCreator = 040 ‡a)
-  <br/>Förval: Sigel som skapat posten. Ändras ej.  
-  <br/>```Exempel: S```
+  <br/>Förval: Sigel för skapare av agenten. Ändras ej.  
+  <br/>```Exempel: Organisation: S```
 
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
-  Länka till entitet.  
-  <br/>```Exempel: svenska (swe)```
+  <br/>Förval: Svenska
 
 * Senast ändrad av (descriptionLastModifier)  
-  <br/>Förval: Inloggad sigel. Ändras ej.  
+  <br/>Förval: Sigel som gjort senaste ändring. Ändras ej.  
   
-* Beskrivningsnivå (encodingLevel = 000/Leader/?)
-  <br/>Ändras ej?
+* Beskrivningsnivå (encodingLevel = 000)
+  <br/>Ändras ej.
 
-* Katalogiserande instans (marc:catalogingSource)
-  <br/>Ändras ej?
+* Katalogiserande instans (marc:catalogingSource = 008/39)
+  <br/>Ändras ej.
 
-* Marc:headingMain (marc:headingMain)
-  <br/>Ändras ej?
+* Marc:headingMain (marc:headingMain = 008/14)
+  <br/>Ändras ej.
   
-* Typ av auktoritetspost (marc:kindOfRecord)
-  <br/>Ändras ej?
+* Typ av auktoritetspost (marc:kindOfRecord = 008/9)
+  <br/>Ändras ej.
 
 * Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej?
+  <br/>Ändras ej.
   
 * Differentiering av posten (marc:personalName = 008/32)
-  <br/>Ändras ej?
+  <br/>Ändras ej.
 
 * Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>Ändras ej?
+  <br/>Ändras ej.
 
-* Poststatus (recordStatus = = 000/Leader/?)
-  <br/>Ändras ej?
+* Poststatus (recordStatus = 000)
+  <br/>Ändras ej.
 
 * Samma sak som 
-  <br/>Ändras ej
-  <br/>```Exempel: auth/247521 ```
+  <br/>Ändras ej.
   
 * Konsulterad källa (sourceConsulted = 670)
-  <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. 
+  <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa. GÖR SOM CARINA
   <br/>```Exempel: NE 2018-04-12```
   <br/>```Exempel: Källor i tåredalen, 1999```
   
 ## Fält att lägga till i adminmetadata
 
 * Katalogisatörens anmärkning (cataloguersNote = 667)
+TEXT HÄR!
