@@ -31,7 +31,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Samma sak som (SameAs)
   <br/>```Exempel: resource/auth/247521```
   
-## Fält att lägga till i beskrivningen
+### Fält att lägga till i beskrivningen
 
 * Födelsedatum (birthDate = 046 ‡f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
@@ -53,7 +53,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>För att lägga till fält: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
 
 * Nationalitet/verksamhetsland (nationality = 043)
-  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
+  <br/>Nationalitet/verksamhetsland förknippat med personen. 
   <br/>[Länk till Att länka entitet]
 
 * Har yrke eller sysselsättning (hasOccupation = 374)
@@ -62,7 +62,7 @@ Beskrivning av agenten som ska auktoriseras.
    <br/>```Exempel: Översättare```
    <br/>[Länk till Att länka entitet]
 
-## Befintliga fält i Adminmetadata
+### Befintliga fält i Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoritetsposten i sig och inte är direkt förknippad med den auktoriserade namnformen.
 
 * Kontrollnummer (controlNumber = 001)
@@ -116,9 +116,30 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>Den resurs som föranleder auktoriseringen är obligatorisk källa.
   <br/>```Exempel: Källor i tåredalen, 1999```
   
-## Fält att lägga till i adminmetadata
+### Fält att lägga till i adminmetadata
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
 <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/marjan```
+
+### Valbara fält som inte ingår i mallen
+Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av den runda +ikonen i verktygsmenyn.
+
+* Namn (name = 100 0/- ‡a)
+  <br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
+  <br/>```Exempel: Namn: Bang``` Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
+
+* Fullständigare namnform (fullerFormOfName = 100 ‡q och 378)
+  <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
+  <br/>```Exempel: Efternamn: Smith ```
+  <br/>```Exempel: Förnamn: A. D. ```
+  <br/>```Exempel: Fullständigare namnform: Adam David```
+
+* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c ‡d)
+  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen.
+  <br/>```Exempel: Påve```
+  
+* Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368)
+  <br/>Används för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc.
+  <br/>```Exempel: Kapten```
   
