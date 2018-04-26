@@ -6,7 +6,17 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 
 Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant)
 
-För att skapa en ny agent (personnamn som länkbar entitet) utifrån en instans
+Det är möjligt att skapa en ny agent (personnamn som länkbar entitet) utifrån en instans även om det kan vara att föredra att göra det från grunder för att kunna dra nytta av de förvalda fälten i mallen.
+
+* För att skapa en ny agent (personnamn som länkbar entitet) utifrån en instans utgår man från Instans av Verk (fäll ut Instans av Verk genom att klicka på den lilla pilen)
+
+* Fäll ut Medverkan och funktion genom att klicka på pilen
+
+* Fäll ut Primär medverkan genom att klicka på pilen
+
+* Klicka på länkikonen (Länka entitet) inom fältet Agent.
+
+* Välj typen Person och gör först en sökning i rutan till vänster för att kontrollera att det inte redan finns en auktoriserad namnform
 
 
 
