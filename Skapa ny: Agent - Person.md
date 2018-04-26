@@ -37,7 +37,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/> ```Exempel: 1977```
 
 * Variant (hasVariant = 400 ‡a ‡d)
-  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i den bibliografiska informationen. Fältet upprepas om flera variantnamn behöver läggas till. 
+  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisningar mellan sammansatta efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Fältet upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa```
   <br/>```Exempel: Efternamn: Lagerlœf Förnamn: Selma```
   <br/>För att lägga till ytterligare fält: Klicka på +ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +ikonen inom det tillagda Person-fältet, sök efter och lägg till Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
@@ -106,7 +106,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>Lägg till ytterligare källa genom att klicka på +-ikonen under Konsulterad källa, välj typ och ange uppgifterna.
   
 * Poststatus (recordStatus = 000/Leader/?)
-  <br/>Val i meny?/Ändras ej.
+  <br/>Val i meny?/Ändras ej?
 
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
