@@ -1,5 +1,7 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns.
+
 ## Skapa ny: Agent - Person
 Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
 
@@ -84,13 +86,13 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>Val i meny?/Ändras ej?
 
 * Translitterering (marc:romanization = 008/07)
-  <br/>Ändras ej?
+  <br/>Ändras ej.
   
 * Typ av auktoritetspost (marc:kindOfRecord = 008/09)
-  <br/>Ändras ej?
+  <br/>Ändras ej.
 
 * Marc:headingMain (008/14)
-  <br/>Ändras ej?
+  <br/>Ändras ej.
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
@@ -104,16 +106,16 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>Lägg till ytterligare källa genom att klicka på +-ikonen under Konsulterad källa, välj typ och ange uppgifterna.
   
 * Poststatus (recordStatus = 000/Leader/?)
-  <br/>Val i meny?/Ändras ej
+  <br/>Val i meny?/Ändras ej.
 
 * Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>Ändras ej
+  <br/>Ändras ej.
 
 * Differentiering av posten (marc:personalName = 008/32)
-  <br/>Ändras ej
+  <br/>Ändras ej.
 
 * Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej
+  <br/>Ändras ej.
 
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
   <br/>Förval: language/swe. Ändras ej.
