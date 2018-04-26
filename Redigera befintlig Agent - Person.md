@@ -108,12 +108,16 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
 * Samma sak som 
   <br/>Ändras ej.
   
-* Konsulterad källa (sourceConsulted = 670)
-  <br/>Källa vid belagd uppgift. Den resurs som föranleder auktoriseringen är obligatorisk källa. GÖR SOM CARINA
-  <br/>```Exempel: NE 2018-04-12```
+* Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
+  <br/>Källa vid belagd uppgift. 
+  <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa. 
+  <br/>```Exempel: Källa: NE 2018-04-12. Uppgift från källa: Levnadstid: 1848-1920```
+  <br/>Den resurs som föranleder auktoriseringen är obligatorisk källa.
   <br/>```Exempel: Källor i tåredalen, 1999```
   
 ## Fält att lägga till i adminmetadata
 
 * Katalogisatörens anmärkning (cataloguersNote = 667)
-TEXT HÄR!
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
+<br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/marjan```
+  
