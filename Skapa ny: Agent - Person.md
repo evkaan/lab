@@ -37,7 +37,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/> ```Exempel: 1977```
 
 * Variant (hasVariant = 400 ‡a ‡d)
-  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisningar mellan sammansatta efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Fältet upprepas om flera variantnamn behöver läggas till. 
+  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Fältet upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa```
   <br/>```Exempel: Efternamn: Lagerlœf Förnamn: Selma```
   <br/>För att lägga till ytterligare fält: Klicka på +ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +ikonen inom det tillagda Person-fältet, sök efter och lägg till Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
