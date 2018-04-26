@@ -117,7 +117,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   
 ## Fält att lägga till i adminmetadata
 
-* Katalogisatörens anmärkning (cataloguersNote = 667)
+* Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
 <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/marjan```
   
