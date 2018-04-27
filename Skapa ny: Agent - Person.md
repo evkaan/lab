@@ -104,7 +104,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>```Exempel: Jerusalem / Selma Lagerlöf, 1901```
   <br/>```Exempel: NE 2018-04-12```
   <br/>```Exempel: Wikipedia (svenska) 2018-04-12```
-  <br/>Lägg till ytterligare källa genom att klicka på +-ikonen under Konsulterad källa, välj typ och ange uppgifterna.
+  <br/>Lägg till ytterligare källa genom att klicka på +ikonen under Konsulterad källa, välj typ och ange uppgifterna.
   
 * Poststatus (recordStatus = 000/Leader/?)
   <br/>Val i meny?/Ändras ej?
