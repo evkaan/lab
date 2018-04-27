@@ -3,7 +3,7 @@ UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns.
 
 ## Skapa ny: Agent - Person
-Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
+Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
 
 Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant)
@@ -61,6 +61,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. 
   <br/> ```Exempel: 0000000121339888 ```
+   <br/>För att lägga till fält: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
 
 * Nationalitet/verksamhetsland (nationality = 043)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
@@ -121,12 +122,13 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
   <br/>Förval: language/swe. Ändras ej.
 
 
-### Valbara fält som inte ingår i mallen
+### Valbara fält relevanta för Agent - Person
 Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av den runda +ikonen i verktygsmenyn.
 
 * Namn (name = 100 0/- ‡a)
   <br/>Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
   <br/>```Exempel: Namn: Bang``` Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
+  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 * Fullständigare namnform (fullerFormOfName = 100 ‡q och 378)
   <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
