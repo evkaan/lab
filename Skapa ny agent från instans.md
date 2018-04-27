@@ -1,20 +1,16 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 
+
+## Skapa ny: Agent - Person utifrån Instans av Verk
+Det är möjligt att skapa en ny agent (personnamn som länkbar entitet) utifrån ett Verk/Instans av Verk även om det kan vara att föredra att göra det från grunden (dvs. följa lathunden för Skapa ny Agent - Person) för att kunna dra nytta av de förvalda fälten i mallen.
+
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns.
 
-## Skapa ny: Agent - Person utifrån instanspost
-Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
-
-
-Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant)
-
-Det är möjligt att skapa en ny agent (personnamn som länkbar entitet) utifrån en instans även om det kan vara att föredra att göra det från grunder för att kunna dra nytta av de förvalda fälten i mallen.
-
-* För att skapa en ny agent (personnamn som länkbar entitet) utifrån en instans utgår man från Instans av Verk (fäll ut Instans av Verk genom att klicka på den lilla pilen)
+* Utgå från Instans av Verk inom en Instans (fäll ut Instans av Verk genom att klicka på den lilla pilen)
 
 * Fäll ut Medverkan och funktion genom att klicka på pilen
 
-* Fäll ut Primär medverkan genom att klicka på pilen
+* Fäll ut Primär medverkan/Medverkan genom att klicka på pilen
 
 * Klicka på länkikonen (Länka entitet) inom fältet Agent.
 
