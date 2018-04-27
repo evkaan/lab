@@ -6,7 +6,7 @@ Det är möjligt att skapa en ny agent (personnamn som länkbar entitet) utifrå
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns.
 
-* Utgå från Instans av Verk inom en Instans (fäll ut Instans av Verk genom att klicka på den lilla pilen)
+* Utgå från Instans av Verk inom en Instans (fäll ut Instans av Verk genom att klicka på pilen)
 
 * Fäll ut Medverkan och funktion genom att klicka på pilen
 
