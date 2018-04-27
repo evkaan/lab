@@ -1,10 +1,10 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns.
 
 ## Skapa ny: Agent - Person
-Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
+Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
 
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
 Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant)
 
