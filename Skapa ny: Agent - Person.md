@@ -138,12 +138,12 @@ Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya f
   <br/>```Exempel: Fullständigare namnform: Adam David```
 
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c ‡d)
-  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen.
-  <br/>```Exempel: Påve```
+  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. 
+  <br/>```Exempel: påve```
   
 * Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368)
-  <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc.
-  <br/>```Exempel: Kapten```
+  <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+  <br/>```Exempel: Professorer```
 
 * Ordningstal (marc:numeration = 100 ‡b)
   <br/>Används som särskiljande tillägg till den auktoriserade namnformen för kungligheter samt för påvar, biskopar och andra personer med religiösa yrken.
