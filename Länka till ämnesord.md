@@ -1,8 +1,10 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 
-## Länka entitet - auktoriserat allmänt ämnesord
+## Länka entitet - auktoriserat ämnesord
 
-Lathunden beskriver hur auktoriserat allmänt ämnesord (sao) länkas till verksinformationen i Instans av Verk
+Lathunden beskriver hur auktoriserade ämnesord från ämnesordssystemet Svenska ämnesord (sao) länkas till verksinformationen i Instans av Verk. 
+
+Det beskrivna tillvägagångssättet nedan gäller för allmänna ämnesord, krolologiska ämnesord, geografiska ämnesord och sammansatta termer (allmänna respektive geografiska) där det finns auktoriserade termer att länka till. 
 
 ### Utgå från Intans av Verk
 
