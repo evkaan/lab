@@ -20,11 +20,9 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne i mallen.
 
 * Sök på specifik term eller trunkera (*) för att söka på alla tillgängliga termer inom vald typ.
 
-* Välj term och klicka på Länka entitet
+* Välj term och klicka på Länka entitet - termen länkas då i Instans av Verk.
 
-* Termen länkas då i Instans av Verk.
-
-* För att länka till ytterligare auktoriserat ämnesord upprepas proceduren ovan.
+För att länka till ytterligare auktoriserat ämnesord upprepas tillvägagångssättet från punkt ett.
 
 
 
