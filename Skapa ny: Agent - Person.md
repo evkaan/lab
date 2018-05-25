@@ -94,7 +94,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
+  <br/>```Exempel: Författaren vill inte ha sitt födelseår kopplat till den auktoriserade namnformen. Enligt e-post 2017-05-12, S/NB/annbjo```
 
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
@@ -105,7 +105,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
 * Poststatus (recordStatus = 000/Leader/?)
-  <br/>Val i meny. Välj Ny post vid skapande av ny post. Vid uppdatering ändras status automatiskt.
+  <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
 
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
