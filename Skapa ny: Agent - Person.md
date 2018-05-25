@@ -120,7 +120,7 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
   <br/>Förval: language/swe. Ändras ej.
 
 * Kontrollnummer (controlNumber = 001)
-  <br/>Libris-ID. Genereras automatiskt då posten sparas. Ändras ej.
+  <br/>Libris-ID. Genereras automatiskt vid sparande. Ändras ej.
 
 
 ### Valbara fält relevanta för Agent - Person
