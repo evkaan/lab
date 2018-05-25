@@ -1,4 +1,4 @@
-UNDER ARBETE - UPPDATERAS KONTINUERLIGT
+UNDER ARBETE - UPPDATERAS KONTINUERLIGT (uppdaterad 2018-05-25)
 
 
 ## Skapa ny: Agent - Person
@@ -40,7 +40,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Fältet upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa```
   <br/>```Exempel: Efternamn: Lagerlœf Förnamn: Selma```
-  <br/>För att lägga till ytterligare fält: Klicka på +ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +ikonen inom det tillagda Person-fältet, sök efter och lägg till Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid). OBS! Variant ska ej göras till länkbara entiteter!
+  <br/>För att lägga till ytterligare fält: Klicka på +ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +ikonen inom det tillagda Person-fältet, sök efter och lägg till Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid). OBS! Variantnamn ska ej göras till länkbara entiteter!
 
 * Se även (seeAlso = 500 ‡a ‡d)
   <br/>I detta fält länkas se även-hänvisning till en annan auktoriserad namnform, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet.
@@ -48,12 +48,12 @@ Beskrivning av agenten som ska auktoriseras.
     <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 * Verksamhetsområde (fieldOfActivity = 372)
-  <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+  <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
    <br/>```Exempel: Fågelskådning```
    <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 * Har yrke eller sysselsättning (hasOccupation = 374)
-   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
    <br/>```Exempel: Romanförfattare ```
    <br/>```Exempel: Översättare```
    <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
@@ -73,7 +73,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>Lägg till fält genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
   
 ### Adminmetadata
-Information av administrativ karaktär som är väsentlig för auktoritetsposten i sig och inte är direkt förknippad med den auktoriserade namnformen.
+Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
 
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
   <br/>Förval: rda. Ändra vid behov. 
@@ -82,9 +82,6 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
 * Skapad av (descriptionCreator = 040 ‡a)
   <br/>Förval: Inloggad sigel. Ändras ej.  
   <br/>```Exempel: S```
-
-* Beskrivningsnivå (encodingLevel = 000/Leader/?)
-  <br/>Val i meny?/Ändras ej?
 
 * Translitterering (marc:romanization = 008/07)
   <br/>Ändras ej.
@@ -108,7 +105,7 @@ Information av administrativ karaktär som är väsentlig för auktoritetsposten
 Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
 * Poststatus (recordStatus = 000/Leader/?)
-  <br/>Val i meny?/Ändras ej?
+  <br/>Val i meny. Välj Ny post vid skapande av ny post. Vid uppdatering ändras status automatiskt.
 
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
@@ -121,6 +118,9 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
 
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
   <br/>Förval: language/swe. Ändras ej.
+
+* Kontrollnummer (controlNumber)
+  <br/>Genereras automatiskt då posten sparas.
 
 
 ### Valbara fält relevanta för Agent - Person
