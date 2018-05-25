@@ -10,13 +10,17 @@ Lathunden beskriver hur sammansatta ämnesord läggs till verksinformationen i I
 Utgår katalogiseringen från en mall finns egenskapen Ämne i mallen. 
 <br/>För att lägga till egenskapen Ämne: Klicka på +ikonen högst upp till höger inom avsnittet för Instans av Verk, sök efter och lägg till Ämne (subject).
 
-* Klicka på +ikonen intill egenskapen Ämne, pop up-rutan för **Länka entitet** öppnas.
+* Klicka på **+ikonen** intill egenskapen Ämne, pop up-rutan för **Länka entitet** öppnas.
 
 * Välj typen **Sammansatt term** i rullgardinsmenyn **Skapa lokal entitet**.
 
-* Klicka på +ikonen inom det nytillagda fältet för Sammansatt term, pop up-rutan **Lägg till fält inom** öppnas
+* Klicka på **+ikonen** inom det nytillagda fältet för Sammansatt term, pop up-rutan **Lägg till fält inom** öppnas.
 
-* Sök efter önskad term.
+* Sök efter och välj fältet **Termkomponenter** (termComponentList).
+
+* Klicka på **+ikonen** intill Termkomponenter, pop up-rutan för **Länka entitet** öppnas.
+
+
 
 * Välj term och klicka på Länka entitet, termen länkas då till verksinformationen i Instans av Verk.
 
