@@ -14,13 +14,13 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne i mallen.
 
 ##### Länka entitet
 
-* Klicka på +ikonen intill egenskapen Ämne - pop up-rutan för Länka entitet öppnas.
+* Klicka på +ikonen intill egenskapen Ämne, pop up-rutan för Länka entitet öppnas.
 
-* Välj typen Allmänt ämnesord / Geografiskt ämnesord / Kronologiskt ämnesord / Sammansatt term i rullgardinsmenyn Alla typer.
+* Välj typ av ämnesord (Allmänt ämnesord / Geografiskt ämnesord / Kronologiskt ämnesord / Sammansatt term) i rullgardinsmenyn Alla typer.
 
-* Sök på specifik term eller trunkera (*) för att söka på alla tillgängliga termer inom vald typ.
+* Sök efter önskad term.
 
-* Välj term och klicka på Länka entitet - termen länkas då i Instans av Verk.
+* Välj term och klicka på Länka entitet, termen länkas då till verksinformationen i Instans av Verk.
 
 För att länka till ytterligare auktoriserat ämnesord upprepas tillvägagångssättet från punkt ett.
 
