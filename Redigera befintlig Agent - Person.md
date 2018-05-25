@@ -1,7 +1,7 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT (uppdaterad 2018-05-25)
 
 ## Redigera befintlig Agent - Person
-Lathunden beskriver de fält som finns i den befintliga auktoritetsposten och vilka fält som bör läggas till. Ett urval av fält relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
+Lathunden beskriver de fält som finns i den befintliga auktoriserade agenten och vilka fält som bör läggas till. Ett urval av fält relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende fältordning kan förekomma.
 
@@ -41,7 +41,7 @@ Beskrivning av den auktoriserade agenten.
   <br/>```Exempel: 19201209```
 
 * Variant (hasVariant = 400 ‡a ‡d)
-  <br/>I detta fält anges variantnamn och alternativa namnformer samt födelse och/eller dödstid. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
+  <br/>I detta fält anges variantnamn och alternativa namnformer samt födelse och/eller dödstid. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i de bibliografiska informationen. Fältet upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel: Efternamn: Jansson ; Förnamn: Eric```
   <br/>```Exempel: Namn: Janzon ; Förnamn: Erik Gustaf```
   <br/>För att lägga till ytterligare fält: Klicka på +ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +ikonen inom det tillagda Person-fältet, sök efter och lägg till Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid). OBS! Variant ska ej göras till länkbar entitet!
