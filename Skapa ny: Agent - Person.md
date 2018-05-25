@@ -4,7 +4,7 @@ UNDER ARBETE - UPPDATERAS KONTINUERLIGT (uppdaterad 2018-05-25)
 ## Skapa ny: Agent - Person
 Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
 
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende fältordning kan förekomma.
 
 Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant)
 
@@ -40,7 +40,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Fältet upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa```
   <br/>```Exempel: Efternamn: Lagerlœf Förnamn: Selma```
-  <br/>För att lägga till ytterligare fält: Klicka på +ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +ikonen inom det tillagda Person-fältet, sök efter och lägg till Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid). OBS! Variantnamn ska ej göras till länkbara entiteter!
+  <br/>För att lägga till ytterligare fält: Klicka på +ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +ikonen inom det tillagda Person-fältet, sök efter och lägg till Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid). OBS! Variant ska ej göras till länkbar entitet!
 
 * Se även (seeAlso = 500 ‡a ‡d)
   <br/>I detta fält länkas se även-hänvisning till en annan auktoriserad namnform, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet.
@@ -54,7 +54,7 @@ Beskrivning av agenten som ska auktoriseras.
 
 * Har yrke eller sysselsättning (hasOccupation = 374)
    <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
-   <br/>```Exempel: Romanförfattare ```
+   <br/>```Exempel: Romanförfattare```
    <br/>```Exempel: Översättare```
    <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
   
@@ -119,8 +119,8 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
   <br/>Förval: language/swe. Ändras ej.
 
-* Kontrollnummer (controlNumber)
-  <br/>Genereras automatiskt då posten sparas.
+* Kontrollnummer (controlNumber = 001)
+  <br/>Libris-ID. Genereras automatiskt då posten sparas. Ändras ej.
 
 
 ### Valbara fält relevanta för Agent - Person
