@@ -20,9 +20,8 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne i mallen.
 
 * Klicka på **+ikonen** intill Termkomponenter, pop up-rutan för **Länka entitet** öppnas.
 
+* Välj typen **Allmänt ämnesord** i sökrutans rullgardinsmeny och 
 
 
-* Välj term och klicka på Länka entitet, termen länkas då till verksinformationen i Instans av Verk.
 
-För att länka till ytterligare auktoriserat ämnesord upprepas tillvägagångssättet från punkt ett.
 
