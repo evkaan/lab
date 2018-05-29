@@ -1,6 +1,6 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT
 
-## Länka entitet - auktoriserat ämnesord
+## Länka entitet - auktoriserat ämnesord (sao)
 
 Lathunden beskriver hur auktoriserade ämnesord från ämnesordssystemet Svenska ämnesord (sao) länkas till verksinformationen i Instans av Verk. 
 
