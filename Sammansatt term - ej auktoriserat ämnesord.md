@@ -20,7 +20,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne i mallen.
 
 * Klicka på **+ikonen** intill Termkomponenter, pop up-rutan för **Länka entitet** öppnas.
 
-* Välj typen **Allmänt ämnesord** i sökrutans rullgardinsmeny och 
+* Välj typen **Allmänt ämnesord** i sökrutans rullgardinsmeny och sök efter och lägg till vald term genom
 
 
 
