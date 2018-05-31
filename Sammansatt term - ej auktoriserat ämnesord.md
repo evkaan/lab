@@ -4,11 +4,10 @@ UNDER ARBETE - UPPDATERAS KONTINUERLIGT (Uppdaterad 2018-05-31)
 
 Lathunden beskriver hur sammansatta ämnesord läggs till verksinformationen i Instans av Verk och där de ingående beståndsdelarna (huvudord respektive underindelning) är auktoriserade termer från ämnesordssystemet Svenska ämnesord (sao). 
 
+### Ämne (subject)
 
-### Utgå från Instans av Verk
-
-#### Ämne (subject)
-Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen. Vid behov av att lägga till egenskapen Ämne: Klicka på +ikonen högst upp till höger inom avsnittet för Instans av Verk, sök efter och lägg till Ämne (subject).
+#### Utgå från Instans av Verk
+Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom avsnittet för Instans av Verk. Vid behov av att lägga till egenskapen Ämne: Klicka på +ikonen högst upp till höger inom avsnittet för Instans av Verk, sök efter och lägg till Ämne (subject).
 
 * Klicka på **+ikonen** intill egenskapen Ämne, pop up-rutan för **Länka entitet** öppnas. Välj typen **Sammansatt term** i rullgardinsmenyn **Skapa lokal entitet**.
 
