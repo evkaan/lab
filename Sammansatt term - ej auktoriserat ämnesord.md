@@ -9,8 +9,7 @@ OBS! Lathunden beskriver funktionaliteten per 2018-05-31. Detta kan komma att f�
 ### Utgå från Instans av Verk
 
 #### Ämne (subject)
-Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen. 
-<br/>Vid behov av att lägga till egenskapen Ämne: Klicka på +ikonen högst upp till höger inom avsnittet för Instans av Verk, sök efter och lägg till Ämne (subject).
+Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen. Vid behov av att lägga till egenskapen Ämne: Klicka på +ikonen högst upp till höger inom avsnittet för Instans av Verk, sök efter och lägg till Ämne (subject).
 
 * Klicka på **+ikonen** intill egenskapen Ämne, pop up-rutan för **Länka entitet** öppnas. Välj typen **Sammansatt term** i rullgardinsmenyn **Skapa lokal entitet**.
 
