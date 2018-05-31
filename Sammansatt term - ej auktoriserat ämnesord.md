@@ -21,7 +21,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen. Vid
 
 * Klicka på **+ikonen** inom det tillagda fältet för Sammansatt term, pop up-rutan **Lägg till fält inom** öppnas. Söker efter och välj **Termlista** (inScheme).
 
-* Klicka på **+ikonen** intill Termlista, pop up-rutan för **Länka entitet** öppnas. Sök efter listkod 'sao' och Lägg till. Koden länkas till verksinformationen.
+* Klicka på **+ikonen** intill Termlista, pop up-rutan för **Länka entitet** öppnas. Sök efter listkod **sao** och Lägg till. Koden länkas till verksinformationen.
 
 * Upprepa punkterna ovan för att lägga till fler sammansatta termer.
 
