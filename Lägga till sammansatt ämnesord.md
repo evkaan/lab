@@ -24,7 +24,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 * Upprepa punkterna ovan för att lägga till fler sammansatta termer.
 
 
-OBS! Instruktionen ovan gäller även för sammansatta men ej auktoriserade termer ur andra kontrollerade ämnesordssystem. Momenten i punkt tre och fyra ersätts då av Allmänt ämnesord respektive Underindelning för lokalt ämnesord i den grå rullgardinsmenyn för Skapa lokal entitet.
+OBS! Instruktionen ovan fungerar även för sammansatta men ej auktoriserade termer ur andra kontrollerade ämnesordssystem. Momenten i punkt tre och fyra ersätts då av Allmänt ämnesord respektive Underindelning för lokalt ämnesord i den grå rullgardinsmenyn för Skapa lokal entitet. Länka till aktuell listkod.
 
 
 
