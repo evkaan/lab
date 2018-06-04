@@ -1,4 +1,4 @@
-UNDER ARBETE - UPPDATERAS KONTINUERLIGT (Uppdaterad 2018-05-31)
+UNDER ARBETE - UPPDATERAS KONTINUERLIGT (Uppdaterad 2018-06-04)
 
 ## Lägga till sammansatt men ej auktoriserat ämnesord (sao)
 
@@ -22,6 +22,9 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 * Klicka på **+ikonen** intill Termlista, pop up-rutan för **Länka entitet** öppnas. Sök efter listkod **sao** och Lägg till. Koden länkas till verksinformationen.
 
 * Upprepa punkterna ovan för att lägga till fler sammansatta termer.
+
+
+OBS! Instruktionen ovan gäller även för sammansatta men ej auktoriserade termer ur andra kontrollerade ämnesordssystem. Momenten i punkt tre och fyra ersätts då av Allmänt ämnesord respektive Underindelning för lokalt ämnesord i den grå rullgardinsmenyn för Skapa lokal entitet.
 
 
 
