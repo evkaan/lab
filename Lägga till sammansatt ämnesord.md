@@ -1,6 +1,6 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT (Uppdaterad 2018-06-07)
 
-## Lägga till sammansatt men ej auktoriserat ämnesord (sao)
+## Lägg till sammansatt men ej auktoriserat ämnesord (sao)
 
 Lathunden beskriver hur sammansatta ämnesord läggs till verksinformationen i Instans av Verk och där de ingående beståndsdelarna (huvudord respektive underindelning) är auktoriserade termer från ämnesordssystemet Svenska ämnesord (sao). 
 
