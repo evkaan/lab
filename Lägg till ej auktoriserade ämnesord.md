@@ -1,6 +1,6 @@
 UNDER ARBETE - UPPDATERAS KONTINUERLIGT (Uppdaterad 2018-06-07)
 
-## Lägga till kontrollerade men ej auktoriserade ämnesord
+## Lägg till kontrollerade men ej auktoriserade ämnesord
 
 Lathunden beskriver hur kontrollerade men ej auktoriserade ämnesord läggs till verksinformationen i Instans av Verk. Det beskrivna tillvägagångssättet gäller olika typer av ämnesord men i lathunden används allmänna ämnesord som exempel. Tillvägagångssättet gäller ämnesord från de kontrollerade listorna AGROVOC, kao, prvt m.fl.
 
