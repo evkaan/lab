@@ -1,4 +1,4 @@
-UNDER ARBETE - UPPDATERAS KONTINUERLIGT (Uppdaterad 2018-05-31)
+UNDER ARBETE - UPPDATERAS KONTINUERLIGT (Uppdaterad 2018-06-07)
 
 ## Lägga till kontrollerade men ej auktoriserade ämnesord
 
@@ -9,12 +9,12 @@ Lathunden beskriver hur kontrollerade men ej auktoriserade ämnesord läggs till
 #### Utgå från Instans av Verk
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom avsnittet för Instans av Verk. Vid behov av att lägga till egenskapen Ämne: Klicka på +ikonen högst upp till höger inom avsnittet för Instans av Verk, sök efter och lägg till Ämne (subject).
 
-* Klicka på **+ikonen** intill egenskapen Ämne, pop up-rutan för **Länka entitet** öppnas. Välj typen **Allmänt ämnesord** i rullgardinsmenyn **Skapa lokal entitet**.
+* Klicka på **+ikonen** intill egenskapen Ämne, pop up-rutan för **Lägg till entitet** öppnas. Välj typen **Allmänt ämnesord** i rullgardinsmenyn **Skapa lokal entitet**.
 
-* Klicka på **+ikonen** inom det tillagda fältet för Allmänt ämnesord, pop up-rutan **Lägg till fält inom** öppnas. Sök efter och välj fältet **Föredragen benämning** (prefLabel). Skriv in den aktuella termen.
+* Klicka på **+ikonen** inom det tillagda fältet för Allmänt ämnesord, pop up-rutan **Lägg till fält under** öppnas. Sök efter och välj fältet **Föredragen benämning** (prefLabel). Skriv in den aktuella termen.
 
-Klicka på **+ikonen** inom det tillagda fältet för Allmänt ämnesord, pop up-rutan **Lägg till fält inom** öppnas. Sök efter och välj fältet **Termlista** (inScheme). 
+Klicka på **+ikonen** inom det tillagda fältet för Allmänt ämnesord, pop up-rutan **Lägg till fält under** öppnas. Sök efter och välj fältet **Termlista** (inScheme). 
 
-* Klicka på **+ikonen** intill Termlista, pop up-rutan för **Länka entitet** öppnas. Sök efter listkod (t.ex. kao) och Lägg till. Koden länkas till verksinformationen.
+* Klicka på **+ikonen** intill Termlista, pop up-rutan för **Lägg till entitet** öppnas. Sök efter listkod (t.ex. kao) och Lägg till. Koden länkas till verksinformationen.
 
 * Upprepa punkterna ovan för att lägga till fler ämnesord.
