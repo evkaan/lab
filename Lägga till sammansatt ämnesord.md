@@ -11,7 +11,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 ### Allmänt ämnesord med allmän underindelning
 
-* Klicka på +ikonen intill egenskapen Ämne, pop up-rutan för Lägg till entitet öppnas. Välj typen **Sammansatt term** i rullgardinsmenyn **Skapa lokal entitet**
+* Klicka på +ikonen intill egenskapen Ämne, pop up-rutan för Lägg till entitet öppnas. Välj typen **Sammansatt term** i rullgardinsmenyn Skapa lokal entitet
 
 * Klicka på +ikonen inom det tillagda fältet för Sammansatt term, pop up-rutan Lägg till fält under öppnas. Sök efter och välj fältet **Termkomponenter** (termComponentList)
 
