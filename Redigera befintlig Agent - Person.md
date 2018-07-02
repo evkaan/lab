@@ -1,4 +1,4 @@
-UNDER ARBETE - UPPDATERAS KONTINUERLIGT (uppdaterad 2018-05-25)
+UNDER ARBETE (uppdaterad 2018-07-02)
 
 ## Redigera befintlig Agent - Person
 Lathunden beskriver de fält som finns i den befintliga auktoriserade agenten och vilka fält som bör läggas till. Ett urval av fält relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
@@ -68,13 +68,13 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Kontrollnummer (controlNumber = 001)
   <br/>LibrisID. Ändras ej.
 
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)
-  <br/>Förval: rda. Ändra vid behov. 
-  <br/>```Kod: rda``` 
-
 * Skapad av (descriptionCreator = 040 ‡a)
   <br/>Förval: Sigel för skapare av agenten. Ändras ej.  
   <br/>```Exempel: Organisation: S```
+
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)
+  <br/>Förval: rda. Ändra vid behov. 
+  <br/>```Kod: rda``` 
 
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
   <br/>Förval: Svenska
