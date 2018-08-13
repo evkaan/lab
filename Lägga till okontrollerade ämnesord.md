@@ -9,7 +9,7 @@ Lathunden beskriver hur okontrollerade ämnesord läggs till verksinformationen 
 #### Utgå från Instans av Verk
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom avsnittet för Instans av Verk. Vid behov av att lägga till egenskapen Ämne: Klicka på +ikonen högst upp till höger inom avsnittet för Instans av Verk, sök efter och lägg till Ämne (subject).
 
+* Klicka på +ikonen intill egenskapen Ämne, pop up-rutan för Lägg till entitet öppnas. Välj typen Allmänt ämnesord i rullgardinsmenyn Skapa lokal entitet
 
-Klicka på +ikonen intill egenskapen Ämne, pop up-rutan för Lägg till entitet öppnas. Välj typen Allmänt ämnesord i rullgardinsmenyn Skapa lokal entitet
-•	Klicka på +ikonen inom det tillagda fältet för Allmänt ämnesord, pop up-rutan Lägg till fält under öppnas. Sök efter och välj fältet Benämning (label). Skriv in den aktuella termen och lägg till (prel/[sigel])
+* Klicka på +ikonen inom det tillagda fältet för Allmänt ämnesord, pop up-rutan Lägg till fält under öppnas. Sök efter och välj fältet Benämning (label). Skriv in den aktuella termen och lägg till (prel/[sigel])
 
