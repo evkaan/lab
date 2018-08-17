@@ -1,4 +1,4 @@
-UNDER ARBETE - UPPDATERAS KONTINUERLIGT (Uppdaterarad 2018-06-07)
+UNDER ARBETE - UPPDATERAS KONTINUERLIGT (Uppdaterarad 2018-08-17)
 
 ## Lägg till auktoriserat ämnesord (sao)
 
@@ -22,7 +22,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne i mallen.
 
 * Välj term och klicka på Lägg till, termen länkas då till verksinformationen i Instans av Verk.
 
-För att lägga till ytterligare auktoriserat ämnesord upprepas tillvägagångssättet från punkt ett.
+För att lägga till ytterligare auktoriserat ämnesord upprepas tillvägagångssättet i punktlistan ovan.
 
 
 
