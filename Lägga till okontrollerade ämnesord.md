@@ -1,8 +1,8 @@
-UNDER ARBETE (Uppdaterad 2018-08-13)
+UNDER ARBETE (Uppdaterad 2018-08-17)
 
-## Lägg till okontrollerade ämnesord (t.ex. prel-termer)
+## Lägg till okontrollerade ämnesord, t.ex. prel-termer i samband med ämnesordsförslag
 
-Lathunden beskriver hur okontrollerade ämnesord läggs till verksinformationen i Instans av Verk. Behov av att lägga till okontrollerade termer finns bl.a. i samband med ämnesordsförslag. Ytterligare information om ämnesordsförslag finns på [Svenska ämnesords webbplats](http://www.kb.se/katalogisering/Svenska-amnesord/nytt_amnesord/).
+Lathunden beskriver hur okontrollerade ämnesord läggs till verksinformationen i Instans av Verk. Behov av att lägga till okontrollerade termer finns bl.a. i samband med ämnesordsförslag. Se mer information om ämnesordsförslag på [Svenska ämnesords webbplats](http://www.kb.se/katalogisering/Svenska-amnesord/nytt_amnesord/).
 
 ### Ämne (subject)
 
@@ -11,5 +11,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 * Klicka på +ikonen intill egenskapen Ämne, pop up-rutan för Lägg till entitet öppnas. Välj typen Allmänt ämnesord i rullgardinsmenyn Skapa lokal entitet
 
-* Klicka på +ikonen inom det tillagda fältet för Allmänt ämnesord, pop up-rutan Lägg till fält under öppnas. Sök efter och välj fältet Benämning (label). Skriv in den aktuella termen och lägg till (prel/[sigel])
+* Klicka på +ikonen inom den tillagda typen Allmänt ämnesord, pop up-rutan Lägg till fält under öppnas. Sök efter och välj fältet Benämning (label). Skriv in den aktuella termen och lägg till (prel/[sigel])
+
+Vid behov av att lägga till fler okontrollerde ämnesord får punkterna ovan upprepas.
 
