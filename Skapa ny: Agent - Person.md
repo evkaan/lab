@@ -101,7 +101,10 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
-  <br/>```Exempel: Jerusalem / Selma Lagerlöf, 1901```
+  <br/>```Exempel obligatorisk källa:``` 
+  ```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Selma Lagerlöf```
+  
+  
   <br/>```Exempel: Källa: NE 2018-04-12. Uppgift från källa: Levnadstid: 1848-1920```
   <br/>```Exempel: Wikipedia (svenska) 2018-04-12```
   <br/>För att lägga till fält: Klicka på +ikonen under Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. 
