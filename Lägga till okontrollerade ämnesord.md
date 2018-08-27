@@ -1,4 +1,4 @@
-UNDER ARBETE (Uppdaterad 2018-08-17)
+UNDER ARBETE (Uppdaterad 2018-08-27)
 
 ## Lägg till okontrollerade ämnesord, t.ex. prel-termer i samband med ämnesordsförslag
 
@@ -11,7 +11,8 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 * Klicka på +ikonen intill egenskapen Ämne, pop up-rutan för Lägg till entitet öppnas. Välj typen Allmänt ämnesord i rullgardinsmenyn Skapa lokal entitet
 
-* Klicka på +ikonen inom den tillagda typen Allmänt ämnesord, pop up-rutan Lägg till fält under öppnas. Sök efter och välj fältet Benämning (label). Skriv in den aktuella termen och lägg till (prel/[sigel])
+* Klicka på +ikonen inom den tillagda typen Allmänt ämnesord, pop up-rutan **Lägg till fält under** öppnas. Sök efter och välj Benämning (label). Skriv in den aktuella termen och lägg till (prel/[sigel]).
+<br/>```Exempel: Korthårstax (prel/S)```
 
 Vid behov av att lägga till fler okontrollerde ämnesord får punkterna ovan upprepas.
 
