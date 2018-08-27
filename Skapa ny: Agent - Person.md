@@ -14,7 +14,7 @@ Beskrivning av agenten som ska auktoriseras.
 
 * Efternamn (FamilyName = 100 1/- ‡a)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
-  <br/>```__Exempel:__ Lagerlöf```
+  <br/>```Exempel: Lagerlöf```
 
 * Förnamn (GivenName = 100 ‡a)
   <br/>Förnamn som tillsammans med efternamn utgör den auktoriserade namnformen. 
@@ -104,12 +104,12 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Selma Lagerlöf```
   <br/>```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000 Uppgift från källa: Rowling, J. K.```
   
-  <br/>```Exempel på ytterligare källor: ```
+  <br/>```Exempel på ytterligare källor:```
   <br/>```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
   <br/>```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid: 1867```
   <br/>```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
   <br/>```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Fullständigare namnform: Rowling, J. K.```
-  <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för läsbarhet behöver inte anges.  
+  <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.  
   
   <br/>För att lägga till fält: Klicka på +ikonen under Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. 
 Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
