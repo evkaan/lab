@@ -1,4 +1,4 @@
-UNDER ARBETE (Uppdaterad 2018-08-17)
+UNDER ARBETE (Uppdaterad 2018-08-27)
 
 ## Lägg till sammansatt men ej auktoriserat ämnesord 
 
@@ -13,7 +13,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 * Klicka på **+ikonen** intill egenskapen Ämne, pop up-rutan för **Lägg till entitet** öppnas. Välj typen **Sammansatt term** i rullgardinsmenyn **Skapa lokal entitet**
 
-* Klicka på **+ikonen** inom den tillagda typen Sammansatt term, pop up-rutan **Lägg till fält under** öppnas. Sök efter och välj fältet **Termkomponenter** (termComponentList)
+* Klicka på **+ikonen** inom den tillagda typen Sammansatt term, pop up-rutan **Lägg till fält under** öppnas. Sök efter och välj **Termkomponenter** (termComponentList)
 
 * Klicka på **+ikonen** intill Termkomponenter, pop up-rutan för **Lägg till entitet** öppnas. Välj typen **Allmänt ämnesord** i sökrutans rullgardinsmeny och sök efter aktuell term och klicka på Lägg till. Termen länkas till verksinformationen
 
