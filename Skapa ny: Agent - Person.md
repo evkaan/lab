@@ -79,8 +79,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Libris-ID. Genereras automatiskt vid sparande. Ändras ej.
   
 * Skapad av (descriptionCreator = 040 ‡a)
-  <br/>Förval: Inloggad sigel. Ändras ej.  
-  <br/>```Exempel: S```
+  <br/>Förval: Inloggad sigel. Ändras ej.<br/>```Exempel: S```
   
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
   <br/>Förval: rda. Ändra vid behov. 
