@@ -1,7 +1,7 @@
 UNDER ARBETE (uppdaterad 2018-08-27)
 
 ## Redigera befintlig Agent - Person
-Lathunden beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agente och vilka egenskaper som bör läggas till. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
+Lathunden beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
 
@@ -104,7 +104,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Ändras ej.
 
 * Poststatus (recordStatus = 000)
-  <br/>Ändras ej.
+  <br/>Ändras ej. Vid uppdatering ändras status automatiskt.
 
 * Samma sak som 
   <br/>Ändras ej.
