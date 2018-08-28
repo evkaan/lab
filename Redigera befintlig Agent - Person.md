@@ -44,7 +44,7 @@ Beskrivning av den auktoriserade agenten.
   <br/>Här anges variantnamn och alternativa namnformer samt födelse och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i de bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel: Efternamn: Jansson ; Förnamn: Eric```
   <br/>```Exempel: Namn: Janzon ; Förnamn: Erik Gustaf```
-  <br/>För att lägga till: Klicka på +ikonen under Variant, välj Person under Skapa lokal entitet. Klicka på +ikonen inom det tillagda Person, sök efter och lägg till Efternamn. Upprepa för Förnamn och Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid).
+    <br/>För att lägga till ytterligare Variant: Klicka på +ikonen under egenskapen Variant, och välj typ (Person). Klicka på +ikonen inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid).
   
 * Identifikator (identifiedBy = 024 ‡a)
   <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig. 
