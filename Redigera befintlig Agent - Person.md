@@ -1,4 +1,4 @@
-UNDER ARBETE (uppdaterad 2018-08-27)
+UNDER ARBETE (uppdaterad 2018-08-28)
 
 ## Redigera befintlig Agent - Person
 Lathunden beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
@@ -126,8 +126,10 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
 ### Egenskaper att lägga till i adminmetadata
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-<br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/marjan```
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. 
+  <br/>```Exempel:``` 
+  <br/>```Författaren vill inte ha sitt födelseår kopplat till den auktoriserade namnformen. Enligt e-post 2017-05-12, S/NB/annbjo```
+<br/>```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/marjan```
 
 ### Valbara egenskaper relevanta för Agent - Person
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av den runda +ikonen i verktygsmenyn.
