@@ -47,7 +47,7 @@ Beskrivning av den auktoriserade agenten.
     <br/>För att lägga till ytterligare Variant: Klicka på +ikonen under egenskapen Variant, och välj typ (Person). Klicka på +ikonen inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid).
   
 * Identifikator (identifiedBy = 024 ‡a)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig. 
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
   <br/>```Exempel: 0000000121339888 ```
   <br/>För att lägga till: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom det tillagda Identifikator, sök efter och lägg till Värde.
 
