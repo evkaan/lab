@@ -107,7 +107,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000 Uppgift från källa: Rowling, J. K.```
   <br/>```Exempel på ytterligare källor:```
   <br/>```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
-  <br/>```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid: 1867```
+  <br/>```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
   <br/>```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
   <br/>```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Fullständigare namnform: Rowling, J. K.```
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
