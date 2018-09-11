@@ -15,50 +15,60 @@ Beskrivning av agenten som ska auktoriseras.
 * Efternamn (FamilyName = 100 1/- ‡a)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
   <br/>```Exempel:```
-  <br/>```Lagerlöf```
+  <br/>```Enkelt efternamn: Lagerlöf```
   <br/>```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
+  <br/>Om flera efternamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
 
 * Förnamn (GivenName = 100 ‡a)
   <br/>Förnamn som tillsammans med efternamn utgör den auktoriserade namnformen. 
-  <br/>```Exempel: Selma```
+  <br/>```Exempel:```
+  <br/>```Enkelt förnamn: Selma```
+  <br/>```Flera förnamn: Helena Johanna```
   <br/>Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
   
 * Födelse- och/eller dödstid (lifeSpan = 100 ‡d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. 
-  <br/>```Exempel: 1858-1940```
-  <br/>```Exempel: 1968-```
+  <br/>```Exempel:```
+  <br/>```1858-1940```
+  <br/>```1968-```
 
 * Födelsedatum (birthDate = 046 ‡f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/> ```Exempel: 18581120```
-  <br/> ```Exempel: 1902```
+  <br/> ```Exempel:```
+  <br/> ```18581120```
+  <br/> ```1902```
   
 * Dödsdatum (deathDate = 046 ‡g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/> ```Exempel: 19400316```
-  <br/> ```Exempel: 1977```
+  <br/> ```Exempel:```
+  <br/> ```19400316```
+  <br/> ```1977```
 
 * Variant (hasVariant = 400 ‡a ‡d)
   <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
-  <br/>```Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa Födelse- och/eller dödstid: 1858-1940```
-  <br/>```Exempel: Efternamn: Lagerlœf Förnamn: Selma Födelse- och/eller dödstid: 1858-1940```
-  <br/>```Exempel sammansatt släktnamn (dubbla efternamn): Månsson Lindmark Förnamn: Helena Födelse- och/eller dödstid: 1954-```
+  <br/>```Exempel:```
+  <br/>```Enkelt efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa Födelse- och/eller dödstid: 1858-1940```
+  <br/>```Stvningsvariant på efternamn: Lagerlœf Förnamn: Selma Födelse- och/eller dödstid: 1858-1940```
+  <br/>```Sammansatt släktnamn (dubbla efternamn): Månsson Lindmark Förnamn: Helena Födelse- och/eller dödstid: 1954-```
   <br/>För att lägga till ytterligare Variant: Klicka på +ikonen under egenskapen Variant, och välj typ (Person). Klicka på +ikonen inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
 
 * Se även (seeAlso = 500 ‡a ‡d)
   <br/>Här länkas se även-hänvisning till en annan auktoriserad namnform, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet.
-  <br/>```Exempel: Efternamn: Smith Förnamn: Rosamond Födelse- och/eller dödstid: 1938-``` som se-hänvisning från den  auktoriserade namnformen för Oates, Joyce Carol, 1938-.
+  <br/>```Exempel:``` 
+  <br/>```Efternamn: Smith Förnamn: Rosamond Födelse- och/eller dödstid: 1938-``` som se-hänvisning från den  auktoriserade namnformen för Oates, Joyce Carol, 1938-.
     <br/>För att lägga till: Klicka på +ikonen under egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 * Verksamhetsområde (fieldOfActivity = 372)
   <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
-   <br/>```Exempel: Fågelskådning```
+   <br/>```Exempel:```
+   <br/>```Fågelskådning```
    <br/>För att lägga till: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 * Har yrke eller sysselsättning (hasOccupation = 374)
    <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
-   <br/>```Exempel: Romanförfattare```
-   <br/>```Exempel: Översättare```
+   <br/>```Exempel:```
+   <br/>```Romanförfattare```
+   <br/>```Översättare```
    <br/>För att lägga till: Klicka på +ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
   
 * Identifikator (identifiedBy = 024 ‡a ‡2)
