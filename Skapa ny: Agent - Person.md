@@ -35,8 +35,8 @@ Beskrivning av agenten som ska auktoriseras.
 * Födelsedatum (birthDate = 046 ‡f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/> ```Exempel:```
-  <br/> ```18581120```
-  <br/> ```1902```
+  * ```18581120```
+  * ```1902```
   
 * Dödsdatum (deathDate = 046 ‡g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
@@ -121,7 +121,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel på obligatorisk källa:``` 
   * ```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Selma Lagerlöf```
   * ```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000 Uppgift från källa: Rowling, J. K.```
-  <br/>```Exempel på ytterligare källa:```
+  ```Exempel på ytterligare källa:```
   * ```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
   * ```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
   * ```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
