@@ -1,4 +1,4 @@
-UNDER ARBETE (uppdaterad 2018-08-28)
+UNDER ARBETE (uppdaterad 2018-09-11)
 
 
 ## Skapa ny: Agent - Person
@@ -15,7 +15,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Efternamn (FamilyName = 100 1/- ‡a)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
   <br/>```Exempel:```
-  <br/>```- Enkelt efternamn: Lagerlöf```
+  <br/>```Enkelt efternamn: Lagerlöf```
   <br/>```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
   <br/>Om flera efternamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
 
@@ -73,7 +73,8 @@ Beskrivning av agenten som ska auktoriseras.
   
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
-  <br/> ```Exempel: 0000000121339888 ```
+  <br/>```Exempel:```
+  <br/>```0000000121339888 ```
    <br/>För att lägga till: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom Identifikator, sök efter och lägg till Värde.
 
 * Nationalitet/verksamhetsland (nationality = 043)
@@ -82,7 +83,8 @@ Beskrivning av agenten som ska auktoriseras.
 
 * Biografiska uppgifter (hasBiographicalInformation = 678)
   <br/>Används för att ange biografisk information är information om personens liv eller historia.
-  <br/>```Exempel: Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
+  <br/>```Exempel:```
+  <br/>```Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
   <br/>Lägg till egenskapen genom att klicka på +ikonen i verktygsmenyn. Klicka på +ikonen inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
   
 ### Adminmetadata
@@ -96,7 +98,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
   <br/>Förval: rda. Ändra vid behov. 
-  <br/>```Exempel: Kod: rda```
+  <br/>```Exempel:```
+  <br/>```Kod: rda```
 
 * Translitterering (marc:romanization = 008/07)
   <br/>Ändras ej.
@@ -118,7 +121,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel på obligatorisk källa:``` 
   <br/>```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Selma Lagerlöf```
   <br/>```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000 Uppgift från källa: Rowling, J. K.```
-  <br/>```Exempel på ytterligare källor:```
+  <br/>```Exempel på ytterligare källa:```
   <br/>```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
   <br/>```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
   <br/>```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
@@ -142,32 +145,41 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
   <br/>Förval: language/swe. Ändras ej.
 
+* Beskrivningsnivå
+  <br/>**OBS! Egenskapen måste för närvarande läggas till manuellt EFTER att den nya agenten först sparats.**
+  <br/>För att lägga till: Skapa och spara agenten, klicka på +ikonen i verktygsmenyn, sök efter och lägg till Beskrivningsnivå, välj Fullständig i rullgardinsmenyn.
+
 
 ### Valbara egenskaper relevanta för Agent - Person
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av den runda +ikonen i verktygsmenyn.
 
 * Namn (name = 100 0/- ‡a)
   <br/>Används för namn i rak följd istället för Förnamn och Efternamn. Kan användas i kombination med Förnamn och Efternamn endast för att ange variantnamn.
-  <br/>```Exempel: Namn: Bang``` Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
+  <br/>```Exempel:```
+  <br/>```Namn: Bang``` Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
   <br/>För att lägga till: Klicka på +ikonen under egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 * Fullständigare namnform (fullerFormOfName = 100 ‡q och 378)
   <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
-  <br/>```Exempel: Efternamn: Smith```
-  <br/>```Exempel: Förnamn: A. D.```
-  <br/>```Exempel: Fullständigare namnform: Adam David```
+  <br/>```Exempel:```
+  <br/>```Efternamn: Smith```
+  <br/>```Förnamn: A. D.```
+  <br/>```Fullständigare namnform: Adam David```
 
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c ‡d)
   <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. 
-  <br/>```Exempel: påve```
+  <br/>```Exempel:```
+  <br/>```påve```
   
 * Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368)
   <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
-  <br/>```Exempel: Professorer```
+  <br/>```Exempel:```
+  <br/>```Professorer```
 
 * Ordningstal (marc:numeration = 100 ‡b)
   <br/>Används som särskiljande tillägg till den auktoriserade namnformen för kungligheter samt för påvar, biskopar och andra personer med religiösa yrken.
-  <br/>```Exempel: XXII```
-  <br/>```Exempel: 2```
+  <br/>```Exempel:```
+  <br/>```XXII```
+  <br/>```2```
   
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
