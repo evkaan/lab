@@ -50,10 +50,10 @@ Beskrivning av agenten som ska auktoriseras.
   * ```Enkelt efternamn: Lagerlöf```
   <br/>```Förnamn: Selma Ottiliana Lovisa``` 
   <br/>```Födelse- och/eller dödstid: 1858-1940```
-  * ```Stvningsvariant på efternamn: Lagerlœf 
+  * ```Stvningsvariant på efternamn: Lagerlœf``` 
   <br/>```Förnamn: Selma```
   <br/>```Födelse- och/eller dödstid: 1858-1940```
-  * ```Sammansatt släktnamn (dubbla efternamn): Månsson Lindmark 
+  * ```Sammansatt släktnamn (dubbla efternamn): Månsson Lindmark```
   <br/>```Förnamn: Helena``` 
   <br/>```Födelse- och/eller dödstid: 1954-```
   <br/>För att lägga till ytterligare Variant: Klicka på +ikonen under egenskapen Variant, och välj typ (Person). Klicka på +ikonen inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
