@@ -22,8 +22,8 @@ Beskrivning av agenten som ska auktoriseras.
 * Förnamn (GivenName = 100 ‡a)
   <br/>Förnamn som tillsammans med efternamn utgör den auktoriserade namnformen. 
   <br/>```Exempel:```
-  * <br/>```Enkelt förnamn: Selma```
-  <br/> * ```Flera förnamn: Helena Johanna```
+  * ```Enkelt förnamn: Selma```
+  * ```Flera förnamn: Helena Johanna```
   <br/>Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
   
 * Födelse- och/eller dödstid (lifeSpan = 100 ‡d)
