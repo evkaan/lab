@@ -22,15 +22,15 @@ Beskrivning av agenten som ska auktoriseras.
 * Förnamn (GivenName = 100 ‡a)
   <br/>Förnamn som tillsammans med efternamn utgör den auktoriserade namnformen. 
   <br/>```Exempel:```
-  <br/>```Enkelt förnamn: Selma```
-  <br/>```Flera förnamn: Helena Johanna```
+  * <br/>```Enkelt förnamn: Selma```
+  * <br/>```Flera förnamn: Helena Johanna```
   <br/>Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
   
 * Födelse- och/eller dödstid (lifeSpan = 100 ‡d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. 
   <br/>```Exempel:```
-  <br/>```1858-1940```
-  <br/>```1968-```
+  * <br/>```1858-1940```
+  * <br/>```1968-```
 
 * Födelsedatum (birthDate = 046 ‡f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
