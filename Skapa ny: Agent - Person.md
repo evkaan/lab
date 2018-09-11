@@ -15,8 +15,8 @@ Beskrivning av agenten som ska auktoriseras.
 * Efternamn (FamilyName = 100 1/- ‡a)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
   <br/>```Exempel:```
-  ** <br/>```Enkelt efternamn: Lagerlöf```
-  ** <br/>```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
+  <br/>```* Enkelt efternamn: Lagerlöf```
+  <br/>```* Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
   <br/>Om flera efternamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
 
 * Förnamn (GivenName = 100 ‡a)
