@@ -6,7 +6,7 @@ Lathunden beskriver de egenskaper och klasser som finns representerade i mallen.
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma. 
 
-Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant).
+Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant). Tillägg är fiktiva, enbart för att exemplifiera.
 
 
 ### Mall för beskrivning av Agent - Person
@@ -15,6 +15,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Efternamn (FamilyName = 100 1/- ‡a)
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
   <br/>```Exempel: Lagerlöf```
+  <br/>```Exempel sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
 
 * Förnamn (GivenName = 100 ‡a)
   <br/>Förnamn som tillsammans med efternamn utgör den auktoriserade namnformen. 
@@ -40,6 +41,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa Födelse- och/eller dödstid: 1858-1940```
   <br/>```Exempel: Efternamn: Lagerlœf Förnamn: Selma Födelse- och/eller dödstid: 1858-1940```
+  <br/>```Exempel sammansatt släktnamn (dubbla efternamn): Månsson Lindmark Förnamn: Helena Födelse- och/eller dödstid: 1954-```
   <br/>För att lägga till ytterligare Variant: Klicka på +ikonen under egenskapen Variant, och välj typ (Person). Klicka på +ikonen inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
 
 * Se även (seeAlso = 500 ‡a ‡d)
