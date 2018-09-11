@@ -122,7 +122,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Selma Lagerlöf```
   * ```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000 Uppgift från källa: Rowling, J. K.```
 
-  <br/>```Exempel på obligatorisk källa:``` 
+  <br/>```Exempel på kompletterande källa:``` 
   * ```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
   * ```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
   * ```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
