@@ -146,7 +146,7 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
   <br/>Förval: language/swe. Ändras ej.
 
 * Beskrivningsnivå
-  <br/>**OBS! Egenskapen måste för närvarande läggas till manuellt EFTER att den nya agenten först sparats.**
+  <br/>**OBS! Egenskapen måste för närvarande läggas till manuellt EFTER att den nya agenten först har sparats.**
   <br/>För att lägga till: Skapa och spara agenten, klicka på +ikonen i verktygsmenyn, sök efter och lägg till Beskrivningsnivå, välj Fullständig i rullgardinsmenyn.
 
 
