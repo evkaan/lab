@@ -40,16 +40,22 @@ Beskrivning av agenten som ska auktoriseras.
   
 * Dödsdatum (deathDate = 046 ‡g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  ```Exempel:```
+  <br/>```Exempel:```
   * ```19400316```
   * ```1977```
 
 * Variant (hasVariant = 400 ‡a ‡d)
   <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel:```
-  * ```Enkelt efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa Födelse- och/eller dödstid: 1858-1940```
-  * ```Stvningsvariant på efternamn: Lagerlœf Förnamn: Selma Födelse- och/eller dödstid: 1858-1940```
-  * ```Sammansatt släktnamn (dubbla efternamn): Månsson Lindmark Förnamn: Helena Födelse- och/eller dödstid: 1954-```
+  * ```Enkelt efternamn: Lagerlöf```
+  <br/>```Förnamn: Selma Ottiliana Lovisa``` 
+  <br/>```Födelse- och/eller dödstid: 1858-1940```
+  * ```Stvningsvariant på efternamn: Lagerlœf 
+  <br/>```Förnamn: Selma```
+  <br/>```Födelse- och/eller dödstid: 1858-1940```
+  * ```Sammansatt släktnamn (dubbla efternamn): Månsson Lindmark 
+  <br/>```Förnamn: Helena``` 
+  <br/>```Födelse- och/eller dödstid: 1954-```
   <br/>För att lägga till ytterligare Variant: Klicka på +ikonen under egenskapen Variant, och välj typ (Person). Klicka på +ikonen inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
 
 * Se även (seeAlso = 500 ‡a ‡d)
