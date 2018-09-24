@@ -67,9 +67,8 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>För att lägga till: Klicka på +ikonen under egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 * Verksamhetsområde (fieldOfActivity = 372)
-  <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
-   <br/>```Exempel:```
-   * ```Fågelskådning```
+  <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. 
+   <br/>```Exempel: Fågelskådning```
    <br/>För att lägga till: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 * Har yrke eller sysselsättning (hasOccupation = 374)
@@ -81,8 +80,7 @@ Beskrivning av agenten som ska auktoriseras.
   
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
-  <br/>```Exempel:```
-  * ```0000000121339888 ```
+  <br/>```Exempel: 0000000121339888 ```
    <br/>För att lägga till: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom Identifikator, sök efter och lägg till Värde.
 
 * Nationalitet/verksamhetsland (nationality = 043)
@@ -177,13 +175,11 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c ‡d)
   <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. 
-  <br/>```Exempel:```
-  * ```påve```
+  <br/>```Exempel: påve```
   
 * Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368)
   <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
-  <br/>```Exempel:```
-  * ```Professorer```
+  <br/>```Exempel: Professorer```
 
 * Ordningstal (marc:numeration = 100 ‡b)
   <br/>Används som särskiljande tillägg till den auktoriserade namnformen för kungligheter samt för påvar, biskopar och andra personer med religiösa yrken.
