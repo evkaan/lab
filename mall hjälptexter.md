@@ -13,19 +13,19 @@ Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title,
 Innehållsförteckning
 
 
-[Rubrik 1 - Mall vid skapande av hjälptexter ](#rubrik 1)  
-[Rubrik 2 - Exempel](##rubrik 2)   
+[Rubrik](#rubrik1)  
+[Rubrik2](##rubrik2)   
 * [Titel](#titel)  
 [Verk](#verk) 
 
 Innehållsförteckning tabell:
 
 
-# Rubrik 1 - Mall vid skapande av hjälptexter 
+# Rubrik1
 
-Brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
+Mall vid skapande av hjälptexter. Brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
-## Rubrik 2 - Exempel
+## Rubrik2
 
 * Namnform
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
