@@ -13,19 +13,19 @@ Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title,
 Innehållsförteckning
 
 
-[Rubrik](#rubrik1)  
-[Rubrik2](##rubrik2)   
-* [Titel](#titel)  
+[Mall vid skapande av hjälptexter](#mall vid skapande av hjälptexter)  
+[Exempel](##exempel)   
+[Länkar](#länkar)  
 [Verk](#verk) 
 
 Innehållsförteckning tabell:
 
 
-# Rubrik1
+# Mall vid skapande av hjälptexter
 
 Mall vid skapande av hjälptexter. Brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
-## Rubrik2
+## Exempel
 
 * Namnform
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
@@ -36,7 +36,7 @@ Mall vid skapande av hjälptexter. Brödtext brödtext brödtext brödtext bröd
   * ```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
   <br/>Om flera efternamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
 
-### Rubrik 3 - Länkar
+### Länkar
 
 * Besök [Libris supportforum](https://kundo.se/org/librisxl/) för frågor och svar. 
 * Rapportera fel i [Felrapporering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
