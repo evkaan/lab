@@ -10,6 +10,16 @@ tags:
 
 Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title, order och tags ändras efter 
 
+Innehållsförteckning
+
+Innehållsförteckning tabell
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ------ | ----------- |  ----------- |
+| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
+| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
+| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 
 # Rubrik 1 - Mall vid skapande av hjälptexter 
 
@@ -26,7 +36,7 @@ Brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext 
   * ```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
   <br/>Om flera efternamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
 
-### Rubrik 3 - Länkas
+### Rubrik 3 - Länkar
 
 * Besök [Libris supportforum](https://kundo.se/org/librisxl/) för frågor och svar. 
 * Rapportera fel i [Felrapporering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
