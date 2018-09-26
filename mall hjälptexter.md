@@ -12,28 +12,14 @@ Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title,
 
 Innehållsförteckning
 
+
+[Rubrik 1 - Mall vid skapande av hjälptexter ](#rubrik 1 - Mall vid skapande av hjälptexter )  
+[## Rubrik 2 - Exempel](##rubrik 2 - Exempel)   
+* [Titel](#titel)  
+[Verk](#verk) 
+
 Innehållsförteckning tabell:
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
-| ------ | ----------- |  ----------- |
-| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Utgivning](#utgivning) | [Genre](#genre) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
-| [Beskrivningsnivå](#beskrivningsnivå) | [Copyrightår](#copyrightår) | |
-| [Bibliografikod](#bibliografikod) | [Omfång](#omfång) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Illustrationer](#illustrationer) | |
-| | [Mått](#mått) | |
-| | [Bilagor](#bilagor) | |
-| | [Medietyp](#medietyp) | |
-| | [Bärartyp](#bärartyp) | |
-|  | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmärkning) | |
-|  | [Innehållsanmärkning](#innehållsanmärkning) | |
-| | [Målgrupp](#målgrupp) | |
-| | [Annat bärarformat](#annat-bärarformat) | | 
+
 
 # Rubrik 1 - Mall vid skapande av hjälptexter 
 
