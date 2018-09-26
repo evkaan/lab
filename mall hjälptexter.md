@@ -14,7 +14,7 @@ Innehållsförteckning
 
 
 [Rubrik 1 - Mall vid skapande av hjälptexter ](#rubrik 1)  
-[## Rubrik 2 - Exempel](##rubrik 2)   
+[Rubrik 2 - Exempel](##rubrik 2)   
 * [Titel](#titel)  
 [Verk](#verk) 
 
