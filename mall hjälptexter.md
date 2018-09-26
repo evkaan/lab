@@ -13,8 +13,8 @@ Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title,
 Innehållsförteckning
 
 
-[Rubrik 1 - Mall vid skapande av hjälptexter ](#rubrik 1 - Mall vid skapande av hjälptexter )  
-[## Rubrik 2 - Exempel](##rubrik 2 - Exempel)   
+[Rubrik 1 - Mall vid skapande av hjälptexter ](#rubrik 1)  
+[## Rubrik 2 - Exempel](##rubrik 2)   
 * [Titel](#titel)  
 [Verk](#verk) 
 
