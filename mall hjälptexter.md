@@ -13,7 +13,7 @@ Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title,
 Innehållsförteckning
 
 
-[Hjälptextsmall](#hjälptextsmall)  
+[Rubrik 1 Hjälptextsmall](#rubrik 1 hjälptextsmall)  
 [Exempel](##exempel)   
 [Länkar](#länkar)  
 [Verk](#verk) 
@@ -21,7 +21,7 @@ Innehållsförteckning
 Innehållsförteckning tabell:
 
 
-# Hjälptextsmall
+# Rbrik 1 Hjälptextsmall
 
 Mall vid skapande av hjälptexter. Brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
