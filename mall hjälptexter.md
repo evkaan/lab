@@ -59,10 +59,10 @@ Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext
 * Namnform
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
   <br/>Ett exempel skrivs på samma rad:
-  ```Exempel: Lagerlöf```
+  <br/>```Exempel: Lagerlöf```
   
   <br/>Två eller fler exempel staplas under varandra:
-    ```Exempel:```
+  <br/>```Exempel:```
   * ```Enkelt efternamn: Lagerlöf```
   * ```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
   <br/>Kompletterande/förklarande brödtext kan även läggas efter exemplet.
