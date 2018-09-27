@@ -17,7 +17,7 @@ Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order 
 [Exempel](#exempel)   
 [Länkar](#länkar)   
 
-## Innehållsförteckning tabell (Carins exempel):
+### Innehållsförteckning tabell (Carins exempel):
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
@@ -41,11 +41,16 @@ Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order 
 | | [Målgrupp](#målgrupp) | |
 | | [Annat bärarformat](#annat-bärarformat) | | 
 
-# Rubriker och textformatering
+## Rubriker och textformatering
 
 <br/>Rubrik nivå 1: # före rubriken
 <br/>Rubrik nivå 2: ## före rubriken
 <br/>Rubrik nivå 3: ### före rubriken
+
+# Rubrik 1
+## Rubrik 2
+### Rubrik 3
+#### Rubrik 4
 
 <br/>**Fetstil**: ** före och ** efter det/de ord som ska fetas.
 
@@ -67,7 +72,7 @@ Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext
   * ```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
   <br/>Kompletterande/förklarande brödtext kan även läggas efter exemplet.
 
-### Länkar
+## Länkar
 
 * Ytterligare tips på markdownsyntax på [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * Besök [Libris supportforum](https://kundo.se/org/librisxl/) för frågor och svar. 
