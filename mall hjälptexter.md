@@ -9,7 +9,7 @@ tags:
 ---
 
 # Hjälptextsmall
-Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title, order och tags ändras efter 
+Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order och tags ändras efter 
 
 ## Innehållsförteckning:
 
@@ -47,8 +47,11 @@ Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title,
 <br/>Rubrik nivå 2: ## före rubriken
 <br/>Rubrik nivå 3: ### före rubriken
 
-<br/>**Fetstil**: ** före och ** efter det/de ord som ska fetas
+<br/>**Fetstil**: ** före och ** efter det/de ord som ska fetas.
 
+<br/>*Kursiv stil*: * före och * efter det/de ord som ska kursiveras.
+
+<br/>Punktlista:
 Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
 ## Exempel
@@ -66,7 +69,8 @@ Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext
 
 ### Länkar
 
+* Ytterligare tips på markdownsyntax på [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * Besök [Libris supportforum](https://kundo.se/org/librisxl/) för frågor och svar. 
 * Rapportera fel i [Felrapportering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
-* Föreslå en ändring i [Ändringsförslag](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
+
 
