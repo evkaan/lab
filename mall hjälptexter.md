@@ -43,7 +43,11 @@ Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title,
 | | [Målgrupp](#målgrupp) | |
 | | [Annat bärarformat](#annat-bärarformat) | | 
 
-# Rubriker
+# Rubriker och textstorlek
+
+Rubrik nivå 1: # före rubriken
+Rubrik nivå 2: ## före rubriken
+Rubrik nivå 3: ### före rubriken
 
 Mall vid skapande av hjälptexter. Brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
