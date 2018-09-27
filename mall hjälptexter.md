@@ -61,7 +61,7 @@ Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext
   <br/>Ett exempel skrivs på samma rad:
   <br/>```Exempel: Lagerlöf```
   
-  <br/>Två eller fler exempel staplas under varandra:
+  <br/>Två eller fler exempel staplas under varandra (ien punktlista):
   <br/>```Exempel:```
   * ```Enkelt efternamn: Lagerlöf```
   * ```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
