@@ -10,15 +10,14 @@ tags:
 
 Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title, order och tags ändras efter 
 
-Innehållsförteckning
+Innehållsförteckning:
 
-
-[Rubrik 1 Hjälptextsmall](#rubrik 1 hjälptextsmall)  
+[Hjälptextsmall](#hjälptextsmall)  
 [Exempel](##exempel)   
 [Länkar](#länkar)  
 [Verk](#verk) 
 
-Innehållsförteckning tabell:
+Innehållsförteckning tabell (Carins exempel):
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
@@ -42,7 +41,7 @@ Innehållsförteckning tabell:
 | | [Målgrupp](#målgrupp) | |
 | | [Annat bärarformat](#annat-bärarformat) | | 
 
-# Rbrik 1 Hjälptextsmall
+# Hjälptextsmall
 
 Mall vid skapande av hjälptexter. Brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
