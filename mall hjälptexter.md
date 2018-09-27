@@ -8,14 +8,13 @@ tags:
 - index
 ---
 
-Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title, order och tags ändras efter 
-
 # Hjälptextsmall
+Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title, order och tags ändras efter 
 
 ## Innehållsförteckning:
 
 [Rubriker och textformatering](#rubriker-och-textformatering)  
-[Exempel](##exempel)   
+[Exempel](#exempel)   
 [Länkar](#länkar)   
 
 ## Innehållsförteckning tabell (Carins exempel):
@@ -48,7 +47,7 @@ Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title,
 <br/>Rubrik nivå 2: ## före rubriken
 <br/>Rubrik nivå 3: ### före rubriken
 
-<br/>**Fetstil**
+<br/>**Fetstil**: ** före och ** efter det/de ord som ska fetas
 
 Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
@@ -63,11 +62,11 @@ Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext
     ```Exempel:```
   * ```Enkelt efternamn: Lagerlöf```
   * ```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
-  <br/>Om flera efternamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
+  <br/>Kompletterande/förklarande brödtext kan även läggas efter exemplet.
 
 ### Länkar
 
 * Besök [Libris supportforum](https://kundo.se/org/librisxl/) för frågor och svar. 
-* Rapportera fel i [Felrapporering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
-* Föreslå en ändring i [Ändringsförlsag](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
+* Rapportera fel i [Felrapportering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
+* Föreslå en ändring i [Ändringsförslag](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
 
