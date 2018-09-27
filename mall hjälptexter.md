@@ -43,21 +43,23 @@ Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title,
 | | [Målgrupp](#målgrupp) | |
 | | [Annat bärarformat](#annat-bärarformat) | | 
 
-# Rubriker och textstorlek
+# Rubriker och textformatering
 
-Rubrik nivå 1: # före rubriken
-Rubrik nivå 2: ## före rubriken
-Rubrik nivå 3: ### före rubriken
+<br/>Rubrik nivå 1: # före rubriken
+<br/>Rubrik nivå 2: ## före rubriken
+<br/>Rubrik nivå 3: ### före rubriken
 
-Mall vid skapande av hjälptexter. Brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
+<br/>**Fetstil**
+
+Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
 ## Exempel
 
 * Namnform
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
-  <br/>```Ett exempel skrivs på samma rad: Enkelt efternamn: Lagerlöf```
+  <br/>Ett exempel skrivs på samma rad: ```Exempel: Lagerlöf```
   
-    <br/>```Två eller fler exempel:```
+    <br/>Två eller fler exempel staplas under varandra:
   * ```Enkelt efternamn: Lagerlöf```
   * ```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
   <br/>Om flera efternamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
