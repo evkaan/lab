@@ -14,10 +14,9 @@ Sektionen ovan ska ingå i alla hjälptexter. Uppgifterna för *section*, title,
 
 ## Innehållsförteckning:
 
-[Rubriker](#rubriker)  
+[Rubriker och textformatering](#rubriker-och-textformatering)  
 [Exempel](##exempel)   
-[Länkar](#länkar)  
-[Verk](#verk) 
+[Länkar](#länkar)   
 
 ## Innehållsförteckning tabell (Carins exempel):
 
@@ -57,9 +56,11 @@ Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext
 
 * Namnform
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
-  <br/>Ett exempel skrivs på samma rad: ```Exempel: Lagerlöf```
+  <br/>Ett exempel skrivs på samma rad:
+  ```Exempel: Lagerlöf```
   
-    <br/>Två eller fler exempel staplas under varandra:
+  <br/>Två eller fler exempel staplas under varandra:
+    ```Exempel:```
   * ```Enkelt efternamn: Lagerlöf```
   * ```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
   <br/>Om flera efternamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
