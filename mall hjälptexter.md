@@ -54,7 +54,8 @@ Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order 
 ### Rubrik 3
 #### Rubrik 4
 
-###Punktlista:
+
+### Punktlista:
 * Punkt 1 överordnad nivå
   * Punkt 1 underordnad nivå
   * Punkt 2 underordnad nivå
@@ -65,15 +66,14 @@ Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order 
   * Punkt 2 underordnad nivå
   * Punkt 3 underordnad nivå
 
-<br/>**Fetstil**: ** före och ** efter det/de ord som ska fetas. Används restriktivt och endast där något verkligen behöver framhävas
+### Fetstil: 
+** före och ** efter det/de ord som ska **fetas**. Används restriktivt och endast där något verkligen behöver framhävas
 
-<br/>*Kursiv stil*: * före och * efter det/de ord som ska kursiveras. Används företrädesvis för kommentarer om sådant som är under utveckling/ej ännu går att göra.
+### Kursiv stil: 
+* före och * efter det/de ord som ska *kursiveras*. Används företrädesvis för kommentarer om sådant som är under utveckling/ej ännu går att göra.
 
-<br/>**Fetstil**: ** före och ** efter det/de ord som ska fetas. Används restriktivt och endast där något verkligen behöver framhävas
-
-<br/>*Kursiv stil*: * före och * efter det/de ord som ska kursiveras. Används företrädesvis för kommentarer om sådant som är under utveckling/ej ännu går att göra.
-
-<br/>Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
+### Brödtext: 
+Ingen formatering alls. Endast brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
 ## Exempel
 
