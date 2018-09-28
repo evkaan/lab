@@ -9,7 +9,7 @@ tags:
 ---
 
 # Mall vid skapande av hjälptexter
-Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order och tags ändras efter uppgifterna i Excelfilen.
+Sektionen ovan ska ingå i alla filer. Uppgifterna för section, title, order och tags ändras efter uppgifterna i Excelfilen.
 
 ## Innehållsförteckning:
 
