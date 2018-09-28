@@ -9,7 +9,7 @@ tags:
 ---
 
 # Mall vid skapande av hjälptexter
-Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order och tags ändras efter 
+Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order och tags ändras efter uppgifterna i Excelfilen.
 
 ## Innehållsförteckning:
 
@@ -76,7 +76,8 @@ Asterisk * direkt före och efter det/de ord som ska *kursiveras*. Används för
 Ingen formatering alls. Endast brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
 ### Radbrytning
-Teckanuppsättningen <br/> används för radbrytning, vid behov.
+Teckenuppsättningen < br / > (ihopskrivet) används för radbrytning, vid behov.
+
 
 ## Exempel
 
@@ -85,7 +86,7 @@ Teckanuppsättningen <br/> används för radbrytning, vid behov.
   <br/>Ett exempel skrivs på samma rad:
   <br/>```Exempel: Lagerlöf```
   
-  <br/>Två eller fler exempel staplas under varandra (ien punktlista):
+  <br/>Två eller fler exempel staplas under varandra (förslagsvis i en punktlista för läsbarhetens skull):
   <br/>```Exempel:```
   * ```Enkelt efternamn: Lagerlöf```
   * ```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
