@@ -94,9 +94,9 @@ Teckenuppsättningen < br / > (ihopskrivet) används för radbrytning, vid behov
   
 ## Terminologi
 
-* **Plustecknet** ska benämnas just så. Förtydligande beskrivning om vilket plustecken i verktyget som avses får komplettera.
+* **Plustecknet** ska benämnas just så - plustecknet. Förtydligande beskrivning om vilket plustecken i verktyget som avses får komplettera.
 
-* **Sidorutan** (i version 1.1.0 en pop up) ska benämnas så vid behov. Använd föredragsvis sidorutans rubrik (Länka entitet ; Lägg till entitet ; Lägg till fält under)
+* **Sidorutan** (i version 1.1.0 en pop up) ska benämnas så - sidorutan. Använd föredragsvis sidorutans rubrik (Länka entitet ; Lägg till entitet ; Lägg till fält under) eller beskrivning för att förtydliga vilken sidoruta som avses.
 
 ## Länkar
 
