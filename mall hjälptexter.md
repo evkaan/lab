@@ -70,15 +70,18 @@ Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order 
 ** före och ** efter det/de ord som ska **fetas**. Används restriktivt och endast där något verkligen behöver framhävas
 
 ### Kursiv stil: 
-* före och * efter det/de ord som ska *kursiveras*. Används företrädesvis för kommentarer om sådant som är under utveckling/ej ännu går att göra.
+Asterisk * direkt före och efter det/de ord som ska *kursiveras*. Används företrädesvis för kommentarer om sådant som är under utveckling/ej ännu går att göra i katalogiseringsverktyget.
 
 ### Brödtext: 
 Ingen formatering alls. Endast brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
+### Radbrytning
+Teckanuppsättningen <br/> används för radbrytning, vid behov.
+
 ## Exempel
 
 * Namnform
-  <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
+  Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen (förklarande brödtext innan exemplet).
   <br/>Ett exempel skrivs på samma rad:
   <br/>```Exempel: Lagerlöf```
   
