@@ -8,14 +8,16 @@ tags:
 - index
 ---
 
-# Hjälptextsmall
+# Mall vid skapande av hjälptexter
 Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order och tags ändras efter 
 
 ## Innehållsförteckning:
 
 [Rubriker och textformatering](#rubriker-och-textformatering)  
-[Exempel](#exempel)   
+[Exempel](#exempel)  
+[Terminologi](#terminologi) 
 [Länkar](#länkar)   
+
 
 ### Innehållsförteckning tabell (Carins exempel):
 
@@ -52,12 +54,26 @@ Sektionen ovan ska ingå i alla filer. Uppgifterna för *section*, title, order 
 ### Rubrik 3
 #### Rubrik 4
 
-<br/>**Fetstil**: ** före och ** efter det/de ord som ska fetas.
+###Punktlista:
+* Punkt 1 överordnad nivå
+  * Punkt 1 underordnad nivå
+  * Punkt 2 underordnad nivå
+  * Punkt 3 underordnad nivå
+  
+* Punkt 2 överordnad nivå
+  * Punkt 1 underordnad nivå
+  * Punkt 2 underordnad nivå
+  * Punkt 3 underordnad nivå
 
-<br/>*Kursiv stil*: * före och * efter det/de ord som ska kursiveras.
+<br/>**Fetstil**: ** före och ** efter det/de ord som ska fetas. Används restriktivt och endast där något verkligen behöver framhävas
 
-<br/>Punktlista:
-Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
+<br/>*Kursiv stil*: * före och * efter det/de ord som ska kursiveras. Används företrädesvis för kommentarer om sådant som är under utveckling/ej ännu går att göra.
+
+<br/>**Fetstil**: ** före och ** efter det/de ord som ska fetas. Används restriktivt och endast där något verkligen behöver framhävas
+
+<br/>*Kursiv stil*: * före och * efter det/de ord som ska kursiveras. Används företrädesvis för kommentarer om sådant som är under utveckling/ej ännu går att göra.
+
+<br/>Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
 
 ## Exempel
 
@@ -71,6 +87,12 @@ Brödtext: brödtext brödtext brödtext brödtext brödtext brödtext brödtext
   * ```Enkelt efternamn: Lagerlöf```
   * ```Sammansatt släktnamn (dubbla efternamn): Lindmark Månsson```
   <br/>Kompletterande/förklarande brödtext kan även läggas efter exemplet.
+  
+## Terminologi
+
+* **Plustecknet** ska benämnas just så. Förtydligande beskrivning om vilket plustecken i verktyget som avses får komplettera.
+
+* **Sidorutan** (i version 1.1.0 en pop up) ska benämnas så vid behov. Använd föredragsvis sidorutans rubrik (Länka entitet ; Lägg till entitet ; Lägg till fält under)
 
 ## Länkar
 
