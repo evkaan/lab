@@ -42,7 +42,7 @@ Beskrivning av den auktoriserade agenten.
 
 * Variant (hasVariant = 400 ‡a ‡d)
   <br/>Här anges variantnamn och alternativa namnformer samt födelse och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i de bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till.
-  <br/>```Exempel: 
+  <br/>```Exempel:``` 
   * ```Efternamn: Jansson```  
   * ```Förnamn: Eric```
   
@@ -79,7 +79,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
   <br/>Förval: rda. Ändra vid behov. 
-  <br/>```Kod: rda``` 
+  <br/>```Exempel: Kod: rda``` 
 
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
   <br/>Förval: Svenska
