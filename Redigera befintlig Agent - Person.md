@@ -46,7 +46,7 @@ Beskrivning av den auktoriserade agenten.
   * ```Efternamn: Jansson```  
   * ```Förnamn: Eric```
   
-  * ```Efternamn: Janzon````
+  * ```Efternamn: Janzon```
   * ```Förnamn: Erik Gustaf```
     <br/>För att lägga till ytterligare Variant: Klicka på plustecknet under egenskapen Variant, och välj typ (Person). Klicka på plustecknet inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid).
   
