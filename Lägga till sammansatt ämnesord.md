@@ -4,24 +4,26 @@ UNDER ARBETE (Uppdaterad 2018-08-27)
 
 Lathunden beskriver hur sammansatta ämnesord läggs till verksinformationen i Instans av Verk och där de ingående beståndsdelarna (huvudord respektive underindelning) är auktoriserade termer från ämnesordssystemet Svenska ämnesord (sao). 
 
-För att lägga till geografiska sammansatta ämnesord är tillvägagångssättet delvis annorlunda. Se avsnittet **Geografiskt huvudord med geografisk underindelning** nedan.
+För att lägga till geografiska sammansatta ämnesord är tillvägagångssättet delvis annorlunda. Se avsnittet [Geografiskt huvudord med geografisk underindelning] (#geografiskt huvudord med geografisk underindelning) nedan.
 
 #### Utgå från Instans av Verk
-Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom avsnittet för Instans av Verk. Vid behov av att lägga till egenskapen Ämne: Klicka på +ikonen högst upp till höger inom avsnittet för Instans av Verk, sök efter och lägg till Ämne (subject).
+Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom avsnittet för Instans av Verk. Vid behov av att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk/Text, sök efter och lägg till Ämne (subject).
 
 ### Allmänt ämnesord med allmän underindelning
 
-* Klicka på **+ikonen** intill egenskapen Ämne, pop up-rutan för **Lägg till entitet** öppnas. Välj typen **Sammansatt term** i rullgardinsmenyn **Skapa lokal entitet**
+* Klicka på plustecknet intill Ämne, sidorutan Lägg till entitet öppnas. Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
 
-* Klicka på **+ikonen** inom den tillagda typen Sammansatt term, pop up-rutan **Lägg till fält under** öppnas. Sök efter och välj **Termkomponenter** (termComponentList)
+* Klicka på plustecknet inom den tillagda typen Sammansatt term, sidorutan Lägg till fält under öppnas. Sök efter och välj Termlista (inScheme) och Termkomponenter (termComponentList).
 
-* Klicka på **+ikonen** intill Termkomponenter, pop up-rutan för **Lägg till entitet** öppnas. Välj typen **Allmänt ämnesord** i sökrutans rullgardinsmeny och sök efter aktuell term och klicka på Lägg till. Termen länkas till verksinformationen
+* Klicka på plustecknet intill Termlista (sidorutan för Lägg till entitet öppnas). Sök efter och lägg till listkod sao. Koden länkas till verksinformationen.
 
-* Klicka på **+ikonen** intill Termkomponenter, pop up-rutan för **Lägg till entitet** öppnas. Välj typen **Underindelning för allmänt ämnesord** i sökrutans rullgardinsmeny och sök efter aktuell term och klicka på Lägg till. Termen länkas till verksinformationen
+* Klicka på plustecknet intill Termkomponenter, sidorutan Lägg till entitet öppnas. Välj typen Allmänt ämnesord i sökrutans rullgardinsmeny och sök efter aktuell term och klicka på Lägg till. Termen länkas till verksinformationen.
+
+* Klicka på plustecknet intill Termkomponenter, sidorutan Lägg till entitet öppnas. Välj typen **Underindelning för allmänt ämnesord** i sökrutans rullgardinsmeny och sök efter aktuell term och klicka på Lägg till. Termen länkas till verksinformationen.
 
 * Klicka på **+ikonen** inom den tillagda typen Sammansatt term, pop up-rutan **Lägg till fält under** öppnas. Söker efter och välj **Termlista** (inScheme)
 
-* Klicka på **+ikonen** intill Termlista, pop up-rutan för **Lägg till entitet** öppnas. Sök efter listkod **sao** och Lägg till. Koden länkas till verksinformationen
+
 
 Upprepa punkterna ovan för att lägga till fler sammansatta termer
 
