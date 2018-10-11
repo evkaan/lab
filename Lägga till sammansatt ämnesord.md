@@ -13,7 +13,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 * Klicka på plustecknet intill Ämne, sidorutan Lägg till entitet öppnas. Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
 
-* Klicka på plustecknet inom den tillagda typen Sammansatt term, sidorutan Lägg till fält under öppnas. Sök efter och välj Termlista (inScheme) och Termkomponenter (termComponentList).
+* Klicka på plustecknet inom den tillagda typen Sammansatt term, sidorutan Lägg till fält under öppnas. Sök efter och lägg till Termlista (inScheme) och Termkomponenter (termComponentList).
 
 * Klicka på plustecknet intill Termlista (sidorutan för Lägg till entitet öppnas). Sök efter och lägg till listkod sao. Koden länkas till verksinformationen.
 
@@ -32,22 +32,20 @@ OBS! Instruktionen ovan fungerar även för sammansatta men ej auktoriserade ter
 Instruktionen nedan gäller geografiska ämnesord i flera led konstruerade enligt Riktlinjer för Svenska ämnesord.
 Exempel: Tyskland--Bonn--sao
 
-* Klicka på plustecknet intill egenskapen Ämne, sidorutan för **Lägg till entitet** öppnas. Välj **Sammansatt term** under Skapa lokal entitet
+* Klicka på plustecknet intill egenskapen Ämne, sidorutan Lägg till entitet öppnas. Välj Sammansatt term under Skapa lokal entitet.
 
-* Klicka på plustecknet inom Sammansatt term, pop up-rutan för **Lägg till fält under** öppnas. Sök efter och lägg till **Föredragen benämning** (Skriv "Tyskland--Bonn" som en sträng)
+* Klicka på plustecknet inom Sammansatt term, sidorutan Lägg till fält under öppnas. Sök efter och lägg till Föredragen benämning (Skriv "Tyskland--Bonn" som en sträng).
 
-* Klicka på plustecknet inom Sammansatt term, pop up-rutan **Lägg till fält under** öppnas. Sök efter och lägg till **Termlista**
+* Klicka på plustecknet inom Sammansatt term, sidorutan Lägg till fält under öppnas. Sök efter och lägg till Termlista (inScheme) och Termkomponenter (termComponentList).
 
-* Klicka på plustecknet inom Termlista, pop up-rutan för **Lägg till entitet** öppnas. Sök efter och lägg till listkod **sao**. Koden länkas till verksinformationen
+* Klicka på plustecknet inom Termlista, sidorutan Lägg till entitet öppnas. Sök efter och lägg till listkod sao. Koden länkas till verksinformationen.
+
+* Klicka på plustecknet inom Termkomponenter, sidorutan Lägg till entitet öppnas. Välj Geografiskt ämnesord under Skapa lokal entitet.
+
+* Klicka på plustecknet inom Geografiskt ämnesord, sidorutan Lägg till fält under öppnas. Sök efter och lägg till Föredragen benämning (skriv "Tyskland").
     
-* Klicka på plustecknet inom Sammansatt term, pop up-rutan **Lägg till fält** under öppnas. Sök efter och lägg till **Termkomponenter**
+* Klicka på plustecknet inom Termkomponenter, sidorutan Lägg till entitet öppnas. Välj Geografiskt ämnesord under Skapa lokal entitet.
 
-* Klicka på plustecknet inom Termkomponenter, pop up-rutan för **Lägg till entitet** öppnas. Välj **Geografiskt ämnesord** under Skapa lokal entitet
-
-* Klicka på plustecknet inom Geografiskt ämnesord, pop up-rutan **Lägg till fält under** öppnas. Sök efter och lägg till **Föredragen benämning** (skriv "Tyskland")
-    
-* Klicka på plustecknet inom Termkomponenter, pop up-rutan **Lägg till entitet** öppnas. Välj **Geografiskt ämnesord** under Skapa lokal entitet
-
-* Klicka på plustecknet inom Geografiskt ämnesord, pop up-rutan **Lägg till fält under** öppnas. Sök efter och lägg till **Föredragen benämning** (skriv "Bonn") OBS! Här ska inte Geografisk underindelning användas
+* Klicka på plustecknet inom Geografiskt ämnesord, sidorutan Lägg till fält under öppnas. Sök efter och lägg till Föredragen benämning (skriv "Bonn") OBS! Här ska inte Geografisk underindelning användas.
 
 Upprepa momenten ovan för att lägga till fler sammansatta termer eller enbart det senaste momentet för ytterligare underordnat led (t.ex. Tyskland--Bonn--Beuel).
