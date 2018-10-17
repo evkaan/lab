@@ -2,10 +2,9 @@
 section: Main
 title: Start
 order: 1
+date: 2018-10-17
 tags:
-- main
-- start
-- index
+- mall
 ---
 
 # Mall vid skapande av hjälptexter
@@ -96,7 +95,9 @@ Teckenuppsättningen < br / > (ihopskrivet) används för radbrytning, vid behov
 
 * **Plustecknet** ska benämnas just så - plustecknet. Förtydligande beskrivning om vilket plustecken i verktyget som avses får komplettera.
 
-* **Sidorutan** (i version 1.1.0 en pop up) ska benämnas så - sidorutan. Använd föredragsvis sidorutans rubrik (Länka entitet ; Lägg till entitet ; Lägg till fält under) eller beskrivning för att förtydliga vilken sidoruta som avses.
+* **Sidorutan** (i version 1.1.0 en pop up) ska benämnas så - sidorutan. Använd föredragsvis sidorutans rubrik (Länka entitet ; Lägg till entitet ; Lägg till egenskap under) eller beskrivning för att förtydliga vilken sidoruta som avses.
+
+* **Egenskaper, klasser** Sträva efter att använda BIBFRAME-terminologin egenskaper och klasser i stället för fält etc. Se [BIBFRAME svensk terminologi](https://libris.kb.se/katalogisering/help/terminology-bibframe-swedish) för definitioner.
 
 ## Länkar
 
