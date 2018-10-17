@@ -5,10 +5,11 @@ order: 1
 date: 2018-10-17
 tags:
 - mall
+- hjälptexter
 ---
 
 # Mall vid skapande av hjälptexter
-Sektionen (headern) ovan ska ingå i alla filer. Uppgifterna för section, title, order och tags ändras efter uppgifterna i Excelfilen.
+Sektionen (headern) ovan ska ingå i alla filer. Uppgifterna för section, title, order och tags ändras efter uppgifterna i Excelfilen. Datum (date)  behöver uppdateras manuellt när texten uppdateras.
 
 ## Innehållsförteckning:
 
