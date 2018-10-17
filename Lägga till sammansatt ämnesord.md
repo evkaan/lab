@@ -21,7 +21,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 * Klicka på plustecknet intill Termkomponenter, sidorutan Lägg till entitet öppnas. Välj typen Underindelning för allmänt ämnesord i sökrutans rullgardinsmeny och sök efter och lägg till aktuell term. Termen länkas till verksinformationen.
 
-* Klicka på plustecknet inom den tillagda typen Sammansatt term, sidorutan Lägg till egenskap under öppnas. Söker efter och välj Termlista (inScheme)
+* Klicka på plustecknet inom den tillagda typen Sammansatt term, sidorutan Lägg till egenskap under öppnas. Söker efter och välj Termlista (inScheme).
 
 Upprepa punkterna ovan för att lägga till fler sammansatta termer
 
