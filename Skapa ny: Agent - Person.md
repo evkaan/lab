@@ -223,8 +223,8 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
   <br/>```Exempel:```
   * ```Efternamn: Smith```
-  *<br/>```Förnamn: A. D.```
-  *<br/>```Fullständigare namnform: Adam David```
+  <br/>```Förnamn: A. D.```
+  <br/>```Fullständigare namnform: Adam David```
 
 #### Biografiska uppgifter
 * Biografiska uppgifter (hasBiographicalInformation = 678)
