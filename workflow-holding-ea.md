@@ -2,25 +2,25 @@
 
 Det är endast bibliotekskod/sigel (852 ‡b) som är obligatorisk och den sätts automatiskt när bestånd läggs till. 
 
-De mest använda egenskaperna finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga egenskaper läggs till via plustecknet i verktygsmenyn. Det är viktigt använda rätt **+ikon**. 
+De mest använda egenskaperna finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga egenskaper läggs till via plustecknet i verktygsmenyn. Det är viktigt använda rätt plustecken. 
 
-Plustecknet i verktygsmenyn används för att lägga till egenskaper.
+* Plustecknet i verktygsmenyn används för att lägga till egenskaper.
 
-**+ikonen** till höger det som valts väljer man det som motsvarar delfält.*
+* Plustecknet inom tillagd egenskap används för att lägga till delfält.
 
 ### Innehållsförteckning
 
-| [Adminmetadata](#adminmetadata) | [Bestånd](#bestånd) | 
 | ------ | ----------- |  
-| [Adminmetada](#adminmetadata) | [Har komponent](#har-komponent) |
-| | [Identifierare](#identifierare) |
-| | [Anmärkningar](#anmärkningar) |
-| | [Lokala ämnesord och klassifikation](#lokala-ämnesord-och-klassifikation) |
-| | [Agenter](#agenter) |
-| | [Elektronisk adress](#elektronisk-adress) |
-| | [Oformaterad beståndsuppgift](#oformaterad-beståndsuppgift) |
-| | [Exemplarinformation](#exemplarinformation) |
-| | [Lokalt definierade beståndsfält](#lokalt-definierade-beståndsfält) |
+| [Adminmetada](#adminmetadata) |
+| [Har komponent](#har-komponent) |
+| [Identifierare](#identifierare) |
+| [Anmärkningar](#anmärkningar) |
+| [Lokala ämnesord och klassifikation](#lokala-ämnesord-och-klassifikation) |
+| [Agenter](#agenter) |
+| [Elektronisk adress](#elektronisk-adress) |
+| [Oformaterad beståndsuppgift](#oformaterad-beståndsuppgift) |
+| [Exemplarinformation](#exemplarinformation) |
+| [Lokalt definierade beståndsfält](#lokalt-definierade-beståndsfält) |
 
 
 ## Bestånd 
