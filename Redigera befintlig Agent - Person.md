@@ -1,17 +1,14 @@
 UNDER ARBETE (uppdaterad och flyttad till skarpt 2018-10-24)
 
 ## Redigera befintlig Agent - Person
-Lathunden beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
+Lathunden beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i lathunden är fiktiva.
 
-Det är möjligt att berika en befintlig agentpost från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
+Det är möjligt att berika en befintlig agent från en mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
-
-Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart för att exemplifiera.
-
 
 ### Innehåll
 
@@ -184,7 +181,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
   <br/>```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Fullständigare namnform: Rowling, J. K.```
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
-  <br/>För att lägga till: Klicka på plustecknet under Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
+  <br/>För att lägga till: Klicka på plustecknet under Konsulterad källa. Välj typ av konsulterad källa i rullgardinsmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
 ### Egenskaper att lagga till i Adminmetadata
 
@@ -228,7 +225,7 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 * Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368)
   <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
   <br/>```Exempel: Professorer```
-  <br/>För att lägga till: Klicka på plustecknet under egenskapen Andra attribut för person- och organisationsnamn, välj       Allmänt ämnesord som typ och sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+  <br/>För att lägga till: Klicka på plustecknet under egenskapen Andra attribut för person- och organisationsnamn, välj typen Allmänt ämnesord, sök efter och lägg till önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 #### Ordningstal
 * Ordningstal (marc:numeration = 100 ‡b)
@@ -239,15 +236,15 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 #### Språk
 * Språk (associatedLanguage = 377 ‡a)
-  <br/>Ange språk som personen använder vid behov.
+  <br/>Det språk som personen använder, anges vid behov.
   <br/>```Exempel: Engelska```
-  <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och lägg till. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 #### Organisatorisk tillhörighet
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte länkas.
 
 
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
