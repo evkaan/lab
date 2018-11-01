@@ -12,7 +12,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 ### Innehåll
 
-| [**Befintliga egenskaper i Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Befintliga egenskaper i beskrivningen**](#befintliga-egenskaper-i-beskrivningen) | 
+| [**Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Agent**](#befintliga-egenskaper-i-beskrivningen) | 
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#efternamn) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Förnamn](#efternamn) |
@@ -36,7 +36,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Organisatorisk tillhörighet](#ordningstal) |
 
 
-### Befintliga egenskaper i Adminmetadata
+### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig och inte är direkt förknippad med den auktoriserade namnformen.
 
 #### Kontrollnummer
@@ -125,7 +125,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/marjan```
 
   
-### Befintliga egenskaper i beskrivningen
+### Agent
 Beskrivning av den auktoriserade agenten. 
 
 #### Efternamn
