@@ -25,7 +25,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Identifikator](#identifikator) |
 | | [Har yrke eller sysselsättning](#identifikator) |
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
-| | [**Ytterligare egenskaper att lägga till vid behov**](#valbara-egenskaper-relevanta-for-agent-person) |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#biografiska-uppgifter) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Verksamhetsområde](#verksamhetsomrade) |
@@ -150,7 +150,7 @@ Beskrivning av den auktoriserade agenten.
 * Samma sak som (SameAs)
   <br/>```Exempel: resource/auth/247521```
   
-### Egenskaper att lagga till i Agent
+### Egenskaper att lägga till i beskrivningen
 
 #### Födelsedatum
 * Födelsedatum (birthDate = 046 ‡f)
