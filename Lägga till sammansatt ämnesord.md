@@ -6,14 +6,14 @@ Lathunden beskriver hur sammansatta ämnesord läggs till verksinformationen i I
 
 För att lägga till geografiska sammansatta ämnesord är tillvägagångssättet delvis annorlunda. Se avsnittet [Geografiskt huvudord med geografisk underindelning](#geografiskt-huvudord-med-geografisk-underindelning) nedan.
 
+**OBS! Från och med version 1.3.1 är tillvägagångssättet för att lägga till sammansatta ämnesord delvis förändrat/förenklat med hjälp av snippets, dvs. fördefinierade inmatningsfält som följer med vid tillägg av egenskapen.**
+
 #### Utgå från Instans av Verk
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom avsnittet för Instans av Verk. Vid behov av att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk/Text, sök efter och lägg till Ämne (subject).
 
 ### Allmänt ämnesord med allmän underindelning
 
-* Klicka på plustecknet intill Ämne, sidorutan Lägg till entitet öppnas. Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
-
-* Klicka på plustecknet inom den tillagda typen Sammansatt term, sidorutan Lägg till egenskap under öppnas. Sök efter och lägg till Termlista (inScheme) och Termkomponenter (termComponentList).
+* Klicka på plustecknet intill Ämne, sidorutan Lägg till entitet öppnas. Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet. En snippet, dvs. en 
 
 * Klicka på plustecknet intill Termlista (sidorutan för Lägg till entitet öppnas). Sök efter och lägg till listkod sao. Koden länkas till verksinformationen.
 
