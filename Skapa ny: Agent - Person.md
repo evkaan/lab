@@ -46,7 +46,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Skapad av
 * Skapad av (descriptionCreator = 040 ‡a)
-  <br/>Förval: Inloggad sigel. Ändras ej.<br/>```Exempel: S```
+  <br/>Förval: Inloggad sigel. Ändras ej.
+  <br/>```Exempel: S```
 
 #### Katalogiseringsregler
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
@@ -205,7 +206,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 
-### Valbara egenskaper relevanta för Agent - Person
+### Ytterligare egenskaper att lägga till vid behov
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
 #### Namn
