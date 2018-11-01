@@ -1,4 +1,4 @@
-UNDER ARBETE (Uppdaterad 2018-10-17)
+UNDER ARBETE (Uppdaterad 2018-11-01)
 
 ## Lägg till sammansatt men ej auktoriserat ämnesord 
 
@@ -21,8 +21,6 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 * Klicka på plustecknet intill Termkomponenter, sidorutan Lägg till entitet öppnas. Välj typen Underindelning för allmänt ämnesord i sökrutans rullgardinsmeny och sök efter och lägg till aktuell term. Termen länkas till verksinformationen.
 
-* Klicka på plustecknet inom den tillagda typen Sammansatt term, sidorutan Lägg till egenskap under öppnas. Söker efter och välj Termlista (inScheme).
-
 Upprepa punkterna ovan för att lägga till fler sammansatta termer
 
 OBS! Instruktionen ovan fungerar även för sammansatta men ej auktoriserade termer ur andra kontrollerade ämnesordssystem. Momenten i punkt tre och fyra ersätts då av Allmänt ämnesord respektive Underindelning för lokalt ämnesord i rullgardinsmenyn för Skapa lokal entitet. Länka till aktuell listkod.
@@ -34,18 +32,10 @@ Exempel: Tyskland--Bonn--sao
 
 * Klicka på plustecknet intill egenskapen Ämne, sidorutan Lägg till entitet öppnas. Välj Sammansatt term under Skapa lokal entitet.
 
-* Klicka på plustecknet inom Sammansatt term, sidorutan Lägg till egenskap under öppnas. Sök efter och lägg till Föredragen benämning (Skriv "Tyskland--Bonn" som en sträng).
-
-* Klicka på plustecknet inom Sammansatt term, sidorutan Lägg till egenskap under öppnas. Sök efter och lägg till Termlista (inScheme) och Termkomponenter (termComponentList).
-
 * Klicka på plustecknet inom Termlista, sidorutan Lägg till entitet öppnas. Sök efter och lägg till listkod sao. Koden länkas till verksinformationen.
 
-* Klicka på plustecknet inom Termkomponenter, sidorutan Lägg till entitet öppnas. Välj Geografiskt ämnesord under Skapa lokal entitet.
-
-* Klicka på plustecknet inom Geografiskt ämnesord, sidorutan Lägg till egenskap under öppnas. Sök efter och lägg till Föredragen benämning (skriv "Tyskland").
+* Klicka på plustecknet inom Termkomponenter, sidorutan Lägg till entitet öppnas. Välj Geografiskt ämnesord under Skapa lokal entitet. Skriv "Tyskland" i Föredragen benämning.
     
-* Klicka på plustecknet inom Termkomponenter, sidorutan Lägg till entitet öppnas. Välj Geografiskt ämnesord under Skapa lokal entitet.
+* Klicka på plustecknet inom Termkomponenter, sidorutan Lägg till entitet öppnas. Välj Underindelning för geografisk term under Skapa lokal entitet. Skriv "Bonn" i Föredragen benämning.
 
-* Klicka på plustecknet inom Geografiskt ämnesord, sidorutan Lägg till egenskap under öppnas. Sök efter och lägg till Föredragen benämning (skriv "Bonn") OBS! Här ska inte Geografisk underindelning användas.
-
-Upprepa momenten ovan för att lägga till fler sammansatta termer eller enbart det senaste momentet för ytterligare underordnat led (t.ex. Tyskland--Bonn--Beuel).
+Upprepa momenten ovan för att lägga till fler sammansatta termer eller kopiera och redigera sektionen Underindelning för geografisk term för ytterligare underordnat led (t.ex. Tyskland--Bonn--Beuel).
