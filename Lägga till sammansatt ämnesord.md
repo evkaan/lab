@@ -13,9 +13,9 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 ### Allmänt ämnesord med allmän underindelning
 
-* Klicka på plustecknet intill Ämne, sidorutan Lägg till entitet öppnas. Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet. En snippet, dvs. en 
+* Klicka på plustecknet intill Ämne, sidorutan Lägg till entitet öppnas. Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet. 
 
-* Klicka på plustecknet intill Termlista (sidorutan för Lägg till entitet öppnas). Sök efter och lägg till listkod sao. Koden länkas till verksinformationen.
+* Klicka på plustecknet intill Termlista, sidorutan för Lägg till entitet öppnas. Sök efter och lägg till listkod sao. Koden länkas till verksinformationen.
 
 * Klicka på plustecknet intill Termkomponenter, sidorutan Lägg till entitet öppnas. Välj typen Allmänt ämnesord i sökrutans rullgardinsmeny och sök efter aktuell term och klicka på Lägg till. Termen länkas till verksinformationen.
 
@@ -23,11 +23,11 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 Upprepa momenten ovan för att lägga till fler sammansatta termer.
 
-OBS! Instruktionen ovan fungerar även för sammansatta men ej auktoriserade termer ur andra kontrollerade ämnesordssystem. Punkt tre och fyra ersätts då av Allmänt ämnesord respektive Underindelning för lokalt ämnesord i rullgardinsmenyn för Skapa lokal entitet. Länka till aktuell listkod.
+OBS! Instruktionen ovan fungerar även för sammansatta men ej auktoriserade termer ur andra kontrollerade ämnesordssystem. Punkt tre och fyra ersätts då av Allmänt ämnesord respektive Underindelning för allmänt ämnesord i rullgardinsmenyn för Skapa lokal entitet. Länka till aktuell listkod.
 
 
 ### Geografiskt huvudord med geografisk underindelning
-Instruktionen nedan gäller geografiska ämnesord i flera led konstruerade enligt Riktlinjer för Svenska ämnesord men som inte finns auktoriserad som en sträng. Exempel: Tyskland--Bonn--sao
+Instruktionen nedan gäller geografiska ämnesord i flera led som inte finns auktoriserade som en sträng men är konstruerade enligt Riktlinjer för Svenska ämnesord. Exempel: Tyskland--Bonn--sao
 
 * Klicka på plustecknet intill egenskapen Ämne, sidorutan Lägg till entitet öppnas. Välj Sammansatt term under Skapa lokal entitet.
 
