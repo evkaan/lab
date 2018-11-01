@@ -18,14 +18,14 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Födelse- och/eller dödstid](#efternamn) |
 | [Konsulterad källa](#poststatus) | [Nationalitet](#nationalitet) |
-| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
+| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#nationalitet) |
 | [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Födelsedatum](#nationalitet) |
 | | [Dödsdatum](#nationalitet) |
 | | [Variant](#variant) |
 | | [Identifikator](#identifikator) |
 | | [Har yrke eller sysselsättning](#identifikator) |
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
-| | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#valbara-egenskaper-relevanta-for-agent-person) |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#valbara-egenskaper-relevanta-for-agent-person) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Verksamhetsområde](#verksamhetsomrade) |
@@ -150,7 +150,7 @@ Beskrivning av den auktoriserade agenten.
 * Samma sak som (SameAs)
   <br/>```Exempel: resource/auth/247521```
   
-### Egenskaper att lägga till i beskrivningen
+### Egenskaper att lagga till i Agent
 
 #### Födelsedatum
 * Födelsedatum (birthDate = 046 ‡f)
@@ -193,7 +193,7 @@ Beskrivning av den auktoriserade agenten.
   <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
 
 
-### Valbara egenskaper relevanta for Agent Person
+### Ytterligare egenskaper att lagga till vid behov
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
 #### Namn
