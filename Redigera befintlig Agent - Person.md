@@ -25,7 +25,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Identifikator](#identifikator) |
 | | [Har yrke eller sysselsättning](#identifikator) |
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
-| | [**Valbara egenskaper relevanta för Agent Person**](#valbara-egenskaper-relevanta-for-agent-person) |
+| | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#valbara-egenskaper-relevanta-for-agent-person) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Verksamhetsområde](#verksamhetsomrade) |
