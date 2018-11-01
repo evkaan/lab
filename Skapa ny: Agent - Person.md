@@ -238,8 +238,9 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 #### Andra attribut för person- och organisationsnamn
 * Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368)
-  <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+  <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
   <br/>```Exempel: Professorer```
+  <br/>För att lägga till: Klicka på plustecknet under egenskapen Andra attribut för person- och organisationsnamn, välj typen Allmänt ämnesord, sök efter och länka önskad term. *Det fungerar inte att länka i nuläget* (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 #### Ordningstal
 * Ordningstal (marc:numeration = 100 ‡b)
@@ -258,7 +259,7 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. *OBS! Organisatorisk tillhörighet ska inte länkas.*
 
 
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
