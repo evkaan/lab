@@ -34,8 +34,8 @@ Exempel: Tyskland--Bonn--sao
 
 * Klicka på plustecknet inom Termlista, sidorutan Lägg till entitet öppnas. Sök efter och lägg till listkod sao. Koden länkas till verksinformationen.
 
-* Klicka på plustecknet inom Termkomponenter, sidorutan Lägg till entitet öppnas. Välj Geografiskt ämnesord under Skapa lokal entitet. Skriv "Tyskland" i Föredragen benämning.
+* Klicka på plustecknet inom Termkomponenter, sidorutan Lägg till entitet öppnas. Välj Geografiskt ämnesord under Skapa lokal entitet. Skriv "Tyskland" i Föredragen benämning. *Ska i nuläget ej länkas.*
     
-* Klicka på plustecknet inom Termkomponenter, sidorutan Lägg till entitet öppnas. Välj Underindelning för geografisk term under Skapa lokal entitet. Skriv "Bonn" i Föredragen benämning.
+* Klicka på plustecknet inom Termkomponenter, sidorutan Lägg till entitet öppnas. Välj Underindelning för geografisk term under Skapa lokal entitet. Skriv "Bonn" i Föredragen benämning. *Ska i nuläget ej länkas.*
 
 Upprepa momenten ovan för att lägga till fler sammansatta termer eller kopiera och redigera sektionen Underindelning för geografisk term för ytterligare underordnat led (t.ex. Tyskland--Bonn--Beuel).
