@@ -21,7 +21,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 * Klicka på plustecknet intill Termkomponenter, sidorutan Lägg till entitet öppnas. Välj typen Underindelning för allmänt ämnesord i sökrutans rullgardinsmeny och sök efter och lägg till aktuell term. Termen länkas till verksinformationen.
 
-Upprepa punkterna ovan för att lägga till fler sammansatta termer
+Upprepa momenten ovan för att lägga till fler sammansatta termer.
 
 OBS! Instruktionen ovan fungerar även för sammansatta men ej auktoriserade termer ur andra kontrollerade ämnesordssystem. Momenten i punkt tre och fyra ersätts då av Allmänt ämnesord respektive Underindelning för lokalt ämnesord i rullgardinsmenyn för Skapa lokal entitet. Länka till aktuell listkod.
 
