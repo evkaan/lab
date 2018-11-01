@@ -23,7 +23,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 Upprepa momenten ovan för att lägga till fler sammansatta termer.
 
-OBS! Instruktionen ovan fungerar även för sammansatta men ej auktoriserade termer ur andra kontrollerade ämnesordssystem. Momenten i punkt tre och fyra ersätts då av Allmänt ämnesord respektive Underindelning för lokalt ämnesord i rullgardinsmenyn för Skapa lokal entitet. Länka till aktuell listkod.
+OBS! Instruktionen ovan fungerar även för sammansatta men ej auktoriserade termer ur andra kontrollerade ämnesordssystem. Punkt tre och fyra ersätts då av Allmänt ämnesord respektive Underindelning för lokalt ämnesord i rullgardinsmenyn för Skapa lokal entitet. Länka till aktuell listkod.
 
 
 ### Geografiskt huvudord med geografisk underindelning
