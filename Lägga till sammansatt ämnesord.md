@@ -2,7 +2,7 @@ UNDER ARBETE (Uppdaterad 2018-11-01)
 
 ## Lägg till sammansatt men ej auktoriserat ämnesord 
 
-Lathunden beskriver hur sammansatta ämnesord läggs till verksinformationen i Instans av Verk och där de ingående beståndsdelarna (huvudord respektive underindelning) är auktoriserade termer från ämnesordssystemet Svenska ämnesord (sao). 
+Lathunden beskriver hur sammansatta ämnesord (som inte finns auktoriserade som en sträng) läggs till verksinformationen i Instans av Verk och där de ingående beståndsdelarna (huvudord respektive underindelning) är auktoriserade termer från ämnesordssystemet Svenska ämnesord (sao). 
 
 För att lägga till geografiska sammansatta ämnesord är tillvägagångssättet delvis annorlunda. Se avsnittet [Geografiskt huvudord med geografisk underindelning](#geografiskt-huvudord-med-geografisk-underindelning) nedan.
 
@@ -27,8 +27,7 @@ OBS! Instruktionen ovan fungerar även för sammansatta men ej auktoriserade ter
 
 
 ### Geografiskt huvudord med geografisk underindelning
-Instruktionen nedan gäller ej auktoriserade geografiska ämnesord i flera led konstruerade enligt Riktlinjer för Svenska ämnesord.
-Exempel: Tyskland--Bonn--sao
+Instruktionen nedan gäller geografiska ämnesord i flera led konstruerade enligt Riktlinjer för Svenska ämnesord men som inte finns auktoriserad som en sträng. Exempel: Tyskland--Bonn--sao
 
 * Klicka på plustecknet intill egenskapen Ämne, sidorutan Lägg till entitet öppnas. Välj Sammansatt term under Skapa lokal entitet.
 
