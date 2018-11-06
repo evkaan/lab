@@ -1,2 +1,0 @@
-Hjälptext
-Ändring
