@@ -120,7 +120,6 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   * ```Startår: 1732```
   * ```Slutår: 1745```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
-  
   <br/>Om tryckår saknas eller är ofullständigt använder man även Datum.
   
 * Datum (264 -/1 ‡c)    
