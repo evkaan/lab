@@ -107,11 +107,12 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Selma Lagerlöf```
   <br/>```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000 Uppgift från källa: Rowling, J. K.```
   
-  <br/>```Exempel på ytterligare källor:```
-  <br/>```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
-  <br/>```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
-  <br/>```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
-  <br/>```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Fullständigare namnform: Rowling, J. K.```
+  <br/>```Exempel på kompletterande källa:``` 
+  * ```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
+  * ```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
+  * ```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
+  * ```Benämning: Birthday. Uppgift från källa: Född: 1988```
+  * ```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Proclus, approximately 410-485```
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet under Konsulterad källa. Välj typ av konsulterad källa i rullgardinsmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
