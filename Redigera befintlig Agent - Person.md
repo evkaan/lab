@@ -1,4 +1,4 @@
-UNDER ARBETE (uppdaterad och flyttad till skarpt 2018-11-01)
+UNDER ARBETE (uppdaterad och flyttad till skarpt 2018-11-20)
 
 ## Redigera befintlig Agent - Person
 Hjälptexten beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i hjälptexten är fiktiva.
