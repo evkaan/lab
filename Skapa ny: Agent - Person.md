@@ -1,4 +1,4 @@
-Uppdaterad och flyttad till skarpt 2018-11-01)
+
 
 ## Skapa ny: Agent - Person
 Hjälptexten beskriver de egenskaper och klasser som finns representerade i mallen. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av hjälptexten. 
