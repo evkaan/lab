@@ -1,7 +1,8 @@
 ## 1 Länka ämnesord
 
-Hjälptexten beskriver hur man länkar ämnesord till verksbeskrivningen i Instans av Verk. Det går endast att länka till redan auktoriserade ämnesord. I Libris finns auktoritetsposter för ämnesord tillhörande systemen Svenska ämnesord och Barnämnesord. Auktoritetsposter finns för olika typer av ämnesord, t.ex. allmänna ämnesord (enkla och sammansatta), kronologiska ämnesord och vissa geografiska ämnesord (enkla och sammansatta). 
-För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se avsnittet #Ämnesord som lokal entitet.
+Hjälptexten beskriver hur man länkar ämnesord till verksbeskrivningen i Instans av Verk. Det går endast att länka till redan auktoriserade ämnesord. I Libris finns auktoritetsposter för ämnesord tillhörande systemen **Svenska ämnesord (sao)** och **Barnämnesord (barn)**. Auktoritetsposter finns för olika typer av ämnesord, t.ex. allmänna ämnesord (enkla och sammansatta), kronologiska ämnesord och vissa geografiska ämnesord (enkla och sammansatta). 
+
+För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se hjälptexten [Ämnesord som lokal entitet]. LÄNK
 
 ### 1a Länka till ett enkelt ämnesord 
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. Följ generella instruktioner om egenskapen   saknas. [Länk till generell sida]
