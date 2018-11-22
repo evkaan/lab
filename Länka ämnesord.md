@@ -4,8 +4,10 @@ Hjälptexten beskriver hur man länkar ämnesord till verksbeskrivningen i Insta
 För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se avsnittet #Ämnesord som lokal entitet.
 
 ### 1a Länka till ett enkelt ämnesord 
-Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. Utgår katalogiseringen från en beskrivning där Ämne saknas läggs egenskapen till på följande sätt: Klicka på plustecknet vid verkstypen inom Instans av Verk, söker efter och lägg till Ämne. 
+Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. Följ generella instruktioner om egenskapen   saknas. [Länk till generell sida]
 
-Klicka på plustecknet intill egenskapen Ämne, sidorutan Lägg till entitet öppnas. Filtrera på den typ av ämnesord du vill länka till (Allmänt ämnesord/Kronologiskt ämnesord/Geografiskt ämnesord). 
-Sök efter aktuell term. 
-Lägg till term genom att klicka på plustecknet bredvid termen i träfflistan, termen länkas då till verksbeskrivningen i Instans av Verk. Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
+* Öppna sidorutan Lägg till entitet öppnas inom egenskapen ämne. 
+* Filtrera på den typ av ämnesord du vill länka till (Allmänt ämnesord/Kronologiskt ämnesord/Geografiskt ämnesord). 
+* Sök efter aktuell term. 
+* Lägg till termen som då länkas till verksbeskrivningen i Instans av Verk. 
+* Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
