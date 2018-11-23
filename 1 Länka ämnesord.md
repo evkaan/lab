@@ -7,7 +7,7 @@ För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se 
 ### 1a Länka till ett enkelt ämnesord 
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. Följ generella instruktioner om egenskapen   saknas. [Länk till generell sida]
 
-* Öppna sidorutan Lägg till entitet öppnas inom egenskapen Ämne. 
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Filtrera på den typ av ämnesord som ska länkas (Allmänt ämnesord / Kronologiskt ämnesord / Geografiskt ämnesord). 
 * Sök efter aktuell term. 
 * Lägg till termen som då länkas till verksbeskrivningen i Instans av Verk. 
@@ -16,7 +16,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 ### 1b Länka till ett sammansatt ämnesord
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. Följ generella instruktioner om egenskapen   saknas. [Länk till generell sida]
 
-* Öppna sidorutan Lägg till entitet öppnas inom egenskapen Ämne. 
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Filtrera på typen Sammansatt term.
 * Sök efter aktuell sammansatt term.
 * Lägg till termen som då länkas till verksbeskrivningen i Instans av Verk. 
