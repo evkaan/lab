@@ -19,7 +19,7 @@ För att lägga till flera termer av samma typ kan den lokala entiteten kopieras
 
 SKÄRMDUMP: LokaltEnkeltKao
 
-#### 2a-2 Lägg till ett sammansatt ämnesord som lokal entitet
+#### 2a-2 Lägg till ett sammansatt ämnesord som lokal entitet (med länkbar listkod)
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. Följ generella instruktioner om egenskapen   saknas. [Länk till generell sida]
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
@@ -33,7 +33,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 * Välj typ av ämnesord i rullgardinsmenyn Skapa lokal entitet, t.ex. Underindelning för allmänt ämnesord.
 * Skriv in aktuell term i rutan Föredragen benämning.
 
-För att lägga till flera termer av samma typ kan den lokala entiteten kopieras.
+För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
 SKÄRMDUMP: LokaltSammansattKao
 SKÄRMDUMP: LokaltGeoSammansattSao
@@ -50,3 +50,40 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 * Skriv in aktuell listkod i rutan, t.ex. ”lcsh”.
 
 SKÄRMDUMP: LokaltEnkeltLcsh
+
+#### 2b-2 Lägg till ett sammansatt ämnesord som lokal entitet (utan länkbar listkod)
+Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. Följ generella instruktioner om egenskapen   saknas. [Länk till generell sida]
+
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
+* Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
+* Öppna sidorutan Lägg till entitet/termlista inom egenskapen Termlista. Välj Skapa lokal entitet.
+* Öppna sidorutan Lägg till egenskaper under inom egenskapen Termlista. Sök efter och lägg till egenskapen Kod.
+* Skriv in aktuell listkod i rutan, t.ex. ”lcsh”.
+* Öppna sidorutan Lägg till entitet under inom egenskapen Termkomponenter. 
+* Välj typ av ämnesord i rullgardinsmenyn Skapa lokal entitet, t.ex. Allmänt ämnesord.
+* Öppna sidorutan Lägg till egenskaper under inom den tillagda ämnesordstypen. 
+* Sök efter och lägg till Föredragen benämning. Skriv in aktuell term i rutan.
+* Öppna sidorutan Lägg till entitet under inom egenskapen Termkomponenter. 
+* Välj typ av ämnesord i rullgardinsmenyn Skapa lokal entitet, t.ex. Underindelning för allmänt ämnesord.
+* Skriv in aktuell term i rutan.
+
+För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
+
+Klicka på plustecknet intill Termkomponenter, sidorutan Lägg till entitet öppnas. Välj typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
+Klicka på plustecknet vid den tillagda ämnesordstypen, sidorutan Lägg till egenskaper under öppnas. Sök efter och välj Föredragen benämning.
+Skriv in aktuell term i Föredragen benämning.
+Klicka på plustecknet intill Termkomponenter, sidorutan Lägg till entitet öppnas. Välj typ av underindelning i rullgardinsmenyn Skapa lokal entitet.
+
+SKÄRMDUMP: LokaltsammansattLcsh
+
+#### 2 c Ämnesord utan listkod
+Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. Följ generella instruktioner om egenskapen   saknas. [Länk till generell sida]
+
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
+* Välj aktuell typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
+* Öppna sidorutan Lägg till egenskaper under inom den tillagda ämnesordstypen. 
+* Sök efter och lägg till Föredragen benämning. Skriv in aktuell term i rutan.
+
+
+
+
