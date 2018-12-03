@@ -1,6 +1,8 @@
 ## Ämnesord i Libris
 
-ÄmnesordHjälptexterna för ämnesord innehåller instruktioner för följande typer av ämnesordskonstruktioner:
+Ämnesord i Libris hanteras olika beroende på typ och om de finns auktoriserade eller inte. 
+
+Hjälptexterna för ämnesord innehåller instruktioner för följande typer av ämnesordskonstruktioner:
 
 | [Länka ämnesord](#lanka-amnesord) | [Ämnesord som lokal entitet](#amnesord-som-lokal-entitet) | 
 | ------ |  ----------- |
@@ -18,7 +20,7 @@
 
 
 
-| [Okontrollerad terme](#okontrollerad-term)  | 
+| [Okontrollerad term](#okontrollerad-term)  | 
 | ------|
 | [SAO ämnesordsförslag](#okontrollerad-term)  
 | [Indexterm](#okontrollerad-term) |
