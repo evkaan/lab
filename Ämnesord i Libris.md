@@ -1,5 +1,7 @@
 ## Ämnesord i Libris
 
+ÄmnesordHjälptexterna för ämnesord innehåller instruktioner för följande typer av ämnesordskonstruktioner:
+
 | [Länka ämnesord](#lanka-amnesord) | [Ämnesord som lokal entitet](#amnesord-som-lokal-entitet) | 
 | ------ |  ----------- |
 | [SAO allmänt ämnesord (auktoriserat)](#lanka-amnesord) | [SAO allmänt ämnesord (ej auktoriserat)](#amnesord-som-lokal-entitet) |
