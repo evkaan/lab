@@ -13,8 +13,13 @@
 | |[Term från LCSH, SweMeSH, Quiding med en eller flera underindelningar (ej auktoriserat)](#amnesord-som-lokal-entitet) | |
 | [Barnämnesord geografiskt ämnesord med geografisk underindelning (ej auktoriserat)](#amnesord-som-lokal-entitet) | | 
 
-[SAO ämnesordsförslag](#okontrollerad-term) 
-[Indexterm](#okontrollerad-term) 
+
+| [Okontrollerad terme](#okontrollerad-term)  | 
+| ------|
+| [SAO ämnesordsförslag](#okontrollerad-term)  
+| [Indexterm](#okontrollerad-term) |
+
+
 
 
 
