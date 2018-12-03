@@ -1,9 +1,23 @@
+## Ämnesord i Libris
+
+| [Länka ämnesord](#lanka-amnesord) | [Ämnesord som lokal entitet](#amnesord-som-lokal-entitet) | [Okontrollerad term](#okontrollerad-term) | 
+| ------ | ----------- |  ----------- |
+| [SAO allmänt ämnesord (auktoriserat)](#lanka-amnesord) | [SAO allmänt ämnesord (ej auktoriserat)](#utgivningssatt) | [Okontrollerad term](#okontrollerad-term) |
+| [SAO kronologiskt ämnesord (auktoriserat)](#lanka-amnesord) | [Titel](#titel) |
+| [SAO geografiskt ämnesord (auktoriserat)](#lanka-amnesord) | [Upphovsuppgift](#upphovsuppgift) |
+| [SAO allmänt ämnesord med allmän underindelning (auktoriserat)](#lanka-amnesord) | [Identifikator](#identifikator) ||
+| [SAO geografiskt ämnesord med geografisk underindelning (auktoriserat)](#lanka-amnesord) | [Upplageuppgift](#upplageuppgift)  |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning)  |
+| [Beskrivningsnivå](#beskrivningsniva) | [Copyrightår](#copyrightar) | |
+| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
 
 
-SAO allmänt ämnesord med auktoritetspost (auktoriserat) länk till 1a 
-SAO kronologiskt ämnesord med auktoritetspost (auktoriserat) länk till 1a
-SAO geografiskt ämnesord med auktoritetspost (auktoriserat) länk till 1a
-SAO allmänt ämnesord med allmän underindelning (auktoriserat) länk till 1b
+
+
+
+
 SAO geografiskt ämnesord med geografisk underindelning (auktoriserat) länk till 1b
 SAO allmänt ämnesord (ej auktoriserat) länk till 2a1
 SAO kronologiskt ämnesord (ej auktoriserat) länk till 2a1
