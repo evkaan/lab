@@ -14,6 +14,8 @@
 | | [Barnämnesord geografiskt ämnesord med geografisk underindelning (ej auktoriserat)](#amnesord-som-lokal-entitet) | | 
 
 
+
+
 | [Okontrollerad terme](#okontrollerad-term)  | 
 | ------|
 | [SAO ämnesordsförslag](#okontrollerad-term)  
