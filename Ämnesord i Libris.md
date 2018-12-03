@@ -10,8 +10,8 @@
 | [Barnämnesord (auktoriserat)](#lanka-amnesord) | [Term från AGROVOC, KAO, PRVT, SFIT, MeSH (ej auktoriserat)](#amnesord-som-lokal-entitet) |
 | | [Term från AGROVOC, KAO, PRVT, SFIT, MeSH med en eller flera underindelningar (ej auktoriserat) ](#amnesord-som-lokal-entitet) |
 | | [Term från LCSH, SweMeSH, Quiding (ej auktoriserat)](#amnesord-som-lokal-entitet) | |
-| |[Term från LCSH, SweMeSH, Quiding med en eller flera underindelningar (ej auktoriserat)](#amnesord-som-lokal-entitet) | |
-| [Barnämnesord geografiskt ämnesord med geografisk underindelning (ej auktoriserat)](#amnesord-som-lokal-entitet) | | 
+| | [Term från LCSH, SweMeSH, Quiding med en eller flera underindelningar (ej auktoriserat)](#amnesord-som-lokal-entitet) | |
+| | [Barnämnesord geografiskt ämnesord med geografisk underindelning (ej auktoriserat)](#amnesord-som-lokal-entitet) | | 
 
 
 | [Okontrollerad terme](#okontrollerad-term)  | 
