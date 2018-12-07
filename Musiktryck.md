@@ -555,7 +555,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
   ##### Översättning  
   För en översättning, ange även:  
-    * Språk/Språk/Benämning (Language/label = 240 ‡l)  
+   * Språk/Språk/Benämning (Language/label = 240 ‡l)  
     Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan till höger och lägg till Benämning (klicka på Lägg till egenskaper under: Språk).   
     Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
