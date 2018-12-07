@@ -644,13 +644,13 @@ Skriv in uppgiften under Kod.
   
   ##### Geografiskt ämnesord med geografisk underindelning  
   Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till   höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-    * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
+  * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
     Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
   ```Exempel: sao```  
-    * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
+  * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
     Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I  rutan      Skapa lokal entitet, längst ner i sidorutan till höger, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.    
     ```Exempel: Tyskland```  
-    * Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
+  * Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
     Under Termkomponenter, skapa Underindelning för geografisk term som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet.   I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Underindelning för geografisk term och välj det). Skriv in termen för den geografiska underindelningen under Föredragen benämning.  
   ```Exempel: Bonn``` 
    
