@@ -6,7 +6,7 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 
 | [Länka ämnesord](#lanka-amnesord) | [Ämnesord som lokal entitet](#amnesord-som-lokal-entitet) | 
 | ------ |  ----------- |
-| [SAO allmänt ämnesord (auktoriserat)](#lanka-amnesord) | [SAO allmänt ämnesord (ej auktoriserat)](#amnesord-som-lokal-entitet) |
+| [Allmänt ämnesord från SAO](#lanka-amnesord) Exempel: Hästar sao | [Allmänt ämnesord från system med länkbar listkod AGROVOC, KAO, MeSH m.fl.](#amnesord-som-lokal-entitet) Exempel: Präster kao |
 | [SAO kronologiskt ämnesord (auktoriserat)](#lanka-amnesord) | [SAO kronologiskt ämnesord (ej auktoriserat)](#amnesord-som-lokal-entitet) |
 | [SAO geografiskt ämnesord (auktoriserat)](#lanka-amnesord) | [SAO geografiskt ämnesord (ej auktoriserat) ](#amnesord-som-lokal-entitet) |
 | [SAO allmänt ämnesord med allmän underindelning (auktoriserat)](#lanka-amnesord) | [SAO allmänt ämnesord med allmän underindelning (ej auktoriserat](#amnesord-som-lokal-entitet) ||
