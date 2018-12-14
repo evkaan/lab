@@ -16,9 +16,8 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 | **Geografiskt ämneord** |  |
 | [Geografiskt ämnesord  [1a]](#lanka-amnesord) </br>Observera att det endast är entiteter för länder eller större geografiska enheter som länkas. </br>Exempel: Etiopien | |
 | **Sammansatt ämneord** | **Sammansatt ämneord** |
-| [Allmänt ämnesord med allmän underindelning från SAO auktoriserat som sträng [1a]](#lanka-amnesord) </br>Exempel: Hästar--religiösa aspekter sao | [Sammansatt ämnesord från system med länkbar listkod (SAO, AGROVOC, KAO, MeSH m.fl.)](#amnesord-som-lokal-entitet) </br>Exempel: ? |
-| [Geografiskt ämnesord med geografisk underindelning med auktoriserad sträng från SAO [1b]](#lanka-amnesord) </br>Exempel: Förenta staterna--Alaska sao | Sammansatt ämnesord </br>[Allmänt ämnesord med allmän underindelning från SAO](#amnesord-som-lokal-entitet) </br>Exempel: Myror--ekonomiska aspekter sao|
-| | [Geografiskt ämnesord med geografisk underindelning från SAO [2a2]](#amnesord-som-lokal-entitet) </br>Exempel: Grekland--Athen sao |
+| [Allmänt ämnesord med allmän underindelning från SAO auktoriserat som sträng [1a]](#lanka-amnesord) </br>Exempel: Hästar--religiösa aspekter sao | [Allmänt ämnesord med allmän underindelning från SAO](#amnesord-som-lokal-entitet) </br>Exempel: Myror--ekonomiska aspekter sao |
+| [Geografiskt ämnesord med geografisk underindelning med auktoriserad sträng från SAO [1b]](#lanka-amnesord) </br>Exempel: Förenta staterna--Alaska sao | [Geografiskt ämnesord med geografisk underindelning från SAO [2a2]](#amnesord-som-lokal-entitet) </br>Exempel: Grekland--Athen sao |
 | | [Allmänt ämnesord med valfri underindelning från KAO, MeSH, AGROVOC [2a2]](#amnesord-som-lokal-entitet) </br>Exempel: Präster--historia kao |
 | | [Sammansatt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH) [2a2]](#amnesord-som-lokal-entitet) </br>Exempel: Horses--history lcsh |
 
