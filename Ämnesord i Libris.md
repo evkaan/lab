@@ -6,24 +6,14 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 
 | [Länka ämnesord](#lanka-amnesord) | [Ämnesord som lokal entitet](#amnesord-som-lokal-entitet) | 
 | ------ |  ----------- |
-| [Allmänt ämnesord från SAO](#lanka-amnesord) Exempel: Hästar sao | [Allmänt ämnesord från system med länkbar listkod AGROVOC, KAO, MeSH m.fl.](#amnesord-som-lokal-entitet) Exempel: Präster kao |
-| [SAO kronologiskt ämnesord (auktoriserat)](#lanka-amnesord) | [SAO kronologiskt ämnesord (ej auktoriserat)](#amnesord-som-lokal-entitet) |
-| [SAO geografiskt ämnesord (auktoriserat)](#lanka-amnesord) | [SAO geografiskt ämnesord (ej auktoriserat) ](#amnesord-som-lokal-entitet) |
-| [SAO allmänt ämnesord med allmän underindelning (auktoriserat)](#lanka-amnesord) | [SAO allmänt ämnesord med allmän underindelning (ej auktoriserat](#amnesord-som-lokal-entitet) ||
-| [SAO geografiskt ämnesord med geografisk underindelning (auktoriserat)](#lanka-amnesord) | [SAO geografiskt ämnesord med geografisk underindelning (ej auktoriserat)](#amnesord-som-lokal-entitet)  |
-| [Barnämnesord (auktoriserat)](#lanka-amnesord) | [Term från AGROVOC, KAO, PRVT, SFIT, MeSH (ej auktoriserat)](#amnesord-som-lokal-entitet) |
-| | [Term från AGROVOC, KAO, PRVT, SFIT, MeSH med en eller flera underindelningar (ej auktoriserat) ](#amnesord-som-lokal-entitet) |
-| | [Term från LCSH, SweMeSH, Quiding (ej auktoriserat)](#amnesord-som-lokal-entitet) | |
-| | [Term från LCSH, SweMeSH, Quiding med en eller flera underindelningar (ej auktoriserat)](#amnesord-som-lokal-entitet) | |
-| | [Barnämnesord geografiskt ämnesord med geografisk underindelning (ej auktoriserat)](#amnesord-som-lokal-entitet) | | 
+| [Allmänt ämnesord från SAO [1a]](#lanka-amnesord) Exempel: Hästar sao | [Allmänt ämnesord från system med länkbar listkod AGROVOC, KAO, MeSH m.fl. [2a1]](#amnesord-som-lokal-entitet) Exempel: Präster kao |
+| [Almmänt ämnesord från Barn [1a]](#lanka-amnesord) Exemepl: Mammor barn | [Allmänt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH m.fl.)](#amnesord-som-lokal-entitet) Exemepl: Horses lcsh |
+|  | [Ämnesordsförslag till SAO eller indexterm [3]](#amnesord-som-lokal-entitet) Exemepl: Tunnbröd (prel/S) |
 
 
 
 
-| [Okontrollerad term](#okontrollerad-term)  | 
-| ------|
-| [SAO ämnesordsförslag](#okontrollerad-term)  
-| [Indexterm](#okontrollerad-term) |
+
 
 
 
