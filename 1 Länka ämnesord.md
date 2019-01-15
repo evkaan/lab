@@ -2,7 +2,8 @@
 
 Hjälptexten beskriver hur ämnesord länkas till verksbeskrivningen i Instans av Verk. Det går endast att länka till redan auktoriserade ämnesord. I Libris finns auktoriserade ämnesord tillhörande systemen **Svenska ämnesord (sao)** och **Barnämnesord (barn)**. Auktoriteter finns för olika typer av ämnesord, t.ex. allmänna ämnesord (enkla och sammansatta), kronologiska ämnesord och vissa geografiska ämnesord (enkla och sammansatta). 
 
-Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. Följ generella instruktioner om egenskapen   saknas. [Länk till generell sida] **HÄR ELLER I SAMBAND MED RESPEKTIVE HJÄLPTEXT?**
+Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. 
+<br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
 
 För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se hjälptexten [Ämnesord som lokal entitet]. LÄNK
 
@@ -13,6 +14,8 @@ För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se 
 * Sök efter aktuell term. 
 * Lägg till termen som då länkas till verksbeskrivningen i Instans av Verk. 
 
+![Länka enkelt ämnesord](LänkaEnkelt.png) 
+
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
 ### 1b Länka till ett sammansatt ämnesord
@@ -20,6 +23,8 @@ Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Filtrera på typen Sammansatt term.
 * Sök efter och lägg till aktuell sammansatt term. Termen länkas då till verksbeskrivningen i Instans av Verk. 
+
+![Länka sammansatt ämnesord](LänkaSammansatt.png) 
 
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
