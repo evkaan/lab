@@ -1,6 +1,8 @@
 ## Ämnesord i Libris
 
-Ämnesord i Libris hanteras olika beroende på typ samt om de finns auktoriserade eller inte. 
+Ämnesord i Libris hanteras olika beroende på typ samt om de finns auktoriserade eller inte. I tabellen nedan listas de olika möjliga sätt ämnesord från olika system kan läggas till på i nya Libris. De tillagda exemplena är tänkta som hjälp vid identifiering av rätt tillvägagångssätt. Följ länken för att komma till respektive hjälptext.
+
+För mer information om ämnesordssystemet Svenska ämnesord hänvisar vi till [webbplatsen](#http://www.kb.se/katalogisering/Svenska-amnesord/) samt [riktlinjerna](#http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
 
 Hjälptexterna för ämnesord innehåller instruktioner för följande typer av ämnesordskonstruktioner:
 
