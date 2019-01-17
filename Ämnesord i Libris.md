@@ -1,8 +1,10 @@
 ## Ämnesord i Libris
 
-Ämnesord i Libris hanteras olika beroende på typ samt om de finns auktoriserade eller inte. I tabellen nedan listas de olika möjliga sätt ämnesord från olika system kan läggas till på i nya Libris. De tillagda exemplena är tänkta som hjälp vid identifiering av rätt tillvägagångssätt. Följ länken för att komma till respektive hjälptext.
+Ämnesord i Libris hanteras olika beroende på ämnesordstyp samt om ämnesordet finns auktoriserat eller inte. Auktoriserade ämnesord beskrivs som länkade entiteter och ämnesord som inte finns auktoriserade beskrivs som lokala entiteter. Tabellen nedan redovisar hur de olika ämnesordstyperna anges i katalogiseringsverktyget, både som länkade entiteter och som lokala entiteter. Klicka på länken för den typ av ämnesord som ska anges för att komma till motsvarande instruktion i hjälptexterna.
 
-För mer information om ämnesordssystemet Svenska ämnesord hänvisar vi till [webbplatsen](#http://www.kb.se/katalogisering/Svenska-amnesord/) samt [riktlinjerna](#http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
+I Libris finns auktoriserade ämnesord tillhörande listorna Svenska ämnesord (sao) och Barnämnesord (barn). Ämnesordssökningar kan göras direkt i katalogiseringsverktyget eller via [Ämnesordsdatabasen](#http://www.kb.se/katalogisering/Svenska-amnesord/), Auktoritetsdatabasen eller id.kb.se. Resterande ämnesordssystems termer anges alltid som lokala entiteter. 
+
+Information och riktlinjer för Svenska ämnesord finns på [Svenska ämnesords webbplats](#http://www.kb.se/katalogisering/Svenska-amnesord/). På webbsidan för skön- och barnlitteratur finns även information och riktlinjer för [Barnämnesorden](#http://www.kb.se/katalogisering/Svenska-amnesord/Indexering-i-LIBRIS/)
 
 Hjälptexterna för ämnesord innehåller instruktioner för följande typer av ämnesordskonstruktioner:
 
@@ -19,7 +21,7 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 | [Kronologiskt ämnesord från Barn [1a]](#lanka-amnesord) </br>*Exempel: 1900-talet barn* | |
 | | |
 | **Geografiskt ämnesord** |  |
-| [Geografiskt ämnesord  [1a]](#lanka-amnesord) </br>Observera att det endast är entiteter för länder eller större geografiska enheter som länkas. </br>*Exempel: Etiopien* | |
+| [Geografiskt ämnesord  [1a]](#lanka-amnesord) </br>I Libris finns flera enkla geografiska ämnesord som man inte bör länka till. Enligt SAO:s riktlinjer är det endast länder och andra större geografiska enheter som beskrivs med en enkel term, alla mindre enheter beskrivs med sammansatta termer (SAO:s riktlinjer 3.5.3). Länka därför endast till ”godkända” entiteter, dvs enkla termer för länder/större enheter och sammansatta termer för mindre enheter. I de fall det saknas en länkbar entitet, se anvisningar för Sammansatt ämnesord-Geografiskt ämensord med geografisk underindelning från SAO. Observera att det endast är entiteter för länder eller större geografiska enheter som länkas. </br>*Exempel: Etiopien* | |
 | | |
 | **Sammansatt ämnesord** | **Sammansatt ämnesord** |
 | [Allmänt ämnesord med allmän underindelning från SAO auktoriserat som sträng [1a]](#lanka-amnesord) </br>*Exempel: Hästar--religiösa aspekter sao* | [Allmänt ämnesord med allmän underindelning från SAO](#amnesord-som-lokal-entitet) </br>*Exempel: Myror--ekonomiska aspekter sao* |
