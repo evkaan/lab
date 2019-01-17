@@ -7,7 +7,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 
 | [Ämnesord från system med listkod som länkad entitet](#amnesord-från-system-med-listkod-som-länkad-entitet) | [Ämnesord från system med listkod (utan listkod som länkad entitet)](#amnesord-från-system-med-listkod-utan-listkod-som-länkad-entitet) | [Ämnesord utan listkod](#amnesord-utan-listkod)
 | ----------- |  ----------- |  ----------- |
-| [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet-med-lankbar-listkod) | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal entitet-utan-listkod-som-lankad-entitet) |  [Ämnesord utan listkod](#amnesord-utan-listkod) |
+| [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet-med-lankbar-listkod) | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet-utan-lankbar-listkod) |  [Ämnesord utan listkod](#amnesord-utan-listkod) |
 | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet-med-lankbar-listkod) | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet)  |
 
 
@@ -50,7 +50,7 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 
 ### Ämnesord från system med listkod utan listkod som länkad entitet
 
-#### Enkelt ämnesord som lokal entitet (utan listkod som länkad entitet)
+#### Enkelt amnesord som lokal entitet utan lankbar listkod
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj aktuell typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
@@ -62,7 +62,7 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 
 SKÄRMDUMP: LokaltEnkeltLcsh
 
-#### Sammansatt ämnesord som lokal entitet (utan listkod som länkad entitet)
+#### Sammansatt amnesord som lokal entitet utan lankbar listkod 
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
