@@ -17,6 +17,8 @@ För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se 
 
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
+OBS! I Libris finns flera enkla geografiska ämnesord som man inte bör länka till. Enligt SAO:s riktlinjer är det endast länder och andra större geografiska enheter som beskrivs med en enkel term, alla mindre enheter beskrivs med sammansatta termer (SAO:s riktlinjer 3.5.3). Länka därför endast till ”godkända” entiteter, dvs enkla termer för länder/större enheter och sammansatta termer för mindre enheter. I de fall det saknas en länkbar entitet, se hjälptext för [Sammansatt ämnesord-Geografiskt ämensord med geografisk underindelning från SAO.](#länk till ämnesord som lokal entitet)
+
 ### Länka till ett sammansatt ämnesord
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
