@@ -8,7 +8,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 | [Ämnesord från system med listkod som länkad entitet](#amnesord-från-system-med-listkod-som-länkad-entitet) | [Ämnesord från system med listkod (utan listkod som länkad entitet)](#amnesord-från-system-med-listkod-utan-listkod-som-länkad-entitet) | [Ämnesord utan listkod](#amnesord-utan-listkod)
 | ----------- |  ----------- |  ----------- |
 | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet-med-lankbar-listkod) | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal entitet-utan-listkod-som-lankad-entitet) |  [Ämnesord utan listkod](#amnesord-utan-listkod) |
-| [Sammansatt ämnesord som lokal entitet](#1a-amnesord-från-system-med-listkod-som-länkad-entitet) | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet)  |
+| [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet-med-lankbar-listkod) | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet)  |
 
 
 
@@ -30,7 +30,7 @@ För att lägga till flera termer av samma typ kan den lokala entiteten kopieras
 ![Enkelt ämnesord som lokal entitet](LokaltEnkeltKao.png) 
 
 
-#### Sammansatt ämnesord som lokal entitet (med listkod som länkad entitet)
+#### Sammansatt amnesord som lokal entitet med lankbar listkod
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
