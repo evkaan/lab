@@ -5,14 +5,12 @@ Hjälptexten beskriver hur man anger ämnesord i verksbeskrivningen i Instans av
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. 
 <br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
 
-| [Ämnesord från system med listkod som länkad entitet](#amnesord-från-system-med-listkod-som-länkad-entitet) | [Ämnesord från system utan listkod som länkad entitet](#amnesord-från-system-utan-listkod-som-länkad-entitet) | 
-| ------ |  ----------- |
-| | |
-| [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet) | [Enkelt ämnesord som lokal entitet](#enkelt-ämnesord-som-lokal entitet) |
+| [Ämnesord från system med listkod som länkad entitet](#amnesord-från-system-med-listkod-som-länkad-entitet) | [Ämnesord från system utan listkod som länkad entitet](#amnesord-från-system-utan-listkod-som-länkad-entitet) | [Amnesord helt utan listkod](#amnesord-helt-utan-listkod)
+| ----------- |  ----------- |  ----------- |
+| [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet) | [Enkelt ämnesord som lokal entitet](#enkelt-ämnesord-som-lokal entitet) |  [Amnesord helt utan listkod](#amnesord-helt-utan-listkod) |
 | [Sammansatt ämnesord som lokal entitet](#amnesord-från-system-med-listkod-som-länkad-entitet) | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet)  |
-| | [Amnesord utan listkod](#amnesord-utan-listkod) |
 
-| | |
+
 
 
 ### Amnesord från system med listkod som länkad entitet
