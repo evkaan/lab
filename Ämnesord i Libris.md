@@ -21,7 +21,7 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 | [Kronologiskt ämnesord från Barn [1a]](#lanka-amnesord) </br>*Exempel: 1900-talet barn* | |
 | | |
 | **Geografiskt ämnesord** |  |
-| [Geografiskt ämnesord  [1a]](#lanka-amnesord) </br>I Libris finns flera enkla geografiska ämnesord som man inte bör länka till. Enligt SAO:s riktlinjer är det endast länder och andra större geografiska enheter som beskrivs med en enkel term, alla mindre enheter beskrivs med sammansatta termer (SAO:s riktlinjer 3.5.3). Länka därför endast till ”godkända” entiteter, dvs enkla termer för länder/större enheter och sammansatta termer för mindre enheter. I de fall det saknas en länkbar entitet, se anvisningar för Sammansatt ämnesord-Geografiskt ämensord med geografisk underindelning från SAO. Observera att det endast är entiteter för länder eller större geografiska enheter som länkas. </br>*Exempel: Etiopien* | |
+| [Geografiskt ämnesord  [1a]](#lanka-amnesord) </br>Observera att det endast är entiteter för länder eller större geografiska enheter som länkas. </br>*Exempel: Etiopien* | |
 | | |
 | **Sammansatt ämnesord** | **Sammansatt ämnesord** |
 | [Allmänt ämnesord med allmän underindelning från SAO auktoriserat som sträng [1a]](#lanka-amnesord) </br>*Exempel: Hästar--religiösa aspekter sao* | [Allmänt ämnesord med allmän underindelning från SAO](#amnesord-som-lokal-entitet) </br>*Exempel: Myror--ekonomiska aspekter sao* |
