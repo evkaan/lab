@@ -7,7 +7,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 
 | [Ämnesord från system med listkod som länkad entitet](#amnesord-från-system-med-listkod-som-länkad-entitet) | [Ämnesord från system med listkod (utan listkod som länkad entitet)](#amnesord-från-system-med-listkod-utan-listkod-som-länkad-entitet) | [Ämnesord utan listkod](#amnesord-utan-listkod)
 | ----------- |  ----------- |  ----------- |
-| [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet) | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal entitet) |  [Ämnesord utan listkod](#amnesord-utan-listkod) |
+| [Enkelt amnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet-med-listkod-som-lankad-entitet) | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal entitet-utan-listkod-som-lankad-entitet) |  [Ämnesord utan listkod](#amnesord-utan-listkod) |
 | [Sammansatt ämnesord som lokal entitet](#amnesord-från-system-med-listkod-som-länkad-entitet) | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet)  |
 
 
@@ -16,7 +16,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 ### Amnesord från system med listkod som länkad entitet
 Instruktionen används i de fall man vill ange ämnesord som en lokal entitet från kontrollerade ämnesordslistor vars listkod finns som en länkad enitet, t.ex. **agrovoc**, **kao**, **prvt**, **sfit**, **mesh** m.fl. Vissa ämnesordskonstruktioner från Svenska ämnesord (sao) läggs också in som lokala entiteter om den sammansatta konstruktionen inte finns auktoriserad, t.ex. sammansatta geografiska ämnesord.
 
-#### Enkelt ämnesord som lokal entitet (med listkod som länkad entitet)
+#### Enkelt amnesord som lokal entitet med listkod som lankad entitet
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj den typ av ämnesord du vill lägga till i rullgardinsmenyn Skapa lokal entitet, t.ex. Allmänt ämnesord.
@@ -49,7 +49,7 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 
 ### Amnesord från system med listkod utan listkod som länkad entitet
 
-#### Enkelt ämnesord som lokal entitet (utan listkod som länkad entitet)
+#### Enkelt amnesord som lokal entitet utan listkod som lankad entitet
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj aktuell typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
