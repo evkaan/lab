@@ -16,7 +16,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 ### Ämnesord från system med listkod som länkad entitet
 Instruktionen används i de fall man vill ange ämnesord som en lokal entitet från kontrollerade ämnesordslistor vars listkod finns som en länkad enitet, t.ex. **agrovoc**, **kao**, **prvt**, **sfit**, **mesh** m.fl. Vissa ämnesordskonstruktioner från Svenska ämnesord (sao) läggs också in som lokala entiteter om den sammansatta konstruktionen inte finns auktoriserad, t.ex. sammansatta geografiska ämnesord.
 
-#### Enkelt ämnesord som lokal entitet (med listkod som länkad entitet)
+#### Enkelt amnesord som lokal entitet (med listkod som länkad entitet)
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj den typ av ämnesord du vill lägga till i rullgardinsmenyn Skapa lokal entitet, t.ex. Allmänt ämnesord.
