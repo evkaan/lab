@@ -1,6 +1,6 @@
-## 2 Ämnesord som lokal entitet
+## Ämnesord som lokal entitet
 
-Hjälptexten beskriver hur man anger ämnesord i verksbeskrivningen i Instans av Verk i de fall ämnesorden inte finns auktoriserade.
+Hjälptexten beskriver hur man anger ämnesord i verksbeskrivningen i Instans av Verk i de fall ämnesorden inte finns auktoriserade. För auktoriserade ämnesord använd hjälptext [Länka ämnesord](LÄNK)
 
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. 
 <br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
