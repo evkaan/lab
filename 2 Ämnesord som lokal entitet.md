@@ -5,7 +5,7 @@ Hjälptexten beskriver hur man anger ämnesord i verksbeskrivningen i Instans av
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. 
 <br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
 
-| [Ämnesord från system med listkod som länkad entitet](#amnesord-från-system-med-listkod-som-länkad-entitet) | [Amnesord från system med listkod (utan listkod som länkad entitet)](#amnesord-från-system-med-listkod-(-utan-listkod-som-länkad-entitet-)) | [Amnesord utan listkod](#amnesord-utan-listkod)
+| [Ämnesord från system med listkod som länkad entitet](#amnesord-från-system-med-listkod-som-länkad-entitet) | [Amnesord från system med listkod (utan listkod som länkad entitet)](#amnesord-från-system-med-listkod-utan-listkod-som-länkad-entitet) | [Ämnesord utan listkod](#amnesord-utan-listkod)
 | ----------- |  ----------- |  ----------- |
 | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet) | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal entitet) |  [Amnesord helt utan listkod](#amnesord-utan-listkod) |
 | [Sammansatt ämnesord som lokal entitet](#amnesord-från-system-med-listkod-som-länkad-entitet) | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet)  |
@@ -47,7 +47,7 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 ![Lokalt sammansatt ämnesord med listkod kao](LokaltSammansattKao.png) 
 ![Lokalt sammansatt geografiskt ämnesord med listkod sao](LokaltGeoSammansattSao.png)
 
-### Amnesord från system med listkod (utan listkod som länkad entitet)
+### Amnesord från system med listkod utan listkod som länkad entitet
 
 #### 2b-1 Enkelt ämnesord som lokal entitet (utan listkod som länkad entitet)
 
