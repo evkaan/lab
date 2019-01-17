@@ -25,9 +25,10 @@ Instruktionen används i de fall man vill ange ämnesord som en lokal entitet fr
 * Skriv in aktuell term i Föredragen benämning.
 * Öppna sidorutan Lägg till entitet inom egenskapen Termlista. Sök efter och välj aktuell listkod.
 
+För att lägga till flera termer av samma typ kan den lokala entiteten kopieras.
+
 ![Enkelt ämnesord som lokal entitet](LokaltEnkeltKao.png) 
 
-För att lägga till flera termer av samma typ kan den lokala entiteten kopieras.
 
 #### Sammansatt ämnesord som lokal entitet (med listkod som länkad entitet)
 
