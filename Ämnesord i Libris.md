@@ -31,7 +31,9 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 | | [Allmänt ämnesord med valfri underindelning från KAO, MeSH, AGROVOC [2a2]](#amnesord-som-lokal-entitet) </br>*Exempel: Präster--historia kao* |
 | | [Sammansatt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH) [2a2]](#amnesord-som-lokal-entitet) </br>*Exempel: Horses--history lcsh* |
 
+
 För agenter (personer och organisationer) som ämne, se hjälptext för [LÄNK]
+
 För realtioner till delar och verk, se hjälptext för [LÄNK]
 
 
