@@ -11,8 +11,6 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet-med-lankbar-listkod) | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet-utan-lankbar-listkod)  |
 
 
-
-
 ### Ämnesord från system med listkod som länkad entitet
 Instruktionen används i de fall man vill ange ämnesord som en lokal entitet från kontrollerade ämnesordslistor vars listkod finns som en länkad enitet, t.ex. **agrovoc**, **kao**, **prvt**, **sfit**, **mesh** m.fl. Vissa ämnesordskonstruktioner från Svenska ämnesord (sao) läggs också in som lokala entiteter om den sammansatta konstruktionen inte finns auktoriserad, t.ex. sammansatta geografiska ämnesord.
 
@@ -46,7 +44,7 @@ För att lägga till flera termer av samma typ kan den lokala entiteten kopieras
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
 ![Lokalt sammansatt ämnesord med listkod kao](LokaltSammansattKao.png) 
-![Lokalt sammansatt geografiskt ämnesord med listkod sao](LokaltGeoSammansattSao.png)
+</br>![Lokalt sammansatt geografiskt ämnesord med listkod sao](LokaltGeoSammansattSao.png)
 
 ### Ämnesord från system med listkod utan listkod som länkad entitet
 
@@ -60,7 +58,7 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 * Öppna sidorutan Lägg till egenskaper under inom egenskapen Termlista. Sök efter och lägg till egenskapen Kod.
 * Skriv in aktuell listkod i rutan, t.ex. ”lcsh”.
 
-SKÄRMDUMP: LokaltEnkeltLcsh
+![Lokalt enkelt ämnesord med listkod lcsh](LokaltEnkeltLcsh.PNG)
 
 #### Sammansatt amnesord som lokal entitet utan lankbar listkod 
 
