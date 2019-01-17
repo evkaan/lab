@@ -16,7 +16,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 ### Amnesord från system med listkod som länkad entitet
 Instruktionen används i de fall man vill ange ämnesord som en lokal entitet från kontrollerade ämnesordslistor vars listkod finns som en länkad enitet, t.ex. **agrovoc**, **kao**, **prvt**, **sfit**, **mesh** m.fl. Vissa ämnesordskonstruktioner från Svenska ämnesord (sao) läggs också in som lokala entiteter om den sammansatta konstruktionen inte finns auktoriserad, t.ex. sammansatta geografiska ämnesord.
 
-#### 2a-1 Enkelt ämnesord som lokal entitet (med listkod som länkad entitet)
+#### Enkelt ämnesord som lokal entitet (med listkod som länkad entitet)
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj den typ av ämnesord du vill lägga till i rullgardinsmenyn Skapa lokal entitet, t.ex. Allmänt ämnesord.
@@ -29,7 +29,7 @@ Instruktionen används i de fall man vill ange ämnesord som en lokal entitet fr
 
 För att lägga till flera termer av samma typ kan den lokala entiteten kopieras.
 
-#### 2a-2 Sammansatt ämnesord som lokal entitet (med listkod som länkad entitet)
+#### Sammansatt ämnesord som lokal entitet (med listkod som länkad entitet)
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
@@ -49,7 +49,7 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 
 ### Amnesord från system med listkod utan listkod som länkad entitet
 
-#### 2b-1 Enkelt ämnesord som lokal entitet (utan listkod som länkad entitet)
+#### Enkelt ämnesord som lokal entitet (utan listkod som länkad entitet)
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj aktuell typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
@@ -61,7 +61,7 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 
 SKÄRMDUMP: LokaltEnkeltLcsh
 
-#### 2b-2 Sammansatt ämnesord som lokal entitet (utan listkod som länkad entitet)
+#### Sammansatt ämnesord som lokal entitet (utan listkod som länkad entitet)
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
@@ -78,14 +78,9 @@ SKÄRMDUMP: LokaltEnkeltLcsh
 
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
-Klicka på plustecknet intill Termkomponenter, sidorutan Lägg till entitet öppnas. Välj typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
-Klicka på plustecknet vid den tillagda ämnesordstypen, sidorutan Lägg till egenskaper under öppnas. Sök efter och välj Föredragen benämning.
-Skriv in aktuell term i Föredragen benämning.
-Klicka på plustecknet intill Termkomponenter, sidorutan Lägg till entitet öppnas. Välj typ av underindelning i rullgardinsmenyn Skapa lokal entitet.
-
 ![Lokalt sammansatt ämnesord med listkod lcsh](LokaltSammansattLcsh.png)
 
-#### 2 c Amnesord utan listkod
+#### Amnesord utan listkod
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj aktuell typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
