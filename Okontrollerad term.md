@@ -12,4 +12,5 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 * Öppna sidorutan Lägg till egenskaper under inom den tillagda ämnesordstypen.
 * Sök efter och lägg till Benämning. Skriv in aktuell term. I de fall termen är ett ämnesordsförslag, lägg till (prel/[sigel]).
 
+Exempel:
 ![Ämnesordsförslag](Ämnesordsförslag.png) 
