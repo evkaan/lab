@@ -32,9 +32,9 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 | | [Sammansatt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH) [2a2]](#amnesord-som-lokal-entitet) </br>*Exempel: Horses--history lcsh* |
 
 
-För agenter (personer och organisationer) som ämne, se hjälptext för [LÄNK]
+För agenter (personer och organisationer) som ämne, se hjälptext för [Relation till Agent](#https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
 
-För realtioner till delar och verk, se hjälptext för [LÄNK]
+För relationer till delar och verk, se hjälptext för [Relationer till delar och verk](#https://libris.kb.se/katalogisering/help/workflow-agent-relation)
 
 
 
