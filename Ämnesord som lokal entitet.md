@@ -25,6 +25,8 @@ Instruktionen används i de fall man vill ange ämnesord som en lokal entitet fr
 
 För att lägga till flera termer av samma typ kan den lokala entiteten kopieras.
 
+Exempel:
+
 ![Enkelt ämnesord som lokal entitet](LokaltEnkeltKao.png) 
 
 
@@ -43,7 +45,12 @@ För att lägga till flera termer av samma typ kan den lokala entiteten kopieras
 
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
+Exempel:
+
 ![Lokalt sammansatt ämnesord med listkod kao](LokaltSammansattKao.png) 
+
+Exempel:
+
 </br>![Lokalt sammansatt geografiskt ämnesord med listkod sao](LokaltGeoSammansattSao.png)
 
 ### Ämnesord från system med listkod utan listkod som länkad entitet
@@ -57,6 +64,8 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 * Öppna sidorutan Lägg till entitet/termlista inom egenskapen Termlista. Välj Skapa lokal entitet.
 * Öppna sidorutan Lägg till egenskaper under inom egenskapen Termlista. Sök efter och lägg till egenskapen Kod.
 * Skriv in aktuell listkod i rutan, t.ex. ”lcsh”.
+
+Exempel:
 
 ![Lokalt enkelt ämnesord med listkod lcsh](LokaltEnkeltLcsh.PNG)
 
@@ -76,6 +85,8 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 * Skriv in aktuell term i rutan.
 
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
+
+Exempel:
 
 ![Lokalt sammansatt ämnesord med listkod lcsh](LokaltSammansattLcsh.png)
 
