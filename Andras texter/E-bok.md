@@ -1,3 +1,14 @@
+---
+section: Hjälptexter katalogisering
+title: E-bok
+order: 32
+date: 2019-02-10
+tags:
+- under arbete
+- e-bok
+- e-böcker
+--- 
+
 ## E-bok
 
 Denna hjälptext beskriver ett antal för e-böcker vanligt förekommande egenskaper, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen E-bok, andra kan behöva läggas till. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
