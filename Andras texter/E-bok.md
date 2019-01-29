@@ -29,7 +29,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Bilagor](#bilagor) | |
 | [Seriemedlemskap](#seriemedlemskap) | | 
 | [Innehållsanmärkning](#innehallsanmarkning) | | 
-| [Anmarkning](#anmarkning) | | 
+| [Anmärkning](#anmarkning) | | 
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Ljudinspelning). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
