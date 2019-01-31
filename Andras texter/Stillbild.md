@@ -6,7 +6,7 @@ Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalo
 
 För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/) samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
-###Innehåll
+### Innehåll
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
@@ -20,7 +20,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | [Beskrivningsnivå](#beskrivningsniva) | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | |
 | [Bibliografikod](#bibliografikod)  | [Tillverkning](#tillverkning) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Copyrightår](#copyrightar) | |
-| | [Identifikator](#identifikator) |  |
+| | [Identifikator](#identifikator) | |
 | | [Omfång](#omfang) | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
 | | [Mått](#matt) | |                                                                  
