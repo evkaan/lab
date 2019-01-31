@@ -28,7 +28,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | [Applicerat material](#applicerat-material) | |
 | | [Bärande material](#bärande-material) | |
 | | [Färginnehåll](#färginnehåll) | |
-| | [Genre/form](#genre/form) | |
+| | [Genre/form](#polaritet) | |
 | | [Polaritet](#polaritet) | |
 | | [Bilagor](#bilagor) | | 
 | | [Seriemedlemskap](#seriemedlemskap) | | 
