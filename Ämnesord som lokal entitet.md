@@ -9,7 +9,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 | ----------- |  ----------- |  ----------- |
 | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet-med-lankbar-listkod) | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet-utan-lankbar-listkod) |  [Ämnesord utan listkod](#amnesord-utan-listkod) |
 | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet-med-lankbar-listkod) | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet-utan-lankbar-listkod)  |
-| [Sammansatt ämnesord som lokal entitet med länkbara komponenter](#sammansatt-amnesord-som-lokal-entitet-med-listkod-sao-och-lankbara-komponenter) | |
+| [Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponenter](#sammansatt-amnesord-som-lokal-entitet-med-listkod-sao-och-lankbara-komponenter) | |
 
 
 ### Ämnesord från system med listkod som länkad entitet
@@ -57,7 +57,9 @@ Exempel:
 
 #### Sammansatt amnesord som lokal entitet med listkod sao och lankbara komponenter
 
-Sammansatta ämnesord från Svenska ämnesord bestående av allmänt ämnesord med allmän underindelning görs endast via kombination av länkbart ämnesord med länkbar underindelning.
+Sammansatta ämnesord från Svenska ämnesord bestående av allmänt ämnesord med allmän underindelning finns inte alltid auktoriserade. De kan dock skapas som lokal entitet endast via kombination av länkbart ämnesord med länkbar underindelning.
+
+Se [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/) för regler kring hur  sammansatta termer får konstrueras.
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
