@@ -9,6 +9,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 | ----------- |  ----------- |  ----------- |
 | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet-med-lankbar-listkod) | [Enkelt ämnesord som lokal entitet](#enkelt-amnesord-som-lokal-entitet-utan-lankbar-listkod) |  [Ämnesord utan listkod](#amnesord-utan-listkod) |
 | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet-med-lankbar-listkod) | [Sammansatt ämnesord som lokal entitet](#sammansatt-amnesord-som-lokal-entitet-utan-lankbar-listkod)  |
+| [Sammansatt ämnesord som lokal entitet med länkbara komponenter](#sammansatt-amnesord-som-lokal-entitet-med-listkod-sao-och-lankbara-komponenter) | |
 
 
 ### Ämnesord från system med listkod som länkad entitet
@@ -52,6 +53,24 @@ Exempel:
 Exempel:
 
 </br>![Lokalt sammansatt geografiskt ämnesord med listkod sao](LokaltGeoSammansattSao.png)
+
+
+#### Sammansatt amnesord som lokal entitet med listkod sao och lankbara komponenter
+
+Sammansatta ämnesord från Svenska ämnesord bestående av allmänt ämnesord med allmän underindelning görs endast via kombination av länkbart ämnesord med länkbar underindelning.
+
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
+* Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
+* Öppna sidorutan Lägg till entitet/termlista inom egenskapen Termlista. Sök efter och välj listkod sao.
+* Öppna sidorutan Lägg till entitet under inom egenskapen Termkomponenter. 
+* Välj typen Allmänt ämnesord. Sök efter och lägg till aktuell term (kontrollera termlista, sao). Termen länkas då till verksbeskrivningen i Instans av Verk. Behåll sidorutan öppen.
+* Välj typen Underindelning för allmänt ämnesord. Sök efter och lägg till aktuell term. Termen länkas då till verksbeskrivningen i Instans av Verk.
+
+Upprepa momenten ovan för att lägga till fler sammansatta termer.
+
+Exempel:
+
+![Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponeneter](LokaltSammansattSao.png) 
 
 ### Ämnesord från system med listkod utan listkod som länkad entitet
 
