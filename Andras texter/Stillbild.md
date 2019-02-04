@@ -9,32 +9,32 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 ### Innehåll
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Kontrollnummer](Länk adminmetadata) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Skapad av](Länk adminmetadata) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Uppgraderad eller importerad av](Länk adminmetadata) | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Katalogiserande instans](Länk adminmetadata) | [Titel](#titel) | [Genre](#genre) |
-| [Poststatus](Länk adminmetadata) | [Upphovsuppgift](#upphovsuppgift) | [Ämne](#amne) |
-| [Systemnummer](Länk adminmetadata) | [Upplageuppgift](#upplageuppgift) | [Innehållstyp](#innehallstyp) |
-| [Katalogiseringsspråk](Länk adminmetadata) | [Produktion](#produktion) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
-| [Katalogiseringsregler](Länk adminmetadata) | [Utgivning](#utgivning)  |
-| [Beskrivningsnivå](Länk adminmetadata) | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | |
-| [Bibliografikod](Länk adminmetadata  | [Tillverkning](#tillverkning) | |
-| [Systemteknisk anmärkning](Länk adminmetadata) | [Copyrightår](#copyrightar) | |
-| | [Identifikator](#identifikator) | |
-| | [Omfång](#omfang) | |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
-| | [Mått](#matt) | |                                                                  
+| [Kontrollnummer](Länk adminmetadata) | [Utgivningssätt](Länk instans) | [Verkets titel](#verkets-titel) |
+| [Skapad av](Länk adminmetadata) | [Medietyp](Länk instans) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Uppgraderad eller importerad av](Länk adminmetadata) | [Bärartyp](Länk instans) | [Språk](#sprak) |
+| [Katalogiserande instans](Länk adminmetadata) | [Titel](Länk instans) | [Genre](#genre) |
+| [Poststatus](Länk adminmetadata) | [Upphovsuppgift](Länk instans) | [Ämne](#amne) |
+| [Systemnummer](Länk adminmetadata) | [Upplageuppgift](Länk instans) | [Innehållstyp](#innehallstyp) |
+| [Katalogiseringsspråk](Länk adminmetadata) | [Produktion](Länk instans) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
+| [Katalogiseringsregler](Länk adminmetadata) | [Utgivning](Länk instans)  |
+| [Beskrivningsnivå](Länk adminmetadata) | [Huvudsakligt tillgängliggörande](Länk instans) | |
+| [Bibliografikod](Länk adminmetadata  | [Tillverkning](Länk instans) | |
+| [Systemteknisk anmärkning](Länk adminmetadata) | [Copyrightår](Länk instans) | |
+| | [Identifikator](Länk instans) | |
+| | [Omfång](Länk instans) | |
+| | [Övriga fysiska detaljer](Länk instans) | | 
+| | [Mått](Länk instans) | |                                                                  
 | | [Produktionsmetod](#produktionsmetod) | |  
 | | [Applicerat material](#applicerat-material) | |
 | | [Bärande material](#bärande-material) | |
 | | [Färginnehåll](#färginnehåll) | |
 | | [Genre/form](#polaritet) | |
 | | [Polaritet](#polaritet) | |
-| | [Bilagor](#bilagor) | | 
-| | [Seriemedlemskap](#seriemedlemskap) | | 
-| | [Anmärkning](#anmärkning) | | 
-| | [Innehållsanmärkning](#innehållsanmärkning) | | 
-| | [Annat bärarformat](#annat-bararformat) | | 
+| | [Bilagor](Länk instans) | | 
+| | [Seriemedlemskap](Länk instans) | | 
+| | [Anmärkning](Länk instans) | | 
+| | [Innehållsanmärkning](Länk instans) | | 
+| | [Annat bärarformat](Länk instans) | | 
 
 
 ### Adminmetadata
@@ -59,7 +59,7 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 
 #### Bärande material 
 *	Bärande material (baseMaterial (marc) = 007/00: k/01)
-  </br>Länka till enitet. Välj bland entiteterna som benämns ”Bildens bärande material”. Trukera (sök på * ) för att få upp en lista över samtliga entiteter. I stillbildsmallen finns entiteten Papp och kartong inlagd. Ändra vid behov.
+  </br>Länka till enitet. Välj bland entiteterna som benämns ”Bildens bärande material”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. I stillbildsmallen finns entiteten Papp och kartong inlagd. Ändra vid behov.
 
 *	Bärande material/Benämning ((baseMaterial/label = 340 ‡a)
   </br>Ange bärande material som lokal entitet.
@@ -71,27 +71,25 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 #### Färginnehåll
 * Färginnehåll (colorContent (marc) = 007/00: k/03)
   </br>Länka till enitet. Välj bland följande entiteter: 
-  </br>En färg
-  </br>Svartvit
-  </br>Flera färger
-  </br>Handkolorerad (Bilden, som framställts genom tryck- eller fotografisk process, har handkolorerats.)
-  </br>Blandad färgstatus (En färg, svartvitt, flera färger och/eller handkolorering har kombinerats i ett verk eller en samling.)
+  </br>* En färg
+  </br>* Svartvit
+  </br>* Flera färger
+  </br>* Handkolorerad (Bilden, som framställts genom tryck- eller fotografisk process, har handkolorerats.)
+  </br>* Blandad färgstatus (En färg, svartvitt, flera färger och/eller handkolorering har kombinerats i ett verk eller en samling.)
 
   </br>I stillbildsmallen finns entiteten svartvit (marc/BlackAndWhite)  inlagd. Ändra vid behov. 
   </br>Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
 
 #### Genre/form
-•	Genre/form (genreForm (marc) = 007/00: k/01)
-Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning för bilder”. Genom att söka på  symbolen *  får du upp en lista över samtliga entiteter. 
-
-I stillbildsmallen finns entiteten bilder (marc/Picture)  inlagd. Ändra vid behov till mer specifik entitet.
-
+*	Genre/form (genreForm (marc) = 007/00: k/01)
+  </br>Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning för bilder”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
+  </br>I stillbildsmallen finns entiteten bilder (marc/Picture)  inlagd. Ändra vid behov till mer specifik entitet.
  	
 #### Polaritet
-•	Polaritet/Benämning (polarity/label= 340 ‡o)
-Använd Polaritet vid katalogisering av fotografier. Ange polaritet som lokal entitet. Välj bland följande två entiteter:
-positiv
-negativ
+*	Polaritet/Benämning (polarity/label= 340 ‡o)
+  </br>Använd Polaritet vid katalogisering av fotografier. Ange polaritet som lokal entitet. Välj bland följande två entiteter:
+  * positiv
+  * negativ
 
 
 ### Verk
