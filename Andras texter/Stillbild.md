@@ -48,41 +48,37 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 
 #### Produktionsmetod
 *	Produktionsmetod/Benämning (productionMethod/label = 340 ‡d)
-Ange produktionsmetod som lokal entitet. 
-Lista över termer att använda vid beskrivning av produktionsmetod gällande kartor och stillbilder finns i RDA-anvisningarna.
+  </br>Ange produktionsmetod som lokal entitet. 
+  </br>Lista över termer att använda vid beskrivning av produktionsmetod gällande kartor och stillbilder finns i [RDA-anvisningarna](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/#Produktionsmetod).
 
 #### Applicerat material
 *	Applicerat material/Benämning (appliedMaterial/label = 340 ‡c)
-  Ange applicerat material som lokal entitet. Om flera entiteter behövs redovisas samtliga i en och samma fältetikett.
-  ```Exempel: akvarell och penna```  
-
-Lista över termer att använda vid beskrivning av applicerat material gällande kartor och stillbilder finns i RDA-anvisningarna.
+  </br>Ange applicerat material som lokal entitet. Om flera entiteter behövs redovisas samtliga i en och samma fältetikett.
+  </br>```Exempel: akvarell och penna```  
+  </br>Lista över termer att använda vid beskrivning av applicerat material gällande kartor och stillbilder finns i [RDA-anvisningarna](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/#Applicerat%20material).
 
 #### Bärande material 
 *	Bärande material (baseMaterial (marc) = 007/00: k/01)
-  Länka till enitet. Välj bland entiteterna som benämns ”Bildens bärande material”. Trukera (sök på * ) för att få upp en lista över samtliga entiteter. I stillbildsmallen finns entiteten Papp och kartong inlagd. Ändra vid behov.
+  </br>Länka till enitet. Välj bland entiteterna som benämns ”Bildens bärande material”. Trukera (sök på * ) för att få upp en lista över samtliga entiteter. I stillbildsmallen finns entiteten Papp och kartong inlagd. Ändra vid behov.
 
 *	Bärande material/Benämning ((baseMaterial/label = 340 ‡a)
-  Ange bärande material som lokal entitet.
-  I de fall flera entiteter behövs för korrekt beskrivning redovisas samtliga i en och samma ruta.
-  ```Exempel: papper och textil ```  
-  I stillbildsmallen finns entiteten Papper inlagd. Ändra vid behov. Lista över termer att använda vid beskrivning av bärande material gällande kartor och stillbilder finns i [RDA-anvisningarna](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/#B%C3%A4rande%20material).
+  </br>Ange bärande material som lokal entitet.
+  </br>I de fall flera entiteter behövs för korrekt beskrivning redovisas samtliga i en och samma ruta.
+  </br>```Exempel: papper och textil ```  
+  </br>I stillbildsmallen finns entiteten Papper inlagd. Ändra vid behov. 
+  </br>Lista över termer att använda vid beskrivning av bärande material gällande kartor och stillbilder finns i [RDA-anvisningarna](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/#B%C3%A4rande%20material).
 
 #### Färginnehåll
 * Färginnehåll (colorContent (marc) = 007/00: k/03)
-  Länka till enitet. Välj bland följande entiteter: 
-En färg
-Svartvit
-Flera färger
-Handkolorerad* 
-Blandad färgstatus**
+  </br>Länka till enitet. Välj bland följande entiteter: 
+  </br>En färg
+  </br>Svartvit
+  </br>Flera färger
+  </br>Handkolorerad (Bilden, som framställts genom tryck- eller fotografisk process, har handkolorerats.)
+  </br>Blandad färgstatus (En färg, svartvitt, flera färger och/eller handkolorering har kombinerats i ett verk eller en samling.)
 
-*Bilden, som framställts genom tryck- eller fotografisk process, har handkolorerats.
-**En färg, svartvitt, flera färger och/eller handkolorering har kombinerats i ett verk eller en samling.
-
-I stillbildsmallen finns entiteten svartvit (marc/BlackAndWhite)  inlagd. Ändra vid behov.
-
-Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
+  </br>I stillbildsmallen finns entiteten svartvit (marc/BlackAndWhite)  inlagd. Ändra vid behov. 
+  </br>Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
 
 #### Genre/form
 •	Genre/form (genreForm (marc) = 007/00: k/01)
