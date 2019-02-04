@@ -1,25 +1,25 @@
 
 
-##Stillbild
+## Stillbild
 
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av stillbilder. I de fall egenskaperna finns beskrivna i annan hjälptext, t.ex. för  tryckta monografier, upprepas inte informationen här utan istället finns en länk till platsen för redan befintlig anvisning. Egenskaper som är specifika för stillbilder redovisas däremot enbart här. 
+Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av stillbilder. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för stillbilder redovisas däremot enbart här. 
 
 För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/) samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
 ### Innehåll
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Genre](#genre) |
-| [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) | [Ämne](#amne) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Innehållstyp](#innehallstyp) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Produktion](#produktion) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning)  |
-| [Beskrivningsnivå](#beskrivningsniva) | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | |
-| [Bibliografikod](#bibliografikod)  | [Tillverkning](#tillverkning) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Copyrightår](#copyrightar) | |
+| [Kontrollnummer](Länk adminmetadata) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Skapad av](Länk adminmetadata) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Uppgraderad eller importerad av](Länk adminmetadata) | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| [Katalogiserande instans](Länk adminmetadata) | [Titel](#titel) | [Genre](#genre) |
+| [Poststatus](Länk adminmetadata) | [Upphovsuppgift](#upphovsuppgift) | [Ämne](#amne) |
+| [Systemnummer](Länk adminmetadata) | [Upplageuppgift](#upplageuppgift) | [Innehållstyp](#innehallstyp) |
+| [Katalogiseringsspråk](Länk adminmetadata) | [Produktion](#produktion) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
+| [Katalogiseringsregler](Länk adminmetadata) | [Utgivning](#utgivning)  |
+| [Beskrivningsnivå](Länk adminmetadata) | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | |
+| [Bibliografikod](Länk adminmetadata  | [Tillverkning](#tillverkning) | |
+| [Systemteknisk anmärkning](Länk adminmetadata) | [Copyrightår](#copyrightar) | |
 | | [Identifikator](#identifikator) | |
 | | [Omfång](#omfang) | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
@@ -39,87 +39,12 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 
 ### Adminmetadata
 
-#### Kontrollnummer
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Skapad av
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Uppgraderad eller importerad av
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Katalogiserande instans
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Poststatus
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Systemnummer
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Katalogiseringsspråk
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Katalogiseringsregler
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Beskrivningsnivå
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Bibliografikod
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Systemteknisk anmärkning
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
+Använd generell hjälptext för adminmetadata - Länk till allmän sida
 
 
 ### Instans
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
 
-#### Utgivningssätt
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Medietyp
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Bärartyp
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Titel
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Upphovsuppgift
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Upplageuppgift
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Produktion
-[LÄNK TILL NYSKRIVEN ALLMÄN TEXT?]
-
-#### Utgivning
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Huvudsakligt tillgängliggörande
-[LÄNK TILL NYSKRIVEN ALLMÄN TEXT?]
-
-#### Tillverkning
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Copyrightår
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Identifikator
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Omfång
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Övriga fysiska detaljer
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
-
-#### Mått
-[LÄNK TILL ALLMÄNN HJÄLPTEXT FÖR ADMINMETADATA]
+I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälptext upprepas inte informationen här. Följ länkar i innehållsförteckningen till hjälptext för Instans. Egenskaper som är specifika för Instans vid katalogisering av stillbilder redovisas nedan. 
 
 #### Produktionsmetod
 *	Produktionsmetod/Benämning (productionMethod/label = 340 ‡d)
@@ -141,16 +66,11 @@ Lista över termer att använda vid beskrivning av applicerat material gällande
   Ange bärande material som lokal entitet.
   I de fall flera entiteter behövs för korrekt beskrivning redovisas samtliga i en och samma ruta.
   ```Exempel: papper och textil ```  
- 
-I stillbildsmallen finns entiteten Papper inlagd. Ändra vid behov.
-
-Lista över termer att använda vid beskrivning av bärande material gällande kartor och stillbilder finns i RDA-anvisningarna.
-
-
+  I stillbildsmallen finns entiteten Papper inlagd. Ändra vid behov. Lista över termer att använda vid beskrivning av bärande material gällande kartor och stillbilder finns i [RDA-anvisningarna](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/#B%C3%A4rande%20material).
 
 #### Färginnehåll
-•	Färginnehåll (colorContent (marc) = 007/00: k/03)
-Länka till enitet. Välj bland följande entiteter: 
+* Färginnehåll (colorContent (marc) = 007/00: k/03)
+  Länka till enitet. Välj bland följande entiteter: 
 En färg
 Svartvit
 Flera färger
