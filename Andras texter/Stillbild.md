@@ -109,5 +109,4 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 *	Genre/form – TGM-termer (genreForm = 655 -/7 ‡a, ‡2 TGM)
   </br>Länka till entitet. Välj Genre/form i listan över typer. Sök på önskad term. 
   </br>I stillbildsmallen finns redan TGM-termen Bilder inlagd. Lägg till fler vid behov.
-
   </br>I nuläget går det inte att filtrera på enbart TGM-termer. Vid många sökträffar kan det därför vara bra att söka på termens id-nummer, som i nuläget enklast söks fram i [Auktoritetsdatabasen](https://regina.kb.se/F/AS1L6KJ9E7IQ1UC49TJN4AUNLR3D8GIXUCSA2HRMJ8F8N5NQ4P-33491?func=file&file_name=scan&local_base=kbs10) (välj Genre i index, sök efter aktuell term).  
