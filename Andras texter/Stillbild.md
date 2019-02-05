@@ -71,7 +71,7 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 #### Färginnehåll
 * Färginnehåll (colorContent (marc) = 007/00: k/03)
   </br>Länka till enitet. Välj bland följande entiteter: 
-    </br> * En färg
+  * En färg
     </br> * Svartvit
     </br> * Flera färger
     </br> * Handkolorerad (Bilden, som framställts genom tryck- eller fotografisk process, har handkolorerats.)
