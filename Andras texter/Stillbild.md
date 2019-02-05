@@ -71,11 +71,11 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 #### Färginnehåll
 * Färginnehåll (colorContent (marc) = 007/00: k/03)
   </br>Länka till enitet. Välj bland följande entiteter: 
-  </br>* En färg
-  </br>* Svartvit
-  </br>* Flera färger
-  </br>* Handkolorerad (Bilden, som framställts genom tryck- eller fotografisk process, har handkolorerats.)
-  </br>* Blandad färgstatus (En färg, svartvitt, flera färger och/eller handkolorering har kombinerats i ett verk eller en samling.)
+    </br>* En färg
+    </br>* Svartvit
+    </br>* Flera färger
+    </br>* Handkolorerad (Bilden, som framställts genom tryck- eller fotografisk process, har handkolorerats.)
+    </br>* Blandad färgstatus (En färg, svartvitt, flera färger och/eller handkolorering har kombinerats i ett verk eller en samling.)
 
   </br>I stillbildsmallen finns entiteten svartvit (marc/BlackAndWhite)  inlagd. Ändra vid behov. 
   </br>Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
@@ -88,8 +88,8 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 #### Polaritet
 *	Polaritet/Benämning (polarity/label= 340 ‡o)
   </br>Använd Polaritet vid katalogisering av fotografier. Ange polaritet som lokal entitet. Välj bland följande två entiteter:
-  * positiv
-  * negativ
+    </br>* positiv
+    </br>* negativ
 
 
 ### Verk
