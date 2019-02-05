@@ -59,7 +59,8 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 
 #### Bärande material 
 *	Bärande material (baseMaterial (marc) = 007/00: k/01)
-  </br>Länka till enitet. Välj bland entiteterna som benämns ”Bildens bärande material”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. I stillbildsmallen finns entiteten Papp och kartong inlagd. Ändra vid behov.
+  </br>Länka till enitet. Välj bland entiteterna som benämns ”Bildens bärande material”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
+  </br>I stillbildsmallen finns entiteten Papp och kartong inlagd. Ändra vid behov.
 
 *	Bärande material/Benämning ((baseMaterial/label = 340 ‡a)
   </br>Ange bärande material som lokal entitet.
