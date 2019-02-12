@@ -165,13 +165,22 @@ Beskrivning av den auktoriserade agenten.
 
 #### Variant
 * Variant (hasVariant = 400 ‡a ‡d)
-  <br/>Här anges variantnamn och alternativa namnformer samt födelse och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i de bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till.
-  <br/>```Exempel:``` 
-  * ```Efternamn: Jansson```  
-  * ```Förnamn: Eric```
-  * ```Efternamn: Janzon```
-  * ```Förnamn: Erik Gustaf```
-    <br/>För att lägga till ytterligare Variant: Klicka på plustecknet under egenskapen Variant, och välj typ (Person). Klicka på plustecknet inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid).
+  <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
+  <br/>```Exempel:```
+  * ```Enkelt efternamn: Lagerlöf```
+  <br/>```Förnamn: Selma Ottiliana Lovisa``` 
+  <br/>```Födelse- och/eller dödstid: 1858-1940```
+  * ```Stvaningsvariant på efternamn: Lagerlœf``` 
+  <br/>```Förnamn: Selma```
+  <br/>```Födelse- och/eller dödstid: 1858-1940```
+  * ```Sammansatt släktnamn (dubbla efternamn): Månsson```
+  <br/>```Förnamn: Helena Lindmark``` 
+  <br/>```Födelse- och/eller dödstid: 1954-```
+    * ```Släktnamn med separata prefix: Geer```
+  <br/>```Förnamn: Louis de``` 
+  <br/>```Födelse- och/eller dödstid: 1677-1735```
+  <br/>OBS! För sammansatta släktnamn och namn innehållande separata prefix läggs informationen för närvarande till enligt exemplen ovan.
+  <br/>För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
   
 #### Identifikator
 * Identifikator (identifiedBy = 024 ‡a)
