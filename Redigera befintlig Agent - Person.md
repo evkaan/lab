@@ -1,4 +1,13 @@
-UNDER ARBETE (uppdaterad och flyttad till skarpt 2018-11-20)
+---
+section: Hjälptexter agenter
+title: Person - Redigera befintlig 
+order: 45
+date: 2019-02-12
+tags:
+- redigera agent
+- redigera auktoritet
+- under arbete
+--- 
 
 ## Redigera befintlig Agent - Person
 Hjälptexten beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i hjälptexten är fiktiva.
@@ -64,7 +73,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Beskrivningsnivå
 * Beskrivningsnivå (encodingLevel = 000)
-  <br/>Fullständig, ändras vid behov. 
+  <br/>Ska vara Fullständig. Ändras vid behov. 
   <br/>```Exempel: Fullständig```
 
 #### Katalogiserande instans
@@ -185,8 +194,10 @@ Beskrivning av den auktoriserade agenten.
 #### Identifikator
 * Identifikator (identifiedBy = 024 ‡a)
   <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
-  <br/>```Exempel: 0000000121339888 ```
-  <br/>För att lägga till: Klicka på plustecknet under Identifikator, välj typ (ISNI). Klicka på plustecknet inom det tillagda Identifikator, sök efter och lägg till Värde.
+  <br/>```Exempel:```
+  * ```Värde: 0000000121339888```
+  * ```Typanmärkning: isni```
+  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Välj typen Identifikator i rullgardinsmenyn. Klicka på plustecknet inom Identifikator, sök efter och lägg till Typanmärkning.
 
 #### Har yrke eller sysselsättning
 * Har yrke eller sysselsättning (hasOccupation = 374)
@@ -259,5 +270,3 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
-
-
