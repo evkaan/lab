@@ -176,7 +176,7 @@ Beskrivning av den auktoriserade agenten.
   * ```Sammansatt släktnamn (dubbla efternamn): Månsson```
   <br/>```Förnamn: Helena Lindmark``` 
   <br/>```Födelse- och/eller dödstid: 1954-```
-    * ```Släktnamn med separata prefix: Geer```
+  * ```Släktnamn med separata prefix: Geer```
   <br/>```Förnamn: Louis de``` 
   <br/>```Födelse- och/eller dödstid: 1677-1735```
   <br/>OBS! För sammansatta släktnamn och namn innehållande separata prefix läggs informationen för närvarande till enligt exemplen ovan.
