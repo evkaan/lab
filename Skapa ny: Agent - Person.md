@@ -1,4 +1,13 @@
-
+---
+section: Hjälptexter agenter
+title: Person - Skapa ny 
+order: 40
+date: 2019-02-12
+tags:
+- agenter
+- auktoriteter
+- under arbete
+---
 
 ## Skapa ny: Agent - Person
 Hjälptexten beskriver de egenskaper och klasser som finns representerade i mallen. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av hjälptexten. 
@@ -113,8 +122,7 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
 
 #### Beskrivningsniva
 * Beskrivningsnivå
-  <br/>**OBS! Egenskapen måste för närvarande läggas till manuellt EFTER att den nya agenten först har sparats.**
-  <br/>För att lägga till: Skapa och spara agenten, klicka på plustecknet i verktygsmenyn, sök efter och lägg till Beskrivningsnivå, välj Fullständig i rullgardinsmenyn.
+  <br/>Förval: Fullständig. Ändras ej.
 
 
 ### Agent
@@ -200,10 +208,12 @@ Beskrivning av agenten som ska auktoriseras.
    <br/>För att lägga till: Klicka på plustecknet inom egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 #### Identifikator
-* Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
-  <br/>```Exempel: 0000000121339888 ```
-   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Identifikator, välj typ (ISNI). Klicka på plustecknet inom Identifikator, sök efter och lägg till Värde.
+* Identifikator (identifiedBy = 024 ‡a)
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
+  <br/>```Exempel:```
+  * ```Värde: 0000000121339888```
+  * ```Typanmärkning: isni```
+  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Välj typen Identifikator i rullgardinsmenyn. Klicka på plustecknet inom Identifikator, sök efter och lägg till Typanmärkning.
 
 #### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043)
