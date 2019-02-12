@@ -167,13 +167,13 @@ Beskrivning av agenten som ska auktoriseras.
   * ```Stvaningsvariant på efternamn: Lagerlœf``` 
   <br/>```Förnamn: Selma```
   <br/>```Födelse- och/eller dödstid: 1858-1940```
-  * ```Sammansatt släktnamn (dubbla efternamn): Månsson```
+  * ```Sammansatt släktnamn (efternamn): Månsson```
   <br/>```Förnamn: Helena Lindmark``` 
   <br/>```Födelse- och/eller dödstid: 1954-```
-    * ```Släktnamn med separata prefix: Geer```
+  * ```Släktnamn med separata prefix (efternamn): Geer```
   <br/>```Förnamn: Louis de``` 
   <br/>```Födelse- och/eller dödstid: 1677-1735```
-  <br/>OBS! För sammansatta släktnamn och namn innehållande separata prefix läggs informationen för närvarande till enligt exemplena ovan.
+  <br/>OBS! För sammansatta släktnamn och namn innehållande separata prefix läggs informationen för närvarande till enligt exemplen ovan.
   <br/>För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
 
 #### Se även
