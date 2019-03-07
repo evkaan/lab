@@ -3,7 +3,7 @@
 ### Innehåll
 
 | [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy)
-| ----------- | ----------- | ----------- |
+| -------- | ----------- | ----------- |
 | [Lägg bestånd](#lägg-bestånd) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) |
 | [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | 
 | [Verktyg](#verktyg) | [Ångra](#ångra) |
