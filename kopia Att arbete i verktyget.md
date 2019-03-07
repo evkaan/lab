@@ -8,12 +8,12 @@
 | [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | 
 | [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
 | [- Expandera/minimera alla](#expandera/minimera-alla) | [Spara](#spara) | [Lägg till och ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) | 
-| [Kopiera](#kopiera) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) | 
-| [Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
-| [Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
-| [Förhandsgranska MARC21](#förhandsgranska-MARC21) |
-| [Ta bort](#ta-bort) |
-| [Redigera](#redigera) |
+| [- Kopiera](#kopiera) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) | 
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
+| [- Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
+| [- Förhandsgranska MARC21](#förhandsgranska-MARC21) |
+| [- Ta bort](#ta-bort) |
+| [- Redigera](#redigera) |
 
 
 ## Visningsvy
