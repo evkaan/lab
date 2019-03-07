@@ -7,7 +7,7 @@
 | [Lägg bestånd](#lägg-bestånd) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) |
 | [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | 
 | [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
-| [Expandera/minimera alla](#expandera/minimera-alla) | [Spara](#spara) | [Lägg till och ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) | 
+| [- Expandera/minimera alla](#expandera/minimera-alla) | [Spara](#spara) | [Lägg till och ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) | 
 | [Kopiera](#kopiera) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) | 
 | [Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
 | [Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
