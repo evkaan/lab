@@ -8,7 +8,7 @@
 | [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | 
 | [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
 | [- Expandera/minimera alla](#expandera/minimera-alla) | [Spara](#spara) | [Lägg till och ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) | 
-| [- Kopiera](#kopiera) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) | 
+| [- Berika från mall]((https://libris.kb.se/katalogisering/help/editor-templates)) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) | 
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
 | [- Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
 | [- Förhandsgranska MARC21](#förhandsgranska-MARC21) |
@@ -37,9 +37,14 @@ För att skapa en bättre översikt över posten samt för att lättare se vad p
 Expandera: Alt + Plus
 Minimera: Alt + Minus
 
-#### Kopiera
-Knappen för att kopiera duplicerar hela beskrivningen in i en ny post. Det står då [Kopia] i postens rubrik. 
-OBS! Dock har ingen post skapats förrän posten sparats. När posten sparats får den ett nytt ID. Om man avbryter utan att spara försvinner posten.
+#### Berika från mall
+Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates)
+
+#### Berika från post
+REDIGERA HÄR!
+Den nya funktionen "Berika BIB-post från specifikt ID" är så som den fungerar just nu lämplig att använda för att berika en förhandspost (prelpost, CIP-post) (B) med metadata från en mer fyllig post (A), t.ex. metadatan från en första utgåva kan berika en tunn förhandspost för en andra utgåva.
+
+Viktigt att känna till är att det endast är egenskaper som inte finns i (B) som tillkommer vid berikning från (A) vilket förklarar varför du upplever problem. För att få med innehållet från (A) behöver motsvarande egenskap raderas från (B) innan berikningen görs.
 
 #### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
