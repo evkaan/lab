@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Stillbild
 order: 28
-date: 2019-03-14
+date: 2019-03-13
 tags:
 - under arbete
 - musik-CD
