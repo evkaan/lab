@@ -256,8 +256,8 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 #### Andra attribut för person- och organisationsnamn ANVÄNDS I KOMBINATION MED TITEL ELLER ÖVRIG BETECKNING
 * Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368 ‡c ELLER ‡d ‡2)
-  <br/>För att ange andra beteckningar för t.ex. andar, gudinnor, fiktiva gestalter används den underordnade egsnskapen Annan beteckning (368 ‡c)
-  <br/>För att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. används den underordnade egenskapen Titel/officiell rang för kunglig, adlig eller religiös person (368 ‡d). 
+  <br/>Används för att ange andra beteckningar för t.ex. andar, gudinnor, fiktiva gestalter används den underordnade egsnskapen Annan beteckning (368 ‡c)
+  <br/>Används för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. används den underordnade egenskapen Titel/officiell rang för kunglig, adlig eller religiös person (368 ‡d). 
   Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
     <br/>```Exempel:```
   <br/>```Fiktiva gestalter sao```
