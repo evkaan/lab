@@ -1,3 +1,14 @@
+---
+section: Hjälptexter katalogisering
+title: Stillbild
+order: 28
+date: 2019-03-14
+tags:
+- under arbete
+- musik-CD
+- ljudinspelning
+--- 
+
 ## Musik-CD - ljudinspelning 
 
 Denna hjälptext tar upp ett antal vanligt förekommande egenskaper vid beskrivning av musik-CD med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Musik-CD - ljudinspelning, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter för mer detaljerad information.
@@ -30,7 +41,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Bilagor](#bilagor) | |
 | [Seriemedlemskap](#seriemedlemskap) | | 
 | [Innehållsanmärkning](#innehallsanmarkning) | | 
-| [Anmarkning](#anmarkning) | | 
+| [Anmärkning](#anmarkning) | | 
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
