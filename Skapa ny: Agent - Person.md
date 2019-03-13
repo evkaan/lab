@@ -249,9 +249,9 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 #### Titel eller övrig beteckning ANVÄNDS I KOMBINATION MED ANDRA ATTRIBUT FÖR PERSON- OCH ORGANISATIONSNAMN
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c)
-  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. 
+  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. Termen ”ande”, andra beteckningar samt yrke eller sysselsättning omsluts av parentes.
   <br/>```Exempel:```
-  <br/>```(påve)```
+  <br/>```påve```
   <br/>```(fiktiv gestalt)```
 
 #### Andra attribut för person- och organisationsnamn ANVÄNDS I KOMBINATION MED TITEL ELLER ÖVRIG BETECKNING
