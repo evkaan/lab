@@ -1,7 +1,7 @@
 ---
 section: Hjälptexter agenter
 title: Person - Skapa ny 
-order: 40
+order: 70
 date: 2019-02-12
 tags:
 - agenter
@@ -167,7 +167,7 @@ Beskrivning av agenten som ska auktoriseras.
 
 #### Variant
 * Variant (hasVariant = 400 ‡a ‡d)
-  <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
+  <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvarianter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel:```
   * ```Enkelt efternamn: Lagerlöf```
   <br/>```Förnamn: Selma Ottiliana Lovisa``` 
@@ -203,7 +203,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Har yrke eller sysselsättning (hasOccupation = 374)
    <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
    <br/>```Exempel:```
-   * ```Romanförfattare```
+   * ```Ekonom```
    * ```Översättare```
    <br/>För att lägga till: Klicka på plustecknet inom egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
@@ -247,16 +247,22 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   * ```Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
   <br/>Lägg till egenskapen genom att klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
 
-#### Titel eller övrig beteckning
-* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c ‡d)
+#### Titel eller övrig beteckning ANVÄNDS I KOMBINATION MED ANDRA ATTRIBUT FÖR PERSON- OCH ORGANISATIONSNAMN
+* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c)
   <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. 
-  <br/>```Exempel: påve```
+  <br/>```Exempel:```
+  <br/>```(påve)```
+  <br/>```(fiktiv gestalt)```
 
-#### Andra attribut för person- och organisationsnamn
-* Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368 ‡a ‡2)
-  <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
-  <br/>```Exempel: Professorer sao```
-  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskaperna Titel/officiell rang för kunglig, adlig eller religiös person samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod. Länkas ej.
+#### Andra attribut för person- och organisationsnamn ANVÄNDS I KOMBINATION MED TITEL ELLER ÖVRIG BETECKNING
+* Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368 ‡c ELLER ‡d ‡2)
+  <br/>För att ange andra beteckningar för t.ex. andar, gudinnor, fiktiva gestalter används den underordnade egsnskapen Annan beteckning (368 ‡c)
+  <br/>För att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. används den underordnade egenskapen Titel/officiell rang för kunglig, adlig eller religiös person (368 ‡d). 
+  Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+    <br/>```Exempel:```
+  <br/>```Fiktiva gestalter sao```
+  <br/>```Professorer sao```
+  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskapen Annan beteckning ELLER Titel/officiell rang för kunglig, adlig eller religiös person samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod. Länkas ej.
 
 #### Ordningstal
 * Ordningstal (marc:numeration = 100 ‡b)
