@@ -191,13 +191,13 @@ Beskrivning av agenten som ska auktoriseras.
   * ```Efternamn: Smith``` 
   <br/>``` Förnamn: Rosamond``` 
   <br/>```Födelse- och/eller dödstid: 1938-``` 
-  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Se även, välj typen Person. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
+  <br/>Länka till auktoriserad namnform. (Finns ingen auktoriserad namnform att länka till behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 #### Verksamhetsomrade
 * Verksamhetsområde (fieldOfActivity = 372)
   <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. 
    <br/>```Exempel: Fågelskådning```
-   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+   <br/>Skapa lokal entitet används endast då det inte finns auktoriserad term att länka till.
 
 #### Har yrke eller sysselsättning
 * Har yrke eller sysselsättning (hasOccupation = 374)
@@ -205,7 +205,7 @@ Beskrivning av agenten som ska auktoriseras.
    <br/>```Exempel:```
    * ```Ekonom```
    * ```Översättare```
-   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+   <br/>Skapa lokal entitet används endast då det inte finns auktoriserad term att länka till.
 
 #### Identifikator
 * Identifikator (identifiedBy = 024 ‡a)
@@ -213,12 +213,10 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Exempel:```
   * ```Värde: 0000000121339888```
   * ```Typanmärkning: isni```
-  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Välj typen Identifikator i rullgardinsmenyn. Klicka på plustecknet inom Identifikator, sök efter och lägg till Typanmärkning.
 
 #### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
-  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 
 ### Ytterligare egenskaper att lägga till vid behov
@@ -230,31 +228,30 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   <br/>```Exempel:```
   * ```Namn: Bang``` 
   <br/>Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
-  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter och lägg till auktoriserad namnform. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
+  <br/>Länka till auktoriserad namnform. (Finns ingen auktoriserad namnform att länka till behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 #### Fullständigare namnform
 * Fullständigare namnform (fullerFormOfName = 100 ‡q och 378)
   <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
   <br/>```Exempel:```
   * ```Efternamn: Smith```
-  <br/>```Förnamn: A. D.```
-  <br/>```Fullständigare namnform: Adam David```
+  *```Förnamn: A. D.```
+  *```Fullständigare namnform: Adam David```
 
 #### Biografiska uppgifter
 * Biografiska uppgifter (hasBiographicalInformation = 678)
   <br/>Används för att ange biografisk information är information om personens liv eller historia.
   <br/>```Exempel:```
   * ```Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
-  <br/>Lägg till egenskapen genom att klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
 
-#### Titel eller övrig beteckning ANVÄNDS I KOMBINATION MED ANDRA ATTRIBUT FÖR PERSON- OCH ORGANISATIONSNAMN
+#### Titel eller övrig beteckning 
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c)
-  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. Termen ”ande”, andra beteckningar samt yrke eller sysselsättning omsluts av parentes.
+  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet).
   <br/>```Exempel:```
   <br/>```påve```
   <br/>```(fiktiv gestalt)```
 
-#### Andra attribut för person- och organisationsnamn ANVÄNDS I KOMBINATION MED TITEL ELLER ÖVRIG BETECKNING
+#### Andra attribut för person- och organisationsnamn 
 * Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368 ‡c ELLER ‡d ‡2)
   <br/>Används för att ange andra beteckningar för t.ex. andar, gudinnor, fiktiva gestalter används den underordnade egsnskapen Annan beteckning (368 ‡c)
   <br/>Används för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. används den underordnade egenskapen Titel/officiell rang för kunglig, adlig eller religiös person (368 ‡d). 
