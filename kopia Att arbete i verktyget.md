@@ -41,10 +41,12 @@ Minimera: Alt + Minus
 Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates)
 
 #### Berika från post
-REDIGERA HÄR!
-Den nya funktionen "Berika BIB-post från specifikt ID" är så som den fungerar just nu lämplig att använda för att berika en förhandspost (prelpost, CIP-post) (B) med metadata från en mer fyllig post (A), t.ex. metadatan från en första utgåva kan berika en tunn förhandspost för en andra utgåva.
+ * Berika från fil
+ 
+ * Berika från ID
+ Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en mer utförlig beskrivning (A), t.ex. metadatan från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintligt data.
 
-Viktigt att känna till är att det endast är egenskaper som inte finns i (B) som tillkommer vid berikning från (A) vilket förklarar varför du upplever problem. För att få med innehållet från (A) behöver motsvarande egenskap raderas från (B) innan berikningen görs.
+Viktigt att känna till är att det endast är egenskaper och dess innehåll som *inte* finns i (B) som tillkommer vid berikning från (A). För att få med innehållet från (A) behöver motsvarande egenskap raderas från (B) om den redan finns där innan berikningen görs.
 
 #### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
