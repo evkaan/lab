@@ -9,6 +9,7 @@
 | [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
 | [- Expandera/minimera alla](#expandera/minimera-alla) | [Spara](#spara) | [Lägg till och ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) | 
 | [- Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) | 
+| [- Berika från post](#berika-från-post)
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
 | [- Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
 | [- Förhandsgranska MARC21](#förhandsgranska-MARC21) |
@@ -42,7 +43,7 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
 
 #### Berika från post
  * Berika från fil
- Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redgera en befintlig post eller skapa en ny tillfälligt. 
+ Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. 
    * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att få med.
    * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
    * Avbryt redigeringen av posten (A) ifall en ny tillfällig skapats, d.v.s. radera den. 
@@ -51,9 +52,15 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
    * Leta upp och välj rätt fil (den sparade post A) i utforskaren. Post B berikas med metadata från A.
  
  * Berika från ID
- Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en mer utförlig beskrivning (A), t.ex. metadatan från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintligt data.
+ Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en mer utförlig beskrivning (A), t.ex. metadata från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintlig data.
 
-Viktigt att känna till är att det endast är egenskaper och dess innehåll som *inte* finns i (B) som tillkommer vid berikning från (A). För att få med innehållet från (A) behöver motsvarande egenskap raderas från (B) om den redan finns där innan berikningen görs.
+  * Sök fram en post (A) med de egenskaper du vill föra över till den post du vill berika (B). 
+  * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
+   </br>[Kopiera id]
+  * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
+   </br>[Kopiera från ID]
+  * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
+  * Redigera och spara.
 
 #### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
