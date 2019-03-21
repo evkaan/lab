@@ -60,7 +60,7 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
    * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
     </br>[Kopiera från ID]
    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
-  * Redigera och spara.
+   * Redigera och spara.
 
 #### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
