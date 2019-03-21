@@ -42,6 +42,14 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
 
 #### Berika från post
  * Berika från fil
+ Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redgera en befintlig post eller skapa en ny. 
+   * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att få med.
+   * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
+   * Avbryt redigeringen av posten (A). 
+   * Sök fram posten (B) som ska berikas från fil, d.v.s. post (A). 
+   * Öppna redigeringsläge och välj "Berika från post" --> "från fil" i verktygsmenyn.
+   * Leta upp och välj rätt fil (den sparade post A) i utforskaren. 
+   
  
  * Berika från ID
  Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en mer utförlig beskrivning (A), t.ex. metadatan från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintligt data.
