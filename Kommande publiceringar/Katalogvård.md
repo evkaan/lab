@@ -2,7 +2,8 @@
 
 ## Katalogvård
 
-Fliken Katalogvård är ingången för katalogvårdande städinsatser i katalogiseringsverktyget. I ett första skede går det att flytta bestånd (ett eller flera samtidigt) för de sigler man har har behörighet för och på sikt ska även dubbletthantering och sammanslagning av poster ingå.
+![Katalogvård](Katalogvard.png)
+Katalogvård är ingången för katalogvårdande städinsatser i katalogiseringsverktyget. I ett första skede går det att flytta bestånd (ett eller flera samtidigt) för de sigler man har har behörighet för. På sikt ska även dubbletthantering och sammanslagning av poster ingå i Katalogvård.
 
 Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ kb.se
 
