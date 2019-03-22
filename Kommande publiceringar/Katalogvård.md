@@ -21,7 +21,7 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
   * Flytta bestånd
     </br>Markera aktuella bestånd som ska flyttas från den avsändande posten och klicka på Flytta bestånd. Det är endast möjligt att markera och flytta de bestånd som inloggat sigel har behörighet för. 
  
-  * I dialogrutan som öppnas får man valet att ta bort flaggan från avsändaren, dvs. den post som beståndet flyttats från.
+  * I dialogrutan som öppnas får man valet att ta bort flaggan från avsändaren, d.v.s. den post som beståndet flyttats från.
   
   * Klart!
     </br>Beståndet är flyttat. 
