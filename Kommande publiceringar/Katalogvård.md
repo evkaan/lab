@@ -9,7 +9,7 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
 
 
   * Flagga post för katalogvård
-    </br>För att kunna flytta bestånd från en post till en annan måste posterna först flaggas. Flaggan finns i den bibliografiska posten.
+    </br>För att kunna flytta bestånd från en post till en annan måste posterna först flaggas. Flaggan finns i instansen.
     ![Flagga för katalogvård](Flaggakatalogvard.png)
     </br>Antalet flaggade poster visas intill rubriken Katalogvård.
     ![Flaggade för katalogvård](Flaggadeforkatalogvard.png)
@@ -19,7 +19,7 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
   * Välj **avsändare** (den post bestånd ska flyttas ifrån) och **mottagare** (den post bestånd ska flyttas till) i respektive rullgardinsmeny.
 
   * Flytta bestånd
-    </br>Markera aktuella bestånd som ska flyttas från den avsändande posten och klicka på Flytta bestånd. Det är endast möjligt att markera och flytta de bestånd som inloggat sigel har behörighet för. 
+    </br>Markera aktuella bestånd som ska flyttas från den avsändande posten och klicka på Flytta bestånd. Det är endast möjligt att markera och flytta de bestånd för sigel som inloggad användare har behörighet för. I de fall ett sigel redan har bestånd på både avsändare och mottagare visas en varning intill beståndet.
  
   * I dialogrutan som öppnas får man valet att ta bort flaggan från avsändaren, d.v.s. den post som beståndet flyttats från.
   
