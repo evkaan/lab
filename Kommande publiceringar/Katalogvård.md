@@ -10,9 +10,9 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
 
   * Flagga post för katalogvård
     </br>För att kunna flytta bestånd från en post till en annan måste posterna först flaggas. Flaggan finns i instansen.
-    ![Flagga för katalogvård](Flaggakatalogvard.png)
+    </br>![Flagga för katalogvård](Flaggakatalogvard.png)
     </br>Antalet flaggade poster visas intill rubriken Katalogvård.
-    ![Flaggade för katalogvård](Flaggadeforkatalogvard.png)
+    </br>![Flaggade för katalogvård](Flaggadeforkatalogvard.png)
 
   * Gå till funktionen katalogvård genom att klicka på fliken
   
@@ -27,4 +27,4 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
     </br>Beståndet är flyttat. 
     
   Flaggan är kvar i mottagarposten ifall att den behöver redigeras ytterligare. Den kan kan tas bort när beståndsflytten är gjord. Under inloggad profil (användarinställningar) kan samtliga flaggade poster rensas.
-  ![Rensa flaggade poster](Rensaflaggadeposter.png)
+  </br>![Rensa flaggade poster](Rensaflaggadeposter.png)
