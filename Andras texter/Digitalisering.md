@@ -1,13 +1,14 @@
 ## Digitalisering
 
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av en digitalisering av ett tryckt material.
-Två instanser bör normalt upprättas för de verk ur Librisbibliotekens samlingar som blir föremål för digitalisering, en för originalversionen och en för den digitaliserade versionen.
-Generellt gäller att katalogpost över (den tryckta) originalmanifestationen betraktas som den primära, och skall ligga till grund för den katalogpost som upprättas över den digitaliserade manifestationen. I Nya Libris är det inte möjligt att använda originalmanifestationen för kopiering eftersom det inte går att byta instanstyp.
+Denna hjälptext beskriver tillvägagångssättet vid katalogisering av en digitalisering av ett tryckt material. Utöver instansen för den tryckta originalversionen bör normalt sett en instans upprättas för den digitaliserade versionen. 
+
+För närvande inte är möjligt att byta instanstyp och därför är det inte möjligt att utgå från en kopia av den tryckta originalversionen. 
+
 För mer information se här  http://librisbloggen.kb.se/2018/08/24/kopiera-och-redigera-poster/ 
 
-Sök upp en befintlig post av samma instanstyp som den som ska katalogiseras. Välj en post som är katalogiserad så ändamålsenligt som möjligt för era behov.
-Det enklaste sättet att söka upp en post är att använda sig av Libris webbsök och via kontrollnummer (BIB-ID) återfinna posten i Libris katalogiseringsgränssnitt. Det är viktigt att postens instanstyp är densamma som den ni ska katalogisera. Alltså Elektronisk, Monografisk resurs. Det syns längst upp till vänster i postens huvud.
-Kopiera posten och ändra beskrivningen så att det stämmer överens med materialet.
+* Sök upp en befintlig instans av samma instanstyp  som den som ska katalogiseras (Elektronisk, Monografisk resurs). Välj en instans där katalogiseringen så ändamålsenligt som möjligt för behoven.
+
+* Kopiera posten och ändra beskrivningen så att det stämmer överens med materialet.
 
 De fält som behövs i posten anges här http://www.kb.se/katalogisering/Katalogisering/elektroniska-dokument/Digitaliseringar/ 
 
