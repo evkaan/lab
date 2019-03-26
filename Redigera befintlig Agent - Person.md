@@ -1,8 +1,8 @@
 ---
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
-order: 45
-date: 2019-02-12
+order: 71
+date: 2019-03-26
 tags:
 - redigera agent
 - redigera auktoritet
@@ -174,7 +174,7 @@ Beskrivning av den auktoriserade agenten.
 
 #### Variant
 * Variant (hasVariant = 400 ‡a ‡d)
-  <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
+  <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvarianter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel:```
   * ```Enkelt efternamn: Lagerlöf```
   <br/>```Förnamn: Selma Ottiliana Lovisa``` 
@@ -275,7 +275,8 @@ Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http:/
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t.ex. organisation. Lägg sedan till benämning och skriv in uppgiften. *OBS! Organisatorisk tillhörighet ska inte länkas.*
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t.ex. organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte länkas.
 
 
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
+
