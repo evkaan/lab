@@ -54,9 +54,11 @@ Ange hur höjdskillnader är återgivna på resursen. Länka till entitet. Trunk
 #### Produktionsmetod
  * Produktionsmetod/Benämning (productionMethod/label = 340 #d)
 Ange produktionsmetod som lokal entitet. Lista över termer att använda vid beskrivning av produktionsmetod gällande kartor och stillbilder finns i RDA-anvisningarna.
-Bärande material
+
+#### Bärande material
  * Bärande material (baseMaterial = 007/00: a/01)
 Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. I mallen finns entiteten Papper/papp (marc/Paper) inlagd. Ändra vid behov.
+
  * Bärande material/Benämning (baseMaterial/label = 340 #a)
  Ange vid behov bärande material även som lokal entitet. Denna egenskap används framför allt vid katalogisering av handritade kartor. Lista över termer att använda för kartor och stillbilder finns i RDA-anvisningarna. I de fall flera entiteter behövs för korrekt beskrivning redovisas samtliga i en och samma ruta. 
  ```Exempel: papper och textil```
@@ -71,68 +73,68 @@ Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade 
  Länka till enitet. Välj bland följande entiteter:
    * En färg (används för svartvita kartor)
    * Flera färger
-   * Handkolorerad (Kartan, som framställts genom tryck- eller fotografisk process, har handkolorerats. Denna entitet används om man kan anta att hela upplagan är handkolorerad. Välj entiteten ”en färg” om det är ett specifikt exemplar som är handkolorerat. I det senare fallet redovisas uppgiften om att exemplaret är handkolorerat i beståndet)
-I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vid behov. 
-Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
+   * Handkolorerad (Kartan, som framställts genom tryck- eller fotografisk process, har handkolorerats. Denna entitet används om man kan anta att hela upplagan är handkolorerad. Välj entiteten ”en färg” om det är ett specifikt exemplar som är handkolorerat. I det senare fallet redovisas uppgiften om att exemplaret är handkolorerat i beståndet).
+
+I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vid behov. Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
 
 #### Genre/form
- * Genre/form (genreForm (marc) = 007/00: a/01 
+ * Genre/form (genreForm = 007/00: a/01)
  Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
  I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
 
 ### Verk
 
 #### Genre/form
- * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25
+ * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
  Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas ändrar du  till ”Atlas/Kartbok, e”.
- * Genre/form – TGM-termer (genreForm) = 655 -/7 #a #2 TGM
-Länka till entitet. Välj Genre/form i listan över typer. Sök på önskad term. I kartmallen finns redan TGM-termen Kartor inlagd. Lägg till fler vid behov. I nuläget går det inte att filtrera på enbart TGM-termer. Vid många sökträffar kan det därför vara bra att söka på termens id-nummer, som i nuläget enklast söks fram i Auktoritetsdatabasen (välj Genre i index, sök efter aktuell term).
+
+ * Genre/form – TGM-termer (genreForm = 655 -/7 #a #2 TGM)
+ Länka till entitet. Välj Genre/form i listan över typer. Sök på önskad term. I kartmallen finns redan TGM-termen Kartor inlagd. Lägg till fler vid behov. I nuläget går det inte att filtrera på enbart TGM-termer. Vid många sökträffar kan det därför vara bra att söka på termens id-nummer, som i nuläget enklast söks fram i Auktoritetsdatabasen (välj Genre i index, sök efter aktuell term).
 
 #### Kartografisk data
 
 I nuläget måste vi lägga in koordinater och skala både i kodform och i klartext. Lägg in uppgifterna inom egenskapen Kartografisk data,  i en Kartografisk information för kodad data och i en annan sådan för data i klartext. Det ska även vara ytterligare en Kartografisk information som specificerar vilken typ av måttenhet för koordinaterna som används. I kartmallen finns samtliga tre Kartografisk information inlagda. 
 
-
-#### Koordinater i kodform
+##### Koordinater i kodform
 
 Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas koordinaterna till en nära jämn siffra speglande kartans precision. Koordinaterna registreras i fyra underliggande egenskaper: västligaste longitud, östligaste longitud, nordligaste latitud, sydligaste latitud. Varje koordinat inleds med kod för halvklot/hemisfär (w = väst, e = öst, n = nord, s= syd) när måttenheten grader, minuter och sekunder används. Ange enbart siffror i de fall måttenheten är i SWEREF 99. Antalet siffror ska alltid vara sju.
 
  * Kartans västligaste longitud i kodform
-Kartografisk data/Kartografisk information/koordinater-Västlig gränslongitud(CartographicAttributes/Cartographic/ marc:westernmostLongitudeCoordinates) = 034 #d
-  ```Exempel: e0144120```
+ Kartografisk data/Kartografisk information/koordinater-Västlig gränslongitud(CartographicAttributes/Cartographic/ marc:westernmostLongitudeCoordinates) = 034 #d
+  </br>```Exempel: e0144120```
 
  * Kartans östligaste longitud i kodform
-Kartografisk data/Kartografisk information/koordinater-Östlig gränslongitud(CartographicAttributes/Cartographic/ marc:eaternmostLongitudeCoordinates) = 034 #e
-  ```Exempel: e0144155``` 
+ Kartografisk data/Kartografisk information/koordinater-Östlig gränslongitud(CartographicAttributes/Cartographic/ marc:eaternmostLongitudeCoordinates) = 034 #e
+  </br>```Exempel: e0144155``` 
 
  * Kartans nordligaste latitud i kodform
-Kartografisk data/Kartografisk information/koordinater-Nordlig gränslongitud(CartographicAttributes/Cartographic/ marc:northernmostLongitudeCoordinates) = 034 #f
-  ```Exempel: n0562905```
+ Kartografisk data/Kartografisk information/koordinater-Nordlig gränslongitud(CartographicAttributes/Cartographic/ marc:northernmostLongitudeCoordinates) = 034 #f
+  </br>```Exempel: n0562905```
 
  * Kartans sydligaste latitud i kodform
-Kartografisk data/Kartografisk information/koordinater-Sydlig gränslongitud(CartographicAttributes/Cartographic/ marc:southernmostLongitudeCoordinates) = 034 #g
-  ```Exempel: n0562825```
+ Kartografisk data/Kartografisk information/koordinater-Sydlig gränslongitud(CartographicAttributes/Cartographic/ marc:southernmostLongitudeCoordinates) = 034 #g
+  </br>```Exempel: n0562825```
 
-#### Skala i kodform
+##### Skala i kodform
 
 I de flesta fall är skalan linjär. Den linjära skalan är antingen horisontell eller vertikal. I kartmallen finns Linjär horisontell skala medtagen. Lägg till eller ändra skaltyp genom att skapa lokal entitet. Ange skalan med enbart siffror.
-  ```Exempel: 20000```
+  </br>```Exempel: 20000```
   
  * Linjär horisontell skala:
-Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär horisontell skala med konstant proportion((CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale)  = 034 #a a #b
+ Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär horisontell skala med konstant proportion((CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale)  = 034 #a a #b
 
  * Linjär vertikal skala:
-Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär vertikal skala med konstant proportion(CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale) = 034 #a a #c
+ Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär vertikal skala med konstant proportion(CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale) = 034 #a a #c
 
 
 #### Kartprojektion
  * Kartografisk data/Kartografisk information/Kartprojektion(CartographicAttributes/Cartographic/projection) = 008 22-23
-Länka till entitet. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
+ </br>Länka till entitet. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
 
 
 #### Koordinater i klartext
-Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas koordinaterna till en nära jämn siffra speglande kartans precision.
-Lägg in koordinater i klartext i en Kartografisk information som inte innehåller kodad kartografisk data. Använd samma Kartografisk information som du använder till skala i klartext. Ange koordinaterna inom en parentes. Varje koordinat inleds med kod för halvklot/hemisfär (V = väst, Ö = öst, N = nord, S= syd) när måttenheten grader, minuter och sekunder används. Uteslut gärna sekunduppgiften i de fall denna inte används. 
+Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas koordinaterna till en nära jämn siffra speglande kartans precision. Lägg in koordinater i klartext i en Kartografisk information som inte innehåller kodad kartografisk data. Använd samma Kartografisk information som du använder till skala i klartext. Ange koordinaterna inom en parentes. Varje koordinat inleds med kod för halvklot/hemisfär (V = väst, Ö = öst, N = nord, S= syd) när måttenheten grader, minuter och sekunder används. Uteslut gärna sekunduppgiften i de fall denna inte används. 
+
  * Kartografisk data/Kartografisk information/koordinater(CartographicAttributes/Cartographic/coordinates) =255 #c
    <br/> ```Exempel:```
   * ```(Ö 17°53'10''-Ö 17°59'40''/N 59°21'30''-N 59°18'50'')```
