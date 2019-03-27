@@ -1,18 +1,44 @@
-Kartor
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av kartor. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för kartor redovisas däremot enbart här.
-I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En kort beskrivning hur man gör detta finns [här](Länk till slutet av detta dokument)
-För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se Anvisningar för katalogisering - RDA samt RDA Toolkit.
-Innehåll
-Adminmetadata
-Instans
-Verk
+## Karta
 
- [Kontrollnummer](Länk adminmetadata)
-  	[Utgivningssätt](Länk instans)	[Verkets titel](Länk verk)
-[Bibliografikod](Länk adminmetadata
-	[Medietyp](Länk instans)	[Relationer till ingående verk och andra verk](Länk verk)
-[Beskrivningsnivå](Länk adminmetadata)
-	[Bärartyp](Länk instans)	[Medverkan och funktion](Länk verk)
+Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av kartor. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för kartor redovisas däremot enbart här.
+
+I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En kort beskrivning hur man gör detta finns [här](Länk till slutet av detta dokument)
+
+För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se Anvisningar för katalogisering - RDA samt RDA Toolkit.
+
+### Innehåll
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ------ | ----------- |  ----------- |
+| [Kontrollnummer](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivningssätt](https://libris.kb.se/katalogisering/help/workflow-instance) | [Verkets titel](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Bibliografikod](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Medietyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Relationer till ingående verk och andra verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Beskrivningsnivå](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Bärartyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Språk](#verk) |
+| [Poststatus](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Titel](https://libris.kb.se/katalogisering/help/workflow-instance) | [Genre/form](#verk) |
+| [Skapad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Ämne*](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| [Katalogiseringsregler](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Innehållstyp*](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Katalogiseringsspråk](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Produktion*](https://libris.kb.se/katalogisering/help/workflow-instance) | [Sammanfattning av innehåll*](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Katalogiserande instans](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivning*](https://libris.kb.se/katalogisering/help/workflow-instance)  |
+| [Uppgraderad eller importerad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Huvudsakligt tillgängliggörande*](https://libris.kb.se/katalogisering/help/workflow-instance) | |
+| [Systemteknisk anmärkning](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)  | [Tillverkning*](https://libris.kb.se/katalogisering/help/workflow-instance) | |
+| | [Copyrightår*](https://libris.kb.se/katalogisering/help/workflow-instance) | |
+| | [Identifikator*](https://libris.kb.se/katalogisering/help/workflow-instance) | |
+| | [Omfång*](https://libris.kb.se/katalogisering/help/workflow-instance) | |
+| | [Övriga fysiska detaljer*](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Mått*](https://libris.kb.se/katalogisering/help/workflow-instance) | |                                                                  
+| | [Produktionsmetod](#produktionsmetod) | |  
+| | [Applicerat material](#applicerat-material) | |
+| | [Bärande material](#applicerat-material) | |
+| | [Färginnehåll](#färginnehåll) | |
+| | [Genre/form](#polaritet) | |
+| | [Polaritet](#polaritet) | |
+| | [Bilagor*](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Seriemedlemskap*](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Anmärkning*](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Innehållsanmärkning*](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Annat bärarformat*](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+
+ 
+[Bibliografikod](Länk adminmetadata) [Medietyp](Länk instans)	[Relationer till ingående verk och andra verk](Länk verk)
+[Beskrivningsnivå](Länk adminmetadata) [Bärartyp](Länk instans)	[Medverkan och funktion](Länk verk)
 [Poststatus](Länk adminmetadata)	[Titel](Länk instans)	[Språk] (Länk verk)
 [Skapad av](Länk adminmetadata)
 	[Upphovsuppgift](Länk instans)	Genre/form
