@@ -38,7 +38,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 	
 			
 ### Adminmetadata
-Använd [generell hjälptext för adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 ### Instans
 I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälptext upprepas inte informationen här. Följ länkar i innehållsförteckningen till hjälptext för Instans. Egenskaper som är specifika för Instans vid katalogisering av kartor redovisas nedan.
@@ -52,23 +52,23 @@ Skriv in uppgiften om färginnehåll i klartext (färg, svartvit eller kolorerad
 Ange hur höjdskillnader är återgivna på resursen. Länka till entitet. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
 
 #### Produktionsmetod
- * Produktionsmetod/Benämning (productionMethod/label) = 340 #d
+ * Produktionsmetod/Benämning (productionMethod/label = 340 #d)
 Ange produktionsmetod som lokal entitet. Lista över termer att använda vid beskrivning av produktionsmetod gällande kartor och stillbilder finns i RDA-anvisningarna.
 Bärande material
  * Bärande material (baseMaterial = 007/00: a/01)
 Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. I mallen finns entiteten Papper/papp (marc/Paper) inlagd. Ändra vid behov.
- * Bärande material/Benämning (baseMaterial/label = 340 #a
-Ange vid behov bärande material även som lokal entitet. Denna egenskap används framför allt vid katalogisering av handritade kartor. Lista över termer att använda för kartor och stillbilder finns i RDA-anvisningarna. I de fall flera entiteter behövs för korrekt beskrivning redovisas samtliga i en och samma ruta. 
+ * Bärande material/Benämning (baseMaterial/label = 340 #a)
+ Ange vid behov bärande material även som lokal entitet. Denna egenskap används framför allt vid katalogisering av handritade kartor. Lista över termer att använda för kartor och stillbilder finns i RDA-anvisningarna. I de fall flera entiteter behövs för korrekt beskrivning redovisas samtliga i en och samma ruta. 
  ```Exempel: papper och textil```
 
 #### Applicerat material
- * Applicerat material/Benämning (appliedMaterial/label = 340 #c 
+ * Applicerat material/Benämning (appliedMaterial/label = 340 #c)
 Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade kartor. Om flera entiteter behövs redovisas samtliga i en och samma ruta. Lista över termer att använda vid beskrivning av applicerat material gällande kartor och stillbilder finns i RDA-anvisningarna.
  ```Exempel: akvarell och penna```
 
 #### Färginnehåll
- * Färginnehåll (colorContent (marc) = 007/00: a/03
-Länka till enitet. Välj bland följande entiteter:
+ * Färginnehåll (colorContent = 007/00: a/03)
+ Länka till enitet. Välj bland följande entiteter:
    * En färg (används för svartvita kartor)
    * Flera färger
    * Handkolorerad (Kartan, som framställts genom tryck- eller fotografisk process, har handkolorerats. Denna entitet används om man kan anta att hela upplagan är handkolorerad. Välj entiteten ”en färg” om det är ett specifikt exemplar som är handkolorerat. I det senare fallet redovisas uppgiften om att exemplaret är handkolorerat i beståndet)
@@ -77,14 +77,14 @@ Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även 
 
 #### Genre/form
  * Genre/form (genreForm (marc) = 007/00: a/01 
-Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
-I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
+ Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
+ I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
 
 ### Verk
 
 #### Genre/form
  * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25
-Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas ändrar du  till ”Atlas/Kartbok, e”.
+ Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas ändrar du  till ”Atlas/Kartbok, e”.
  * Genre/form – TGM-termer (genreForm) = 655 -/7 #a #2 TGM
 Länka till entitet. Välj Genre/form i listan över typer. Sök på önskad term. I kartmallen finns redan TGM-termen Kartor inlagd. Lägg till fler vid behov. I nuläget går det inte att filtrera på enbart TGM-termer. Vid många sökträffar kan det därför vara bra att söka på termens id-nummer, som i nuläget enklast söks fram i Auktoritetsdatabasen (välj Genre i index, sök efter aktuell term).
 
