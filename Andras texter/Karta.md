@@ -2,7 +2,7 @@
 
 Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av kartor. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för kartor redovisas däremot enbart här.
 
-I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En kort beskrivning hur man gör detta finns [här](Länk till slutet av detta dokument)
+I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En kort beskrivning hur man gör detta finns i [slutet av hjälptexten](#att-ändra-i-kartmallen-så-att-den-kan-användas-för-handritad-kartresurs).
 
 För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se Anvisningar för katalogisering - RDA samt RDA Toolkit.
 
@@ -11,8 +11,8 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | ------ | ----------- |  ----------- |
 | [Kontrollnummer](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivningssätt](https://libris.kb.se/katalogisering/help/workflow-instance) | [Verkets titel](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Bibliografikod](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Medietyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Relationer till ingående verk och andra verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Beskrivningsnivå](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Bärartyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Språk](#verk) |
-| [Poststatus](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Titel](https://libris.kb.se/katalogisering/help/workflow-instance) | [Språk]|
+| [Beskrivningsnivå](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Bärartyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Medverkan och funktion](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Poststatus](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Titel](https://libris.kb.se/katalogisering/help/workflow-instance) | [Språk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Skapad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Genre/form](#genre/form) |
 | [Katalogiseringsregler](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | [Katalogiseringsspråk](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kartografisk data](#kartografisk-data) |
@@ -100,19 +100,19 @@ I nuläget måste vi lägga in koordinater och skala både i kodform och i klart
 Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas koordinaterna till en nära jämn siffra speglande kartans precision. Koordinaterna registreras i fyra underliggande egenskaper: västligaste longitud, östligaste longitud, nordligaste latitud, sydligaste latitud. Varje koordinat inleds med kod för halvklot/hemisfär (w = väst, e = öst, n = nord, s= syd) när måttenheten grader, minuter och sekunder används. Ange enbart siffror i de fall måttenheten är i SWEREF 99. Antalet siffror ska alltid vara sju.
 
  * Kartans västligaste longitud i kodform
- Kartografisk data/Kartografisk information/koordinater-Västlig gränslongitud(CartographicAttributes/Cartographic/ marc:westernmostLongitudeCoordinates) = 034 #d
+ Kartografisk data/Kartografisk information/koordinater-Västlig gränslongitud (CartographicAttributes/Cartographic/ marc:westernmostLongitudeCoordinates = 034 #d)
   </br>```Exempel: e0144120```
 
  * Kartans östligaste longitud i kodform
- Kartografisk data/Kartografisk information/koordinater-Östlig gränslongitud(CartographicAttributes/Cartographic/ marc:eaternmostLongitudeCoordinates) = 034 #e
+ Kartografisk data/Kartografisk information/koordinater-Östlig gränslongitud (CartographicAttributes/Cartographic/ marc:eaternmostLongitudeCoordinates = 034 #e)
   </br>```Exempel: e0144155``` 
 
  * Kartans nordligaste latitud i kodform
- Kartografisk data/Kartografisk information/koordinater-Nordlig gränslongitud(CartographicAttributes/Cartographic/ marc:northernmostLongitudeCoordinates) = 034 #f
+ Kartografisk data/Kartografisk information/koordinater-Nordlig gränslongitud (CartographicAttributes/Cartographic/ marc:northernmostLongitudeCoordinates = 034 #f)
   </br>```Exempel: n0562905```
 
  * Kartans sydligaste latitud i kodform
- Kartografisk data/Kartografisk information/koordinater-Sydlig gränslongitud(CartographicAttributes/Cartographic/ marc:southernmostLongitudeCoordinates) = 034 #g
+ Kartografisk data/Kartografisk information/koordinater-Sydlig gränslongitud (CartographicAttributes/Cartographic/ marc:southernmostLongitudeCoordinates = 034 #g)
   </br>```Exempel: n0562825```
 
 ##### Skala i kodform
@@ -121,40 +121,41 @@ I de flesta fall är skalan linjär. Den linjära skalan är antingen horisontel
   </br>```Exempel: 20000```
   
  * Linjär horisontell skala:
- Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär horisontell skala med konstant proportion((CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale)  = 034 #a a #b
+ Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär horisontell skala med konstant proportion (CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale  = 034 #a a #b)
 
  * Linjär vertikal skala:
- Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär vertikal skala med konstant proportion(CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale) = 034 #a a #c
+ Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär vertikal skala med konstant proportion (CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale = 034 #a a #c)
 
 
 #### Kartprojektion
- * Kartografisk data/Kartografisk information/Kartprojektion(CartographicAttributes/Cartographic/projection) = 008 22-23
+ * Kartografisk data/Kartografisk information/Kartprojektion (CartographicAttributes/Cartographic/projection = 008 22-23)
  </br>Länka till entitet. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
-
 
 #### Koordinater i klartext
 Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas koordinaterna till en nära jämn siffra speglande kartans precision. Lägg in koordinater i klartext i en Kartografisk information som inte innehåller kodad kartografisk data. Använd samma Kartografisk information som du använder till skala i klartext. Ange koordinaterna inom en parentes. Varje koordinat inleds med kod för halvklot/hemisfär (V = väst, Ö = öst, N = nord, S= syd) när måttenheten grader, minuter och sekunder används. Uteslut gärna sekunduppgiften i de fall denna inte används. 
 
- * Kartografisk data/Kartografisk information/koordinater(CartographicAttributes/Cartographic/coordinates) =255 #c
+ * Kartografisk data/Kartografisk information/koordinater (CartographicAttributes/Cartographic/coordinates =255 #c)
    <br/> ```Exempel:```
-  * ```(Ö 17°53'10''-Ö 17°59'40''/N 59°21'30''-N 59°18'50'')```
-  * ```(E569000-636000/N7003000-6958000)```
+   * ```(Ö 17°53'10''-Ö 17°59'40''/N 59°21'30''-N 59°18'50'')```
+   * ```(E569000-636000/N7003000-6958000)```
  
 #### Skala i klartext
- * Kartografisk data/Kartografisk information/Skala/SkalaBenämning(CartographicAttributes/Cartographic/scale/scale/label) =255 #a
+ * Kartografisk data/Kartografisk information/Skala/Skala/Benämning (CartographicAttributes/Cartographic/scale/scale/label =255 #a)
 Ange skala i klartext i en Kartografisk information som inte innehåller kodad kartografisk data. Använd samma Kartografisk information som du använder till koordinater i klartext. Medta eventuell uppgift om skalstock i de fall exakt skalangivelse saknas. Lägg i dessa fall till semikolon mellan den uträknade skalangivelsen och uppgift om skalstock. Skalstocken anges enligt följande formel: Skalstock: x måttenheter = y cm.
+ <br/> ```Exempel:```
+  * ```Skala 1:200 000```
+  * ```Skala cirka 1:141 000 ; Skalstock: 1 svensk mil = 7,6 cm```
 
-Exempel: Skala 1:200 000
-                   Skala cirka 1:141 000 ; Skalstock: 1 svensk mil = 7,6 cm
+
 Typ av måttenhet för koordinaterna
- * Kartografisk data/Kartografisk information/koordinater(CartographicAttributes/Cartographic/coordinates) =255 #c
+ * Kartografisk data/Kartografisk information/koordinater (CartographicAttributes/Cartographic/coordinates =255 #c)
 Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I regel används måttenheten grader minuter och sekunder. I kartmallen finns därför texten ” Måttenhet för koordinaterna: grader, minuter och sekunder (0-360°)” inlagd. Om måttenheten är SWEREF 99 TM ska texten ändras till: Måttenhet för koordinaterna: meter (SWEREF 99 TM)
 
 #### Kompletterande innehåll: index
- * Kompletterande innehåll(supplementaryContent/MARC = 008/31)
+ * Kompletterande innehåll (supplementaryContent/MARC = 008/31)
 Ange om resursen innehåller index eller ej.  Gäller framför allt kartböcker och atlaser. Länka till entitet.
 
-#### Att ändra i kartmallen (tryck) så att denna kan användas för katalogisering av en handritad kartresurs
+#### Att ändra i kartmallen så att den kan användas för handritad kartresurs
  1. Hämta mallen för Karta (tryckt kartmaterial)
  2. Radera instanstypen Kartmaterial genom att klicka på soptunnan högst upp till höger i Instans av verk.
  3. Klicka på plustecknet till vänster i Instans av verk, lägg till lokal entitet, välj Skapa karthandskrift.
@@ -163,10 +164,10 @@ Ange om resursen innehåller index eller ej.  Gäller framför allt kartböcker 
   * Produktion (production = 264 -/0)
     Används för opublicerade resurser. Komplettera med egenskapen Huvudsakligt tillgängliggörande. Använd inte egenskapen utgivning. Läs mer om egenskaperna Produktion och Huvudsakligt tillgängliggörande i den generella hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) 
   * Bärande material/Benämning (baseMaterial/label = 340 #a)
-   Läs mer här [Länk till Bärande material i detta dokument]
+   Läs mer under [Bärande materia](#bärande-material)
   * Applicerat material/Benämning (appliedMaterial/label = 340 #c
-    Läs mer här [Länk till Applicerat material i detta dokument]
+    Läs mer under [Applicerat material](#applicerat-material)
 
  6. Lägg till följande egenskap i verket:
-  * Genre/form/Typ av kartografiskt material(genreForm(marc) = (008/33-34 e)
+  * Genre/form/Typ av kartografiskt material (genreForm(marc) = 008/33-34 e)
 Länka till entitet. Välj ”Handritad, e” med rubriken ”Särskilda formella egenskaper” 
