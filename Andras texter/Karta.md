@@ -18,7 +18,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | [Katalogiseringsspråk](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kartografisk data](#kartografisk-data) |
 | [Katalogiserande instans](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Huvudsakligt tillgängliggörande](https://libris.kb.se/katalogisering/help/workflow-instance) | [Innehållstyp](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Uppgraderad eller importerad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Sammanfattning av innehåll](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Systemteknisk anmärkning](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kompletterande innehåll](#kompletterande-innehåll) |
+| [Systemteknisk anmärkning](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kompletterande innehåll index](#kompletterande-innehåll) |
 | | [Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance) | |
 | | [Omfång](https://libris.kb.se/katalogisering/help/workflow-instance) | |
 | | [Mått](https://libris.kb.se/katalogisering/help/workflow-instance) | |     
@@ -116,7 +116,6 @@ Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas k
   </br>```Exempel: n0562825```
 
 ##### Skala i kodform
-
 I de flesta fall är skalan linjär. Den linjära skalan är antingen horisontell eller vertikal. I kartmallen finns Linjär horisontell skala medtagen. Lägg till eller ändra skaltyp genom att skapa lokal entitet. Ange skalan med enbart siffror.
   </br>```Exempel: 20000```
   
@@ -126,12 +125,11 @@ I de flesta fall är skalan linjär. Den linjära skalan är antingen horisontel
  * Linjär vertikal skala:
  Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär vertikal skala med konstant proportion (CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale = 034 #a a #c)
 
-
-#### Kartprojektion
+##### Kartprojektion
  * Kartografisk data/Kartografisk information/Kartprojektion (CartographicAttributes/Cartographic/projection = 008 22-23)
  </br>Länka till entitet. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
 
-#### Koordinater i klartext
+##### Koordinater i klartext
 Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas koordinaterna till en nära jämn siffra speglande kartans precision. Lägg in koordinater i klartext i en Kartografisk information som inte innehåller kodad kartografisk data. Använd samma Kartografisk information som du använder till skala i klartext. Ange koordinaterna inom en parentes. Varje koordinat inleds med kod för halvklot/hemisfär (V = väst, Ö = öst, N = nord, S= syd) när måttenheten grader, minuter och sekunder används. Uteslut gärna sekunduppgiften i de fall denna inte används. 
 
  * Kartografisk data/Kartografisk information/koordinater (CartographicAttributes/Cartographic/coordinates =255 #c)
@@ -139,19 +137,18 @@ Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas k
    * ```(Ö 17°53'10''-Ö 17°59'40''/N 59°21'30''-N 59°18'50'')```
    * ```(E569000-636000/N7003000-6958000)```
  
-#### Skala i klartext
+##### Skala i klartext
  * Kartografisk data/Kartografisk information/Skala/Skala/Benämning (CartographicAttributes/Cartographic/scale/scale/label =255 #a)
 Ange skala i klartext i en Kartografisk information som inte innehåller kodad kartografisk data. Använd samma Kartografisk information som du använder till koordinater i klartext. Medta eventuell uppgift om skalstock i de fall exakt skalangivelse saknas. Lägg i dessa fall till semikolon mellan den uträknade skalangivelsen och uppgift om skalstock. Skalstocken anges enligt följande formel: Skalstock: x måttenheter = y cm.
  <br/> ```Exempel:```
   * ```Skala 1:200 000```
   * ```Skala cirka 1:141 000 ; Skalstock: 1 svensk mil = 7,6 cm```
 
-
-Typ av måttenhet för koordinaterna
+##### Typ av måttenhet för koordinaterna
  * Kartografisk data/Kartografisk information/koordinater (CartographicAttributes/Cartographic/coordinates =255 #c)
 Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I regel används måttenheten grader minuter och sekunder. I kartmallen finns därför texten ” Måttenhet för koordinaterna: grader, minuter och sekunder (0-360°)” inlagd. Om måttenheten är SWEREF 99 TM ska texten ändras till: Måttenhet för koordinaterna: meter (SWEREF 99 TM)
 
-#### Kompletterande innehåll: index
+#### Kompletterande innehåll index
  * Kompletterande innehåll (supplementaryContent/MARC = 008/31)
 Ange om resursen innehåller index eller ej.  Gäller framför allt kartböcker och atlaser. Länka till entitet.
 
