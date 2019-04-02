@@ -19,23 +19,24 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 ### Innehåll
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk]https://libris.kb.se/katalogisering/help/workflow-work) |
-| | | [Genre/form](#genre-form) |
-| [Kartografisk data](#kartografisk-data) |
-| |  | [Kompletterande innehåll index](#kompletterande-innehall-index) |
+| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | | [Genre/form (verk)](#genre-form-(verk)) |
+| | | [Kartografisk data](#kartografisk-data) |
+| | | [Kompletterande innehåll index](#kompletterande-innehall-index) |
+| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | |   
 | | [Relief](#relief) | |                                                       
 | | [Produktionsmetod](#produktionsmetod) | |  
-| | [Bärande material](#barande-material) | | 
+| | [Bärande material](#bärande-material) | | 
 | | [Applicerat material](#applicerat-material) | | 
-| | [Färginnehåll](#farginnehåll) | | 
-| | [Genre/form](#genre-form) | | 		
+| | [Färginnehåll](#färginnehåll) | | 
+| | [Genre/form (instans)](#genre-form-(instans)) | | 		
 	
 			
 ### Adminmetadata
-Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata). 
 
 ### Instans
-I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälptext upprepas inte informationen här. Följ länkar i innehållsförteckningen till hjälptext för Instans. Egenskaper som är specifika för Instans vid katalogisering av kartor redovisas nedan.
+Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance). Egenskaper som är specifika för Instans vid katalogisering av kartor redovisas nedan.
 
 #### Övriga fysiska detaljer
  * Övriga fysiska detaljer (marc:otherPhysicalDetails = 300 #b)
@@ -49,7 +50,7 @@ Ange hur höjdskillnader är återgivna på resursen. Länka till entitet. Trunk
  * Produktionsmetod/Benämning (productionMethod/label = 340 #d)
 Ange produktionsmetod som lokal entitet. Lista över termer att använda vid beskrivning av produktionsmetod gällande kartor och stillbilder finns i RDA-anvisningarna.
 
-#### Barande material
+#### Bärande material
  * Bärande material (baseMaterial = 007/00: a/01)
 Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”. Trunkera för att få upp en lista över samtliga entiteter. I mallen finns entiteten Papper/papp (marc/Paper) inlagd. Ändra vid behov.
 
@@ -62,7 +63,7 @@ Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”
 Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade kartor. Om flera entiteter behövs redovisas samtliga i en och samma ruta. Lista över termer att använda vid beskrivning av applicerat material gällande kartor och stillbilder finns i RDA-anvisningarna.
  </br>```Exempel: akvarell och penna```
 
-#### Farginnehåll
+#### Färginnehåll
  * Färginnehåll (colorContent = 007/00: a/03)
  Länka till enitet. Välj bland följande entiteter:
    * En färg (används för svartvita kartor)
@@ -71,14 +72,15 @@ Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade 
 
 I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vid behov. Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
 
-#### Genre form
+#### Genre form (instans)
  * Genre/form (genreForm = 007/00: a/01)
  Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera för att få upp en lista över samtliga entiteter. 
  </br>I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
 
 ### Verk
+Använd generell hjälptext för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). Egenskaper som är specifika för Verk vid katalogisering av kartor redovisas nedan.
 
-#### Genre form
+#### Genre form (verk)
  * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
  Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas, ändra till ”Atlas/Kartbok, e”.
 
