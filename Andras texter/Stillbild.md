@@ -20,10 +20,10 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | ------ | ----------- |  ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Produktionsmetod](#produktionsmetod) | [Språk](#verk) |
-| |  [Applicerat material](#applicerat-material)  | [Genre/form](#verk) |
+| |  [Applicerat material](#applicerat-material)  | [Genre/form (verk)](#verk) |
 | | [Bärande material](#applicerat-material) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |                                                                
 | | [Färginnehåll](#färginnehåll) | |
-| | [Genre/form](#polaritet) | |
+| | [Genre/form (instans)](#polaritet) | |
 | | [Polaritet](#polaritet) | |
 
 
@@ -71,7 +71,7 @@ Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/h
   </br>I stillbildsmallen finns entiteten svartvit (marc/BlackAndWhite)  inlagd. Ändra vid behov. 
   </br>Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
 
-#### Genre/form
+#### Genre/form (instans)
 *	Genre/form (genreForm (marc) = 007/00: k/01)
   </br>Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning för bilder”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
   </br>I stillbildsmallen finns entiteten bilder (marc/Picture)  inlagd. Ändra vid behov till mer specifik entitet.
@@ -91,7 +91,7 @@ Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/h
 
   </br>Se även: [Allmän hjälptext om verk](https://libris.kb.se/katalogisering/help/workflow-work) under rubriken Språk.
 
-#### Genre/form 
+#### Genre/form (verk)
 *	Genre/form(genreForm (marc) = 007/00:k/00)
   </br>Länka till enitet. För stillbilder välj: Bild (marc/picture). 
   </br>I stillbildsmallen finns redan entiteten Bild (marc/picture) inlagd.
