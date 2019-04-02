@@ -12,39 +12,23 @@ tags:
 
 Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av kartor. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för kartor redovisas däremot enbart här.
 
-I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En kort beskrivning hur man gör detta finns i slutet av denna hjälptext.
+I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En kort beskrivning hur man gör detta finns i slutet av [denna hjälptext](#att-andra-i-kartmallen-sa-att-den-kan-anvandas-för-handritad-kartresurs).
 
 För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/) samt [RDA Toolkit](http://access.rdatoolkit.org/).
 
 ### Innehåll
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Kontrollnummer](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivningssätt](https://libris.kb.se/katalogisering/help/workflow-instance) | [Verkets titel](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Bibliografikod](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Medietyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Relationer till ingående verk och andra verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Beskrivningsnivå](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Bärartyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Medverkan och funktion](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Poststatus](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Titel](https://libris.kb.se/katalogisering/help/workflow-instance) | [Språk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Skapad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Genre/form](#genre-form) |
-| [Katalogiseringsregler](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| [Katalogiseringsspråk](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kartografisk data](#kartografisk-data) |
-| [Katalogiserande instans](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Huvudsakligt tillgängliggörande](https://libris.kb.se/katalogisering/help/workflow-instance) | [Innehållstyp](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Uppgraderad eller importerad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Sammanfattning av innehåll](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Systemteknisk anmärkning](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kompletterande innehåll index](#kompletterande-innehall-index) |
-| | [Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance) | |
-| | [Omfång](https://libris.kb.se/katalogisering/help/workflow-instance) | |
-| | [Mått](https://libris.kb.se/katalogisering/help/workflow-instance) | |     
-| | [Övriga fysiska detaljer](https://libris.kb.se/katalogisering/help/workflow-instance) | |   
+| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk]https://libris.kb.se/katalogisering/help/workflow-work) |
+| | | [Genre/form](#genre-form) |
+| [Kartografisk data](#kartografisk-data) |
+| |  | [Kompletterande innehåll index](#kompletterande-innehall-index) |
 | | [Relief](#relief) | |                                                       
 | | [Produktionsmetod](#produktionsmetod) | |  
 | | [Bärande material](#barande-material) | | 
 | | [Applicerat material](#applicerat-material) | | 
 | | [Färginnehåll](#farginnehåll) | | 
-| | [Genre/form](#genre-form) | | 
-| | [Anmärkning](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Innehållsanmärkning](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Bilagor](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Seriemedlemskap](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Annat bärarformat](https://libris.kb.se/katalogisering/help/workflow-instance) | |  	
-| | [Elektronisk adress](https://libris.kb.se/katalogisering/help/workflow-instance) | | 		
+| | [Genre/form](#genre-form) | | 		
 	
 			
 ### Adminmetadata
@@ -178,4 +162,3 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
  6. Lägg till följande egenskap inom Instans av Verk:
   * Genre/form/Typ av kartografiskt material (genreForm(marc) = 008/33-34 e)
    <br/>Länka till entitet. Välj ”Handritad, e” med rubriken ”Särskilda formella egenskaper” 
-
