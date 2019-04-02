@@ -20,12 +20,9 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | | [Genre/form (verk)](#genre-form-(verk)) |
-| | | [Kartografisk data](#kartografisk-data) |
-| | | [Kompletterande innehåll index](#kompletterande-innehall-index) |
-| [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | |   
-| [Relief](#relief) | |                                                       
-| | [Produktionsmetod](#produktionsmetod) | |  
+| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | [Genre/form (verk)](#genre-form-(verk)) |
+| | [Relief](#relief) | [Kartografisk data](#kartografisk-data) |
+| | [Produktionsmetod](#produktionsmetod) | [Kompletterande innehåll index](#kompletterande-innehall-index) |                                                  
 | | [Bärande material](#bärande-material) | | 
 | | [Applicerat material](#applicerat-material) | | 
 | | [Färginnehåll](#färginnehåll) | | 
