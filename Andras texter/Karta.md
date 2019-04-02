@@ -20,7 +20,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | [Genre/form (verk)](#genre-form-(verk)) |
+| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | [Genre/form (verk)](#genre-form-verk) |
 | | [Relief](#relief) | [Kartografisk data](#kartografisk-data) |
 | | [Produktionsmetod](#produktionsmetod) | [Kompletterande innehåll index](#kompletterande-innehall-index) |                                                  
 | | [Bärande material](#bärande-material) | | 
@@ -77,7 +77,7 @@ I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vi
 ### Verk
 Använd generell hjälptext för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). Egenskaper som är specifika för Verk vid katalogisering av kartor redovisas nedan.
 
-#### Genre form (verk)
+#### Genre form verk
  * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
  Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas, ändra till ”Atlas/Kartbok, e”.
 
