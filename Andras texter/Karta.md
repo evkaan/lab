@@ -23,8 +23,8 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | | [Genre/form (verk)](#genre-form-(verk)) |
 | | | [Kartografisk data](#kartografisk-data) |
 | | | [Kompletterande innehåll index](#kompletterande-innehall-index) |
-| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | |   
-| | [Relief](#relief) | |                                                       
+| [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | |   
+| [Relief](#relief) | |                                                       
 | | [Produktionsmetod](#produktionsmetod) | |  
 | | [Bärande material](#bärande-material) | | 
 | | [Applicerat material](#applicerat-material) | | 
