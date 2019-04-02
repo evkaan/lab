@@ -12,7 +12,7 @@ tags:
 
 Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av kartor. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för kartor redovisas däremot enbart här.
 
-I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En [kort beskrivning](#att-andra-i-kartmallen-sa-att-den-kan-anvandas-för-handritad-kartresurs) av hur man gör detta finns i slutet av denna hjälptext.
+I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En [kort beskrivning](#att-ändra-i-kartmallen-så-att-den-kan-användas-för-handritad-kartresurs) av hur man gör detta finns i slutet av denna hjälptext.
 
 För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/) samt [RDA Toolkit](http://access.rdatoolkit.org/).
 
@@ -145,7 +145,7 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
  * Kompletterande innehåll (supplementaryContent/MARC = 008/31)
  <br/>Ange om resursen innehåller index eller ej.  Gäller framför allt kartböcker och atlaser. Länka till entitet.
 
-#### Att andra i kartmallen sa att den kan anvandas för handritad kartresurs
+#### Att ändra i kartmallen så att den kan användas för handritad kartresurs
  1. Hämta mallen för Karta (tryckt kartmaterial)
  2. Radera instanstypen Kartmaterial genom att klicka på soptunnan högst upp till höger i Instans av verk.
  3. Klicka på plustecknet till vänster i Instans av verk, lägg till lokal entitet, välj Skapa karthandskrift.
