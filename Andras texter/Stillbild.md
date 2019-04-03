@@ -36,6 +36,10 @@ Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogise
 ### Instans
 Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance). Egenskaper som är specifika för Instans vid katalogisering av kartor redovisas nedan. 
 
+#### Övriga fysiska detaljer
+* Övriga fysiska detaljer (marc:otherPhysicalDetails = 300 #b)
+Skriv in uppgiften om färginnehåll i klartext (färg, svartvit eller kolorerad). Här anges även layout, t.ex. ”båda sidorna” om bilder finns på bägge sidor av arket/arken.
+
 #### Produktionsmetod
 *	Produktionsmetod/Benämning (productionMethod/label = 340 #d)
   </br>Ange produktionsmetod som lokal entitet. 
