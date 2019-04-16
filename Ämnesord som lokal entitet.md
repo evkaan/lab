@@ -32,9 +32,9 @@ Instruktionen används i de fall man vill ange ämnesord som en lokal entitet fr
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj den typ av ämnesord du vill lägga till i rullgardinsmenyn Skapa lokal entitet, t.ex. Allmänt ämnesord.
 * Öppna sidorutan Lägg till egenskaper under inom den tillagda lokala entiteten. 
-* Sök efter och välj Föredragen benämning och Termlista.
+* Sök efter och välj Föredragen benämning och Ingår i system.
 * Skriv in aktuell term i Föredragen benämning.
-* Öppna sidorutan Lägg till entitet inom egenskapen Termlista. Sök efter och välj aktuell listkod.
+* Öppna sidorutan Lägg till entitet inom egenskapen Ingår i system. Sök efter och välj aktuell listkod.
 
 För att lägga till flera termer av samma typ kan den lokala entiteten kopieras.
 
@@ -47,12 +47,12 @@ Exempel:
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
-* Öppna sidorutan Lägg till entitet/termlista inom egenskapen Termlista. Sök efter och välj aktuell listkod.
-* Öppna sidorutan Lägg till entitet under inom egenskapen Termkomponenter. 
+* Öppna sidorutan Lägg till entitet inom egenskapen Ingår i system. Sök efter och välj aktuell listkod.
+* Öppna sidorutan Lägg till entitet inom egenskapen Termkomponenter. 
 * Välj typ av ämnesord i rullgardinsmenyn Skapa lokal entitet, t.ex. Allmänt ämnesord.
 * Öppna sidorutan Lägg till egenskaper under inom den tillagda ämnesordstypen. 
 * Sök efter och lägg till Föredragen benämning. Skriv in aktuell term i rutan.
-* Öppna sidorutan Lägg till entitet under inom egenskapen Termkomponenter. 
+* Öppna sidorutan Lägg till entitet inom egenskapen Termkomponenter. 
 * Välj typ av ämnesord i rullgardinsmenyn Skapa lokal entitet, t.ex. Underindelning för allmänt ämnesord.
 * Skriv in aktuell term i rutan Föredragen benämning.
 
@@ -75,10 +75,10 @@ Se [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/katalogis
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
-* Öppna sidorutan Lägg till entitet/termlista inom egenskapen Termlista. Sök efter och välj listkod sao.
+* Öppna sidorutan Lägg till entitet inom egenskapen Ingår i system. Sök efter och välj listkod sao.
 * Öppna sidorutan Lägg till entitet under inom egenskapen Termkomponenter. 
-* Välj typen Allmänt ämnesord. Sök efter och lägg till aktuell term (kontrollera termlista, sao). Termen länkas då till verksbeskrivningen i Instans av Verk. Behåll sidorutan öppen.
-* Välj typen Underindelning för allmänt ämnesord. Sök efter och lägg till aktuell term. Termen länkas då till verksbeskrivningen i Instans av Verk.
+* Välj typen Allmänt ämnesord. Sök efter och lägg till aktuell term (kontrollera ämnesordssystem, sao). Termen länkas då till verksbeskrivningen i Instans av Verk. Behåll sidorutan öppen.
+* Välj typen Underindelning för allmänt ämnesord. Sök efter och lägg till aktuell underindelning. Termen länkas då till verksbeskrivningen i Instans av Verk.
 
 Upprepa momenten ovan för att lägga till fler sammansatta termer.
 
@@ -86,17 +86,17 @@ Exempel:
 
 ![Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponeneter](LokaltSammansattSao.PNG) 
 
-### Ämnesord från system med listkod utan listkod som länkad entitet
+### Ämnesord från system med listkod där listkoden inte finns som länkad entitet
 
 #### Enkelt amnesord som lokal entitet utan lankbar listkod
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj aktuell typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
 * Öppna sidorutan Lägg till egenskaper under inom den tillagda ämnesordstypen. 
-* Sök efter och lägg till Föredragen benämning och Termlista. Skriv in aktuell term i rutan.
-* Öppna sidorutan Lägg till entitet/termlista inom egenskapen Termlista. Välj Skapa lokal entitet.
-* Öppna sidorutan Lägg till egenskaper under inom egenskapen Termlista. Sök efter och lägg till egenskapen Kod.
-* Skriv in aktuell listkod i rutan, t.ex. ”fast”.
+* Sök efter och lägg till Föredragen benämning och Ingår i system. Skriv in aktuell term i rutan för Föredragen benämning.
+* Öppna sidorutan Lägg till entitet inom egenskapen Ingår i system. Välj Ämnesordssystem i rullgardinsmenyn för Skapa lokal entitet.
+* Öppna sidorutan Lägg till egenskaper under inom typen Ämnesordssystem. Sök efter och lägg till egenskapen Kod.
+* Skriv in kod för aktuellt ämnesordssystem i rutan, t.ex. ”fast”.
 
 Exempel:
 
@@ -106,10 +106,10 @@ Exempel:
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
-* Öppna sidorutan Lägg till entitet/termlista inom egenskapen Termlista. Välj Skapa lokal entitet.
-* Öppna sidorutan Lägg till egenskaper under inom egenskapen Termlista. Sök efter och lägg till egenskapen Kod.
+* Öppna sidorutan Lägg till entitet inom egenskapen Ingår i system. Välj typen Ämnesordssystem i rullgardinsmenyn för Skapa lokal entitet.
+* Öppna sidorutan Lägg till egenskaper under inom typen Ämnesordssystem. Sök efter och lägg till egenskapen Kod.
 * Skriv in aktuell listkod i rutan, t.ex. ”ram”.
-* Öppna sidorutan Lägg till entitet under inom egenskapen Termkomponenter. 
+* Öppna sidorutan Lägg till entitet inom egenskapen Termkomponenter. 
 * Välj typ av ämnesord i rullgardinsmenyn Skapa lokal entitet, t.ex. Allmänt ämnesord.
 * Öppna sidorutan Lägg till egenskaper under inom den tillagda ämnesordstypen. 
 * Sök efter och lägg till Föredragen benämning. Skriv in aktuell term i rutan.
