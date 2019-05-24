@@ -93,7 +93,6 @@ Rubriken skiljer sig åt beroende på var i verktyget man befinner sig: Ta bort 
 Klicka på Redigera för att göra ändringar i posten. 
 
 
-
 ### Verktygsmeny i redigeringsvy
 
 ![Redigering](redigering.png)  
@@ -131,3 +130,8 @@ Klicka på plustecknet som finns till höger om den egenskap där du vill lägga
 
 #### Entitetsfunktioner
 Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. Se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).    
+
+### Övrigt
+
+#### Skapa ny - Från fil
+
