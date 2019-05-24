@@ -14,23 +14,20 @@ tags:
 ### Innehåll
  ( * )Länk till annan relevant hjälptext
 
-| [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy)
-| -------- | ----------- | ----------- |
-| [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) |
-| [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | 
+| [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy) | [**Övrigt**](övrigt) |
+| -------- | ----------- | ----------- | ----------- |
+| [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) | [Skapa ny - Från fil](skapa-ny-från-fil) |
+| [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) |
 | [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
-| [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) | 
-| [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) | 
-| [- Berika från post](#verktyg)
+| [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) |
+| [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) |
+| [- Berika från post](#verktyg) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
 | [- Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
 | [- Förhandsgranska MARC21](#förhandsgranska-MARC21) |
 | [- Ta bort](#ta-bort) |
 | [- Redigera](#redigera) |
 
-| [**Skapa ny - Från fil**](skapa-ny-från-fil) |
-| -------- |
-| [Skapa ny - Från fil](skapa-ny-från-fil) | 
 
 
 ### Visningsvy
