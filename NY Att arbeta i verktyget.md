@@ -28,11 +28,9 @@ tags:
 | [- Ta bort](#ta-bort) |
 | [- Redigera](#redigera) |
 
-| [**Skapa ny - Instans**](#skapa-ny-instans) | [**Skapa ny - Verk**](#skapa-ny-verk) | [**Skapa ny - Agent**](skapa-ny-agent) | [**Skapa ny - Från fil**](skapa-ny-från-fil) |
-| -------- | ----------- | ----------- | ----------- |
-| [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) |
-| [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | 
-| [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
+| [**Skapa ny - Från fil**](skapa-ny-från-fil) |
+| -------- |
+| [Skapa ny - Från fil](skapa-ny-från-fil) | 
 
 
 ### Visningsvy
