@@ -134,7 +134,7 @@ Till höger om varje lokal entitet finns några funktioner där du kan länka de
 ### Ovrigt
 
 #### Skapa ny - Från fil
-Funktionen Skapa ny - från fil är användbar om man t.ex ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster.
+Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster.
 
 1. Förbered genom att skapa mallpost. Enklast är att utgå från en befintlig post.
 </br>Börja med att kopiera posten (Verktyg -> Kopiera). 
