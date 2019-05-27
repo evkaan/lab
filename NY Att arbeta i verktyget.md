@@ -56,7 +56,7 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
 
 ##### Berika från post
  * Berika från fil
-  </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. 
+  </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
    * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att få med.
    * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
    * Avbryt redigeringen av posten (A) ifall en ny tillfällig skapats, d.v.s. radera den. 
@@ -134,21 +134,21 @@ Till höger om varje lokal entitet finns några funktioner där du kan länka de
 ### Ovrigt
 
 #### Skapa ny - Från fil
-Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster.
+Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
 
 1. Förbered genom att skapa mallpost. Enklast är att utgå från en befintlig post.
 </br>Börja med att kopiera posten (Verktyg -> Kopiera). 
-</br>Fyll i den information som är gemensam för alla poster som sedan ska skapas. Lägg till (eller töm) de egenskaper som ska vara med, men där informationen skiljer sig åt mellan posterna.
-</br>När mallposten är färdigpreparerad: gå till verktygsmenyn och välj Ladda ner JSON-LD (Inkl. osparade ändringar). Namnge filen 
-och välj ok.
+</br>Fyll i den information som är gemensam för alla poster som sedan ska skapas. Lägg till egenskaper eller töm informationen i de egenskaper som ska vara med, men där informationen skiljer sig åt mellan posterna.
+</br>När mallposten är färdigredigerad: Välj Ladda ner JSON-LD (Inkl. osparade ändringar) i verktygsmenyn. Namnge filen 
+och välj ok för att spara filen/mallen.
 </br>Avbryt sedan redigeringen av posten i katalogiseringsverktyget (utan att spara).
 
 2. Skapa ny från fil
 </br>Välj Skapa ny - Från fil. 
 </br>Klicka på Välj fil och leta fram den förberedda mallposten i utforskaren. Klicka på öppna (alternativt dra in filen till ytan markerad "Släpp din fil här").
-</br>Den nya posten öppnas med ifyllda och oifyllda fält (länkade entiteter visas som URI:er men dessa ändras till korrekt etikett vid sparande).
+</br>Den nya posten öppnas med ifyllda och tomma inmatningsfält (länkade entiteter visas som URI:er men dessa ändras till korrekt etikett vid sparande).
 
 3. Redigera posten efter behov och spara.
 
-Upprepa moment 2 och 3 för att skapa fler poster utifrån samma mall.
+Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
