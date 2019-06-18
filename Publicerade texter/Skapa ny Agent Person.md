@@ -36,7 +36,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | | [Identifikator](#identifikator) |
 | | [Nationalitet](#nationalitet) |
 | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) |
-| | [Translitterering](#translitterering) | [Namn](#namn) | 
+| [Translitterering](#translitterering) | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [Titel eller övrig beteckning](#biografiska-uppgifter) |
