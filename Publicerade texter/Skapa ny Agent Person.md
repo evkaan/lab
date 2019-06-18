@@ -35,8 +35,8 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
 | | [Identifikator](#identifikator) |
 | | [Nationalitet](#nationalitet) |
-| | [**Ytterligare egenskaper att lägga till vid behov**](#beskrivningsniva) |
-| | [Namn](#namn) | 
+| [**Ytterligare egenskaper vid behov**](#beskrivningsniva) | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) |
+| | [Translitterering](#translitterering) | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [Titel eller övrig beteckning](#biografiska-uppgifter) |
@@ -44,7 +44,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | | [Ordningstal](#ordningstal) | 
 | | [Språk](#ordningstal) | 
 | | [Organisatorisk tillhörighet](#ordningstal) | |
-| | [Translitterering](#translitterering) | | 
+
 
 
 ### Adminmetadata
