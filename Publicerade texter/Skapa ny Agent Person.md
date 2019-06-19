@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2019-06-05
+date: 2019-06-18
 tags:
 - agenter
 - auktoriteter
@@ -273,4 +273,3 @@ Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http:/
 
 
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
-
