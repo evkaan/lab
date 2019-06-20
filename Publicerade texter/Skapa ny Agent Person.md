@@ -99,8 +99,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
     <br/>```Uppgift från källa: Proclus, approximately 410-485```
   
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
-  <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. 
-Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
+  <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
 
 #### Differentiering av person
 * Differentiering av person (marc:personalName = 008/32)
