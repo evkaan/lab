@@ -86,7 +86,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Benämning: NE 2018-04-12.``` 
     <br/>```Uppgift från källa: Levnadstid 1848-1920```
   
-  * ```Benämning: NE 2016-10-01```  
+  * ```Benämning: NE 2016-10-01```
     <br/>```Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
   
   * ```Benämning: Wikipedia (svenska) 2018-04-12``` 
