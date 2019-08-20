@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2019-06-18
+date: 2019-06-20
 tags:
 - agenter
 - auktoriteter
@@ -25,10 +25,10 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Beskrivningsnivå](#beskrivningsniva) | [Efternamn](#efternamn) |
-| [Skapad av](#skapad-av)  | [Förnamn](#efternamn) |
+| [Skapad av](#skapad-av) | [Förnamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
-| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Födelsedatum](#efternamn) |
-| [Konsulterad källa](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Födelsedatum](#efternamn) |
+| [Konsulterad källa](#katalogiseringsregler) | [Dödsdatum](#efternamn) |
 | [Differentiering av person](#differentiering-av-person) | [Variant](#variant) |
 | [Auktoritetskontrollnivå](#differentiering-av-person) | [Se även](#variant) |
 | [Katalogiseringsspråk](#differentiering-av-person) | [Verksamhetsområde](#verksamhetsomrade) |
@@ -222,12 +222,16 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter och lägg till auktoriserad namnform. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 #### Fullständigare namnform
-* Fullständigare namnform (fullerFormOfName = 100 #q och 378)
-  <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
+<br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen. Anges i båda egenskaperna listade nedan.
+* Fullständigare namnform (fullerFormOfName = 100 #q)
   <br/>```Exempel:```
   * ```Efternamn: Smith```
   <br/>```Förnamn: A. D.```
   <br/>```Fullständigare namnform: Adam David```
+  
+ * Fullständigare namnform - Personnamn (marc:fullerFormOfPersonalName = 378 #q)
+  <br/>```Exempel:```
+  <br/>```Fullständigare namnform - Personnamn: Adam David```
 
 #### Biografiska uppgifter
 * Biografiska uppgifter (hasBiographicalInformation = 678)
@@ -285,4 +289,3 @@ Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http:/
 
 
 #### OBS! I de fall namnformen ligger som en lokal entitet, dvs. olänkad, i en instans sker inte länkning automatiskt utan man behöver aktivt utföra länkningen i berörda instanser.
-
