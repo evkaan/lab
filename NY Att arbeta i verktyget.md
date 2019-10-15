@@ -2,7 +2,7 @@
 section: Redigering
 title: Att använda verktyget
 order: 11
-date: 2019-05-10
+date: 2019-10-16
 tags:
 - redigering
 - editor
@@ -151,4 +151,44 @@ och välj ok för att spara filen/mallen.
 3. Redigera posten efter behov och spara.
 
 Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
+
+#### Byta verks- och instanstyp
+Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. I denna första version av funktionen finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Använd tabellen nedan för guidning gällande de vanligaste kombinationerna.
+
+Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet låst, men det går att låsa upp om man klickar på hänglåset längst till höger
+
+##### Lista över de vanligaste kombinationerna av verks- och instanstyp
+
+| [**Verkstyp**]  |  [**Instanstyp**] |   
+| Text (000/06=a i MARC21) | Instans (mall: Bok/Tryckt seriell/Äldre tryck)
+</br>Elektronisk (007c i MARC21) (mall: E-bok) </br>Tryck </br>Handskrift </br>Taktil resurs
+  |   
+|   |   |   
+|   |   |   
+Byta verkstyp  
+•	Gå till Instans av verk/Verkstyp
+•	Välj typ i rullgardinslistan
+OBS! Listan innehåller alla verkstyper.
+
+Om man byter verkstyp bör man även vara uppmärksam på att ändra länkade entiteter i verksbeskrivningen som representerar MARC-koder specifika för de olika verkstyperna. 
+
+Exempel: 
+Koden för Genre/form/Litterär genre: Roman – f hör till verkstypen Text och ska inte användas med verkstypen Ljudmaterial.
+
+Tänk också på att Innehållstyp kan behöva ändras. 
+
+Exempel: För en ljudbok som ändras till verkstypen Text behöver också Innehållstyp ändras till Text – txt.
+
+
+Byta instanstyp 
+•	Gå till Instanstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan.
+•	Välj typ i rullgardinslistan
+OBS! Listan innehåller alla instanstyper.
+
+Om man byter instanstyp bör man även vara uppmärksam på att ändra länkade entiteter i instansbeskrivningen som representerar MARC-koder specifika för de olika instanstyperna. 
+
+Exempel: 
+Bärartypen Ljudskiva - d under Instans hör till instanstypen Ljudinspelning och ska inte användas med andra instanstyper
+
+
 
