@@ -159,13 +159,13 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 
 ##### Lista över de vanligaste kombinationerna av verks- och instanstyp
 
-| [**Verkstyp**]  |  [**Instanstyp**] |   
+| :**Verkstyp**  |  :**Instanstyp** |   
 | ----------- | ----------- |
-| Text (000/06=a i MARC21) | Instans (mall: Bok/Tryckt seriell/Äldre tryck)
-</br>Elektronisk (007c i MARC21) (mall: E-bok) </br>Tryck </br>Handskrift </br>Taktil resurs
-  |   
-|   |   |   
-|   |   |   
+| Text (000/06=a i MARC21) | Instans (mall: Bok/Tryckt seriell/Äldre tryck) ; Elektronisk (007c i MARC21) (mall: E-bok) ;Tryck </br>Handskrift ; Taktil resurs |   
+| Kartmaterial (000/06=e i MARC21)  |   |   
+| Ljudmaterial (t ex ljudbok) (000/06=i i MARC21)  |   |   
+| Musik (t ex musik-CD) (000/06=j i MARC21) |   |   
+| Multimedia (000/06=m i MARC21)  |   |   
 Byta verkstyp  
 •	Gå till Instans av verk/Verkstyp
 •	Välj typ i rullgardinslistan
