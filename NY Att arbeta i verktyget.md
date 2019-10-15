@@ -160,6 +160,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 ##### Lista över de vanligaste kombinationerna av verks- och instanstyp
 
 | [**Verkstyp**]  |  [**Instanstyp**] |   
+| ----------- | ----------- |
 | Text (000/06=a i MARC21) | Instans (mall: Bok/Tryckt seriell/Äldre tryck)
 </br>Elektronisk (007c i MARC21) (mall: E-bok) </br>Tryck </br>Handskrift </br>Taktil resurs
   |   
