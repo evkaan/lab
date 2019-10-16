@@ -163,20 +163,20 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | :----------- | :----------- |
 | Text (000/06=a i MARC21) | * Instans (mall: Bok/Tryckt seriell/Äldre tryck) * Elektronisk (007c i MARC21) (mall: E-bok) * Tryck * Handskrift * Taktil resurs |   
 | Kartmaterial (000/06=e i MARC21)  | Karta (007a i MARC21) (mall: Karta) Kartglob (007d i MARC21) Elektronisk (007c i MARC21) Handskrift  |   
-| Ljudmaterial (t ex ljudbok) (000/06=i i MARC21)  | Ljudinspelning (007s i MARC21) (mall: Ljudbok) Elektronisk (007c i MARC21) |   
-| Musik (t ex musik-CD) (000/06=j i MARC21) | Ljudinspelning (007s i MARC21) (mall: Musik-CD)
-Elektronisk (007c i MARC21) |   
-| Multimedia (000/06=m i MARC21)  | Instans ; Elektronisk (007c i MARC21) (mall: Datorspel)  |   
-| Noterad musik (000/06=c i MARC21)  |   |
-| Projicerad bild (000/06=g i MARC21)  |   |
-| Stillbild (000/06=k i MARC21) |   |
-| Paket (000/06=o i MARC21)  |   |
-Byta verkstyp  
+| Ljudmaterial (t ex ljudbok) (000/06=i i MARC21)  | * Ljudinspelning (007s i MARC21) (mall: Ljudbok) * Elektronisk (007c i MARC21) |   
+| Musik (t ex musik-CD) (000/06=j i MARC21) | * Ljudinspelning (007s i MARC21) (mall: Musik-CD) * Elektronisk (007c i MARC21) |   
+| Multimedia (000/06=m i MARC21)  | * Instans * Elektronisk (007c i MARC21) (mall: Datorspel) |   
+| Noterad musik (000/06=c i MARC21)  | * Instans (mall: Noterad musik) |
+| Projicerad bild (000/06=g i MARC21)  | * Videoinspelning (007v i MARC21) (mall: Film) * Elektronisk (007c i MARC21) |
+| Stillbild (000/06=k i MARC21) | * Instans (mall: Stillbild) * Elektronisk (007c i MARC21) * Instans av stillbild (007k i MARC21) |
+| Paket (000/06=o i MARC21)  | * Instans * Instans av paket (007o i MARC21) |
+
+##### Byta verkstyp  
 •	Gå till Instans av verk/Verkstyp
 •	Välj typ i rullgardinslistan
-OBS! Listan innehåller alla verkstyper.
-
-Om man byter verkstyp bör man även vara uppmärksam på att ändra länkade entiteter i verksbeskrivningen som representerar MARC-koder specifika för de olika verkstyperna. 
+*
+*OBS!* Listan innehåller alla verkstyper.
+*OBS!* Om man byter verkstyp bör man även vara uppmärksam på att ändra länkade entiteter i verksbeskrivningen som representerar MARC-koder specifika för de olika verkstyperna. 
 
 Exempel: 
 Koden för Genre/form/Litterär genre: Roman – f hör till verkstypen Text och ska inte användas med verkstypen Ljudmaterial.
@@ -186,7 +186,7 @@ Tänk också på att Innehållstyp kan behöva ändras.
 Exempel: För en ljudbok som ändras till verkstypen Text behöver också Innehållstyp ändras till Text – txt.
 
 
-Byta instanstyp 
+##### Byta instanstyp 
 •	Gå till Instanstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan.
 •	Välj typ i rullgardinslistan
 OBS! Listan innehåller alla instanstyper.
