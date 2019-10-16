@@ -14,10 +14,10 @@ tags:
 ### Innehåll
  ( * )Länk till annan relevant hjälptext
 
-| [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy) | [**Övrigt**](ovrigt) |
+| [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy) | [**Övrigt**](#ovrigt) |
 | -------- | ----------- | ----------- | ----------- |
-| [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) | [Skapa ny - Från fil](skapa-ny-från-fil) |
-| [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | [Byta verks- och instanstyp](#byta-verks--och-instanstyp) | 
+| [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) | [Skapa ny - Från fil](#ovrigt) |
+| [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | [Byta verks- och instanstyp](#byta-verks--och-instanstyp) |
 | [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
 | [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) |
 | [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) |
@@ -47,7 +47,7 @@ Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska in
 ![Verktygsalternativ](verktygsalternativ.png)  
 
 #### Expandera/minimera alla
-För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet atpandera och minimera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.  
+För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera och minimera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.  
 Expandera: Alt + Plus
 Minimera: Alt + Minus
 
@@ -137,20 +137,21 @@ Till höger om varje lokal entitet finns några funktioner där du kan länka de
 Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
 
 1. Förbered genom att skapa mallpost. Enklast är att utgå från en befintlig post.
-</br>Börja med att kopiera posten (Verktyg -> Kopiera). 
-</br>Fyll i den information som är gemensam för alla poster som sedan ska skapas. Lägg till egenskaper eller töm informationen i de egenskaper som ska vara med, men där informationen skiljer sig åt mellan posterna.
-</br>När mallposten är färdigredigerad: Välj Ladda ner JSON-LD (Inkl. osparade ändringar) i verktygsmenyn. Namnge filen 
+ * Börja med att kopiera posten (Verktyg -> Kopiera). 
+ * Fyll i den information som är gemensam för alla poster som sedan ska skapas. Lägg till egenskaper eller töm informationen i de egenskaper som ska vara med, men där informationen skiljer sig åt mellan posterna.
+ * När mallposten är färdigredigerad: Välj Ladda ner JSON-LD (Inkl. osparade ändringar) i verktygsmenyn. Namnge filen 
 och välj ok för att spara filen/mallen.
-</br>Avbryt sedan redigeringen av posten i katalogiseringsverktyget (utan att spara).
+ * Avbryt sedan redigeringen av posten i katalogiseringsverktyget (utan att spara).
 
 2. Skapa ny från fil
-</br>Välj Skapa ny - Från fil. 
-</br>Klicka på Välj fil och leta fram den förberedda mallposten i utforskaren. Klicka på öppna (alternativt dra in filen till ytan markerad "Släpp din fil här").
-</br>Den nya posten öppnas med ifyllda och tomma inmatningsfält (länkade entiteter visas som URI:er men dessa ändras till korrekt etikett vid sparande).
+ * Välj Skapa ny - Från fil. 
+ * Klicka på Välj fil och leta fram den förberedda filen/mallen i utforskaren. Klicka på öppna (alternativt dra in filen till ytan markerad "Släpp din fil här").
+ * Den nya posten öppnas med ifyllda och tomma inmatningsfält (länkade entiteter visas som URI:er men dessa ändras till korrekt etikett vid sparande).
 
 3. Redigera posten efter behov och spara.
 
 Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
+
 
 #### Byta verks- och instanstyp
 Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Använd tabellen nedan för guidning gällande de vanligaste kombinationerna.
