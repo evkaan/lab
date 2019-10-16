@@ -161,14 +161,12 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 
 | **Verkstyp**  |  **Instanstyp** |   
 | :----------- | :----------- |
-| Text (000/06=a i MARC21) | Instans (mall: Bok/Tryckt seriell/Äldre tryck) ; Elektronisk (007c i MARC21) (mall: E-bok) ; Tryck </br>Handskrift ; Taktil resurs |   
-| Kartmaterial (000/06=e i MARC21)  | Karta (007a i MARC21) (mall: Karta)
-Kartglob (007d i MARC21)
-Elektronisk (007c i MARC21)
-Handskrift  |   
-| Ljudmaterial (t ex ljudbok) (000/06=i i MARC21)  |   |   
-| Musik (t ex musik-CD) (000/06=j i MARC21) |   |   
-| Multimedia (000/06=m i MARC21)  |   |   
+| Text (000/06=a i MARC21) | * Instans (mall: Bok/Tryckt seriell/Äldre tryck) * Elektronisk (007c i MARC21) (mall: E-bok) * Tryck * Handskrift * Taktil resurs |   
+| Kartmaterial (000/06=e i MARC21)  | Karta (007a i MARC21) (mall: Karta) Kartglob (007d i MARC21) Elektronisk (007c i MARC21) Handskrift  |   
+| Ljudmaterial (t ex ljudbok) (000/06=i i MARC21)  | Ljudinspelning (007s i MARC21) (mall: Ljudbok) Elektronisk (007c i MARC21) |   
+| Musik (t ex musik-CD) (000/06=j i MARC21) | Ljudinspelning (007s i MARC21) (mall: Musik-CD)
+Elektronisk (007c i MARC21) |   
+| Multimedia (000/06=m i MARC21)  | Instans ; Elektronisk (007c i MARC21) (mall: Datorspel)  |   
 | Noterad musik (000/06=c i MARC21)  |   |
 | Projicerad bild (000/06=g i MARC21)  |   |
 | Stillbild (000/06=k i MARC21) |   |
