@@ -17,7 +17,7 @@ tags:
 | [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy) | [**Övrigt**](ovrigt) |
 | -------- | ----------- | ----------- | ----------- |
 | [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) | [Skapa ny - Från fil](skapa-ny-från-fil) |
-| [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | [Byta verks- och instanstyp](#byta-verks-och-instanstyp) | 
+| [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | [Byta verks- och instanstyp](#byta-verks--och-instanstyp) | 
 | [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
 | [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) |
 | [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) |
@@ -47,7 +47,7 @@ Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska in
 ![Verktygsalternativ](verktygsalternativ.png)  
 
 #### Expandera/minimera alla
-För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera och minimera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.  
+För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet atpandera och minimera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.  
 Expandera: Alt + Plus
 Minimera: Alt + Minus
 
@@ -164,8 +164,8 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | :----------- | :----------- |
 | Text (000/06=a i MARC21) | * Instans (mall: Bok/Tryckt seriell/Äldre tryck) * Elektronisk (007c i MARC21) (mall: E-bok) * Tryck * Handskrift * Taktil resurs |   
 | Kartmaterial (000/06=e i MARC21) | Karta (007a i MARC21) (mall: Karta) Kartglob (007d i MARC21) Elektronisk (007c i MARC21) Handskrift |   
-| Ljudmaterial (t ex ljudbok) (000/06=i i MARC21) | * Ljudinspelning (007s i MARC21) (mall: Ljudbok) * Elektronisk (007c i MARC21) |   
-| Musik (t ex musik-CD) (000/06=j i MARC21) | * Ljudinspelning (007s i MARC21) (mall: Musik-CD) * Elektronisk (007c i MARC21) |   
+| Ljudmaterial (t.ex. ljudbok) (000/06=i i MARC21) | * Ljudinspelning (007s i MARC21) (mall: Ljudbok) * Elektronisk (007c i MARC21) |   
+| Musik (t.ex. musik-CD) (000/06=j i MARC21) | * Ljudinspelning (007s i MARC21) (mall: Musik-CD) * Elektronisk (007c i MARC21) |   
 | Multimedia (000/06=m i MARC21) | * Instans * Elektronisk (007c i MARC21) (mall: Datorspel) |   
 | Noterad musik (000/06=c i MARC21) | * Instans (mall: Noterad musik) |
 | Projicerad bild (000/06=g i MARC21) | * Videoinspelning (007v i MARC21) (mall: Film) * Elektronisk (007c i MARC21) |
@@ -173,7 +173,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | Paket (000/06=o i MARC21) | * Instans * Instans av paket (007o i MARC21) |
 
 ##### Byta verkstyp  
-*	Gå till Instans av verk/Verkstyp
+*	Gå till Instans av verk/Verkstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan
 * Välj typ i rullgardinslistan
 
 <br/>*OBS!* Listan innehåller alla verkstyper.
@@ -186,7 +186,7 @@ För en ljudbok som ändras till verkstypen Text behöver också Innehållstyp �
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
 
 ##### Byta instanstyp 
-*	Gå till Instanstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan.
+*	Gå till Instanstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan
 *	Välj typ i rullgardinslistan
 
 <br/>*OBS!* Listan innehåller alla instanstyper.
