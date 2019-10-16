@@ -180,8 +180,10 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 <br/>*OBS!* Byte av verkstyp kan innebära att länkade entiteter i verksbeskrivningen behöver ändras, t.ex. MARC-koder specifika för de olika verkstyperna eller RDA-entiteter.
 
   <br/>```Exempel:```
-    ```Koden för Genre/form/Litterär genre: Roman – f hör till verkstypen Text och ska inte användas med verkstypen Ljudmaterial.
+  <br/>```Koden för Genre/form/Litterär genre: Roman – f hör till verkstypen Text och ska inte användas med verkstypen Ljudmaterial.
 För en ljudbok som ändras till verkstypen Text behöver också Innehållstyp ändras till Text – txt.```
+
+Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
 
 ##### Byta instanstyp 
 *	Gå till Instanstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan.
@@ -191,7 +193,8 @@ För en ljudbok som ändras till verkstypen Text behöver också Innehållstyp �
 <br/>*OBS!* Byte av instanstyp kan innebära att länkade entiteter i instansbeskrivningen behöver ändras, t.ex. MARC-koder specifika för de olika instanstyperna eller RDA-entiteter.
 
    <br/>```Exempel:```
-     ```Bärartypen Ljudskiva - d under Instans hör till instanstypen Ljudinspelning och ska inte användas med andra instanstyper.```
+   <br/>```Bärartypen Ljudskiva - d under Instans hör till instanstypen Ljudinspelning och ska inte användas med andra instanstyper.```
 
 
+Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
 
