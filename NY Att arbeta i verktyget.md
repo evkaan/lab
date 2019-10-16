@@ -153,12 +153,11 @@ och välj ok för att spara filen/mallen.
 Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
 #### Byta verks- och instanstyp
-Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. I denna första version av funktionen finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Använd tabellen nedan för guidning gällande de vanligaste kombinationerna.
+Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Använd tabellen nedan för guidning gällande de vanligaste kombinationerna.
 
 Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet låst, men det går att låsa upp om man klickar på hänglåset längst till höger.
 
 ##### Lista över de vanligaste kombinationerna av verks- och instanstyp
-
 
 | **Verkstyp**  |  **Instanstyp** |   
 | :----------- | :----------- |
@@ -194,7 +193,6 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
 
    <br/>```Exempel:```
    <br/>```Bärartypen Ljudskiva - d under Instans hör till instanstypen Ljudinspelning och ska inte användas med andra instanstyper.```
-
 
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
 
