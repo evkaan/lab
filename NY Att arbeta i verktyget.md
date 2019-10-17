@@ -172,7 +172,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | Stillbild (000/06=k i MARC21) | Instans (mall: Stillbild)<br>Elektronisk (007c i MARC21)<br>Instans av stillbild (007k i MARC21) |
 | Paket (000/06=o i MARC21) | Instans<br>Instans av paket (007o i MARC21) |
 
-##### Byta verkstyp  
+##### **Byta verkstyp**  
 *	Gå till Instans av verk/Verkstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan
 * Välj typ i rullgardinslistan
 
