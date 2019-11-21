@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2019-08-20
+date: 2019-10-22
 tags:
 - agenter
 - auktoriteter
@@ -24,15 +24,16 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Beskrivningsnivå](#beskrivningsniva) | [Efternamn](#efternamn) |
-| [Skapad av](#skapad-av) | [Förnamn](#efternamn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
-| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Födelsedatum](#efternamn) |
-| [Konsulterad källa](#katalogiseringsregler) | [Dödsdatum](#efternamn) |
-| [Differentiering av person](#differentiering-av-person) | [Variant](#variant) |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [Se även](#variant) |
-| [Katalogiseringsspråk](#differentiering-av-person) | [Verksamhetsområde](#verksamhetsomrade) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
+| [Skapad av](#skapad-av) | [Agenttyp](#agent) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#agenttyp) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Förnamn](#efternamn) |
+| [Konsulterad källa](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
+| [Katalogiseringsspråk](#differentiering-av-person) | [Födelsedatum](#efternamn) |
+| [Differentiering av person](#differentiering-av-person) | [Dödsdatum](#efternamn) |
+| | [Variant](#variant) |
+| | [Se även](#variant) |
+| | [Verksamhetsområde](#verksamhetsomrade) |
+| | [Har yrke eller sysselsättning](#verksamhetsomrade) |
 | | [Identifikator](#identifikator) |
 | | [Nationalitet](#nationalitet) |
 | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) |
@@ -49,10 +50,6 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 
 ### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
-
-#### Beskrivningsnivå 
- * Beskrivningsnivå (encodingLevel)
-  <br/>Förval: Fullständig. Ändras ej.
   
 #### Skapad av
 * Skapad av (descriptionCreator = 040 #a)
@@ -75,12 +72,16 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
   <br/>Ange källa som Benämning och vid behov vilken uppgift som hämtats från källan som Uppgift från källa. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
-  <br/>```Exempel på obligatorisk källa:``` 
+  <br/>```Exempel på obligatorisk källa där Primär medverkan föranleder auktoriseringen:``` 
   * ```Benämning: Jerusalem / Selma Lagerlöf, 1901``` 
     <br/>```Uppgift från källa: Lagerlöf, Selma```
   
   * ```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000``` 
     <br/>```Uppgift från källa: Rowling, J. K.```
+    
+  <br/>```Exempel på obligatorisk källa där Medverkan föranleder auktoriseringen:``` 
+  * ```Benämning: Den gamle och havet / Ernest Hemingway ; Mårten Edlund, 2005``` 
+    <br/>```Uppgift från källa: Edlund, Mårten```
 
   <br/>```Exempel på kompletterande källa:``` 
   * ```Benämning: NE 2018-04-12.``` 
@@ -101,21 +102,20 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
 
-#### Differentiering av person
-* Differentiering av person (marc:personalName = 008/32)
-  <br/>Ändras ej.
-  
-#### Auktoritetskontrollnivå
-* Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej.
-
 #### Katalogiseringsspråk
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
   <br/>Förval: language/swe. Ändras ej.
+  
+#### Differentiering av person
+* Differentiering av person (marc:personalName = 008/32)
+  <br/>Ändras ej.
 
 
 ### Agent
 Beskrivning av agenten som ska auktoriseras. 
+
+#### Agenttyp
+Ändras normalt sett ej. Upptäckta felaktigheter och/eller problem rapporteras till Auktoritetsgruppen.
 
 #### Efternamn
 * Efternamn (FamilyName = 100 1/- #a)
@@ -198,7 +198,7 @@ Beskrivning av agenten som ska auktoriseras.
 
 #### Identifikator
 * Identifikator (identifiedBy = 024 #a)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från [ISNI](http://www.isni.org/search)).
   <br/>```Exempel:```
   * ```Värde: 0000000121339888```
   * ```Typanmärkning: isni```
@@ -222,14 +222,14 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter och lägg till auktoriserad namnform. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 #### Fullständigare namnform
-<br/>Används för att ange fullständig namnform i de fall då förkortning används i den auktoriserade namnformen. Anges i båda egenskaperna listade nedan.
+Används för att ange fullständig namnform i de fall då förkortning används i den auktoriserade namnformen. Anges i båda egenskaperna listade nedan.
 * Fullständigare namnform (fullerFormOfName = 100 #q)
   <br/>```Exempel:```
-  <br/>```Fullständigare namnform: Adam David``` (I egenskapen förnamn är A. D. angivet.)
+  <br/>```Fullständigare namnform: Adam David``` (I egenskapen Förnamn är A. D. angivet.)
   
- * Fullständigare namnform - Personnamn (marc:fullerFormOfPersonalName = 378 #q)
+* Fullständigare namnform - Personnamn (marc:fullerFormOfPersonalName = 378 #q)
   <br/>```Exempel:```
-  <br/>```Fullständigare namnform - Personnamn: Adam David``` (I egenskapen förnamn är A. D. angivet.)
+  <br/>```Fullständigare namnform - Personnamn: Adam David``` (I egenskapen Förnamn är A. D. angivet.)
 
 #### Biografiska uppgifter
 * Biografiska uppgifter (hasBiographicalInformation = 678)
@@ -287,3 +287,4 @@ Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http:/
 
 
 #### OBS! I de fall namnformen ligger som en lokal entitet, dvs. olänkad, i en instans sker inte länkning automatiskt utan man behöver aktivt utföra länkningen i berörda instanser.
+
