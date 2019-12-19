@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
 order: 71
-date: 2019-08-20
+date: 2019-12-03
 tags:
 - redigera agent
 - redigera auktoritet
@@ -10,23 +10,17 @@ tags:
 --- 
 
 ## Redigera befintlig Agent - Person
-Hjälptexten beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i hjälptexten är fiktiva.
-
-Det är möjligt att berika en befintlig agent från en mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
-
-För information om katalogiseringsregler som gäller vid auktorisering, se 
-[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
-
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från hjälptexten, t.ex. avseende ordning på egenskaper kan förekomma.
 
 ### Innehåll
 
+| [Inledning](#inledning) | |
 | [**Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Agent**](#befintliga-egenskaper-i-beskrivningen) | 
 | ------ | ----------- |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#efternamn) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Förnamn](#efternamn) |
-| [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Födelse- och/eller dödstid](#efternamn) |
-| [Konsulterad källa](#poststatus) | [Nationalitet](#nationalitet) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Agenttyp](#agent) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Efternamn](#agenttyp) |
+| [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Förnamn](#efternamn) |
+| [Konsulterad källa](#poststatus) | [Födelse- och/eller dödstid](#efternamn) |
+| | [Nationalitet](#nationalitet) |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#nationalitet) |
 | [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Födelsedatum](#nationalitet) |
 | | [Dödsdatum](#nationalitet) |
@@ -44,6 +38,15 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Språk](#ordningstal) | 
 | | [Organisatorisk tillhörighet](#ordningstal) |
 
+### Inledning
+Hjälptexten beskriver de egenskaper och klasser som finns (i vissa fall kan ännu fler förekomma) i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i hjälptexten är fiktiva.
+
+Det är möjligt att berika en befintlig agent från en mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
+
+För information om katalogiseringsregler som gäller vid auktorisering, se 
+[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
+
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
 ### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig och inte är direkt förknippad med den auktoriserade namnformen.
@@ -71,17 +74,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Senast ändrad av (descriptionLastModifier)
   <br/>Förval: Sigel som gjort senaste ändring. Ändras automatiskt vid sparande.  
 
-#### Beskrivningsnivå
-* Beskrivningsnivå (encodingLevel = 000)
-  <br/>Ska vara Fullständig. Ändras vid behov. 
-  <br/>```Exempel: Fullständig```
-
 #### Katalogiserande instans
 * Katalogiserande instans (marc:catalogingSource = 008/39)
-  <br/>Ändras ej.
-
-#### Marc:headingMain
-* Marc:headingMain (marc:headingMain = 008/14)
   <br/>Ändras ej.
  
 #### Typ av auktoritetspost 
@@ -97,10 +91,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Differentiering av person (marc:personalName = 008/32)
   <br/>Ändras ej.
 
-#### Uppdatering av posten
-* Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>Ändras ej.
-
 #### Poststatus
 * Poststatus (recordStatus = 000)
   <br/>Ändras ej. Vid uppdatering ändras status automatiskt.
@@ -112,12 +102,16 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
   <br/>Ange källa som Benämning och vid behov vilken uppgift som hämtats från källan som Uppgift från källa. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
-  <br/>```Exempel på obligatorisk källa:``` 
+  <br/>```Exempel på obligatorisk källa där Primär medverkan föranleder auktoriseringen:``` 
   * ```Benämning: Jerusalem / Selma Lagerlöf, 1901``` 
     <br/>```Uppgift från källa: Lagerlöf, Selma```
   
   * ```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000``` 
     <br/>```Uppgift från källa: Rowling, J. K.```
+    
+  <br/>```Exempel på obligatorisk källa där Medverkan föranleder auktoriseringen:``` 
+  * ```Benämning: Den gamle och havet / Ernest Hemingway ; översättning av Mårten Edlund, 2005``` 
+    <br/>```Uppgift från källa: Edlund, Mårten```
 
   <br/>```Exempel på kompletterande källa:``` 
   * ```Benämning: NE 2018-04-12.``` 
@@ -150,6 +144,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
 ### Agent
 Beskrivning av den auktoriserade agenten. 
+
+#### Agenttyp
+Ändras normalt sett ej. Upptäckta felaktigheter och/eller problem rapporteras till Auktoritetsgruppen.
 
 #### Efternamn
 * Efternamn (FamilyName = 100 i1=1 #a)
@@ -206,7 +203,7 @@ Beskrivning av den auktoriserade agenten.
   
 #### Identifikator
 * Identifikator (identifiedBy = 024 #a)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från [ISNI](http://www.isni.org/search)). 
   <br/>```Exempel:```
   * ```Värde: 0000000121339888```
   * ```Typanmärkning: isni```
@@ -261,21 +258,13 @@ Används för att ange fullständig namnform i de fall då förkortning används
   <br/>```(fiktiv gestalt)```
 
 #### Andra attribut för person- och organisationsnamn 
-Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). 
-
-* Andra attribut för person- och organisationsnamn/Annan beteckning/Kod för kontrollerad vokabulär (hasOtherAttributes = 368 #c #2)
-  <br/>För att ange: Lägg till egenskapen Titel eller övrig beteckning som lokal entitet, lägg till den underordnade egenskapen Annan beteckning och Kod för kontrollerad vokabulär. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord till Annan beteckning och ange aktuell listkod i Kod för kontrollerad beteckning.
+* Andra attribut för person- och organisationsnamn (marc:hasOtherAtrributes = 368)
+  <br/>Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   <br/>```Exempel:```
   <br/>```Fiktiva gestalter sao```
   <br/>```Professorer sao```
-
-* Andra attribut för person- och organisationsnamn/Titel/officiell rang för kunglig, adlig eller religiös person (hasOtherAttributes = 368 #d #2)
-  <br/>För att ange: Lägg till egenskapen Titel/officiell rang för kunglig, adlig eller religiös person som lokal entitet, lägg till den underordnade egenskapen Titel/officiell rang för kunglig, adlig eller religiös person.
-  <br/>```Exempel:```
-  <br/>```Påve```
   <br/>```Kung av Sverige```
-
-<br/>Termen går inte att lägga till som länkad entitet i nuvarande version av katalogiseringsklienten utan läggs till som en lokal entitet.
+  <br/>Lägg till egenskapen genom att klicka på plustecknet i verktygsmenyn. 
 
 #### Ordningstal
 * Ordningstal (marc:numeration = 100 #b)
@@ -298,4 +287,6 @@ Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http:/
 
 
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
+
+
 
