@@ -14,6 +14,7 @@ tags:
 ### Innehåll
 
 | [Inledning](#inledning) | |
+
 | [**Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Agent**](#befintliga-egenskaper-i-beskrivningen) | 
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Agenttyp](#agent) |
