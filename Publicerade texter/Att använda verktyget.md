@@ -14,8 +14,8 @@ tags:
 ### Innehåll
  ( * )Länk till annan relevant hjälptext
 
-| [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy) | [**Övrigt**](#ovrigt) |
-| -------- | ----------- | ----------- | ----------- |
+| [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | | [**Övriga funktioner**](#ovriga-funktioner) |
+| -------- | ----------- | ----------- |
 | [Lägg bestånd](#visningsvy) | [Verktyg](#visa-som) | [Ta bort egenskap](#funktioner-i-redigeringsvy) | [Skapa ny - Från fil](#ovrigt) |
 | [Visa som](#visningsvy) | [Lägg till egenskap](#lagg-till-egenskap) | [Lägg till förekomst av egenskap](#funktioner-i-redigeringsvy) | [Byta verks- och instanstyp](#ovrigt) |
 | [Verktyg](#verktyg) | [Ångra](#lagg-till-egenskap) | [Hjälp i formuläret](#funktioner-i-redigeringsvy) | 
@@ -28,31 +28,65 @@ tags:
 | [- Ta bort](#ta-bort) |
 | [- Redigera](#redigera) |
 
+### Inledning
+Sammanfattningsrutan:
+Information om den bibliografiska informationen
+Postens id
+Flagga för Katalogvård
+Bestånd: Lägg bestånd/Visa bestånd, Antal bestånd (visa alla beståndsposter)
 
-
-### Visningsvy
-
-#### Lägg bestånd (endast från typen instans)
-Från instanser kan man lägga bestånd. Detta görs i postens visningsvy, där man når beståndsposten via beståndsknappen högst upp i posten. På beståndsknappen syns vilket sigel beståndet läggs på. Från instansposten kan man även se hur många andra bibliotek som har bestånd på instansen.
+### Verktygsmeny i visningsläge
 
 #### Visa som
-Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska informationen i olika RDF format:
+Under rubriken “Visa som” kan man välja att granska informationen i olika RDF-format:
   * Formell resurs (resursens id samt länkar till olika visningsvyer)  
-  * [Json-LD](https://www.w3.org/TR/json-ld/) (RDF anpassad för webbapplikationer) 
+  * [Json-LD](https://www.w3.org/TR/json-ld/) (RDF-anpassad för webbapplikationer) 
   * [Turtle](https://www.w3.org/TR/turtle/) (Den mest kompakta läsbara formen av RDF)
-  * [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (RDF i XML format)
+  * [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (RDF i XML-format)
 
 #### Verktyg
 
 ![Verktygsalternativ](verktygsalternativ.png)  
 
-#### Expandera/minimera alla
-För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera och minimera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.  
+#### Expandera alla
+För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.  
 Expandera: Alt + Plus
-Minimera: Alt + Minus
+
+#### Minimera alla
+Mer här!!!!
+Kortkommando: Alt + Minus
+
+#### Kopiera
+För att kopiera en helt post kan kopierafunktionen användas. Mer? Användbart vid....
+Kortkommando: Ctrl + (pil upp) + C
+
+#### Ladda ner sammanslagen MARC21
+Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
+
+#### Ladda ner JSON-LD
+Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.
+
+#### Forhandsgranska MARC21
+Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
+
+#### Ta bort Instans
+För att radera en post välj Ta bort Instans. Åtgärden går inte att utföra om det finns bestånd länkade till instansen och det går inte att ångra, så kontrollera noga innan radering görs. Glöm inte att kontrollera Adminmetadata för att notera eventuella anmärkningar eller om posten ingår i en bibliografi - då ska den inte raderas.
+
+#### Redigera
+Välj Redigera för att aktivera redigeringsläget och för att kunna göra ändringar i posten.
+Kortkommando: Ctrl + E
+
+### Verktygsmeny i redigeringsläge
+![Verktygsmeny i redigeringsläge](redigering.png) 
+Nedan beskrivs de funktioner som är tillgängliga i verktygsmenyn när man har aktiverat redigeringsläget.
+
+#### Verktyg
+Förutom de funktioner som är tillgängliga i visningsläget, se ovan, tillkommer här ytterligare två. Berika från mall och Berika från post.
+
+![Verktygsmeny i redigeringsläge](verktygsmenyredigeringslage.png)  Ändra detta filnamn!
 
 #### Berika från mall
-Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates)
+Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates) Ev. lägga den beskrivningen här!
 
 #### Berika från post
  * Berika från fil
@@ -77,28 +111,10 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
    * Redigera och spara.
 
-#### Ladda ner sammanslagen MARC21
-Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
-
-#### Ladda ner JSON-LD
-Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.  
-
-#### Forhandsgranska MARC21
-Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
-
-#### Ta bort 
-Rubriken skiljer sig åt beroende på var i verktyget man befinner sig: Ta bort Instans / Ta bort Bestånd / Ta bort Agent. En post går endast att radera om den inte har obrytbra relationer. 
-
-#### Redigera
-Klicka på Redigera för att göra ändringar i posten. 
 
 
-### Verktygsmeny i redigeringsvy
 
-![Redigering](redigering.png)  
-
-#### Verktyg
-(se beskrivning av Verktyg ovan)
+Fixat hit!
 
 #### Lagg till egenskap
 Knappen Lägg till egenskap lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.  
@@ -112,9 +128,7 @@ Spara-knappen sparar posten direkt till Libris databas, utan att ta dig ur redig
 #### Spara och sluta redigera
 Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar. 
 
-### Funktioner i redigeringsvy
 
-![Redigeringsfunktioner](redigeringsfunktioner.png)  
 
 #### Ta bort egenskap
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Markören visar vilka data som då raderas.   
