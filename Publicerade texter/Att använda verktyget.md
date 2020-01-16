@@ -35,7 +35,9 @@ Postens id
 Flagga för Katalogvård
 Bestånd: Lägg bestånd/Visa bestånd, Antal bestånd (visa alla beståndsposter)
 
+
 ### Verktygsmeny i visningsläge
+En del av funktionerna tillgängliga i verktygsmenyn i visningsläge går att använda även om man inte är inloggad. För att kunna använda alla funktioner som beskrivs nedan krävs det att man loggar in.
 
 #### Visa som
 Under rubriken “Visa som” kan man välja att granska informationen i olika RDF-format:
@@ -48,29 +50,33 @@ Under rubriken “Visa som” kan man välja att granska informationen i olika R
 
 ![Verktygsalternativ](verktygsalternativ.png)  
 
-#### Expandera alla
-För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.  
-Expandera: Alt + Plus
+  * Expandera alla
+    För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera alla postens
+    egenskaper och underliggande egenskaper med ett klick eller kortkommando.
+    <br/>Expandera: Alt + Plus
 
-#### Minimera alla
-Mer här!!!!
-Kortkommando: Alt + Minus
+  * Minimera alla
+    För att minimera postens alla egenskaper till en mer kompakt vy med ett klick eller kortkommando.  
+    <br/>Kortkommando: Alt + Minus
 
-#### Kopiera
-För att kopiera en helt post kan kopierafunktionen användas. Mer? Användbart vid....
-Kortkommando: Ctrl + (pil upp) + C
+  * Kopiera
+    För att kopiera en helt post kan kopierafunktionen användas. Mer? Användbart vid....
+    <br/>Kortkommando: Ctrl + (pil upp) + C
 
-#### Ladda ner sammanslagen MARC21
-Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
+  * Ladda ner sammanslagen MARC21
+    Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
 
-#### Ladda ner JSON-LD
-Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.
+  * Ladda ner JSON-LD
+    Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.
 
-#### Forhandsgranska MARC21
-Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
+  * Forhandsgranska MARC21
+    Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn
+    konverterar posten vid öppning och är inte redigerbar.
 
-#### Ta bort Instans
-För att radera en post välj Ta bort Instans. Åtgärden går inte att utföra om det finns bestånd länkade till instansen och det går inte att ångra, så kontrollera noga innan radering görs. Glöm inte att kontrollera Adminmetadata för att notera eventuella anmärkningar eller om posten ingår i en bibliografi - då ska den inte raderas.
+  * Ta bort Instans
+    För att radera en post välj Ta bort Instans. Åtgärden går inte att utföra om det finns bestånd länkade till instansen och det går inte
+    att ångra, så kontrollera noga innan radering görs. Glöm inte att kontrollera Adminmetadata för att notera eventuella anmärkningar eller 
+    om posten ingår i en bibliografi - då ska den inte raderas.
 
 #### Redigera
 Välj Redigera för att aktivera redigeringsläget och för att kunna göra ändringar i posten.
@@ -85,31 +91,40 @@ Förutom de funktioner som är tillgängliga i visningsläget, se ovan, tillkomm
 
 ![Verktygsmeny i redigeringsläge](verktygsmenyredigeringslage.png)  Ändra detta filnamn!
 
-#### Berika från mall
-Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates) Ev. lägga den beskrivningen här!
+   * Berika från mall
+     Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates) Ev. lägga den beskrivningen
+     här!
 
-#### Berika från post
- * Berika från fil
-  </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
-   * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att få med.
-   * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
-   * Avbryt redigeringen av posten (A) ifall en ny tillfällig skapats, d.v.s. radera den. 
-   * Sök fram posten (B) som ska berikas från fil, d.v.s. från post (A). 
-   * Öppna redigeringsläge och välj "Berika från post" --> "Från fil" i verktygsmenyn.
-   * Leta upp och välj rätt fil (den sparade post A) i utforskaren. Post B berikas med metadata från A.
+   * Berika från post
+     * Berika från fil
+       </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och 
+       det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det
+       kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har 
+       gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
+     * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att
+       få med.
+     * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
+     * Avbryt redigeringen av posten (A) ifall en ny tillfällig skapats, d.v.s. radera den. 
+     * Sök fram posten (B) som ska berikas från fil, d.v.s. från post (A). 
+     * Öppna redigeringsläge och välj "Berika från post" --> "Från fil" i verktygsmenyn.
+     * Leta upp och välj rätt fil (den sparade post A) i utforskaren. Post B berikas med metadata från A.
  
-   Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag bort Har komponent i den beståndspost som ska berikas. Välj sedan "Berika från post" --> "Från fil" i verktygsmenyn.  
+       Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag bort Har komponent
+       i den beståndspost som ska berikas. Välj sedan "Berika från post" --> "Från fil" i verktygsmenyn.  
  
- * Berika från ID
-   </br>Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en mer utförlig beskrivning (A), t.ex. metadata från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintlig data.
+   * Berika från ID
+     </br>Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata
+     från en mer utförlig beskrivning (A), t.ex. metadata från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med
+     funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintlig data.
 
-   * Sök fram en post (A) med de egenskaper du vill föra över till den post du vill berika (B). 
-   * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
-    </br>![Kopiera ID](KopieraID.PNG)
-   * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
-    </br>[Berika från ID](BerikafranID.png)
-   * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
-   * Redigera och spara.
+      * Sök fram en post (A) med de egenskaper du vill föra över till den post du vill berika (B). 
+      * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
+        </br>![Kopiera ID](KopieraID.PNG)
+      * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
+       </br>[Berika från ID](BerikafranID.png)
+      * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har
+      sparat. 
+      * Redigera och spara.
 
 
 
