@@ -21,9 +21,9 @@ tags:
 | [Visa som](#visningsvy) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
 | [Verktyg](#verktyg) | [- Berika från mall*](#LÄNK ANNAN SIDA) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
 | [- Expandera alla](#verktyg) | [- Berika från post*](#LÄNK ANNAN SIDA) | [Hjälp i formuläret](#ovriga-funktioner) | 
-| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#lagg-till-egenskaper) | [Lägg till/ta bort underliggande egenskap][Entitetsfunktioner](#ovriga-funktioner) |
-| [- Kopiera](#verktyg) | [Ångra](#lagg-till-egenskaper) | [Skapa ny - från fil](#entitetsfunktioner) |
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  |  |
+| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#lagg-till-egenskaper) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
+| [- Kopiera](#verktyg) | [Ångra](#lagg-till-egenskaper) | [Entitetsfunktioner](#ovriga-funktioner) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Skapa ny - från fil](#entitetsfunktioner) |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [Byta verks- och instanstyp](#entitetsfunktioner) |
 | [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera)  | [- Byta verkstyp](#byta-verkstyp) |
 | [- Ta bort Instans](#ta-bort-instans) | | [- Byta instanstyp](#byta-instastyp) |
