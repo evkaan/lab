@@ -16,7 +16,7 @@ tags:
 
 [Inledning](#inledning)
 
-| [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | | [**Övriga funktioner**](#ovriga-funktioner) |
+| [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | [**Övriga funktioner**](#ovriga-funktioner) |
 | -------- | ----------- | ----------- |
 | [Visa som](#visningsvy) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
 | [Verktyg](#verktyg) | [Berika från mall](#verktygsmeny-i-redigeringslage) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
