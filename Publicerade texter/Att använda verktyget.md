@@ -41,10 +41,12 @@ I varje instans finns en sammanfattande ruta högst upp - sammanfattningsrutan. 
  2. Beskrivningsnivå 
  3. Instanstyp 
  4. Utgivningssätt 
- 5. Bärartyp
- 6. Postens ID
- 7. Flagga för Katalogvård
- * Information om bestånd: Lägg bestånd/Visa bestånd, Antal bestånd (visa alla beståndsposter)
+ 5. Medietyp
+ 6. Bärartyp
+ 7. Postens ID
+ 8. Flagga för Katalogvård
+ 9. Information om bestånd: Lägg bestånd/Visa bestånd
+ 10. Antal bestånd (visa alla beståndsposter)
 
 
 ### Verktygsmeny i visningsläge
