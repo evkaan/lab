@@ -34,11 +34,17 @@ tags:
 
 
 ### Inledning
-Sammanfattningsrutan:
-Information om den bibliografiska informationen
-Postens id
-Flagga för Katalogvård
-Bestånd: Lägg bestånd/Visa bestånd, Antal bestånd (visa alla beståndsposter)
+Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Instans (inklusive Instans av Verk). Viss funktionalitet och vissa verktyg är genomgående i hela Libris katalogisering.
+
+I varje instans finns en sammanfattande ruta högst upp - sammanfattningsrutan. Den innehåller:
+ 1. Titel och sammanfattande bibliografisk information
+ 2. Beskrivningsnivå 
+ 3. Instanstyp 
+ 4. Utgivningssätt 
+ 5. Bärartyp
+ 6. Postens ID
+ 7. Flagga för Katalogvård
+ * Information om bestånd: Lägg bestånd/Visa bestånd, Antal bestånd (visa alla beståndsposter)
 
 
 ### Verktygsmeny i visningsläge
