@@ -19,17 +19,16 @@ tags:
 | [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | [**Övriga funktioner**](#ovriga-funktioner) |
 | -------- | ----------- | ----------- |
 | [Visa som](#visningsvy) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
-| [Verktyg](#verktyg) | [Berika från mall](#verktygsmeny-i-redigeringslage) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
+| [Verktyg](#verktyg) | [- Berika från mall](#verktygsmeny-i-redigeringslage) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
 | [- Expandera alla](#verktyg) | [- Berika från post](#verktygsmeny-i-redigeringslage) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) | 
-| [- Minimera alla](#verktyg) | [- Berika från ID](#verktygsmeny-i-redigeringslage) | 
-| [- Kopiera](#verktyg) |  [Lägg till egenskap](#lagg-till-egenskap) |
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Ångra](#lagg-till-egenskap) |
-| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Ångra](#lagg-till-egenskap) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21)
-| [- Ta bort Instans](#ta-bort-instans) |
-| [- Redigera](#redigera) | [Spara och sluta](#spara) | [Spara](#spara) | |
+| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#lagg-till-egenskaper) | [Entitetsfunktioner](#entitetsfunktioner) |
+| [- Kopiera](#verktyg) | [Ångra](#lagg-till-egenskaper) | [Skapa ny - från fil](#entitetsfunktioner) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Byta verks- och instanstyp](#entitetsfunktioner) |
+| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta verkstyp](#byta-verkstyp) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera)  | [- Byta instanstyp](#byta-instastyp) |
+| [- Ta bort Instans](#ta-bort-instans) | | [Hjälp i formuläret](#byta-instastyp) |
+| [Redigera](#redigera) |  |  | 
 
-| [Spara och sluta redigera](#spara) | [Entitetsfunktioner](#entitetsfunktioner) |
 
 
 
@@ -127,8 +126,8 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
      sparat. 
     * Redigera och spara.
 
-#### Lägg till egenskap
-Knappen Lägg till egenskap under: Instans av Verk lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.
+#### Lägg till egenskaper
+Knappen Lägg till egenskaper under: Instans av Verk lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.
 <br/> Kortkommando: Alt + F 
 
 #### Ångra
@@ -206,7 +205,6 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
  * Instans av text
  * Instans av musiknoter
  * Instans av projicerad bild
-
 
 #### Byta verkstyp  
 *	Gå till Instans av verk/Verkstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan
