@@ -19,14 +19,14 @@ tags:
 | [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | [**Övriga funktioner**](#ovriga-funktioner) |
 | -------- | ----------- | ----------- |
 | [Visa som](#visningsvy) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
-| [Verktyg](#verktyg) | [- Berika från mall](#verktygsmeny-i-redigeringslage) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
-| [- Expandera alla](#verktyg) | [- Berika från post](#verktygsmeny-i-redigeringslage) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) | 
-| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#lagg-till-egenskaper) | [Entitetsfunktioner](#entitetsfunktioner) |
+| [Verktyg](#verktyg) | [- Berika från mall*](#LÄNK ANNAN SIDA) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
+| [- Expandera alla](#verktyg) | [- Berika från post*](#LÄNK ANNAN SIDA) | [Hjälp i formuläret](#ovriga-funktioner) | 
+| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#lagg-till-egenskaper) | [Lägg till/ta bort underliggande egenskap][Entitetsfunktioner](#ovriga-funktioner) |
 | [- Kopiera](#verktyg) | [Ångra](#lagg-till-egenskaper) | [Skapa ny - från fil](#entitetsfunktioner) |
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Byta verks- och instanstyp](#entitetsfunktioner) |
-| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta verkstyp](#byta-verkstyp) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera)  | [- Byta instanstyp](#byta-instastyp) |
-| [- Ta bort Instans](#ta-bort-instans) | | [Hjälp i formuläret](#byta-instastyp) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  |  |
+| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [Byta verks- och instanstyp](#entitetsfunktioner) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera)  | [- Byta verkstyp](#byta-verkstyp) |
+| [- Ta bort Instans](#ta-bort-instans) | | [- Byta instanstyp](#byta-instastyp) |
 | [Redigera](#redigera) |  |  | 
 
 
@@ -89,15 +89,13 @@ Kortkommando: Ctrl + E
 Nedan beskrivs de funktioner som är tillgängliga i verktygsmenyn när man har aktiverat redigeringsläget.
 
 #### Verktyg
-Förutom de funktioner som är tillgängliga i visningsläget, se ovan, tillkommer här ytterligare två. Berika från mall och Berika från post.
+Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, tillkommer här ytterligare två. Berika från mall och Berika från post.
 
-![Verktygsmeny i redigeringsläge](verktygsmenyredigeringslage.png)  Ändra detta filnamn!
-
-#### Berika från mall
+#### Berika från mall* (FLYTTA UT DENNA TEXT TILL ANNAN SIDA)
 Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates) Ev. lägga den beskrivningen här!
 
-##### Berika från post
-   * Berika från fil
+##### Berika från post*
+   * Berika från fil*
      </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det 
      gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det
      kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har 
@@ -113,7 +111,7 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
    Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag bort Har komponent
    i den beståndspost som ska berikas. Välj sedan "Berika från post" --> "Från fil" i verktygsmenyn.  
  
-  * Berika från ID
+  * Berika från ID*
     Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en  
     mer utförlig beskrivning (A), t.ex. metadata från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen 
     är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintlig data.
@@ -149,16 +147,22 @@ Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar
 
 ### Övriga funktioner
 
-#### Ta bort egenskap
+Redigeringsfunktioner:
+![Redigeringsfunktioner](redigeringsfunktioner.png)
+
+#### 1 Ta bort egenskap
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Färgmarkeringen visar vilka data som då raderas.   
 
-#### Lägg till förekomst av egenskap
+#### 2 Lägg till förekomst av egenskap
 Till vänster finns postens egenskapsrubriker. För att lägga till en ny förekomst av egenskapen klickar du på plustecknet till vänster om egenskapens rubrik. Ytterligare en förekomst av egenskapen läggs då till i posten. Observera att alla egenskaper inte är upprepningsbara.
 
-#### Lägg till/ta bort underliggande egenskap
-Klicka på plustecknet som finns till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
+#### 3 Hjälp i formuläret
+Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över frågetecknet. För längre hjälptexter, se [Hjälp](https://libris.kb.se/katalogisering/help) (överst i formuläret).
 
-#### Entitetsfunktioner
+#### 4, 5 Lägg till/ta bort underliggande egenskap
+Klicka på plustecknet som finns till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera.
+
+#### 6 Entitetsfunktioner
 Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. Se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
 #### Skapa ny - Från fil
@@ -229,5 +233,4 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
    
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
 
-#### Hjälp i formuläret
-Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över frågetecknet. För längre hjälptexter, se [Hjälp](https://libris.kb.se/katalogisering/help) (överst i formuläret).
+
