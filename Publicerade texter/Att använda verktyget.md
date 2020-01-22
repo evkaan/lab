@@ -48,6 +48,7 @@ I varje instans finns en sammanfattande ruta högst upp - sammanfattningsrutan. 
  9. Information om bestånd: Lägg bestånd/Visa bestånd
  10. Antal bestånd (visa alla beståndsposter)
 
+![Sammanfattningsruta](sammanfattningsrutan.png)  
 
 ### Verktygsmeny i visningsläge
 En del av funktionerna tillgängliga i verktygsmenyn i visningsläge går att använda även om man inte är inloggad. För att kunna använda alla funktioner som beskrivs nedan krävs det att man loggar in.
