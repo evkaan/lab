@@ -94,7 +94,9 @@ Kortkommando: Ctrl + E
 
 
 ### Verktygsmeny i redigeringsläge
+
 ![Verktygsmeny i redigeringsläge](redigering.png) 
+
 Nedan beskrivs de funktioner som är tillgängliga i verktygsmenyn när man har aktiverat redigeringsläget.
 
 #### Verktyg
@@ -157,6 +159,7 @@ Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar
 ### Övriga funktioner
 
 Redigeringsfunktioner:
+
 ![Redigeringsfunktioner](redigeringsfunktioner.png)
 
 #### 1 Ta bort egenskap
