@@ -73,7 +73,7 @@ För att minimera postens alla egenskaper till en mer kompakt vy med ett klick e
 <br/>Kortkommando: Alt + Minus
 
 ##### Kopiera
-För att kopiera en helt post kan kopierafunktionen användas. Mer? Användbart vid....
+För att kopiera en helt post kan kopierafunktionen användas. Jämför gärna med funktionerna Berika från mall och Berika från post för att använda den funktionalitet som är lämplgast för ändamålet.
 <br/>Kortkommando: Ctrl + (pil upp) + C
 
 ##### Ladda ner sammanslagen MARC21
@@ -136,8 +136,12 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
     * Redigera och spara.
 
 #### Lägg till egenskaper
-Knappen Lägg till egenskaper under: Instans av Verk lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.
+Knappen Lägg till egenskaper under: Instans lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.
 <br/> Kortkommando: Alt + F 
+
+OBS! För att lägga till egenskaper inom Instans av Verk används inte plustecknet i verktygsmenyn utan det lilla plustecknet uppe till höger inom rutan för Instans av Verk.
+
+BILD
 
 #### Ångra
 Du kan ångra text du skrivit in men även ångra om du till exempel lagt till en felaktig egenskap i formuläret.
