@@ -73,7 +73,7 @@ För att minimera postens alla egenskaper till en mer kompakt vy med ett klick e
 <br/>Kortkommando: Alt + Minus
 
 ##### Kopiera
-För att kopiera en helt post kan kopierafunktionen användas. Jämför gärna med funktionerna Berika från mall och Berika från post för att använda den funktionalitet som är lämplgast för ändamålet.
+För att kopiera en helt post kan kopierafunktionen användas. Jämför gärna med funktionerna Berika från mall och Berika från post.
 <br/>Kortkommando: Ctrl + (pil upp) + C
 
 ##### Ladda ner sammanslagen MARC21
