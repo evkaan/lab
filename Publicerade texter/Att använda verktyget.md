@@ -1,8 +1,8 @@
 ---
-section: Redigering
+section: Katalogiseringsverktyget
 title: Att använda verktyget
-order: 11
-date: 2019-10-18
+order: 12
+date: 2020-01-24
 tags:
 - redigering
 - editor
@@ -19,8 +19,8 @@ tags:
 | [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | [**Övriga funktioner**](#ovriga-funktioner) |
 | -------- | ----------- | ----------- |
 | [Visa som](#visningsvy) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
-| [Verktyg](#verktyg) | [- Berika från mall*](#LÄNK ANNAN SIDA) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
-| [- Expandera alla](#verktyg) | [- Berika från post*](#LÄNK ANNAN SIDA) | [Hjälp i formuläret](#ovriga-funktioner) | 
+| [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
+| [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
 | [- Minimera alla](#verktyg) | [Lägg till egenskaper](#lagg-till-egenskaper) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
 | [- Kopiera](#verktyg) | [Ångra](#lagg-till-egenskaper) | [Entitetsfunktioner](#ovriga-funktioner) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Skapa ny - från fil](#entitetsfunktioner) |
@@ -30,14 +30,15 @@ tags:
 | [Redigera](#redigera) |  |  | 
 
 
-
-
-
 ### Inledning
-Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Instans (inklusive Instans av Verk). Viss funktionalitet och vissa verktyg är genomgående i hela Libris katalogisering.
+Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Instans (inklusive Instans av Verk). Viss funktionalitet och vissa verktyg är genomgående i hela Libris katalogisering. 
 
-I varje instans finns en sammanfattande ruta högst upp - sammanfattningsrutan. Den innehåller:
- 1. Titel och sammanfattande bibliografisk information
+I varje instans finns en sammanfattande ruta högst upp.
+
+![Sammanfattningsruta](sammanfattningsrutan.png)
+
+Sammanfattningsrutan innehåller:
+ 1. Titel och sammanfattande bibliografisk information. Välj Visa fler för att visa mer information i sammanfattningsrutan
  2. Beskrivningsnivå 
  3. Instanstyp 
  4. Utgivningssätt 
@@ -47,8 +48,6 @@ I varje instans finns en sammanfattande ruta högst upp - sammanfattningsrutan. 
  8. Flagga för Katalogvård
  9. Information om bestånd: Lägg bestånd/Visa bestånd
  10. Antal bestånd (visa alla beståndsposter)
-
-![Sammanfattningsruta](sammanfattningsrutan.png)  
 
 ### Verktygsmeny i visningsläge
 En del av funktionerna tillgängliga i verktygsmenyn i visningsläge går att använda även om man inte är inloggad. För att kunna använda alla funktioner som beskrivs nedan krävs det att man loggar in.
@@ -73,7 +72,7 @@ För att minimera postens alla egenskaper till en mer kompakt vy med ett klick e
 <br/>Kortkommando: Alt + Minus
 
 ##### Kopiera
-För att kopiera en helt post kan kopierafunktionen användas. Jämför gärna med funktionerna Berika från mall och Berika från post.
+För att kopiera en helt post kan kopierafunktionen användas. Jämför gärna med funktionerna Berika från mall och Berika från post för att använda den funktionalitet som är lämplgast för ändamålet.
 <br/>Kortkommando: Ctrl + (pil upp) + C
 
 ##### Ladda ner sammanslagen MARC21
@@ -95,53 +94,20 @@ Kortkommando: Ctrl + E
 
 ### Verktygsmeny i redigeringsläge
 
-![Verktygsmeny i redigeringsläge](redigering.png) 
+![Verktygsmeny i redigeringsläge](verktygsmenyredigeringslage.png) 
 
 Nedan beskrivs de funktioner som är tillgängliga i verktygsmenyn när man har aktiverat redigeringsläget.
 
 #### Verktyg
-Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, tillkommer här ytterligare två. Berika från mall och Berika från post.
-
-#### Berika från mall* (FLYTTA UT DENNA TEXT TILL ANNAN SIDA)
-Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates) Ev. lägga den beskrivningen här!
-
-##### Berika från post*
-   * Berika från fil*
-     </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det 
-     gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det
-     kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har 
-     gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
-     * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att
-       få med.
-     * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
-     * Avbryt redigeringen av posten (A) ifall en ny tillfällig skapats, d.v.s. radera den. 
-     * Sök fram posten (B) som ska berikas från fil, d.v.s. från post (A). 
-     * Öppna redigeringsläge och välj "Berika från post" --> "Från fil" i verktygsmenyn.
-     * Leta upp och välj rätt fil (den sparade post A) i utforskaren. Post B berikas med metadata från A.
- 
-   Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag bort Har komponent
-   i den beståndspost som ska berikas. Välj sedan "Berika från post" --> "Från fil" i verktygsmenyn.  
- 
-  * Berika från ID*
-    Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en  
-    mer utförlig beskrivning (A), t.ex. metadata från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen 
-    är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintlig data.
-    * Sök fram en post (A) med de egenskaper du vill föra över till den post du vill berika (B). 
-    * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
-     </br>![Kopiera ID](KopieraID.PNG)
-    * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
-     </br>[Berika från ID](BerikafranID.png)
-    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har
-     sparat. 
-    * Redigera och spara.
+Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, tillkommer här ytterligare två. Berika från mall och Berika från post. Dessa funktioner beskrivs utförligt i hjälptexten [Redigera och uppgradera](https://libris-dev.kb.se/katalogisering/help/edit-upgrade).
 
 #### Lägg till egenskaper
-Knappen Lägg till egenskaper under: Instans lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.
+
+![Lägg till egenskaper](laggtillegenskap.png)
+
+ 1. Lägg till egenskaper under: Instans. Används för att lägga till en eller flera nya egenskaper under instans. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen.
 <br/> Kortkommando: Alt + F 
-
-OBS! För att lägga till egenskaper inom Instans av Verk används inte plustecknet i verktygsmenyn utan det lilla plustecknet uppe till höger inom rutan för Instans av Verk.
-
-BILD
+ 2. För att lägga till egenskaper inom Instans av Verk används det lilla plustecknet uppe till höger inom rutan för Instans av Verk.
 
 #### Ångra
 Du kan ångra text du skrivit in men även ångra om du till exempel lagt till en felaktig egenskap i formuläret.
@@ -215,7 +181,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | Ljudmaterial (t.ex. ljudbok) (000/06=i i MARC21) | Ljudinspelning (007s i MARC21) (mall: Ljudbok)<br>Elektronisk (007c i MARC21) |   
 | Musik (t.ex. musik-CD) (000/06=j i MARC21) | Ljudinspelning (007s i MARC21) (mall: Musik-CD)<br>Elektronisk (007c i MARC21) |   
 | Multimedia (000/06=m i MARC21) | Instans<br>Elektronisk (007c i MARC21) (mall: Datorspel) |   
-| Noterad musik (000/06=c i MARC21) | Instans (mall: Noterad musik) |
+| Noterad musik (000/06=c i MARC21) | Instans (mall: Noterad musik)<br>Elektronisk (007c i MARC21)<br>Tryck<br>Handskrift<br>Taktil resurs |
 | Rörlig bild (000/06=g i MARC21) | Videoinspelning (007v i MARC21) (mall: Film)<br>Elektronisk (007c i MARC21) |
 | Stillbild (000/06=k i MARC21) | Instans (mall: Stillbild)<br>Elektronisk (007c i MARC21)<br>Instans av stillbild (007k i MARC21) |
 | Paket (000/06=o i MARC21) | Instans |
@@ -248,5 +214,3 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
    <br/>```Bärartypen Ljudskiva - d under Instans hör till instanstypen Ljudinspelning och ska inte användas med andra instanstyper.```
    
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
-
-
