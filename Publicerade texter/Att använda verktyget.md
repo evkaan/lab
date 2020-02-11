@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Att använda verktyget
 order: 12
-date: 2020-01-24
+date: 2020-02-05
 tags:
 - redigering
 - editor
@@ -18,15 +18,15 @@ tags:
 
 | [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | [**Övriga funktioner**](#ovriga-funktioner) |
 | -------- | ----------- | ----------- |
-| [Visa som](#visningsvy) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
+| [Visa som](#visa-som) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
 | [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
 | [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
-| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#lagg-till-egenskaper) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
-| [- Kopiera](#verktyg) | [Ångra](#lagg-till-egenskaper) | [Entitetsfunktioner](#ovriga-funktioner) |
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Skapa ny - från fil](#entitetsfunktioner) |
-| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [Byta verks- och instanstyp](#entitetsfunktioner) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera)  | [- Byta verkstyp](#byta-verkstyp) |
-| [- Ta bort Instans](#ta-bort-instans) | | [- Byta instanstyp](#byta-instastyp) |
+| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringslage) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
+| [- Kopiera](#verktyg) | [Ångra](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#6-entitetsfunktioner) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
+| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) |  [- Byta verkstyp](#byta-verkstyp) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [- Byta instanstyp](#byta-instastyp) |
+| [- Ta bort Instans](#ta-bort-instans) |  |  |
 | [Redigera](#redigera) |  |  | 
 
 
@@ -49,7 +49,7 @@ Sammanfattningsrutan innehåller:
  9. Information om bestånd: Lägg bestånd/Visa bestånd
  10. Antal bestånd (visa alla beståndsposter)
 
-### Verktygsmeny i visningsläge
+### Verktygsmeny i visningslage
 En del av funktionerna tillgängliga i verktygsmenyn i visningsläge går att använda även om man inte är inloggad. För att kunna använda alla funktioner som beskrivs nedan krävs det att man loggar in.
 
 #### Visa som
@@ -92,7 +92,7 @@ Välj Redigera för att aktivera redigeringsläget och för att kunna göra änd
 Kortkommando: Ctrl + E
 
 
-### Verktygsmeny i redigeringsläge
+### Verktygsmeny i redigeringslage
 
 ![Verktygsmeny i redigeringsläge](verktygsmenyredigeringslage.png) 
 
@@ -126,7 +126,7 @@ Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar
 <br/> Kortkommando: Ctrl + D
 
 
-### Övriga funktioner
+### Ovriga funktioner
 
 Redigeringsfunktioner:
 
@@ -147,27 +147,7 @@ Klicka på plustecknet som finns till höger om den egenskap där du vill lägga
 #### 6 Entitetsfunktioner
 Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. Se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
-#### Skapa ny - Från fil
-Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
-
-1. Förbered genom att skapa mallpost. Enklast är att utgå från en befintlig post.
- * Börja med att kopiera posten (Verktyg -> Kopiera). 
- * Fyll i den information som är gemensam för alla poster som sedan ska skapas. Lägg till egenskaper eller töm informationen i de egenskaper som ska vara med, men där informationen skiljer sig åt mellan posterna.
- * När mallposten är färdigredigerad: Välj Ladda ner JSON-LD (Inkl. osparade ändringar) i verktygsmenyn. Namnge filen 
-och välj ok för att spara filen/mallen.
- * Avbryt sedan redigeringen av posten i katalogiseringsverktyget (utan att spara).
-
-2. Skapa ny från fil
- * Välj Skapa ny - Från fil. 
- * Klicka på Välj fil och leta fram den förberedda filen/mallen i utforskaren. Klicka på öppna (alternativt dra in filen till ytan markerad "Släpp din fil här").
- * Den nya posten öppnas med ifyllda och tomma inmatningsfält (länkade entiteter visas som URI:er men dessa ändras till korrekt etikett vid sparande).
-
-3. Redigera posten efter behov och spara.
-
-Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
-
-
-#### Byta verks- och instanstyp
+#### Byta verkstyp och instanstyp
 Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Observera att arbetet med verk i Libris kommer att leda till en uppstädning för mer renodlade verks- och instanstyper. Använd tabellen nedan för guidning gällande de nuvarande rekommenderade kombinationerna.
 
 Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet låst, men det går att låsa upp om man klickar på hänglåset längst till höger.
@@ -178,7 +158,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | :----------- | :----------- |
 | Text (000/06=a i MARC21) | Instans (mall: Bok/Tryckt seriell/Äldre tryck)<br>Elektronisk (007c i MARC21) (mall: E-bok)<br>Tryck<br>Handskrift<br>Taktil resurs |   
 | Kartmaterial (000/06=e i MARC21) | Karta (007a i MARC21) (mall: Karta)<br>Kartglob (007d i MARC21)<br>Elektronisk (007c i MARC21)<br>Handskrift |   
-| Ljudmaterial (t.ex. ljudbok) (000/06=i i MARC21) | Ljudinspelning (007s i MARC21) (mall: Ljudbok)<br>Elektronisk (007c i MARC21) |   
+| Ljud (t.ex. ljudbok) (000/06=i i MARC21) | Ljudinspelning (007s i MARC21) (mall: Ljudbok)<br>Elektronisk (007c i MARC21) |   
 | Musik (t.ex. musik-CD) (000/06=j i MARC21) | Ljudinspelning (007s i MARC21) (mall: Musik-CD)<br>Elektronisk (007c i MARC21) |   
 | Multimedia (000/06=m i MARC21) | Instans<br>Elektronisk (007c i MARC21) (mall: Datorspel) |   
 | Noterad musik (000/06=c i MARC21) | Instans (mall: Noterad musik)<br>Elektronisk (007c i MARC21)<br>Tryck<br>Handskrift<br>Taktil resurs |
