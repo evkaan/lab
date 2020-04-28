@@ -21,8 +21,7 @@ Hjälptexten beskriver de egenskaper och klasser som finns representerade i mall
 | [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#agenttyp) |
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Konsulterad källa](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | |
-| | [Variant](#variant) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Variant](#variant) |
 | | [Se även](#variant) |
 | | [Har yrke eller sysselsättning](#verksamhetsomrade) |
 | | [Verksamhetsområde](#verksamhetsomrade) |
