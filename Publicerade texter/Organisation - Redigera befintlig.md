@@ -113,7 +113,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Katalogisatorens anmärkning
  * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
 
 
@@ -134,7 +134,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Variant
 * Variant (hasVariant = 410 #a #b #b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
-  <br/> OBS! Varianter ska inte göras till sökbara länkar.
+  <br/> OBS! Varianter ska inte länkas.
   <br/>```Namnform i ett led```
   <br/>```Exempel: Släktforskarförbundet```
     
@@ -192,7 +192,7 @@ För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, 
 
 ### Se även
 * Se även (seeAlso = 510)
-  <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
+  <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t.ex. vara föregångare eller efterföljare. 
   <br/>```Exempel: Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
  
