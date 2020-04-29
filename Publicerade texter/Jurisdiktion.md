@@ -22,13 +22,14 @@ Hjälptexten beskriver de egenskaper som finns representerade i mallen för att 
 | [Skapad av](#adminmetadata) | [Agenttyp](#agent) |
 | [Katalogiseringsregler](#adminmetadata) | [Namn](#agenttyp) |
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Namnform i flera led](#namnform-i-flera-led) |
-| [Konsulterad källa](#katalogiseringsregler) | [Identifikator](#identifikator) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Variant](#variant)) |
+| [Konsulterad källa](#katalogiseringsregler) | [Variant](#variant)) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | |
 | |[Se även](#variant) |
-| | [Nationalitet](#nationalitet) |
+| | [Beskrivning](#beskrivning) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| | [Administrativ historik](#administrativ-historik) |
+| | [Identifikator](#identifikator) |
+| | [Nationalitet](#nationalitet) |
 | | [**Ytterligare egenskaper att lägga till vid behov**](#administrativ-historik) |
 | | [Tid för grundande](#tid-for-grundande) | |
 | | [Tid för upphörande](#tid-for-grundande) | |
@@ -39,9 +40,9 @@ Hjälptexten beskriver de egenskaper som finns representerade i mallen för att 
 ## Inledning
 För information om katalogiseringsregler som gäller vid auktorisering, [se Anvisningar för katalogisering (RDA) - Auktoritetsarbete](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete").
 
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från hjälptexten, t ex avseende ordning på egenskaper kan förekomma.
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
-Exemplen i hjälptexten är fiktiva.
+Exempel i hjälptexten är fiktiva.
 
 ## Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
@@ -132,7 +133,7 @@ Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på
   
 ### Beskrivning
 * Beskrivning (description = 678)
-  <br/>Anmärkning om administrativ historik.
+  <br/>Används för att ange kortfattad historisk eller sammanfattande information om jurisdiktionen. Obligatorisk uppgift.
   <br/>```Exempel: Inrättat 1909. Namnbyte från Jordbruksutskottet till Miljö- och jordbruksutskottet från och med riksmötet 1989/99```
 
 ### Verksamhetens starttid  
