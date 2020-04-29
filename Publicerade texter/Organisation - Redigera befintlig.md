@@ -154,7 +154,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Beskrivning
 * Beskrivning (description = 678)
-  <br/>Används för att ange korfattad historisk information om organisationen. Obligatorisk uppgift.
+  <br/>Används för att ange kortfattad historisk eller sammanfattande information om organisationen. Obligatorisk uppgift.
   <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
 
 ### Nationalitet
