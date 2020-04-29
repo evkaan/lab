@@ -22,7 +22,7 @@ Hjälptexten beskriver de egenskaper som finns representerade i mallen för att 
 | [Skapad av](#adminmetadata) | [Agenttyp](#agent) |
 | [Katalogiseringsregler](#adminmetadata) | [Namn](#agenttyp) |
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Namnform i flera led](#namnform-i-flera-led) |
-| [Konsulterad källa](#katalogiseringsregler) | [Variant](#variant)) |
+| [Konsulterad källa](#katalogiseringsregler) | [Variant](#variant) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | |
 | |[Se även](#variant) |
 | | [Beskrivning](#beskrivning) |
