@@ -137,7 +137,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
 ### Beskrivning
 * Beskrivning (description = 678)
-  <br/>Används för att ange kortfattad historisk information om organisationen.
+  <br/>Används för att ange kortfattad historisk eller sammanfattande information om organisationen. Obligatorisk uppgift.
   <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
   
 ### Verksamhetens starttid  
