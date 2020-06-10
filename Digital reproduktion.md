@@ -33,7 +33,7 @@ I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte infor
 | | [Indirekt identifierad av](#indirekt-identifierad-av) | | |
 | | [Digital karaktäristika](#digital-karaktaristika) | | |
 | | [Tillhörande media](#tillhorande-media) | | |
-| | [Villkor för anvädning och åtkomst](#villkor-for-användning-och-atkomst) | | |
+| | [Villkor för användning och åtkomst](#villkor-for-användning-och-atkomst) | | |
 | | [Relaterad beskrivning eller innehåll](#relaterad-beskrivning-eller-innehall) | | |
 | | [Anmärkning](#anmarkning)| |
 
@@ -60,7 +60,7 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
    I mallen är DIGI ifyllt. Korrigera/komplettera vid behov.
 
 ### Anmärkning
-   Info här?
+INFO?
 
 ## Instans
 [Se generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
@@ -99,6 +99,7 @@ Välj typ Identifikator i rullgardinsmeny. Ange identifikator och eventuell typa
 
 ### Produktion 
 * Produktion (production/DigitalReproduction/Place/Agent/date = 533 #a #b #c #d)
+INFO
 
 ### Indirekt identifierad av
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/ISBN/value = 020 #z)
@@ -116,15 +117,15 @@ ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är
    ```Benämning: CC0``` 
    ```URI: https://creativecommons.org/publicdomain/zero/1.0/```
 
-### Relaterad beskrivning eller innehåll (isPrimaryTopicOf = 856 #u #x #z)
-* Relaterad beskrivning eller innehåll/Dokument/Katalogisatörens anmärkning/Offentlig anmärkning/URI
+### Relaterad beskrivning eller innehåll
+* Relaterad beskrivning eller innehåll/Dokument/Katalogisatörens anmärkning/Offentlig anmärkning/URI (isPrimaryTopicOf = 856 #u #x #z)
 <br/>```Exempel:```
    ```Katalogisatörens anmärkning: digipic``` 
    ```Offentlig anmärkning: tumnagelbild``` 
    ```URI: http://weburn.kb.se/tumnaglar/24/001655024,1,i,1.jpg```
 
 ### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
 ## Verk 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
@@ -132,3 +133,7 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 [För information om egenskaperna, se den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work)
 
 ## Bestånd
+INFO
+
+### Katalogisatörens anmärkning
+* Katalogisatörens anmärkning (852 #x) 
