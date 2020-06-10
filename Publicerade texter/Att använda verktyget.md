@@ -23,11 +23,11 @@ tags:
 | [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
 | [- Minimera alla](#verktyg) | [- Detaljerad berikning*](https://libris.kb.se/katalogisering/help/edit-upgrade)| [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
 | [- Kopiera](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#6-entitetsfunktioner) |
-| [- Skapa digital reproduktion](#skapa-digital-reproduktion | [Ångra](#verktygsmeny-i-redigeringslage) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) |  |  |
-| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  |  [- Byta verkstyp](#byta-verkstyp) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta instanstyp](#byta-instanstyp) |
-| [- Ta bort Instans](#ta-bort-instans) | [Spara och sluta redigera](#spara-och-sluta-redigera)  |  |
+| [- Skapa digital reproduktion](#skapa-digital-reproduktion) | [- Ångra](#verktygsmeny-i-redigeringslage) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt) | [- Byta verkstyp](#byta-verkstyp) |
+| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta instanstyp](#byta-instanstyp) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) |  |
+| [- Ta bort Instans](#ta-bort-instans) |  |  |
 | [Redigera](#redigera) |  |  | 
 
 
@@ -77,7 +77,7 @@ För att kopiera en hel post kan kopierafunktionen användas. Jämför gärna me
 <br/>Kortkommando: Ctrl + (pil upp) + C
 
 #### Skapa digital reproduktion
-Med funktionen Skapa digital reproduktion skapas en post för digitaliseringen av ett fysiskt original (t.ex. monografi, bild, karta, äldre tryck). Utgå alltid från posten som beskriver det fysiska original som digitaliseringen avser. Relevanta egenskaper och värden är förifyllda, t.ex. länkning till originalet inom egenskapen Reproduktion av och enbart vissa uppgifter behöver anges manuellt. (Utförligare hjälptext för Digital reproduktion är under arbete).
+Med funktionen Skapa digital reproduktion skapas en post för digitaliseringen av ett fysiskt original (t.ex. monografi, bild, karta, äldre tryck). Utgå alltid från posten som beskriver det fysiska original som digitaliseringen avser. Relevanta egenskaper och värden är förifyllda, t.ex. länkning till originalet inom egenskapen Reproduktion av. Vissa uppgifter behöver anges manuellt eller korrigeras för att passa materialtypen. Se hjälptexter för respektive materialtyp. Utförligare hjälptext för Digital reproduktion är under arbete.
 
 #### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem.
