@@ -23,13 +23,20 @@ I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte infor
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestand)
 | ----------- | ----------- |  ----------- | ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext för Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding)
-| [Bibliografi](#bibliografi) | [Medietyp](#medietyp) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) | |
+| [Bibliografi](#bibliografi) | [Instanstyp](#instanstyp) | | |
+| [Anmärkning](#anmarkning) | [Reproduktion av](#reproduktion-av) | | |
+| | [Identifikator](#identifikator) | | |
+| | [Utgivningssätt](#utgivningssatt) | | |
+| | [Medietyp](#medietyp) | | |
 | | [Bärartyp](#barartyp) | | |
-| || |
-| | [Utgivning](#utgivning) |  | |
+| | [Produktion](#produktion) | | |
+| | [Indirekt identifierad av](#indirekt-identifierad-av) | | |
+| | [Digital karaktäristika](#digital-karaktaristika) | | |
+| | [Tillhörande media](#tillhorande-media) | | |
+| | [Villkor för anvädning och åtkomst](#villkor-for-användning-och-atkomst) | | |
+| | [Relaterad beskrivning eller innehåll](#relaterad-beskrivning-eller-innehall) | | |
 | | [Anmärkning](#anmarkning)| |
-| | | [Innehållstyp](#innehallstyp) |
-| | | |
+
 
 
 ## Inledning
@@ -70,9 +77,11 @@ Länk till tryckt förlaga då funktionen Skapa digital reproduktion använts.
 Saknas länk får man manuellt länka till den tryckta förlagan. Klicka på plustecknet inom Reproduktion av, sidorutan Lägg til entitet öppnas. Sök efter och länka till korrekt instans.
 
 ### Identifikator
-* Identifikator (
-Välj typ i rullgardinsmeny och ange identifikator.
-```Exempel: URN:```
+* Identifikator (identifiedBy = 024 #a #2)
+Välj typ Identifikator i rullgardinsmeny. Ange identifikator och eventuell typanmärkning.
+<br/>```Exempel:```
+  * ```Värde: urn:nbn:se:kb:dig-17390055 Typanmärkning: uri```
+  * ```Värde: HS Ia 27a Typanmärkning: KB-signum```
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType = 008/07)  
@@ -80,16 +89,16 @@ Välj typ i rullgardinsmeny och ange identifikator.
 
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
-  Förval i mallen: Computer
+  Förval i mallen: Computer 
+  Ändra vid behov(?)
   
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Förval i mallen: term/rda/OnlineResource, marc/Online, marc/OnlineResource
- 
+  Ändra vid behov(?)
 
 ### Produktion 
 * Produktion (production/DigitalReproduction/Place/Agent/date = 533 #a #b #c #d)
-
 
 ### Indirekt identifierad av
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/ISBN/value = 020 #z)
@@ -98,14 +107,21 @@ ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är
 ### Digital karaktäristika
 * Digital karaktäristika/Kodningsformat/Benämning (digatalCharacteristics = 347)
 
-### Seriemedlemskap
-Se generell hjälptext för Instans
+### Tillhörande media
+* Tillhörande media (associatedMedia)
 
-### Tillhörande media (associatedMedia)
+### Villkor för anvädning och åtkomst
+* Villkor för anvädning och åtkomst/Användningsvillkor/Benämning/URI (usageAndAccessPolicy = 540 #a #u)
+<br/>```Exempel:``` 
+   ```Benämning: CC0``` 
+   ```URI: https://creativecommons.org/publicdomain/zero/1.0/```
 
-### Villkor för anvädning och åtkomst (usageAndAccessPolicy = 540)
-
-### Relaterad beskrivning eller innehåll (isPrimaryTopicOf = 856)
+### Relaterad beskrivning eller innehåll (isPrimaryTopicOf = 856 #u #x #z)
+* Relaterad beskrivning eller innehåll/Dokument/Katalogisatörens anmärkning/Offentlig anmärkning/URI
+<br/>```Exempel:```
+   ```Katalogisatörens anmärkning: digipic``` 
+   ```Offentlig anmärkning: tumnagelbild``` 
+   ```URI: http://weburn.kb.se/tumnaglar/24/001655024,1,i,1.jpg```
 
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
