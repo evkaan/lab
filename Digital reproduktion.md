@@ -80,8 +80,8 @@ Saknas länk får man manuellt länka till den tryckta förlagan. Klicka på plu
 * Identifikator (identifiedBy = 024 #a #2)
 Välj typ Identifikator i rullgardinsmeny. Ange identifikator och eventuell typanmärkning.
 <br/>```Exempel:```
-  * ```Värde: urn:nbn:se:kb:dig-17390055 Typanmärkning: uri```
-  * ```Värde: HS Ia 27a Typanmärkning: KB-signum```
+<br/>* ```Värde: urn:nbn:se:kb:dig-17390055 Typanmärkning: uri```
+<br/>* ```Värde: HS Ia 27a Typanmärkning: KB-signum```
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType = 008/07)  
@@ -114,15 +114,15 @@ ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är
 ### Villkor för anvädning och åtkomst
 * Villkor för anvädning och åtkomst/Användningsvillkor/Benämning/URI (usageAndAccessPolicy = 540 #a #u)
 <br/>```Exempel:``` 
-   ```Benämning: CC0``` 
-   ```URI: https://creativecommons.org/publicdomain/zero/1.0/```
+<br/>```Benämning: CC0``` 
+<br/>```URI: https://creativecommons.org/publicdomain/zero/1.0/```
 
 ### Relaterad beskrivning eller innehåll
 * Relaterad beskrivning eller innehåll/Dokument/Katalogisatörens anmärkning/Offentlig anmärkning/URI (isPrimaryTopicOf = 856 #u #x #z)
 <br/>```Exempel:```
-   ```Katalogisatörens anmärkning: digipic``` 
-   ```Offentlig anmärkning: tumnagelbild``` 
-   ```URI: http://weburn.kb.se/tumnaglar/24/001655024,1,i,1.jpg```
+<br/>```Katalogisatörens anmärkning: digipic``` 
+<br/>```Offentlig anmärkning: tumnagelbild``` 
+<br/>```URI: http://weburn.kb.se/tumnaglar/24/001655024,1,i,1.jpg```
 
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
