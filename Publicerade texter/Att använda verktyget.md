@@ -23,7 +23,8 @@ tags:
 | [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
 | [- Minimera alla](#verktyg) | [- Detaljerad berikning*](https://libris.kb.se/katalogisering/help/edit-upgrade)| [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
 | [- Kopiera](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#6-entitetsfunktioner) |
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Ångra](#verktygsmeny-i-redigeringslage) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
+| [- Skapa digital reproduktion](#skapa-digital-reproduktion | [Ångra](#verktygsmeny-i-redigeringslage) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) |  |  |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  |  [- Byta verkstyp](#byta-verkstyp) |
 | [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta instanstyp](#byta-instanstyp) |
 | [- Ta bort Instans](#ta-bort-instans) | [Spara och sluta redigera](#spara-och-sluta-redigera)  |  |
