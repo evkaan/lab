@@ -54,11 +54,11 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 
 ### Bibliografi
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
-I mallen är DIGI ifyllt. Korrigera/komplettera vid behov.
+<br/>I mallen är DIGI ifyllt. Korrigera/komplettera vid behov.
 
 ### Beskrivningsnivå 
 * Beskrivningsnivå (encodingLevel = 000/17)
-Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).
+<br/>Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).
 
 ### Anmärkning
 * Anmärkning/Anmärkning om katalogiseringskälla/Benämning (hasNote/marc:SourceOfDescriptionNote/label = 588 #a)
@@ -71,34 +71,34 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 
 ### Instanstyp
 * Instanstyp
-Förval i mallen: Elektronisk
+<br/>Förval i mallen: Elektronisk
   
 ### Reproduktion av
 * Reproduktion av (ReproductionOf = 776 #a #s #t #z #w)
-Länk till fysiskt original då funktionen Skapa digital reproduktion använts.
+<br/>Länk till fysiskt original då funktionen Skapa digital reproduktion använts.
 
 Saknas länk får man manuellt länka till det fysiska originalet. Klicka på plustecknet inom Reproduktion av, sidorutan Lägg til entitet öppnas. Sök efter och länka till korrekt instans.
 
 ### Identifikator
 * Identifikator (identifiedBy = 024 #a #2)
-Välj typ Identifikator i rullgardinsmeny. Ange identifikator och eventuell typanmärkning.
+<br/>Välj typ Identifikator i rullgardinsmeny. Ange identifikator och eventuell typanmärkning.
 <br/>```Exempel:```
 <br/>* ```Värde: urn:nbn:se:kb:dig-17390055 Typanmärkning: uri```
 <br/>* ```Värde: HS Ia 27a Typanmärkning: KB-signum```
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType = 008/07)  
-  Förval i mallen: Monografisk resurs
+<br/>Förval i mallen: Monografisk resurs
 
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
-  Förval i mallen: Computer 
-  Ändra vid behov(?)
+<br/>Förval i mallen: Computer 
+<br/>Ändra vid behov(?)
   
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
-  Förval i mallen: term/rda/OnlineResource, marc/Online, marc/OnlineResource
-  Ändra vid behov(?)
+<br/>Förval i mallen: term/rda/OnlineResource, marc/Online, marc/OnlineResource
+<br/>Ändra vid behov(?)
 
 ### Produktion 
 * Produktion/Digital produktion/Typanmärkning/Plats/Agent/Datum (production/DigitalReproduction/typeNote/place/agent/date = 533 #a #b #c #d)
@@ -110,7 +110,7 @@ Välj typ Identifikator i rullgardinsmeny. Ange identifikator och eventuell typa
 
 ### Indirekt identifierad av
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/ISBN/value = 020 #z)
-ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är ifylld då funktionen Skapa digital reproduktion används.
+<br/>ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är ifylld då funktionen Skapa digital reproduktion används.
 
 ### Digital karaktäristika
 * Digital karaktäristika/Kodningsformat/Benämning (digatalCharacteristics = 347 #b)
