@@ -55,10 +55,12 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).
 
 ### Bibliografi
-   I mallen är DIGI ifyllt. Korrigera/komplettera vid behov.
+* Bibliografi 
+I mallen är DIGI ifyllt. Korrigera/komplettera vid behov.
 
 ### Anmärkning
-INFO?
+* Anmärkning/Anmärkning om katalogiseringskälla/Benämning (hasNote/marc:SourceOfDescriptionNote/label = 588 #a)
+INFO - exempel?
 
 ## Instans
 [Se generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
@@ -70,9 +72,9 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Förval i mallen: Elektronisk
   
 ### Reproduktion av
-Länk till tryckt förlaga då funktionen Skapa digital reproduktion använts.
+Länk till fysiskt original då funktionen Skapa digital reproduktion använts.
 
-Saknas länk får man manuellt länka till den tryckta förlagan. Klicka på plustecknet inom Reproduktion av, sidorutan Lägg til entitet öppnas. Sök efter och länka till korrekt instans.
+Saknas länk får man manuellt länka till det fysiska originalet. Klicka på plustecknet inom Reproduktion av, sidorutan Lägg til entitet öppnas. Sök efter och länka till korrekt instans.
 
 ### Identifikator
 * Identifikator (identifiedBy = 024 #a #2)
@@ -96,15 +98,19 @@ Välj typ Identifikator i rullgardinsmeny. Ange identifikator och eventuell typa
   Ändra vid behov(?)
 
 ### Produktion 
-* Produktion (production/DigitalReproduction/Place/Agent/date = 533 #a #b #c #d)
-INFO
+* Produktion/Digital produktion/Typanmärkning/Plats/Agent/Datum (production/DigitalReproduction/typeNote/place/agent/date = 533 #a #b #c #d)
+<br/>```Exempel:``` 
+<br/>```Typanmärkning: Digitalt faksimil``` 
+<br/>```Plats/Benämning: Stockholm```
+<br/>```Agent/Benämning: Kungliga biblioteket```
+<br/>```Datum: 2020```
 
 ### Indirekt identifierad av
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/ISBN/value = 020 #z)
 ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är ifylld då funktionen Skapa digital reproduktion används.
 
 ### Digital karaktäristika
-* Digital karaktäristika/Kodningsformat/Benämning (digatalCharacteristics = 347)
+* Digital karaktäristika/Kodningsformat/Benämning (digatalCharacteristics = 347 #b)
 
 ### Tillhörande media
 * Tillhörande media (associatedMedia)
@@ -124,6 +130,7 @@ ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är
 
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
+INFO - exempel?
 
 ## Verk 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
