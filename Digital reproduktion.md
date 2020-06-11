@@ -52,15 +52,17 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 ## Adminmetadata
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
-* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).
-
 ### Bibliografi
-* Bibliografi 
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
 I mallen är DIGI ifyllt. Korrigera/komplettera vid behov.
+
+### Beskrivningsnivå 
+* Beskrivningsnivå (encodingLevel = 000/17)
+Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).
 
 ### Anmärkning
 * Anmärkning/Anmärkning om katalogiseringskälla/Benämning (hasNote/marc:SourceOfDescriptionNote/label = 588 #a)
-INFO - exempel?
+<br/>```Exempel: S: Digitaliserat vardagstryck```
 
 ## Instans
 [Se generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
@@ -69,9 +71,10 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 
 ### Instanstyp
 * Instanstyp
-  Förval i mallen: Elektronisk
+Förval i mallen: Elektronisk
   
 ### Reproduktion av
+* Reproduktion av (ReproductionOf = 776 #a #s #t #z #w)
 Länk till fysiskt original då funktionen Skapa digital reproduktion använts.
 
 Saknas länk får man manuellt länka till det fysiska originalet. Klicka på plustecknet inom Reproduktion av, sidorutan Lägg til entitet öppnas. Sök efter och länka till korrekt instans.
@@ -130,12 +133,14 @@ ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är
 
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
-INFO - exempel?
+<br/>```Exempel:```
+<br/>```Digitaliserat exemplar``` 
+<br/>```Fritt tillgängligt via Internet``` 
 
 ## Verk 
-För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
-
 [För information om egenskaperna, se den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work)
+
+För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 ## Bestånd
 INFO
