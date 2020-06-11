@@ -10,8 +10,7 @@ tags:
 --- 
 
 # Digital reproduktion
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av en digital produktion av en fysisk förlaga, 
-t.ex. monografi, bild, karta, äldre tryck. Det finns en mall för Digital reproduktion då alla värden behöver anges manuellt. För att dra maximal nytta av funktionaliteten är rekommendationen att man använder funktionen Skapa digital reproduktion i verktygsmenyn i posten för en fysik förlaga som utgångspunkt. Då genereras en ny post för den digitala reproduktionen förifyllda värden där endast en del behöver kompletteras manuellt. 
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av en digital produktion av ett fysiskt original, t.ex. monografi, bild, karta, äldre tryck. Det finns en mall för Digital reproduktion då alla värden behöver anges manuellt. För att dra maximal nytta av funktionaliteten är rekommendationen att man använder funktionen Skapa digital reproduktion i verktygsmenyn i posten för en fysik förlaga som utgångspunkt. Då genereras en ny post för den digitala reproduktionen förvalda värden där endast en del behöver kompletteras manuellt. Mallen är skapad för tryckt text så för andra fysiska original behöver justeringar göras av de förvalda värdena.
 
 I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för digital reproduktion redovisas däremot enbart här.
 
