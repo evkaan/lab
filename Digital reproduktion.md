@@ -10,7 +10,7 @@ tags:
 --- 
 
 # Digital reproduktion
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av en digital produktion av ett fysiskt original, t.ex. monografi, bild, karta, äldre tryck. Det finns en mall för Digital reproduktion då alla värden behöver anges manuellt. För att dra maximal nytta av funktionaliteten är rekommendationen att man använder funktionen Skapa digital reproduktion i verktygsmenyn i posten för en fysik förlaga som utgångspunkt. Då genereras en ny post för den digitala reproduktionen förvalda värden där endast en del behöver kompletteras manuellt. Mallen är skapad för tryckt text så för andra fysiska original behöver justeringar göras av de förvalda värdena.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av en digital reproduktion av ett fysiskt original, t.ex. monografi, bild, karta, äldre tryck. Det finns en mall för Digital reproduktion då alla värden behöver anges manuellt. För att dra maximal nytta av funktionaliteten är rekommendationen att man använder funktionen Skapa digital reproduktion i verktygsmenyn i posten för en fysik förlaga som utgångspunkt. Då genereras en ny post för den digitala reproduktionen med förvalda värden där endast en del behöver kompletteras manuellt. Mallen är skapad för tryckt text så för andra fysiska original behöver justeringar göras av de förvalda värdena.
 
 I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för digital reproduktion redovisas däremot enbart här.
 
@@ -80,25 +80,30 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Saknas länk får man manuellt länka till det fysiska originalet. Klicka på plustecknet inom Reproduktion av, sidorutan Lägg til entitet öppnas. Sök efter och länka till korrekt instans.
 
 ### Identifikator
-* Identifikator (identifiedBy = 024 #a #2)
+* Identifikator/Identifikator/Värde/Typanmärkning (identifiedBy/Identifier/value/typeNote = 024 #a #2)
 <br/>Välj typ Identifikator i rullgardinsmeny. Ange identifikator och eventuell typanmärkning.
 <br/>```Exempel:```
-<br/>* ```Värde: urn:nbn:se:kb:dig-17390055 Typanmärkning: uri```
-<br/>* ```Värde: HS Ia 27a Typanmärkning: KB-signum```
+<br/>```Värde: urn:nbn:se:kb:dig-17390055```
+<br/>```Typanmärkning: uri```
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType = 008/07)  
 <br/>Förval i mallen: Monografisk resurs
+<br/>Ändra vid behov
 
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
 <br/>Förval i mallen: Computer 
-<br/>Ändra vid behov(?)
   
 ### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 #b)  
-<br/>Förval i mallen: term/rda/OnlineResource, marc/Online, marc/OnlineResource
-<br/>Ändra vid behov(?)
+* Bärartyp (carrierType/CarrierType = 338 #b)
+I mallen är följande entiteter länkade:
+<br/> * onlineresurs, online resource, cr
+
+<br/> * Onlineresurs, r (Nödvändig om koden  "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system)
+
+<br/> * Onlineutgåva, o (Nödvändig om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system)
+
 
 ### Produktion 
 * Produktion/Digital produktion/Typanmärkning/Plats/Agent/Datum (production/DigitalReproduction/typeNote/place/agent/date = 533 #a #b #c #d)
@@ -113,10 +118,19 @@ Saknas länk får man manuellt länka till det fysiska originalet. Klicka på pl
 <br/>ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är ifylld då funktionen Skapa digital reproduktion används.
 
 ### Digital karaktäristika
-* Digital karaktäristika/Kodningsformat/Benämning (digatalCharacteristics = 347 #b)
+* Digital karaktäristika/Kodningsformat/Benämning (digitalCharacteristics = 347 #b)
+Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodningsformat anges ska det göras här och inte i en anmärkning.
+<br/>```Exempel:``` 
+<br/>```Kodningsformat/Benämning: pdf```
+<br/>```Kodningsformat/Benämning: jpeg```
+<br/>```Kodningsformat/Benämning: tiff```
 
 ### Tillhörande media
-* Tillhörande media (associatedMedia)
+* Tillhörande media/Mediaobjekt/Katalogisatörens anmärkning/Offentlig anmärkning/URI (associatedMedia/cataloguersNote/marc:publicNote/uri = 856 #u #x #z)
+<br/>```Exempel:``` 
+<br/>```Katalogisatörens anmärkning: [Anmärkning]``` 
+<br/>```Offentlig anmärkning: Fritt tillgänglig via Kungliga biblioteket```
+<br/>```URI: http://urn.kb.se/resolve?urn=urn:nbn:se:kb:eod-1600793```
 
 ### Villkor för anvädning och åtkomst
 * Villkor för anvädning och åtkomst/Användningsvillkor/Benämning/URI (usageAndAccessPolicy = 540 #a #u)
@@ -145,5 +159,13 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 ## Bestånd
 INFO
 
+### Posttyp
+?
+
+### Beskrivningsnivå
+?
+
 ### Katalogisatörens anmärkning
 * Katalogisatörens anmärkning (852 #x) 
+<br/>```Exempel:``` 
+<br/>```kod``` 
