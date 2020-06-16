@@ -56,11 +56,11 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
 <br/>I mallen är DIGI ifyllt. Korrigera/komplettera vid behov.
 
-### Beskrivningsnivå 
+### Beskrivningsniva 
 * Beskrivningsnivå (encodingLevel = 000/17)
 <br/>Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).
 
-### Anmärkning
+### Anmarkning
 * Anmärkning/Anmärkning om katalogiseringskälla/Benämning (hasNote/marc:SourceOfDescriptionNote/label = 588 #a)
 <br/>```Exempel: S: Digitaliserat vardagstryck```
 
@@ -114,7 +114,7 @@ I mallen är följande entiteter länkade:
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/ISBN/value = 020 #z)
 <br/>ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är ifylld då funktionen Skapa digital reproduktion används.
 
-### Digital karaktäristika
+### Digital karaktaristika
 * Digital karaktäristika/Kodningsformat/Benämning (digitalCharacteristics/EncodingFormat/label = 347 #b)
 Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodningsformat anges ska det göras här och inte i en anmärkning.
 <br/>```Exempel:``` 
@@ -122,19 +122,19 @@ Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodni
 <br/>```Kodningsformat/Benämning: jpeg```
 <br/>```Kodningsformat/Benämning: tiff```
 
-### Tillhörande media
+### Tillhorande media
 * Tillhörande media/Mediaobjekt/Katalogisatörens anmärkning/Offentlig anmärkning/URI (associatedMedia/cataloguersNote/marc:publicNote/uri = 856 #u #x #z)
 <br/>```Exempel:``` 
 <br/>```Katalogisatörens anmärkning: [Anmärkning]``` 
 <br/>```Offentlig anmärkning: Fritt tillgänglig via Kungliga biblioteket```
 <br/>```URI: http://urn.kb.se/resolve?urn=urn:nbn:se:kb:eod-1600793```
 
-### Villkor för anvädning och åtkomst
+### Villkor för anvadning och atkomst
 * Villkor för anvädning och åtkomst/Användningsvillkor/Benämning (usageAndAccessPolicy/UsePolicy/label = 540 #a)
 <br/>```Exempel:``` 
 <br/>```Benämning: CC0``` 
 
-### Relaterad beskrivning eller innehåll
+### Relaterad beskrivning eller innehall
 * Relaterad beskrivning eller innehåll/Dokument/Katalogisatörens anmärkning/Offentlig anmärkning/URI (isPrimaryTopicOf/Document/cataloguersNote/marc:publicNote/uri = 856 #u #x #z)
 <br/>```Exempel:```
 <br/>```Katalogisatörens anmärkning: digipic``` 
@@ -152,19 +152,19 @@ Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodni
 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
-## Bestånd
+## Bestand
 För information om egenskaperna, [se den generella hjälptexten för Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding) eller [Enkel beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding-simple).
 
 ### Innehas av
 * Innehas av (heldBy = 852 #b)
 <br/>Inloggad sigel.
 
-### Anmärkning
+### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 852 #z)
 <br/>```Exempel:``` 
 <br/>```Digitaliserat exemplar``` 
 
-### Katalogisatörens anmärkning
+### Katalogisatorens anmarkning
 * Katalogisatörens anmärkning (cataloguersNote = 852 #x) 
 <br/>```Exempel:``` 
 <br/>```[kbdkart = KB-specifik statistikkod]``` 
