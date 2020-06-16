@@ -157,10 +157,8 @@ Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodni
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 ## Bestånd
-INFO
+För information om egenskaperna, [se den generella hjälptexten för Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding) eller [Enkel beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding-simple).
 
-### Posttyp
-?
 
 ### Beskrivningsnivå
 ?
@@ -168,4 +166,4 @@ INFO
 ### Katalogisatörens anmärkning
 * Katalogisatörens anmärkning (852 #x) 
 <br/>```Exempel:``` 
-<br/>```kod``` 
+<br/>```[kbdkart = KB-specifik statistikkod]``` 
