@@ -10,7 +10,7 @@ tags:
 --- 
 
 # Digital reproduktion
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av en digital reproduktion av ett fysiskt original, t.ex. monografi, bild, karta, äldre tryck. Det finns en mall för Digital reproduktion då alla värden behöver anges manuellt. För att dra maximal nytta av funktionaliteten är rekommendationen att man använder funktionen Skapa digital reproduktion i verktygsmenyn i posten för en fysik förlaga som utgångspunkt. Då genereras en ny post för den digitala reproduktionen med förvalda värden där endast en del behöver kompletteras manuellt. Mallen är skapad för tryckt text så för andra fysiska original behöver justeringar göras av de förvalda värdena.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av en digital reproduktion av ett fysiskt original, t.ex. monografi, bild, karta, äldre tryck. Det finns en mall för Digital reproduktion då alla värden behöver anges manuellt. För att dra maximal nytta av funktionaliteten är rekommendationen att man använder funktionen Skapa digital reproduktion i verktygsmenyn i posten för ett fysiskt original som används som utgångspunkt. Då genereras en ny post för den digitala reproduktionen med förvalda värden där endast en del behöver kompletteras manuellt. Mallen är skapad för tryckt text så för andra typer av fysiska original behöver justeringar göras av de förvalda värdena.
 
 I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för digital reproduktion redovisas däremot enbart här.
 
@@ -99,11 +99,8 @@ Saknas länk får man manuellt länka till det fysiska originalet. Klicka på pl
 * Bärartyp (carrierType/CarrierType = 338 #b)
 I mallen är följande entiteter länkade:
 <br/> * onlineresurs, online resource, cr
-
 <br/> * Onlineresurs, r (Nödvändig om koden  "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system)
-
 <br/> * Onlineutgåva, o (Nödvändig om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system)
-
 
 ### Produktion 
 * Produktion/Digital produktion/Typanmärkning/Plats/Agent/Datum (production/DigitalReproduction/typeNote/place/agent/date = 533 #a #b #c #d)
@@ -118,7 +115,7 @@ I mallen är följande entiteter länkade:
 <br/>ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är ifylld då funktionen Skapa digital reproduktion används.
 
 ### Digital karaktäristika
-* Digital karaktäristika/Kodningsformat/Benämning (digitalCharacteristics = 347 #b)
+* Digital karaktäristika/Kodningsformat/Benämning (digitalCharacteristics/EncodingFormat/label = 347 #b)
 Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodningsformat anges ska det göras här och inte i en anmärkning.
 <br/>```Exempel:``` 
 <br/>```Kodningsformat/Benämning: pdf```
@@ -133,13 +130,12 @@ Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodni
 <br/>```URI: http://urn.kb.se/resolve?urn=urn:nbn:se:kb:eod-1600793```
 
 ### Villkor för anvädning och åtkomst
-* Villkor för anvädning och åtkomst/Användningsvillkor/Benämning/URI (usageAndAccessPolicy = 540 #a #u)
+* Villkor för anvädning och åtkomst/Användningsvillkor/Benämning (usageAndAccessPolicy/UsePolicy/label = 540 #a)
 <br/>```Exempel:``` 
 <br/>```Benämning: CC0``` 
-<br/>```URI: https://creativecommons.org/publicdomain/zero/1.0/```
 
 ### Relaterad beskrivning eller innehåll
-* Relaterad beskrivning eller innehåll/Dokument/Katalogisatörens anmärkning/Offentlig anmärkning/URI (isPrimaryTopicOf = 856 #u #x #z)
+* Relaterad beskrivning eller innehåll/Dokument/Katalogisatörens anmärkning/Offentlig anmärkning/URI (isPrimaryTopicOf/Document/cataloguersNote/marc:publicNote/uri = 856 #u #x #z)
 <br/>```Exempel:```
 <br/>```Katalogisatörens anmärkning: digipic``` 
 <br/>```Offentlig anmärkning: tumnagelbild``` 
@@ -159,11 +155,16 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 ## Bestånd
 För information om egenskaperna, [se den generella hjälptexten för Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding) eller [Enkel beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding-simple).
 
+### Innehas av
+* Innehas av (heldBy = 852 #b)
+<br/>Inloggad sigel.
 
-### Beskrivningsnivå
-?
+### Anmärkning
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 852 #z)
+<br/>```Exempel:``` 
+<br/>```Digitaliserat exemplar``` 
 
 ### Katalogisatörens anmärkning
-* Katalogisatörens anmärkning (852 #x) 
+* Katalogisatörens anmärkning (cataloguersNote = 852 #x) 
 <br/>```Exempel:``` 
 <br/>```[kbdkart = KB-specifik statistikkod]``` 
