@@ -21,9 +21,9 @@ I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte infor
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestand)
 | ----------- | ----------- |  ----------- | ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext för Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding)
-| [Bibliografi](#bibliografi) | [Instanstyp](#instanstyp) | | |
-| [Anmärkning](#anmarkning) | [Reproduktion av](#reproduktion-av) | | |
-| | [Identifikator](#identifikator) | | |
+| [Bibliografi](#bibliografi) | [Instanstyp](#instanstyp) | | [Innehas av](#innehas-av) |
+| [Beskrivningsnivå](#beskrivningsniva)| [Reproduktion av](#reproduktion-av) | | [Anmärkning](#anmarkning) |
+| [Anmärkning](#anmarkning) | [Identifikator](#identifikator) | | [Katalogisatörens anmärkning](#katalogisatorens-anmarkning)|
 | | [Utgivningssätt](#utgivningssatt) | | |
 | | [Medietyp](#medietyp) | | |
 | | [Bärartyp](#barartyp) | | |
