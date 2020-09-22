@@ -31,7 +31,7 @@ För att se alla entiteter av en viss typ, tryck Enter när markören står i s�
 
 
 
-## Lägg till entitet eller skapa lokal entitet
+## Lagg till entitet eller skapa lokal entitet
 När du gjort en entitetssökning kan du: 
 
 **Lägga till entitet:**
@@ -69,4 +69,10 @@ Klistra in urklipp:
 
 ![Klistra in urklipp](klistraurklipp.png)
 <br>
-Du kan kopiera en entitet från en post och klistra in i en annan post. Det fungerar ofta bra att använda olika flikar för posterna.  
+Du kan kopiera en entitet från en post och klistra in i en annan post. Det fungerar ofta bra att använda olika flikar för posterna.
+
+## Inkommande lankar
+Gränssnittet använder en funktion för inkommande länkar som innebär att länkning mellan entiteter endast görs på ett ställe.
+
+Funktionen används för ämnesord där termer som ingår i en hierarki, dvs. bredare/smalare endast länkas på ett ställe. I den smalare termen länkas det till den bredare och funktionen för inkommande länkar visar då upp den motsatta relationen, d.v.s. "smalare" i beskrivningen av den bredare termen.
+
