@@ -41,7 +41,7 @@ I varje instans finns en sammanfattande ruta högst upp.
 Sammanfattningsrutan innehåller:
  1. Titel och sammanfattande bibliografisk information. Välj Visa fler för att visa mer information i sammanfattningsrutan
  2. Beskrivningsnivå 
- 3. Instanstyp 
+ 3. Instanstyp (inkl. basklass). Är ingen instanstyp vald visas Ospecificerad.
  4. Utgivningssätt 
  5. Medietyp
  6. Bärartyp
@@ -62,7 +62,7 @@ Under rubriken “Visa som” kan man välja att granska informationen i olika R
 
 ### Verktyg
 
-![Alternativ i verktygsmeny i visningsläge](verktygsalternativ.png)  
+![Alternativ i verktygsmeny i visningsläge](Verktygsalternativ.png)  
 
 #### Expandera alla
 För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.
