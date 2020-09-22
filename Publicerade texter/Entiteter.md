@@ -13,7 +13,7 @@ tags:
 | Innehåll  | | |
 | ------ | ------ | ------ |
 | [Söka fram entiteter](#soka-fram-entiteter) | | [Duplicera entitet](#duplicera-entitet) | 
-| [Lägg till entitet eller skapa lokal entitet](#lagg-till-entitet-eller skapa-lokal-entitet) | | [Kopiera till urklipp](#kopiera-till-urklipp) | 
+| [Lägg till entitet eller skapa lokal entitet](#lagg-till-entitet-eller-skapa-lokal-entitet) | | [Kopiera till urklipp](#kopiera-till-urklipp) | 
 | [Länka entitet](#lanka-entitet) | | [Inkommande länkar](#inkommande-lankar) |
 
 ## Soka fram entiteter
