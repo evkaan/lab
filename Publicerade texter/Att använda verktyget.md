@@ -26,7 +26,7 @@ tags:
 | [- Skapa digital reproduktion](#skapa-digital-reproduktion) | [Ångra](#verktygsmeny-i-redigeringslage) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt) | [- Byta verkstyp](#byta-verkstyp) |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta instanstyp](#byta-instanstyp) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) |  |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Skapa och länka verk](#skapa-och-lanka-verk) |
 | [- Ta bort Instans](#ta-bort-instans) |  |  |
 | [Redigera](#redigera) |  |  | 
 
@@ -198,3 +198,6 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
    <br/>```Bärartypen Ljudskiva - d under Instans hör till instanstypen Ljudinspelning och ska inte användas med andra instanstyper.```
    
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
+
+### Skapa och lanka verk
+Från och med version 1.19 av Libris katalogisering finns ny funktionalitet i gränssnittet för att bryta ut och länka till verk. [För mer information om detta, se artikel på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html).
