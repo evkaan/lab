@@ -74,11 +74,9 @@ Sammansatta ämnesord från Svenska ämnesord bestående av allmänt ämnesord m
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
 * Ingår i system med förval sao och Termkomponenter Allmänt ämnesord och Underindelning för allmänt ämnesord läggs till med hjälp av en snippet.
-* Skriv in aktuell term som Föredragen benämning inom typen Allmänt ämnesord respektive Underindelning för allmänt ämnesord. Länka termerna 
-* Välj typen Allmänt ämnesord. Sök efter och lägg till aktuell term (kontrollera ämnesordssystem, sao). Termen länkas då till verksbeskrivningen i Instans av Verk. Behåll sidorutan öppen.
-* Välj typen Underindelning för allmänt ämnesord. Sök efter och lägg till aktuell underindelning. Termen länkas då till verksbeskrivningen i Instans av Verk.
+* Skriv in aktuell term som Föredragen benämning inom typen Allmänt ämnesord respektive Underindelning för allmänt ämnesord. Klicka på Länka/skapa intill respektive term. Sidorutan öppnas. Länka termerna.
 
-Upprepa momenten ovan för att lägga till fler sammansatta termer.
+Upprepa momenten ovan för att lägga till fler sammansatta termer eller kopiera tillagd snippet *innan* länkning av termer görs.
 
 **Exempel på sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponenter:**
 </br>![Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponenter](LokaltSammansattSao.png) 
@@ -88,5 +86,10 @@ Upprepa momenten ovan för att lägga till fler sammansatta termer.
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj aktuell typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
+* Skriv in aktuell term i Föredragen benämning.
+
+Observera! Undantag för Kronologiskt ämnesord:
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
+* Välj Kronologiskt ämnesord i rullgardinsmenyn Skapa lokal entitet.
 * Öppna sidorutan Lägg till egenskaper under inom den tillagda ämnesordstypen. 
 * Sök efter och lägg till Föredragen benämning. Skriv in aktuell term.
