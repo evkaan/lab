@@ -52,9 +52,9 @@ För att lägga till flera termer av samma typ kan den lokala entiteten kopieras
 * Ingår i system med förval sao och Termkomponenter Allmänt ämnesord och Underindelning för allmänt ämnesord läggs till med hjälp av en snippet.
 * Skriv in aktuell term som Föredragen benämning inom typen Allmänt ämnesord respektive Underindelning för allmänt ämnesord.
 
-Observera!
-* Ändra listkod vid behov. Radera befintlig kod och klicka på plustecknet intill Ingår i system för att söka efter och lägga till en annan.
-* Ändra termkomponenter vid behov. Ska en geografisk sammansatt term läggas till måste de befintliga termkomponenterna först raderas. Klicka på plustecknet intill Termkomponenter och välj typen Geografiskt ämnesord respektive Underindelning för geografisk term.
+Observera:
+* Ändra listkod vid behov! Radera befintlig kod och klicka på plustecknet intill Ingår i system för att söka efter och lägga till en annan.
+* Ändra termkomponenter vid behov! Ska en geografisk sammansatt term läggas till måste de befintliga termkomponenterna först raderas. Klicka på plustecknet intill Termkomponenter och välj typen Geografiskt ämnesord respektive Underindelning för geografisk term.
 
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
@@ -67,14 +67,14 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 
 ### Sammansatt amnesord som lokal entitet med listkod sao och lankbara komponenter
 
-Sammansatta ämnesord från Svenska ämnesord bestående av allmänt ämnesord med allmän underindelning finns inte alltid auktoriserade. De kan dock skapas som lokal entitet endast via kombination av länkbart ämnesord med länkbar underindelning.
+Sammansatta ämnesord från Svenska ämnesord bestående av allmänt ämnesord med allmän underindelning finns inte alltid auktoriserade. I de fall en sammansatt term saknas går det bra att skapa lokala sammansatta entiteter med hjälp av en snippet för Sammansatt term. Anvisningar för vilka kombinationer av termer som är godkända enligt Svenska ämnesords riktlinjer finns på sidan [Allmänna ämnesord och underindelningar](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/typer-av-amnesord/allmanna-amnesord-och-underindelningar) respektive [Geografiska ämnesord](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/typer-av-amnesord/geografiska-amnesord).
 
-[Se Format i Libris i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/amnesord-och-genre-form-i-libris/format-i-libris) för regler kring hur sammansatta termer får konstrueras.
+Se [Format i Libris i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/amnesord-och-genre-form-i-libris/format-i-libris) för regler kring hur sammansatta termer får konstrueras.
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
 * Ingår i system med förval sao och Termkomponenter Allmänt ämnesord och Underindelning för allmänt ämnesord läggs till med hjälp av en snippet.
-* Skriv in aktuell term som Föredragen benämning inom typen Allmänt ämnesord respektive Underindelning för allmänt ämnesord. Klicka på Länka/skapa intill respektive term. Sidorutan öppnas. Länka termerna.
+* Skriv in aktuell term som Föredragen benämning inom typen Allmänt ämnesord respektive Underindelning för allmänt ämnesord. Klicka på Länka/skapa intill respektive term. Sidorutan öppnas. Länka termerna. Var noga med att välja termer från rätt system. Det går även att klicka på Skapa/länka direkt, söka efter termerna i sidorutan och sedan länka.
 
 Upprepa momenten ovan för att lägga till fler sammansatta termer eller kopiera tillagd snippet *innan* länkning av termer görs.
 
