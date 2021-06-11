@@ -2,11 +2,10 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2020-04-29
+date: 2021-04-07
 tags:
 - agenter
 - auktoriteter
-- under arbete
 ---
 
 # Person - Skapa ny
@@ -21,26 +20,28 @@ Hjälptexten beskriver de egenskaper och klasser som finns representerade i mall
 | [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#agenttyp) |
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Konsulterad källa](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Variant](#variant) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Variant](#variant) |
 | | [Se även](#variant) |
-| | [Har yrke eller sysselsättning](#verksamhetsomrade) |
-| | [Verksamhetsområde](#verksamhetsomrade) |
+| | [Har yrke eller sysselsättning](#verksamhetsområde) |
+| | [Verksamhetsområde](#verksamhetsområde) |
 | | [Beskrivning](#beskrivning) |
 | | [Identifikator](#identifikator) |
 | | [Nationalitet](#nationalitet) |
-| | [Födelsedatum](#efternamn) |
-| | [Dödsdatum](#efternamn) |
-| [**Ytterligare egenskaper vid behov**](#beskrivningsniva) | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) |
+| | [Födelsedatum](#födelsedatum) |
+| | [Dödsdatum](#dödsdatum) |
+| [**Ytterligare egenskaper vid behov**](#beskrivningsnivå) | [**Ytterligare egenskaper vid behov**](#beskrivningsnivå) |
 | [Translitterering](#translitterering) | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Titel eller övrig beteckning](#namn) |
 | | [Andra attribut för person- och organisationsnamn](#namn) |
 | | [Ordningstal](#ordningstal) | 
-| | [Språk](#ordningstal) | 
-| | [Organisatorisk tillhörighet](#ordningstal) | |
+| | [Språk](#språk) | 
+| | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
 
 ## Inledning
-För information om katalogiseringsregler som gäller vid auktorisering, [se Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
+För information om katalogiseringsregler som gäller vid auktorisering, se [Auktoritetsarbete och agenter i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter).
+
+Se även [Lathundar för agenter](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/lathundar-for-agenter).
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
@@ -62,10 +63,10 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Katalogisatörens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. I övrigt kan det t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. 
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum och sigel/signatur. I övrigt kan det t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum och sigel/signatur. 
   <br/>```Exempel:``` 
-  * ```2018-08-27 S/MSS/evaann```
-  * ```Författaren vill inte ha sitt födelseår kopplat till den auktoriserade namnformen. Enligt e-post 2017-05-12, S/NB/annbjo```
+  * ```2018-08-27 S/evaann```
+  * ```Författaren vill inte ha sitt födelseår kopplat till den auktoriserade namnformen. Enligt e-post 2017-05-12, S/annbjo```
 
 ### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
@@ -100,7 +101,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
 
-### Katalogiseringssprak
+### Katalogiseringsspråk
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
   <br/>Förval: language/swe. Ändras ej.
 
@@ -133,6 +134,8 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Exempel:```
   * ```1858-1940```
   * ```1968-```
+
+<br/>För osäkra och ungefärliga uppgifter, se information och exempel på sidan [Födelsetid och/eller dödstid i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid)
 
 ### Variant
 * Variant (hasVariant = 400 #a #d)
@@ -170,7 +173,7 @@ Beskrivning av agenten som ska auktoriseras.
    * ```Översättare```
    <br/>För att lägga till: Klicka på plustecknet inom egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
    
-### Verksamhetsomrade
+### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372)
   <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. 
    <br/>```Exempel: Fågelskådning```
@@ -184,11 +187,11 @@ Beskrivning av agenten som ska auktoriseras.
 
 ### Identifikator
 * Identifikator (identifiedBy = 024 #a)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från [ISNI](http://www.isni.org/search)).
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas från [ISNI](http://www.isni.org/search)).
   <br/>```Exempel:```
+  * ```ISNI:```
   * ```Värde: 0000000121339888```
-  * ```Typanmärkning: isni```
-  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Välj typen Identifikator i rullgardinsmenyn. Klicka på plustecknet inom Identifikator, sök efter och lägg till Typanmärkning.
+  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Sidorutan öppnas. Sök efter och lägg till Identifikator. Välj typ (t.ex. ISNI) i rullgardinsmenyn.
 
 ### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043)
@@ -199,16 +202,19 @@ Beskrivning av agenten som ska auktoriseras.
 * Födelsedatum (birthDate = 046 #f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/> ```Exempel:```
-  * ```18581120```
+  * ```1858-11-20```
   * ```1902```
+
+<br/>För osäkra och ungefärliga uppgifter, se information och exempel på sidan [Födelsetid och/eller dödstid i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid)
 
 ### Dödsdatum
 * Dödsdatum (deathDate = 046 #g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/>```Exempel:```
-  * ```19400316```
+  * ```1940-03-16```
   * ```1977```
 
+<br/>För osäkra och ungefärliga uppgifter, se information och exempel på sidan [Födelsetid och/eller dödstid i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid)
 
 ## Ytterligare egenskaper att lägga till vid behov
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
@@ -233,14 +239,14 @@ Används för att ange fullständig namnform i de fall då förkortning används
 
 ### Titel eller övrig beteckning 
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 #c)
-  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. [Formuleras enligt instruktioner i Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet).
+  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. [Formuleras enligt instruktioner i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/sarskiljande-tillagg-for-personer#Titel%20eller%20%C3%B6vrig%20beteckning%20f%C3%B6rknippad%20med%20personen).
   <br/>```Exempel:```
   <br/>```påve```
   <br/>```(fiktiv gestalt)```
 
 ### Andra attribut för person- och organisationsnamn 
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAtrributes = 368)
-  <br/>[Formuleras enligt instruktioner i Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>[Formuleras enligt instruktioner i Metadatabyrån)](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/sarskiljande-tillagg-for-personer). Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   <br/>```Exempel:```
   <br/>```Fiktiva gestalter sao```
   <br/>```Professorer sao```
