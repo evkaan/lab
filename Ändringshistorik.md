@@ -16,7 +16,7 @@ post ändras och sparas skapas det en ny version. Versionerna jämförs maskinel
 (via importrutin, körning eller mängduppdatering) eller manuellt via katalogiseringsverktyget
 * Till vänster visas själva ändringen i posten. 
      * Borttagna egenskaper eller innehåll är markerat med rött och en soptunna ![Soptunna](soptunna.png)  
-     * Tillagda egenskaper eller innehåll är markerade med blått och ett plustecken ![Plustecken](plustecken.png)  
+     * Tillagda egenskaper eller innehåll är markerat med blått och ett plustecken ![Plustecken](plustecken.png)  
      * Ändringar är markerade med orange och gammalt värde, en pil, nytt värde. ![Pil](pil.png)  
 
 
