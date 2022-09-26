@@ -9,15 +9,15 @@ tags:
 
 # Visa ändringshistorik
 Från version 1.27 går det att visa ändringshistorik för poster i Libris katalogisering. Tekniken bakom ändringshistoriken bygger på att varje gång en 
-post ändras och sparas skapas det en ny version. Versionerna jämförs maskinellt varefter räknas ändringarna ut. 
+post ändras och sparas skapas det en ny version. Versionerna jämförs maskinellt varefter ändringar räknas ut och visualiseras i verktyget.
 
-* Visa ändringshistoriken genom att klicka på klocksymbolen ovanför posten intill datum och sigel när posten skapades och ändrades
+* Visa ändringshistoriken genom att klicka på klocksymbolen ovanför posten intill datum och sigel när posten skapades och ändrades ![Ändringshistorik](andringshistorik.png)
 * I sidorutan som öppnas visas klockslag för ändringen, sigel för vem som har gjort den samt om ändringen har tillkommit maskinellt 
 (via importrutin, körning eller mängduppdatering) eller manuellt via katalogiseringsverktyget
 * Till vänster visas själva ändringen i posten. 
-     * Borttagna egenskaper eller innehåll är markerat med rött och en soptunna 
-     * Tillagda egenskaper eller innehåll är markerade med blått och ett plustecken 
-     * Ändringar är markerade med orange och gammalt värde, en pil, nytt värde. 
+     * Borttagna egenskaper eller innehåll är markerat med rött och en soptunna ![Soptunna](soptunna.png)  
+     * Tillagda egenskaper eller innehåll är markerade med blått och ett plustecken ![Plustecken](plustecken.png)  
+     * Ändringar är markerade med orange och gammalt värde, en pil, nytt värde. ![Pil](pil.png)  
 
 
 
