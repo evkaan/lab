@@ -11,7 +11,7 @@ tags:
 Från version 1.27 går det att visa ändringshistorik för poster i Libris katalogisering. Tekniken bakom ändringshistoriken bygger på att varje gång en 
 post ändras och sparas skapas det en ny version. Versionerna jämförs maskinellt varefter ändringar räknas ut och visualiseras i verktyget.
 
-* Visa ändringshistoriken genom att klicka på klocksymbolen ovanför posten intill datum och sigel när posten skapades och ändrades ![Ändringshistorik](andringshistorik.png)
+* Visa ändringshistoriken genom att klicka på klocksymbolen ovanför posten intill datum och sigel då posten skapades och ändrades ![Ändringshistorik](andringshistorik.png)
 * I sidorutan som öppnas visas klockslag för ändringen, sigel för vem som har gjort den samt om ändringen har tillkommit maskinellt 
 (via importrutin, körning eller mängduppdatering) eller manuellt via katalogiseringsverktyget
 * Till vänster visas själva ändringen i posten. 
