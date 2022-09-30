@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Att använda verktyget
 order: 23
-date: 2022-09-26
+date: 2022-09-30
 tags:
 - ändringshistorik
 ---
@@ -19,7 +19,8 @@ post ändras och sparas skapas det en ny version. Versionerna jämförs maskinel
      * Tillagda egenskaper eller innehåll är markerat med blått och ett plustecken ![Plustecken](plustecken.png)  
      * Ändringar är markerade med orange och gammalt värde, en pil, nytt värde. ![Pil](pil.png)  
 
-
+* För att se när en specifik egenskap senast har ändrats kan du klicka på egenskapen till vänster i posten. I sidorutan markeras versionen då ändringen skedde.
+![Visa senaste ändring](visasenasteandring.png)  
 
 
 
