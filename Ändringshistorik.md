@@ -1,6 +1,6 @@
 ---
 section: Katalogiseringsverktyget
-title: Att använda verktyget
+title: Visa ändringshistorik
 order: 23
 date: 2022-09-30
 tags:
