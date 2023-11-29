@@ -26,13 +26,13 @@ tags:
 | [- Skapa digital reproduktion](#skapa-digital-reproduktion) | [Ångra](#verktygsmeny-i-redigeringsläge) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt) | [- Byta verkstyp](#byta-verkstyp) |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta instanstyp](#byta-instanstyp) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Skapa och länka verk](#skapa-och-länka-verk) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Länkade verk i Libris](#länkade-verk-i-libris) |
 | [- Ta bort Instans](#ta-bort-instans) |  |  |
 | [Redigera](#redigera) |  |  | 
 
 
 ## Inledning
-Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Instans (inklusive Instans av Verk). Viss funktionalitet och vissa verktyg är genomgående i hela Libris katalogisering. 
+Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Instans (inklusive Instans av / Verk). Viss funktionalitet och vissa verktyg är genomgående i hela Libris katalogisering. 
 
 I varje instans finns en sammanfattande ruta högst upp.
 
@@ -73,7 +73,7 @@ För att minimera postens alla egenskaper till en mer kompakt vy med ett klick e
 <br/>Kortkommando: Alt + Minus
 
 #### Kopiera
-För att kopiera en hel post kan kopierafunktionen användas. Jämför gärna med funktionerna Berika från mall och Berika från post för att använda den funktionalitet som är lämpligast för ändamålet. Kom ihåg att redigera kopian, all metadata kanske inte ska vara med i den nya posten.
+För att kopiera en hel post kan kopierafunktionen användas. Jämför gärna med funktionerna Berika från mall och Berika från post för att använda den funktionalitet som är lämpligast för ändamålet.
 <br/>Kortkommando: Ctrl + (pil upp) + C
 
 #### Skapa digital reproduktion
@@ -111,7 +111,7 @@ Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, 
 
  1. Lägg till egenskaper under: Instans. Används för att lägga till en eller flera nya egenskaper under instans. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen.
 <br/> Kortkommando: Alt + F 
- 2. För att lägga till egenskaper inom Instans av Verk används + Egenskap uppe till höger inom rutan för Instans av Verk.
+ 2. För att lägga till egenskaper inom Instans av / Verk används + Egenskap uppe till höger inom rutan för Instans av / Verk.
 
 I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel i katalogiseringsanvisningar i [Metadatabyrån](https://metadatabyran.kb.se/). I övriga fall, lägg **inte** in ISBD-interpunktion för att avsluta en egenskap.
 
@@ -154,7 +154,7 @@ Klicka på plustecknet som finns till höger om den egenskap där du vill lägga
 Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. [Se hjälptexten Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
 ### Byta verkstyp och instanstyp
-Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Observera att arbetet med verk i Libris kommer att leda till en uppstädning för mer renodlade verks- och instanstyper. Använd tabellen nedan för guidning gällande de nuvarande rekommenderade kombinationerna.
+Det går att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Observera att arbetet med verk i Libris kommer att leda till en uppstädning för mer renodlade verks- och instanstyper. Använd tabellen nedan för guidning gällande de nuvarande rekommenderade kombinationerna.
 
 Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet låst, men det går att låsa upp om man klickar på hänglåset längst till höger.
 
@@ -179,7 +179,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
  * Instans av projicerad bild
 
 ### Byta verkstyp  
-*	Gå till Instans av verk/Verkstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan
+*	Gå till Instans av / Verkstyp
 * Välj typ i rullgardinslistan
 
 <br/>*OBS!* Listan innehåller alla verkstyper.
@@ -201,5 +201,5 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
    
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
 
-### Skapa och länka verk
-Från och med version 1.19 av Libris katalogisering finns ny funktionalitet i gränssnittet för att bryta ut och länka till verk. [För mer information om detta, se artikel på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html).
+### Länkade verk i Libris
+Från och med version 1.33 av Libris katalogisering finns ny funktionalitet i gränssnittet för att arbeta med länkade verk i Libris. [För mer information om detta, se information i Metadatabyrån]([https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/information-om-lankade-verk-i-libris)https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/information-om-lankade-verk-i-libris).
