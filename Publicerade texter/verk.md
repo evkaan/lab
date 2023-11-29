@@ -20,13 +20,12 @@ tags:
 | [Språk](#språk) |  | [Innehållstyp](#innehållstyp) | 
 | [Översättning av](#översättning-av) |  | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
 
-
-Mallen för att skapa nytt verk bör inte användas. Du ska inte bryta ut verk ännu men förberedelser för att kunna göra det pågår. Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad!
+Du ska inte bryta ut verk ännu men förberedelser för att kunna göra det pågår. Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad!
 
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under Instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under "Instans av" utan att klicka på länksymbolen (Länka entitet) vid Instans av. [Läs mer om Verk och Instans i startversionen på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2019-06-12-verk-och-instans-i-startversionen-av-nya-libris.html).  
+Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under "Instans av" utan att klicka på länksymbolen (Länka entitet) vid Instans av. Mallen för att skapa nytt verk bör inte användas.
 
 **Denna hjälptext beskriver de vanligaste egenskaperna under Instans av.** 
 
