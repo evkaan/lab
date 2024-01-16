@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2023-11-29
+date: 2023-12-14
 tags:
 - verk
 --- 
@@ -20,8 +20,10 @@ tags:
 | [Språk](#språk) |  | [Innehållstyp](#innehållstyp) | 
 | [Översättning av](#översättning-av) |  | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
 
-Du ska inte bryta ut verk ännu men förberedelser för att kunna göra det pågår. Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad!
+Det är nu möjligt att bryta ut verk i Libris. Men du ska bara göra det i vissa fall. Arbete pågår med verk i och det sker förändringar i verktyget och i praxis löpande. Det är viktigt att följa aktuella instruktioner!
+Läs [Att arbeta med länkade verk i Libris](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/att-arbeta-med-lankade-verk-i-libris).  
 
+Följ också [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad!
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under Instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
@@ -86,30 +88,28 @@ För översättningar, ange originaltiteln under [Översättning av](#översätt
    Under "Instans av", lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
 
 ### Medverkan och funktion  
-Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket, till exempel författare, översättare, illustratörer samt funktionskod för respektive agent. Från version 1.33 av Libris katalogisering finns vissa begränsingar för funktionerna. På id.kb.se listas alla funktioner. 
-* [Se id.kb.se, funktioner möjliga att använda på verk](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FWork&_sort=_sortKeyByLang.sv) 
-* [Se id.kb.se, funktioner möjliga att använda på verk och instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FCreation&_sort=_sortKeyByLang.sv)
-* [Se id.kb.se, funktioner möjliga att använda på verk, instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEndeavour&_sort=_sortKeyByLang.sv)
+Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket, till exempel författare, översättare, redaktörer samt funktionskod för respektive agent. Från version 1.33 av Libris katalogisering finns vissa begränsningar för funktionerna. På id.kb.se listas funktioner: 
+   * [Funktioner möjliga att använda endast på verk](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FWork&_sort=_sortKeyByLang.sv) 
+   * [Funktioner möjliga att använda på verk och instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FCreation&_sort=_sortKeyByLang.sv)
+   * [Funktioner möjliga att använda på verk, instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEndeavour&_sort=_sortKeyByLang.sv)
+
+För anvisningar, se [Relationer till agenter i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)
 
 * Medverkan och funktion/Primär medverkan/Agent/Person  
 (contribution/PrimaryContribution/agent/Person = 100 1/- #a)   
-  Länka till entitet. [Se Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
+  Länka till entitet.
 
 * Medverkan och funktion/Primär medverkan/Funktion  
 (contribution/PrimaryContribution/role = 100 #4)  
-  Länka till entitet. [Se Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
+  Länka till entitet.
 
 * Medverkan och funktion/Medverkan/Agent/Person  
 (contribution/agent/Person = 700 1/- #a)  
-  Länka till entitet. [Se Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
+  Länka till entitet.
 
-* Medverkan och funktion/Medverkan/Agent/Organisation  
-(contribution/agent/Organisation = 710 2/- #a, #4 pbl)  
-  Länka till entitet. [Se Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
-
-* Medverkan och funktion/Medverkan/Agent/Jurisdiktion  
-(contribution/agent/Jurisdiktion = 710 1/- #a, #4 pbl)   
-  Länka till entitet. [Se Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
+* Medverkan och funktion/Medverkan/Funktion  
+(contribution/PrimaryContribution/role = 700 #4)  
+  Länka till entitet.
 
 ### Språk 
 * Språk (language = 008/35-37)  
@@ -149,7 +149,9 @@ Se [Samlingsverk, Parallelltext - exempel](https://metadatabyran.kb.se/beskrivni
 * Anmärkning/Anmärkning om språk/Benämning  
 (hasNote/marc:LanguageNote/label = 546 #a)  
   ```Exempel: Parallelltext på svenska och engelska```  
-Anmärkningen finns i vissa mallar och kan läggas till med hjälp av Berikning från mall. Det går inte att lägga till egenskapen från Lägg till egenskaper.  
+Anmärkningen finns i vissa mallar och kan läggas till med hjälp av Berikning från mall. Det går inte att lägga till egenskapen från Lägg till egenskaper.
+
+#### Sammanfattningsspråk
 
 ### Genre form
 Länka till entiteter.  
