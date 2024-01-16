@@ -11,20 +11,19 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Inledning](#inledning) | | [Identifikator](#identifikator) | 
-| [Instanstyp](#instanstyp) | | [Omfång](#omfång) | 
-| [Utgivningssätt](#utgivningssätt)| | [Mått](#mått) | 
-| [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) |
-| [Bärartyp](#bärartyp) | | [Klassifikation](#klassifikation) |
-| [Titel](#titel)| | [Medföljande material](#medföljande-material) | 
-| [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
+| [Inledning](#inledning) | | [Copyrightår](#copyrightår) | 
+| [Instanstyp](#instanstyp) | | [Identifikator](#identifikator) | 
+| [Utgivningssätt](#utgivningssätt)| | [Omfång](#omfång) | 
+| [Medietyp](#medietyp) | | [Mått](#mått) |
+| [Bärartyp](#bärartyp) | | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) |
+| [Titel](#titel)| | [Klassifikation](#klassifikation) | 
+| [Upphovsuppgift](#upphovsuppgift) | | [Medföljande material](#medföljande-material)  |
+| [Medverkan och funktion](#medverkan-och-funktion) | | [Seriemedlemskap](#seriemedlemskap) |
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmärkning) |
 | [Produktion](#produktion) | | [Innehållsförteckning](#innehållsförteckning) |
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | | [Annat bärarformat](#annat-bärarformat) |
 | [Utgivning](#utgivning) | | [Elektronisk adress](#elektronisk-adress) |
 | [Tillverkning](#tillverkning) | | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
-| [Copyrightår](#copyrightår) | | [Medverkan och funktion](#medverkan-och-funktion) |
-
 
 
 ## Inledning
@@ -177,7 +176,36 @@ Skriv in uppgiften under Huvudtitel.
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)    
   Skriv in uppgiften.  
-  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```  
+  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
+
+### Medverkan och funktion
+Från och med Libris version 1.33 kan du lägga till Medverkan och funktion även under Instans. Ange relationer till de agenter som medverkar till instansen. Ett exempel är utgivare och förordsförfattare.
+
+* Medverkan och funktion/Medverkan/Agent/Organisation  
+(contribution/Contribution/agent/Organization = 710 2/- #a)  
+Länka till entitet.
+
+* Medverkan och funktion/Medverkan/Funktion  
+(contribution/Contribution/Contribution/role = 710 #4)  
+Länka till entitet.
+
+* Medverkan och funktion/Medverkan/Agent/Person
+(contribution/Contribution/agent/Person = 700 1/- #a)  
+Länka till entitet.
+
+* Medverkan och funktion/Medverkan/Funktion  
+(contribution/Contribution/contribution/role = 700 #4)  
+Länka till entitet.
+  
+På id.kb.se listas funktioner:  
+  * [Funktioner möjliga att använda endast på instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FInstance&_sort=_sortKeyByLang.sv) 
+  * [Funktioner möjliga att använda på verk och instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FCreation&_sort=_sortKeyByLang.sv)  
+  * [Funktioner möjliga att använda på instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEmbodiment&_sort=_sortKeyByLang.sv)
+  * [Funktioner möjliga att använda på verk, instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEndeavour&_sort=_sortKeyByLang.sv)  
+
+Medverkan och funktion som hör till verket ska även i fortsättningen ligga under Instans av / Verk.
+
+För anvisningar och exempel, se [Relationer till agenter i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)  
 
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)  
@@ -516,10 +544,4 @@ För att lägga in en elektronisk adress till en **relaterad resurs, till exempe
 #### Sammanfattningsspråk  
 * Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)  
 Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.  
-  ```Exempel: Engelska```
-
-### Medverkan och funktion 
-Ange relationer till de agenter som medverkar till instansen.
-* Medverkan och funktion/Primär medverkan/Agent/Funktion (contribution/PrimaryContribution/Agent/role = 1XX #a #4)
-* Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/Agent/role = 7XX #a #4)
-Länka till agent och 
+  ```Exempel: Engelska```  
